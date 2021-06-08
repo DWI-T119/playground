@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+  </head>
+  <body>
+    <div><a href="javascript:history.back()">Voltar</a></div>
+    <br />
+    <div>
+      <div>
+        Um campo texto comum
+        <input type="text" />
+      </div>
+      <br />
+      <div>
+        Um campo texto comum com valor
+        <input type="text" value="HTML5 é super show" />
+      </div>
+      <br />
+      <div>
+        Um campo texto comum com limite de tamanho
+        <input type="text" maxlength="5" />
+      </div>
+      <br />
+      <div>
+        Um campo texto com placeholder
+        <input type="text" placeholder="digite aqui a sua senha" />
+      </div>
+      <br />
+      <div>
+        Um campo de senha com placeholder
+        <input type="password" placeholder="digite aqui a sua senha" />
+      </div>
+    </div>
+    <hr />
+    <div>
+      Um checkbox
+      <input type="checkbox" />
+      Um checkbox marcado por padrão
+      <input type="checkbox" checked />
+    </div>
+    <hr />
+    <div>
+      Seletor de cores
+      <input type="color" />
+      Seletor de cores com valor padrão
+      <input type="color" value="#e67e22" />
+    </div>
+    <hr />
+    <div>
+      Seletor de data
+      <input type="date" />
+      Seletor de data com valor padrão
+      <input type="date" value="1991-01-26" />
+    </div>
+    <hr />
+    <div>
+      Hora/Minuto
+      <input type="time" />
+      Hora/Minuto com valor padrão
+      <input type="time" value="08:45" />
+    </div>
+    <hr />
+    <div>
+      <div><b>(funciona no chrome mas não no firefox)</b></div>
+      Seletor de data e hora
+      <input type="datetime-local" />
+      Seletor de data e hora com valor padrão
+      <input type="datetime-local" value="1991-01-26T04:20" />
+    </div>
+    <hr />
+    <div>
+      Seletor de arquivo
+      <input type="file" />
+    </div>
+    <hr />
+    <div>
+      Slider de valor
+      <input type="range" />
+      Slider de valor com valor padrão
+      <input type="range" min="0" max="10" value="8" />
+    </div>
+    <hr />
+    <div>
+      <div>Seleção entre grupo de opções (Radio button)</div>
+      <input type="radio" id="ps4" name="videogame" value="ps4" />
+      <label for="ps4">Playstation 4</label>
+      <input type="radio" id="xboxone" name="videogame" value="xboxone" />
+      <label for="xboxone">XBox One</label>
+      <input type="radio" id="switch" name="videogame" value="switch" />
+      <label for="switch">Nintendo Switch</label>
+      <br />
+      <input type="radio" id="pizza" name="comida" value="pizza" />
+      <label for="pizza">Pizza</label>
+      <input type="radio" id="miojo" name="comida" value="miojo" checked />
+      <label for="miojo">Miojo com salsicha</label>
+      <input type="radio" id="hamburger" name="comida" value="hamburger" />
+      <label for="hamburger">Hamburger</label>
+    </div>
+    <hr />
+    <div>
+      <div>Seleção entre grupo de opções (select)</div>
+      <br />
+      <div>
+        Select simples
+        <select>
+          <option value="">Selecione uma linguagem de programação</option>
+          <option value="php">PHP</option>
+          <option value="c#">C#</option>
+          <option value="typescript">Typescript</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Select simples (com valor pré-selecionado)
+        <select>
+          <option value="java">Java</option>
+          <option value="c#" selected>C#</option>
+          <option value="typescript">Typescript</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        seleção simples com agrupamento
+        <select>
+          <optgroup label="Comidas italianas">
+            <option>Spaghetti</option>
+            <option>Focaccia</option>
+          </optgroup>
+          <optgroup label="Comidas brasileiras">
+            <option>Feijoada</option>
+            <option>Churrasco</option>
+          </optgroup>
+        </select>
+      </div>
+      <br />
+      <div>
+        Select múltipla
+        <select multiple>
+          <option value="php">PHP</option>
+          <option value="c#">C#</option>
+          <option value="typescript">Typescript</option>
+        </select>
+      </div>
+      <hr />
+      <div>
+        Texto multilinha
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <hr />
+      <div>
+        Botão
+        <button>Salvar</button>
+      </div>
+    </div>
+  </body>
+</html>
