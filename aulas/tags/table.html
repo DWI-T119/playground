@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tag table</title>
-  </head>
-  <body>
-    <div><a href="javascript:history.back()">Voltar</a></div>
-    <br />
-    Tabela para dados com borda
-    <table width="300" border="1">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tag table</title>
+</head>
+<body>
+  <div><a href="javascript:history.back()">Voltar</a></div>
+  <br />
+  Tabela para dados com borda
+  <table width="300" border="1">
+    <thead>
       <tr>
         <th>Nome</th>
         <th>Idade</th>
         <th>Profissão</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
         <td>Albert</td>
         <td>27</td>
@@ -25,84 +28,85 @@
         <td>57</td>
         <td>Ator</td>
       </tr>
-    </table>
-    Tabela sem borda para ajuste de layout
-    <table width="100%">
-      <tr>
-        <td width="300"><img src="/ps5.jpg" width="100%" /></td>
-        <td width="150">
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-          </ul>
-        </td>
-        <td>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </td>
-      </tr>
-      <tr>
-        <td width="300"><img src="/ps5.jpg" width="100%" /></td>
-        <td width="150">
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-          </ul>
-        </td>
-        <td>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </td>
-      </tr>
-    </table>
-    <hr />
-    Exemplo de colspan para montagem de layouts
-    <table width="100%">
-      <tr>
-        <td width="200">Campo 1</td>
-        <td>Campo 2</td>
-        <td width="100">Campo 3</td>
-      </tr>
-      <tr>
-        <td width="200"><input type="text" /></td>
-        <td><input type="text" style="width: calc(100% - 20px)" /></td>
-        <td width="100"><input type="text" /></td>
-      </tr>
-      <tr>
-        <td colspan="2">Campo 4</td>
-        <td width="100">Campo 5</td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <input type="text" style="width: calc(100% - 20px)" />
-        </td>
-        <td width="100"><input type="text" /></td>
-      </tr>
-    </table>
-  </body>
+    </tbody>
+  </table>
+  Tabela sem borda para ajuste de layout
+  <table width="100%">
+    <tr>
+      <td width="300"><img src="./ps5.jpg" width="100%" /></td>
+      <td width="150">
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+      </td>
+    </tr>
+    <tr>
+      <td width="300"><img src="./ps5.jpg" width="100%" /></td>
+      <td width="150">
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+      </td>
+    </tr>
+  </table>
+  <hr />
+  Exemplo de colspan para montagem de layouts
+  <table width="100%">
+    <tr>
+      <td width="200">Campo 1</td>
+      <td>Campo 2</td>
+      <td width="100">Campo 3</td>
+    </tr>
+    <tr>
+      <td width="200"><input type="text" /></td>
+      <td><input type="text" style="width: calc(100% - 20px)" /></td>
+      <td width="100"><input type="text" /></td>
+    </tr>
+    <tr>
+      <td colspan="2">Campo 4</td>
+      <td width="100">Campo 5</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="text" style="width: calc(100% - 20px)" />
+      </td>
+      <td width="100"><input type="text" /></td>
+    </tr>
+  </table>
+</body>
 </html>
