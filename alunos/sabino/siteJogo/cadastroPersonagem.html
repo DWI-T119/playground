@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Personagem</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img src="https://www.tibiawiki.com.br/images/5/52/Tibia_Logo.png" alt="Imagem do Tibia">
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="./index.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="./cadastroPersonagem.html">Cadastro de Personagem</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="conteudo">
+        <div class="subconteudo">
+            <h1>Vocações</h1>
+            <table border="9">
+                <tr>
+                    <th width="100">Nome</td>
+                    <th width="500">Descrição</td>
+                </tr>
+                <tr>
+                    <td>Knight</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque, officia ducimus neque
+                        nihil a deserunt rerum, molestias ullam sed dolores! Debitis pariatur, dolorum totam incidunt
+                        repudiandae consequatur laborum aut.</td>
+                </tr>
+                <tr>
+                    <td>Paladin</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque, officia ducimus neque
+                        nihil a deserunt rerum, molestias ullam sed dolores! Debitis pariatur, dolorum totam incidunt
+                        repudiandae consequatur laborum aut.</td>
+                </tr>
+                <tr>
+                    <td>Sorcerer</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque, officia ducimus neque
+                        nihil a deserunt rerum, molestias ullam sed dolores! Debitis pariatur, dolorum totam incidunt
+                        repudiandae consequatur laborum aut.</td>
+                </tr>
+                <tr>
+                    <td>Druid</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, atque, officia ducimus neque
+                        nihil a deserunt rerum, molestias ullam sed dolores! Debitis pariatur, dolorum totam incidunt
+                        repudiandae consequatur laborum aut.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="subconteudo">
+            <h1>Formulário para cadastro de Personagem</h1>
+            <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+                <div>
+                    <label for="nick"><strong>Nick:</strong></label>
+                    <input type="text" name="nick" id="nick" placeholder="Seu nick ingame">
+
+                    <label for="idade"><strong>Idade:</strong></label>
+                    <input type="number" name="idade" id="idade" placeholder="Sua idade ingame">
+
+                    <label for="vocacao"><strong>Vocação:</strong></label>
+                    <select name="vocacao" id="vocacao">
+                        <option value="">Selecione</option>
+                        <option value="knight">Knight</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="sorcerer">Sorcerer</option>
+                        <option value="druid">Druid</option>
+                    </select>
+                </div>
+                <div>
+                    <label><strong>Escolhas Extras:</strong></label>
+                    <input checked type="checkbox" id="tutorial" name="tutorial">
+                    <label for="tutorial">Fazer Tutorial</label>
+
+                    <input type="checkbox" id="beta" name="beta">
+                    <label for="beta">Participar de Beta</label>
+
+                    <input type="checkbox" id="premmium" name="premmium">
+                    <label for="premmium">Comprar VIP</label>
+                </div>
+                <div>
+                    <label><strong>Localização do Servidor:</strong></label>
+                    <input checked type="radio" id="br" name="server" value="br">
+                    <label for="br">Brasil</label>
+                    <input type="radio" id="usa" name="server" value="usa">
+                    <label for="usa">Estados Unidos</label>
+                    <input type="radio" id="europe" name="server" value="europe">
+                    <label for="europe">Europa</label>
+                </div>
+                <div>
+                    <span for="history"><strong>História:</strong></span>
+                    <div>
+                        <textarea name="history" id="history" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+        <br>
+        <br>
+    </div>
+
+</body>
+
+</html>
