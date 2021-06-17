@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,47 @@
     <title>Cadastro de Personagem</title>
     <link rel="icon" href="https://image.flaticon.com/icons/png/512/119/119702.png">
     <style>
-
         #dnj {
-            
+
             display: block;
             margin-left: auto;
             margin-right: auto;
             border-radius: 1%;
             border: 2px groove black;
-    
+
         }
+
         #titulo {
 
             text-shadow: 5px 5px 5px black;
             text-align: center;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: rgb(175, 79, 62);
-           
+
         }
+
         #tabela {
 
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
-        #divInputs {
+
+        #formulario {
+
+            border: groove;
+        }
+
+        .divInputs {
 
             text-align: center;
         }
-        .classe{
+
+        .classe {
 
             color: rgb(180, 46, 23);
         }
+
         .link {
 
             text-align: center;
@@ -46,29 +56,40 @@
             font-size: 20px;
             color: black;
         }
+
         .subtitulo {
 
             text-shadow: 3px 3px 3px black;
             text-align: center;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: rgb(175, 79, 62);
         }
+
         .bolinha {
-            
+
             margin-right: 30px;
             text-align: center;
             color: lightgray;
         }
+
+        .subtitulo4 {
+
+            text-shadow: 1px 1px 1px black;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(175, 79, 62);
+        }
+
         body {
 
             background-color: lightgrey;
         }
-        
     </style>
 </head>
+
 <body>
     <div>
-        <h1 id="titulo" >DUNGEONS & JAVA's</h1>
+        <h1 id="titulo">DUNGEONS & JAVA's</h1>
         <img id="dnj"
             src="https://media.dnd.wizards.com/styles/second_hubpage_banner/public/images/head-banner/NEW-TO-DnD_What-is-DnD_Subsection_Hero_140718.jpg"
             width="1200px" height="300px">
@@ -81,7 +102,7 @@
         </ul>
     </div>
     <div>
-        <h2 class="subtitulo" >Tabela de Classes</h2>
+        <h2 class="subtitulo">Tabela de Classes</h2>
         <table id="tabela" width="600" border="2">
             <thead>
                 <tr>
@@ -101,32 +122,67 @@
                         Aprendeu de forma autodidata e nunca quis aprender outra linguagem.
                     </td>
                 </tr>
-                    <td class="classe">FullStack:</td>
-                    <td>Sabe programar FrontEnd, BackEnd e sabe usar banco de dados. <br>
-                        É um verdadeiro prodigio, consegue fazer aplicações sozinho!
-                    </td>
+                <td class="classe">FullStack:</td>
+                <td>Sabe programar FrontEnd, BackEnd e sabe usar banco de dados. <br>
+                    É um verdadeiro prodigio, consegue fazer aplicações sozinho!
+                </td>
                 <tr>
                     <td class="classe">DevCtrlC,CtrlV:</td>
                     <td>Não sabe fazer nada direito, sempre copia e cola da internet. <br>
-                        nunca gostou de programar, mas o faz por que não sabe fazer mais nada.</td>
+                        Nunca gostou de programar, mas o faz por que não sabe fazer mais nada.</td>
                 </tr>
             </tbody>
         </table>
-    </div>
-    <br>
-    <div id="divInputs">
-        <span>Nick:</span>
-        <input type="text" placeholder="Digite seu nickname...">
-        <span>Idade:</span>
-        <input type="text" placeholder="Digite sua idade...">
-        <span>Classe</span>
-        <select>
-            <option value="">Selecione sua Classe</option>
-            <option value="java">JavaLover</option>
-            <option value="python">Pythonzero</option>
-            <option value="fullstack">FullStack</option>
-            <option value="ctrlc,ctrlv">DevCtrlC</option>
-        </select>
+        <br>
+        <div id="formulario">
+            <h2 class="subtitulo">Formulario Para Cadastro de Personagem</h2>
+            <div class="divInputs">
+                <span>Nick:</span>
+                <input type="text" placeholder="Digite seu nickname...">
+                <span>Idade:</span>
+                <input type="text" placeholder="Digite sua idade...">
+                <span>Classe</span>
+                <select>
+                    <option value="">Selecione sua Classe</option>
+                    <option value="java">JavaLover</option>
+                    <option value="python">Pythonzero</option>
+                    <option value="fullstack">FullStack</option>
+                    <option value="ctrlc,ctrlv">DevCtrlC</option>
+                </select>
+            </div>
+            <br>
+            <div class="divInputs">
+                <span>
+                    <h4 class="subtitulo4">Escolhas extras:</h4>
+                </span>
+                <input type="checkbox">
+                <span>Fazer tutorial</span>
+                <input type="checkbox">
+                <span>Participar de Betas</span>
+                <input type="checkbox">
+                <span>Programador Premmium</span>
+            </div>
+            <br>
+            <div class="divInputs">
+                <span>
+                    <h4 class="subtitulo4">Escolha a localização do servidor:</h4>
+                </span>
+                <input type="radio" name="país">
+                <span>Brazil</span>
+                <input type="radio" name="país">
+                <span>United States</span>
+                <input type="radio" name="país">
+                <span>Europe</span>
+            </div>
+            <div class="divInputs">
+                <span>
+                    <h4 class="subtitulo4">Crie uma historia para o seu personagem:</h4>
+                </span>
+                <textarea name="" id="" cols="40" rows="15"></textarea>
+                <br>
+                <button type="submit">Cadastrar Personagem</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
