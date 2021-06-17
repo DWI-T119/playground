@@ -10,33 +10,52 @@
     <link rel="Shortcut icon" href="https://i.pinimg.com/originals/e5/16/c7/e516c77d7d44fc50039144a9b528f5db.png">
 
     <style>
-        .Cabecalho {
+        body {
+            background-image: url('../Site-RPG/Logo-Pagina_Inicial/dragao-removebg.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right;
+            background-color: burlywood;
+        }
+
+        .linhaH {
+            color: black;
+        }
+
+        .opcoes {
             text-align: left;
             text-shadow: 2px 2px 5px black;
+            color: #963d32;
+        }
+
+        .Cabecalho {
+            text-align: left;
+            text-shadow: 2px 2px 3px black;
+            text-decoration-line: underline;
             color: #963d32;
 
         }
 
-        #Logo-site {
-            position: relative;
-            
-
-            
-            
-
-
-
+        .Tabela {
+            text-align: left;
+            text-shadow: 1px 1px 1px black;
+            color: #963d32;
         }
 
-        #box {
-            box-shadow: 10px 10px 5px #963d32;
-        }
+        #player {
+            position: absolute;
 
-        body {
-            background-image: url('../Logo-Pagina_Inicial/19583d6f7b0c3248277b24a0e2091672-removebg-preview.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;  
-            background-size: cover;
+            left: 85%;
+
+            top: 50%;
+
+            margin-left: -110px;
+
+            margin-top: -499px;
+
+            width: 220px;
+
+            height: 80px;
         }
     </style>
 
@@ -44,29 +63,30 @@
 
 <body>
 
-    <a background-image></a>
-
-
     <h1 class="Cabecalho">HTML & Dragons</h1>
 
-    <div id="box">
+    <div>
         <h2 class="Cabecalho">Menu</h2>
 
         <ul>
-            <li class="Cabecalho" href="">Página Inicial</li>
-            <li class="Cabecalho">Cadastro de Personagem</li>
+            <li class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página Inicial</a></li>
+            <li class="opcoes"><a class="opcoes" href="Cadastro_Personagem-RPG.html">Cadastro de Personagem</a></li>
         </ul>
-    
-    
-    
     </div>
 
+    <audio id="player" controls
+        src="https://www.free-stock-music.com/music/alexander-nakarada-we-three-celtic-kings.mp3"
+        type="audio/mp3"></audio>
+
+    <span class="Cabecalho">___________________________________________________________</span>
 
 
 
-    
 
-    <div></div>
+
+
+
+
 
 </body>
 
