@@ -6,9 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Personagem</title>
     <link rel="icon" href="https://image.flaticon.com/icons/png/512/119/119702.png">
+    <style>
+
+        #dnj {
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1%;
+            border: 2px groove black;
     
+        }
+        #titulo {
+
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(175, 79, 62);
+           
+        }
+        #tabela {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .classe{
+
+            color: rgb(180, 46, 23);
+        }
+        .link {
+
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: black;
+        }
+        .subtitulo {
+
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(175, 79, 62);
+        }
+        .bolinha {
+            
+            margin-right: 30px;
+            text-align: center;
+            color: lightgray;
+        }
+        body {
+
+            background-color: lightgrey;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h1 id="titulo" >DUNGEONS & JAVA's</h1>
+        <img id="dnj"
+            src="https://media.dnd.wizards.com/styles/second_hubpage_banner/public/images/head-banner/NEW-TO-DnD_What-is-DnD_Subsection_Hero_140718.jpg"
+            width="1200px" height="300px">
+    </div>
+    <div class="div1">
+        <h2 class="subtitulo">Menu</h2>
+        <ul>
+            <li class="bolinha"> <a class="link" target="_blank" href="./pagina_inicial.html">Pagina Inicial.</a> </li>
+            <li class="bolinha"> <a class="link" href="./cadastro_de_personagem.html">Cadastro de Personagem.</a> </li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="subtitulo" >Tabela de Classes</h2>
+        <table id="tabela" width="600" border="2">
+            <thead>
+                <tr>
+                    <th>Classe</th>
+                    <th>Background</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="classe">JavaLover</td>
+                    <td>Classe focada em desenvolvimento com linguagem java. <br>
+                        Aprendeu desde cedo e amou a linguagem, desde entao só programa nela.</td>
+                </tr>
+                <tr>
+                    <td class="classe">Pythonzero</td>
+                    <td>Especialista em Python, acha que pode fazer tudo só em Python. <br>
+                        Aprendeu de forma autodidata e nunca quis aprender outra linguagem.
+                    </td>
+                </tr>
+                    <td class="classe">FullStack</td>
+                    <td>Sabe programar FrontEnd, BackEnd e sabe usar banco de dados. <br>
+                        É um verdadeiro prodigio, consegue fazer aplicações sozinho!
+                    </td>
+                <tr>
+                    <td class="classe">DevCtrlC,CtrlV</td>
+                    <td>Não sabe fazer nada direito, sempre copia e cola da internet. <br>
+                        nunca gostou de programar, mas o faz por que não sabe fazer mais nada.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
 </body>
 </html>
