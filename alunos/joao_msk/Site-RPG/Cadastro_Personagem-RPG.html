@@ -23,7 +23,7 @@
 
         .opcoes {
             text-align: left;
-            text-shadow: 2px 2px 5px black;
+            text-shadow: 2px 2px 3px black;
             color: #963d32;
         }
 
@@ -42,7 +42,7 @@
         }
 
         #player {
-            position: absolute;
+            position: fixed;
 
             left: 85%;
 
@@ -55,6 +55,11 @@
             width: 220px;
 
             height: 80px;
+        }
+
+        .Cadastro {
+            text-shadow: 1px 1px 1px black;
+            color: #963d32;
         }
     </style>
 </head>
@@ -113,28 +118,72 @@
 
     <h1 class="Cabecalho">Cadastre-se agora!</h1>
 
-    <div>
-        Qual classe você escolhe, invocador?
-        <select>
-            <option value="knight">Knight</option>
-            <option value="paladin">Paladin</option>
-            <option value="sorcerer">Sorcerer</option>
-            <option value="druid">Druid</option>
-        </select>
-    </div>
-    <div>
-        <div class="div-form">
-            <form action="https://api-dwi.herokuapp.com/api/tutorials" method="post">
-                Seu nick:
-                <input type="text" name="title" id="">
-                Idade:
-                <input type="text" name="description" id="">
-                <button type="submit">Cadastrar</button>
-            </form>
+    <form action="https://api-dwi.herokuapp.com/api/tutorials" method="post">
+        <div class="Cadastro">
+            <br>
+            Qual classe você escolhe, invocador?
+            <select>
+                <option value="knight">Knight</option>
+                <option value="paladin">Paladin</option>
+                <option value="sorcerer">Sorcerer</option>
+                <option value="druid">Druid</option>
+            </select>
         </div>
-    </div>
+        <br>
+        <div class="Cadastro">
+            <div>
+                Seu nick:
+                <input placeholder="Irá aparecer para todos" type="text" name="title" id="">
+                <br><br>
+                Idade:
+                <input placeholder="Sua idade em jogo" type="number" name="description" id="">
+            </div>
+        </div>
+        <span class="Cabecalho">______________________________________</span>
+        <br><br>
+        <div class="Cadastro">
+            <div>
+                Deseja fazer nosso tutorial para iniciantes?
+                <input type="checkbox" />
+                <br>
+                <br>
+                Concorda em ser nosso beta tester?
+                <input type="checkbox" />
+                <br>
+                <br>
+                Para apoiar o desenvolvimento do jogo, que tal comprar o Premium?
+                <input type="checkbox" />
+            </div>
+        </div>
+        <span class="Cabecalho">______________________________________</span>
+        <br><br>
+        <div class="Cadastro">
+            <div>Em qual servidor você deseja jogar?</div>
+            <br>
+            <input type="radio" id="br" name="servidor" value="br" />
+            <label for="br">Brasil</label>
+            <input type="radio" id="usa" name="servidor" value="usa" />
+            <label for="usa">Estados Unidos</label>
+            <input type="radio" id="eu" name="servidor" value="eu" />
+            <label for="eu">Europa</label>
+            <br />
+        </div>
+        <span class="Cabecalho">______________________________________</span>
+        <br><br>
+        <div class="Cadastro">
+            <div>
+                Conte para nós qual será a história do seu personagem:
+                <br><br>
+                <textarea placeholder="Use sua criatividade a vontade!" cols="30" rows="10"></textarea>
+                <br><br>
+                Concluir cadastro?
+                <button type="submit">Concluir</button>
+            </div>
+        </div>
+            <span class="Cabecalho">______________________________________</span>
+            <br>
+    </form>
 
-    <h1>Em construção!</h1>
 
 
 
