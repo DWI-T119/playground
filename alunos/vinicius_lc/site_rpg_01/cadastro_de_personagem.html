@@ -134,55 +134,58 @@
             </tbody>
         </table>
         <br>
-        <div id="formulario">
-            <h2 class="subtitulo">Formulario Para Cadastro de Personagem</h2>
-            <div class="divInputs">
-                <span>Nick:</span>
-                <input type="text" placeholder="Digite seu nickname...">
-                <span>Idade:</span>
-                <input type="text" placeholder="Digite sua idade...">
-                <span>Classe</span>
-                <select>
-                    <option value="">Selecione sua Classe</option>
-                    <option value="java">JavaLover</option>
-                    <option value="python">Pythonzero</option>
-                    <option value="fullstack">FullStack</option>
-                    <option value="ctrlc,ctrlv">DevCtrlC</option>
-                </select>
-            </div>
-            <br>
-            <div class="divInputs">
-                <span>
-                    <h4 class="subtitulo4">Escolhas extras:</h4>
-                </span>
-                <input type="checkbox">
-                <span>Fazer tutorial</span>
-                <input type="checkbox">
-                <span>Participar de Betas</span>
-                <input type="checkbox">
-                <span>Programador Premmium</span>
-            </div>
-            <br>
-            <div class="divInputs">
-                <span>
-                    <h4 class="subtitulo4">Escolha a localização do servidor:</h4>
-                </span>
-                <input type="radio" name="país">
-                <span>Brazil</span>
-                <input type="radio" name="país">
-                <span>United States</span>
-                <input type="radio" name="país">
-                <span>Europe</span>
-            </div>
-            <div class="divInputs">
-                <span>
-                    <h4 class="subtitulo4">Crie uma historia para o seu personagem:</h4>
-                </span>
-                <textarea name="" id="" cols="40" rows="15"></textarea>
+        <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+            <div id="formulario">
+                <h2 class="subtitulo">Formulario Para Cadastro de Personagem</h2>
+                <div class="divInputs">
+                    <span>Nick:</span>
+                    <input type="text" placeholder="Digite seu nickname...">
+                    <span>Idade:</span>
+                    <input type="text" placeholder="Digite sua idade...">
+                    <span>Classe</span>
+                    <select>
+                        <option value="">Selecione sua Classe</option>
+                        <option value="java">JavaLover</option>
+                        <option value="python">Pythonzero</option>
+                        <option value="fullstack">FullStack</option>
+                        <option value="ctrlc,ctrlv">DevCtrlC</option>
+                    </select>
+                </div>
                 <br>
-                <button type="submit">Cadastrar Personagem</button>
+                <div class="divInputs">
+                    <span>
+                        <h4 class="subtitulo4">Escolhas extras:</h4>
+                    </span>
+                    <input type="checkbox">
+                    <span>Fazer tutorial</span>
+                    <input type="checkbox">
+                    <span>Participar de Betas</span>
+                    <input type="checkbox">
+                    <span>Programador Premmium</span>
+                </div>
+                <br>
+                <div class="divInputs">
+                    <span>
+                        <h4 class="subtitulo4">Escolha a localização do servidor:</h4>
+                    </span>
+                    <input type="radio" name="país">
+                    <span>Brazil</span>
+                    <input type="radio" name="país">
+                    <span>United States</span>
+                    <input type="radio" name="país">
+                    <span>Europe</span>
+                </div>
+                <div class="divInputs">
+                    <span>
+                        <h4 class="subtitulo4">Crie uma historia para o seu personagem:</h4>
+                    </span>
+                    <textarea name="" id="" cols="40" rows="15"></textarea>
+                    <br>
+                    <button type="submit">Cadastrar Personagem</button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
+    
 </body>
 </html>
