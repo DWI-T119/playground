@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "browser-sync start --server --files 'css/*.css'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DWI-T119/tags-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DWI-T119/tags-html/issues"
+  },
+  "homepage": "https://github.com/DWI-T119/tags-html#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
