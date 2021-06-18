@@ -50,5 +50,5 @@ http.createServer(function (request, response) {
         }
     });
 
-}).listen(8081);
-console.log('Server running at http://127.0.0.1:8081/');
+}).listen(process.env.PORT || 8080);
+console.log(`Server running at http://127.0.0.1:${process.env.PORT || 8080}/`);
