@@ -9,6 +9,10 @@
     <title>Página Inicial | HTML & Dragons</title>
     <link rel="Shortcut icon" href="https://i.pinimg.com/originals/e5/16/c7/e516c77d7d44fc50039144a9b528f5db.png">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
     <style>
         body {
             background-image: url('../Site-RPG/Logo-Pagina_Inicial/dragao-removebg.png');
@@ -57,60 +61,42 @@
 
             height: 80px;
         }
-
-        .historiadojogo {
-            position: absolute;
-
-            left: 50%;
-
-            top: 50%;
-
-            margin-left: -110px;
-
-            margin-top: -40px;
-
-            width: 220px;
-
-            height: 80px;
-            
-        }
     </style>
 
 </head>
 
 <body>
 
-    <h1 class="Cabecalho">HTML & Dragons // Em construção</h1>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-md-4">
+                <h1 class="Cabecalho">HTML & Dragons</h1>
+            </div>
 
-    <div>
-        <h2 class="Cabecalho">Menu</h2>
+            <ul>
+                <li style="margin-left: 2%;" class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página
+                        Inicial</a></li>
+                <li style="margin-left: 2%;" class="opcoes"><a class="opcoes"
+                        href="Cadastro_Personagem-RPG.html">Cadastro de personagem</a>
+                </li>
+            </ul>
 
-        <ul>
-            <li class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página Inicial</a></li>
-            <li class="opcoes"><a class="opcoes" href="Cadastro_Personagem-RPG.html">Cadastro de personagem</a></li>
-        </ul>
+        </div>
+
+        <div style="width: 67%;">
+            <hr style="color: #963d32">
+        </div>
+
+        <div class="col-md-5">
+            <h1 style="margin-left: 1%" class="Cabecalho">Conheça nosso jogo:</h1>
+        </div>
+    </div>
     </div>
 
-    <span class="Cabecalho">___________________________________________________________</span>
 
-    <audio id="player" controls
-        src="https://www.free-stock-music.com/music/alexander-nakarada-we-three-celtic-kings.mp3"
-        type="audio/mp3"></audio>
-    
-    <span class="Cabecalho">___________________________________________________________</span>
-
-
-    <div>
-        <h1 class="historiadojogo">Conheça nosso jogo:</h1>
-    </div>
-    
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 
 
 </body>
