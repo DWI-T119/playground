@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se | HTML & Dragons</title>
+    <title>Cadastro | HTML & Dragons</title>
     <link rel="Shortcut icon" href="https://i.pinimg.com/originals/e5/16/c7/e516c77d7d44fc50039144a9b528f5db.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <style>
         body {
@@ -41,151 +44,103 @@
             color: #963d32;
         }
 
-        #player {
-            position: fixed;
-
-            left: 85%;
-
-            top: 50%;
-
-            margin-left: -110px;
-
-            margin-top: -499px;
-
-            width: 220px;
-
-            height: 80px;
-        }
-
         .Cadastro {
             text-shadow: 1px 1px 1px black;
             color: #963d32;
         }
     </style>
+
 </head>
 
 <body>
 
-    <h1 class="Cabecalho">HTML & Dragons</h1>
-    <h2 class="Cabecalho">Menu</h2>
+    <div class="container">
+        <div>
+            <h1 class="Cabecalho">HTML & Dragons</h1>
+        </div>
+        <div>
 
-    <div>
+            <ul>
+                <li class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página Inicial</a></li>
+                <li class="opcoes"><a class="opcoes" href="./Classes_RPG.html">Classes do RPG e cadastro</a></li>
+            </ul>
 
-        <ul>
-            <li class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página Inicial</a></li>
-            <li class="opcoes"><a class="opcoes" href="Cadastro_Personagem-RPG.html">Cadastro de personagem</a></li>
-        </ul>
+        </div>
 
+
+        <div style="width: 74%;">
+            <hr style="color: #963d32">
+        </div>
+
+        <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+            <div class="Cadastro">
+                <br>
+                Qual classe você escolhe, invocador?
+                <select>
+                    <option value="knight">Knight</option>
+                    <option value="paladin">Paladin</option>
+                    <option value="sorcerer">Sorcerer</option>
+                    <option value="druid">Druid</option>
+                </select>
+            </div>
+            <br>
+            <div class="Cadastro">
+                <div>
+                    Seu nick:
+                    <input placeholder="Irá aparecer para todos" type="text" name="title" id="">
+                    <br><br>
+                    Idade:
+                    <input placeholder="Sua idade em jogo" type="number" name="description" id="">
+                </div>
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>
+                    Deseja fazer nosso tutorial para iniciantes?
+                    <input type="checkbox" />
+                    <br>
+                    <br>
+                    Concorda em ser nosso beta tester?
+                    <input type="checkbox" />
+                    <br>
+                    <br>
+                    Para apoiar o desenvolvimento do jogo, que tal comprar o Premium?
+                    <input type="checkbox" />
+                </div>
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>Em qual servidor você deseja jogar?</div>
+                <br>
+                <input type="radio" id="br" name="servidor" value="br" />
+                <label for="br">Brasil</label>
+                <input type="radio" id="usa" name="servidor" value="usa" />
+                <label for="usa">Estados Unidos</label>
+                <input type="radio" id="eu" name="servidor" value="eu" />
+                <label for="eu">Europa</label>
+                <br />
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>
+                    Conte para nós qual será a história do seu personagem:
+                    <br><br>
+                    <textarea placeholder="Use sua criatividade a vontade!" cols="30" rows="10"></textarea>
+                    <br><br>
+                    Concluir cadastro?
+                    <button type="submit">Concluir</button>
+                </div>
+                <div style="width: 74%;">
+                    <hr style="color: #963d32">
+                </div>
+        </form>
     </div>
-
-    <audio id="player" controls
-        src="https://www.free-stock-music.com/music/alexander-nakarada-we-three-celtic-kings.mp3"
-        type="audio/mp3"></audio>
-
-    <span class="Cabecalho">______________________________________</span>
-
-    <h3 class="Tabela">Vocações - (Tipos de personagem)</h3>
-
-    <table width="300" border="1" class="Tabela">
-        <thead>
-            <tr>
-                <th>Classes</th>
-                <th>Descrição</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Knight</td>
-                <td>ATK 6/10, DEF 3/10, LIFE 8/10</td>
-            </tr>
-            <tr>
-                <td>Paladin</td>
-                <td>ATK 8/10, DEF 7/10, LIFE 4/10</td>
-            </tr>
-            <tr>
-                <td>Sorcerer</td>
-                <td>MGC 6/10, DEF 2/10, LIFE 3/10</td>
-            </tr>
-            <tr>
-                <td>Druid</td>
-                <td>MGC 8/10, DEF 6/10, LIFE 5/10</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <br>
-    <span class="Cabecalho">______________________________________</span>
-
-    <h1 class="Cabecalho">Cadastre-se agora!</h1>
-
-    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
-        <div class="Cadastro">
-            <br>
-            Qual classe você escolhe, invocador?
-            <select>
-                <option value="knight">Knight</option>
-                <option value="paladin">Paladin</option>
-                <option value="sorcerer">Sorcerer</option>
-                <option value="druid">Druid</option>
-            </select>
-        </div>
-        <br>
-        <div class="Cadastro">
-            <div>
-                Seu nick:
-                <input placeholder="Irá aparecer para todos" type="text" name="title" id="">
-                <br><br>
-                Idade:
-                <input placeholder="Sua idade em jogo" type="number" name="description" id="">
-            </div>
-        </div>
-        <span class="Cabecalho">______________________________________</span>
-        <br><br>
-        <div class="Cadastro">
-            <div>
-                Deseja fazer nosso tutorial para iniciantes?
-                <input type="checkbox" />
-                <br>
-                <br>
-                Concorda em ser nosso beta tester?
-                <input type="checkbox" />
-                <br>
-                <br>
-                Para apoiar o desenvolvimento do jogo, que tal comprar o Premium?
-                <input type="checkbox" />
-            </div>
-        </div>
-        <span class="Cabecalho">______________________________________</span>
-        <br><br>
-        <div class="Cadastro">
-            <div>Em qual servidor você deseja jogar?</div>
-            <br>
-            <input type="radio" id="br" name="servidor" value="br" />
-            <label for="br">Brasil</label>
-            <input type="radio" id="usa" name="servidor" value="usa" />
-            <label for="usa">Estados Unidos</label>
-            <input type="radio" id="eu" name="servidor" value="eu" />
-            <label for="eu">Europa</label>
-            <br />
-        </div>
-        <span class="Cabecalho">______________________________________</span>
-        <br><br>
-        <div class="Cadastro">
-            <div>
-                Conte para nós qual será a história do seu personagem:
-                <br><br>
-                <textarea placeholder="Use sua criatividade a vontade!" cols="30" rows="10"></textarea>
-                <br><br>
-                Concluir cadastro?
-                <button type="submit">Concluir</button>
-            </div>
-        </div>
-            <span class="Cabecalho">______________________________________</span>
-            <br>
-    </form>
-
-
-
 
 </body>
 
