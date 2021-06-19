@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | HTML & Dragons</title>
+    <link rel="Shortcut icon" href="https://i.pinimg.com/originals/e5/16/c7/e516c77d7d44fc50039144a9b528f5db.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-image: url('../Site-RPG/Logo-Pagina_Inicial/dragao-removebg.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right;
+            background-color: burlywood;
+        }
+
+        .linhaH {
+            color: black;
+        }
+
+        .opcoes {
+            text-align: left;
+            text-shadow: 2px 2px 3px black;
+            color: #963d32;
+        }
+
+        .Cabecalho {
+            text-align: left;
+            text-shadow: 2px 2px 3px black;
+            text-decoration-line: underline;
+            color: #963d32;
+
+        }
+
+        .Tabela {
+            text-align: left;
+            text-shadow: 1px 1px 1px black;
+            color: #963d32;
+        }
+
+        .Cadastro {
+            text-shadow: 1px 1px 1px black;
+            color: #963d32;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h1 class="Cabecalho">HTML & Dragons</h1>
+        </div>
+        <div>
+
+            <ul>
+                <li class="opcoes"><a class="opcoes" href=Pagina_Inicial-RPG.html>Página Inicial</a></li>
+                <li class="opcoes"><a class="opcoes" href="./Classes_RPG.html">Classes do RPG e cadastro</a></li>
+            </ul>
+
+        </div>
+
+
+        <div style="width: 74%;">
+            <hr style="color: #963d32">
+        </div>
+
+        <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+            <div class="Cadastro">
+                <br>
+                Qual classe você escolhe, invocador?
+                <select>
+                    <option value="knight">Knight</option>
+                    <option value="paladin">Paladin</option>
+                    <option value="sorcerer">Sorcerer</option>
+                    <option value="druid">Druid</option>
+                </select>
+            </div>
+            <br>
+            <div class="Cadastro">
+                <div>
+                    Seu nick:
+                    <input placeholder="Irá aparecer para todos" type="text" name="title" id="">
+                    <br><br>
+                    Idade:
+                    <input placeholder="Sua idade em jogo" type="number" name="description" id="">
+                </div>
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>
+                    Deseja fazer nosso tutorial para iniciantes?
+                    <input type="checkbox" />
+                    <br>
+                    <br>
+                    Concorda em ser nosso beta tester?
+                    <input type="checkbox" />
+                    <br>
+                    <br>
+                    Para apoiar o desenvolvimento do jogo, que tal comprar o Premium?
+                    <input type="checkbox" />
+                </div>
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>Em qual servidor você deseja jogar?</div>
+                <br>
+                <input type="radio" id="br" name="servidor" value="br" />
+                <label for="br">Brasil</label>
+                <input type="radio" id="usa" name="servidor" value="usa" />
+                <label for="usa">Estados Unidos</label>
+                <input type="radio" id="eu" name="servidor" value="eu" />
+                <label for="eu">Europa</label>
+                <br />
+            </div>
+            <div style="width: 74%;">
+                <hr style="color: #963d32">
+            </div>
+            <div class="Cadastro">
+                <div>
+                    Conte para nós qual será a história do seu personagem:
+                    <br><br>
+                    <textarea placeholder="Use sua criatividade a vontade!" cols="30" rows="10"></textarea>
+                    <br><br>
+                    Concluir cadastro?
+                    <button type="submit">Concluir</button>
+                </div>
+                <div style="width: 74%;">
+                    <hr style="color: #963d32">
+                </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

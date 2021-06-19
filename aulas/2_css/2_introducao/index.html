@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellow World CSS</title>
+</head>
+
+<body>
+    <div>
+        <a href="../..">Voltar para Aulas</a>
+    </div>
+    <!-- Teoria breve -->
+    <div>
+        <hr>
+        <h1>CSS</h1>
+        <p><strong>CSS - Cascade Style Sheet</strong>, serve para alterar a forma que os elementos serão
+            disponibilizados na página/aplicação.</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><strong>Documentação</strong></a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp"><strong>W3School</strong></a></li>
+            </ul>
+    </div>
+    <div>
+        <hr>
+        <h1>Adicionando CSS na página</h1>
+        <p>Existem algumas formas de utilizar a tecnologia CSS na página desejada. As principais, e mais nativas, são:
+        </p>
+        <ul>
+            <li><strong>Inline:</strong> Atributo style de uma tag HTML (Má prática)</li>
+            <li><strong>Tag style:</strong> Pode ser adicionada em qualquer ponto diretamente na página utilizada</li>
+            <li><strong>Arquivo externo:</strong> Podemos importar o CSS por arquivo, sendo ele de dentro do projeto ou
+                de algum host externo</li>
+        </ul>
+
+        <!-- Exemplo Inline -->
+        <span style="background: rgb(185, 77, 77);">Inline</span>
+        <!-- Exemplo Tag Script -->
+        <span id="spanTag">Tag Style</span>
+        <style>
+            #spanTag {
+                background: green;
+            }
+        </style>
+        <!-- Código do exemplo -->
+        <link rel="stylesheet" href="./cssExterno.css">
+        <span id="spanExterno">Arquivo Externo</span>
+
+        <p><strong>Observação:</strong> Nestes primeiros exemplos, iremos utilizar a tag style para melhor visualização.
+            Quando ela é utilizada, normalmente terá apenas uma por página... aqui faremos várias para ficarem próximas
+            aos elementos.</p>
+    </div>
+    <div>
+        <hr>
+        <h1>Seletor CSS</h1>
+        <p>Utilizaremos o <strong>Seletor CSS</strong> para acessar os elementos do <strong>HTML</strong> e alterar
+            seu
+            estilo utilizando diversas propriedades nativas do CSS</p>
+        <p>As principais formas de acessar um elemento são:</p>
+        <ul>
+            <li><strong>Tag HTML:</strong> Faremos o CSS encontrar o elemento diretamente pelo nome da tag</li>
+            <li><strong>Tag style:</strong> Pode ser adicionada qm qualquer ponto diretamente na página utilizada
+            </li>
+            <li><strong>Arquivo externo:</strong> Podemos importar o CSS por arquivo, sendo ele de dentro do projeto
+                ou
+                de algum host externo</li>
+        </ul>
+    </div>
+
+    <div>
+        <hr>
+        <h1>Exemplo 1</h1>
+        <ul>
+            <li>Podemos utilizar o seletor CSS diretamente em <strong>Tags HTML, Classes e também em Ids</strong>.
+                Vamos
+                testar primeiro com as TAGs</li>
+            <li>Note que <strong>TODAS</strong> as tags <strong>h2</strong> da página serão alteradas com o estilo
+                definido.</li>
+            <li>Utilize o F12 ou inspecionar no navegador (Dev tools) para ver o que está acontecendo com a página.
+            </li>
+            <li>Aproveitaremos para alterar o <strong>CSS nativo do Chrome</strong>, para deixar as margens dos
+                elementos um pouco
+                menores. Veremos estes detalhes mais para frente.</li>
+        </ul>
+
+        <!-- Código: Primeiro exemplo -->
+        <div>
+            <h2>Um título qualquer</h2>
+            <h2>Outro título qualquer</h2>
+        </div>
+        <style>
+            h2 {
+                background: tomato;
+            }
+
+            /* Alterando margens */
+            p {
+                margin: 5px 0px 0px 0px;
+            }
+
+            ul {
+                margin: 10px 0px 10px 0px;
+                padding-left: 10px;
+            }
+
+            li {
+                margin: 0px 0px 0px 0px;
+            }
+        </style>
+    </div>
+    <div>
+        <hr>
+        <h1>Exemplo 2</h1>
+        <ul>
+            <li>Depois das tags, temos o uso do seletor CSS em <strong>CLASSES</strong> e <strong>IDs</strong> </li>
+            <li>
+                <strong>Classe:</strong>
+                <ul>
+                    <li>Classes são utilizadas para identificar grupos de elementos HTML que devem se parecer ou se
+                        comportar de
+                        forma igual.</li>
+                    <li>Note que todos os elementos que estão com a classe terão seu estilo alterado.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Id:</strong>
+                <ul>
+                    <li>Ids são utilizadas para identificar elementos HTML individuais de uma página. <strong>Não
+                            podendo ser repetidos!</strong></li>
+                    <li>Note que todos os elementos que estão com a classe terão seu estilo alterado.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Código: Segundo exemplo -->
+        <div>
+            <h2>Um título qualquer</h2>
+            <h2>Outro título qualquer</h2>
+        </div>
+        <style>
+            h2 {
+                background: tomato;
+            }
+
+            p {
+                margin: 6px 0px 6px 0px;
+            }
+
+            ul {
+                margin: 3px 0px 3px 0px;
+                padding-left: 15px;
+            }
+
+            li {
+                margin: 2px 0px 2px 0px;
+            }
+        </style>
+    </div>
+</body>
+
+</html>

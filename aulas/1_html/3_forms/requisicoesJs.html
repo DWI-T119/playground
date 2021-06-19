@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Requisições JS</title>
+</head>
+
+<body>
+  <div>
+    <h1>Exemplos de Requisições JS</h1>
+  </div>
+  <!-- Trazer todos os valores -->
+  <div class="div-card">
+    <div>
+      <h2>GET </h2>
+      <h4>Para TRAZER dados</a></h4>
+    </div>
+    <div class="div-form">
+      <button id="trazerTudoBtn">Trazer tudo</button>
+    </div>
+    <div id="resultado-trazerTudo"></div>
+  </div>
+  <!-- Gravar um registro -->
+  <div class="div-card">
+    <div>
+      <h2>POST </h2>
+      <h4>Para GRAVAR dados</a></h4>
+    </div>
+    <div class="div-form">
+      <input placeholder="Título" type="text" name="title" id="title">
+      <input placeholder="Descrição" type="text" name="description" id="description">
+      <button id="postSimplesBtn">Gravar dados</button>
+    </div>
+    <div id="resultado-postSimples"></div>
+  </div>
+  <!-- Deletar todos os valores -->
+  <div class="div-card">
+    <div>
+      <h2>DELETE </h2>
+      <h4>Para DELETAR dados</a></h4>
+    </div>
+    <div class="div-form">
+      <button id="deletarTudoBtn">Deletar tudo</button>
+    </div>
+    <div id="resultado-deletarTudo"></div>
+  </div>
+</body>
+
+</html>
+
+<script>
+  $(document).ready(function () {
+    $("#deletarTudoBtn").click(function () {
+      $.ajax({
+        type: "delete",
+        url: "https://api-dwi.herokuapp.com/api/tutorials",
+        success: function (result) {
+          $("#resultado-deletarTudo").html(JSON.stringify(result));
+        }
+      });
+    });
+    $("#trazerTudoBtn").click(function () {
+      $.ajax({
+        type: "get",
+        url: "https://api-dwi.herokuapp.com/api/tutorials",
+        success: function (result) {
+          let html = `
+          `
+          $("#resultado-trazerTudo").html(JSON.stringify(result));
+        }
+      });
+    });
+    $("#postSimplesBtn").click(function () {
+      let title = document.getElementById("title").value
+      let description = document.getElementById("description").value
+      $.ajax({
+        type: "post",
+        url: "https://api-dwi.herokuapp.com/api/tutorials",
+        data: {
+          title: title,
+          description: description
+        },
+        success: function (result) {
+          $("#resultado-postSimples").html(JSON.stringify(result));
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .div-card {
+    border: solid gray 1px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .div-form {
+    border: solid blue 1px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  /* -------- */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+</style>

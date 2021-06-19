@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms HTML</title>
+</head>
+
+<body>
+  <div>
+    <h1>Exemplos de Forms HTML</h1>
+  </div>
+  <!-- API Web -->
+  <div class="div-card">
+    Nossa API Web para ser o BackEnd (Servidor): <a target="_blank" href="https://api-dwi.herokuapp.com/">api-dwi</a>
+    <br>
+    <a target="_blank"
+      href="https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es#API_Web">Wiki do
+      que é uma API Web</a>
+  </div>
+  <!-- Form simples GET sem valores -->
+  <div class="div-card">
+    <div>
+      <h2>Form GET </h2>
+      <h4>Para BUSCAR dados</a></h4>
+    </div>
+    <div class="div-form">
+      <form action="https://api-dwi.herokuapp.com/api/tutorials" method="get">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+  <!-- Form simples GET com Query String -->
+  <div class="div-card">
+    <div>
+      <h2>Form GET com valor</h2>
+      <h4>Para BUSCAR dados específicos usando Query String</a></h4>
+    </div>
+    <div class="div-form">
+      <form action="https://api-dwi.herokuapp.com/api/tutorials" method="get">
+        <input type="text" name="title" id="">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+  <!-- Form POST para gravar tutoriais -->
+  <div class="div-card">
+    <div>
+      <h2>Form POST</h2>
+      <h4>Para GRAVAR dados</h4>
+    </div>
+    <div class="div-form">
+      <form action="https://api-dwi.herokuapp.com/api/tutorials" method="post">
+        Título:
+        <input type="text" name="title" id="">
+        Descrição:
+        <input type="text" name="description" id="">
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+  <!-- Form POST para enviar uma requisição -->
+  <div class="div-card">
+    <div>
+      <h2>Form POST para um outro endpoint</h2>
+      <h4>Para GRAVAR dados</h4>
+    </div>
+    <div class="div-form">
+      <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+        Nick personagem:
+        <input type="text" name="nick" id="">
+        Level:
+        <input type="number" name="level" id="">
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<style>
+  .div-card {
+    border: solid gray 1px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .div-form {
+    border: solid blue 1px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  /* -------- */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+</style>
