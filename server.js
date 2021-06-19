@@ -41,7 +41,7 @@ http.createServer(function (request, response) {
             }
             else {
                 response.writeHead(500);
-                response.end('Sorry, check with the site admin for error: '+error.code+' ..\n');
+                response.end('Desculpe, ocorreu um erro. Envia para o professor: '+error.code+' ..\n');
             }
         }
         else {
@@ -51,4 +51,4 @@ http.createServer(function (request, response) {
     });
 
 }).listen(process.env.PORT || 8080);
-console.log(`Server running at http://127.0.0.1:${process.env.PORT || 8080}/`);
+console.log(`Servidor rodando em http://127.0.0.1:${process.env.PORT || 8080}/`);

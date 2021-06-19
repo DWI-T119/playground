@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "watch": "browser-sync start --server --files 'css/*.css'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "browser-sync start --no-notify --server --files './**'"
   },
   "repository": {
     "type": "git",
