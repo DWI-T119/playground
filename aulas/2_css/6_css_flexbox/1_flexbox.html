@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <div>
+        <a href="./index.html">Voltar</a>
+    </div>
+
+    <div>
+        <h1>FlexBox</h1>
+    </div>
+    <p class="topic">Dividir em duas categorias:</p>
+    <ul>
+        <li>Container (elemento pai)</li>
+        <li>Items (elementos filhos)</li>
+    </ul>
+
+    <div>
+        <button class="accordion">Propriedades Container</button>
+        <div class="panel">
+            <ul class="first-li-child-title">
+                <li>
+                    <p>display: flex</p>
+                    <p>Indica que o container utilizará o posicionamento flexbox</p>
+                </li>
+                <li>
+                    <p>flex-direction</p>
+                    <p>Indica a direção que os items serão disponibilizados</p>
+                </li>
+                <li>
+                    <p>flex-wrap</p>
+                    <p>Indica se os items quebrarão de linha ao diminuir o container</p>
+                </li>
+                <li>
+                    <p>flex-flow</p>
+                    <p>Atalho para flex-direction + flex-wrap</p>
+                </li>
+                <li>
+                    <p>justify-content</p>
+                    <p>Usado para alinhar os items</p>
+                </li>
+                <li>
+                    <p>align-items</p>
+                    <p>Usado para alinhar os items</p>
+                </li>
+                <li>
+                    <p>align-content</p>
+                    <p>Usado para alinhar as linhas</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <button class="accordion">Propriedades Items</button>
+        <div class="panel">
+            <p><strong></strong></p>
+            <ul class="first-li-child-title">
+                <li>
+                    <p>order:</p>
+                    <p>Texto</p>
+                </li>
+                <li>
+                    <p>flex-grow:</p>
+                    <p>Texto</p>
+                </li>
+                <li>
+                    <p>flex-shrink:</p>
+                    <p>Texto</p>
+                </li>
+                <li>
+                    <p>flex-basis:</p>
+                    <p>Texto</p>
+                </li>
+                <li>
+                    <p>flex:</p>
+                    <p>Texto</p>
+                </li>
+                <li>
+                    <p>align-self:</p>
+                    <p>Texto</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Exemplo 01 -->
+    <div>
+        <hr>
+        <div><strong>Exemplo 01</strong></div>
+        Verde = Container
+        <div class="flex-container-e01">
+            <div class="flex-items-e01">Item 1</div>
+            <div class="flex-items-e01">Item 2</div>
+            <div class="flex-items-e01">Item 3</div>
+            <div class="flex-items-e01">Item 4</div>
+            <div class="flex-items-e01">Item 5</div>
+            <div class="flex-items-e01">Item 6</div>
+            <div class="flex-items-e01">Item 7</div>
+            <div class="flex-items-e01">Item 8</div>
+        </div>
+        <style>
+            .flex-container-e01 {
+                /* Estilo básico do container */
+                margin-left: 100px;
+                background: darkolivegreen;
+                padding: 2px;
+                text-align: center;
+                height: 200px;
+                width: 60%;
+
+                /*
+                flex
+                flex-direction
+                flex-wrap
+                flex-flow
+                justify-content
+                align-items
+                align-content
+                gap
+                */
+
+                /* Atribuindo Flex ao container */
+                display: flex;
+
+                /* Direção [row|column] */
+                flex-direction: row;
+                /* flex-direction: row-reverse; */
+                /* flex-direction: column; */
+                /* flex-direction: column-reverse; */
+                /* max-height: 200px; */
+
+                /* Quebra de linha [wrap|nowrap] */
+                /* flex-wrap: nowrap; */
+                flex-wrap: wrap;
+                /* flex-wrap: wrap-reverse; */
+
+                /* Espaçamento entre os items */
+                gap: 2px;
+
+                /* Alinhamento horizontal */
+                /* justify-content: flex-start; */
+                justify-content: center;
+                /* justify-content: flex-end; */
+                /* justify-content: space-between; */
+                /* justify-content: space-around; */
+
+                /* Alinhamento vertical */
+                /* align-content: flex-start; */
+                /* align-content: center; */
+                /* align-content: flex-end; */
+                /* align-content: space-between; */
+                /* align-content: space-around; */
+
+                /* align-items */
+                align-items: center;
+            }
+
+            .flex-items-e01 {
+                /* Estilo e tamanho de items */
+                background: wheat;
+                height: 40px;
+                width: 40px;
+            }
+        </style>
+    </div>
+
+    <div>
+        <hr>
+        <div><strong>Exemplo 02</strong></div>
+        Container
+        <div class="flex-container-e02">
+            <div class="flex-items-e02">Item</div>
+            <div class="flex-items-e02">Item</div>
+            <div class="flex-items-e02">Item</div>
+            <div class="flex-items-e02">Item</div>
+            <div class="flex-items-e02">Item</div>
+        </div>
+        <style>
+            .flex-container-e02 {
+                /* Estilo básico do container */
+                margin: auto;
+                background: darkolivegreen;
+                padding: 2px;
+                text-align: center;
+                /* --- Flex do container --- */
+                /* Atribuindo Flex ao quadrado */
+                display: flex;
+                /* Direção [row|column] */
+                flex-direction: row;
+                /* flex-direction: column; */
+                /* max-height: 200px; */
+                /* Quebra de linha [wrap|nowrap] */
+                flex-wrap: wrap;
+                /* flex-wrap: nowrap; */
+                /* Espaçamento entre os items */
+                gap: 2px;
+            }
+
+            .flex-items-e02 {
+                /* Estilo e tamanho de items */
+                background: wheat;
+                height: 50px;
+                width: 50px;
+            }
+        </style>
+    </div>
+</body>
+
+<script src="../../../scripts.js"></script>
+
+</html>
