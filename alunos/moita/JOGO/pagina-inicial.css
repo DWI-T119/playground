@@ -11,6 +11,12 @@ li {
     list-style-type: none;
 }
 
+td {
+ width: 15%;
+ text-align: center;
+}
+
+
 
 .mainPageLink {
     margin-right: 25px;
@@ -39,7 +45,7 @@ li {
  }
 
 .fraseTabelaPersonagens:hover{
-    color:crimson
+    color: red;
 }
 
 .tabelaPersonagens{
@@ -47,12 +53,12 @@ li {
     justify-content: center;
 }
 
-.firstLinha {
+.firstLine {
     height: 10px;
     width: 300px;
 }
 
-.secondLinha {
+.secondLine {
     height: 100px;
     width: 55px;
     }
@@ -61,11 +67,11 @@ li {
 	margin-left: 25px;
 }
 
-.thirdLinha {
+.thirdLine {
     height: 100px;
 }
 
-.fourthLinha{
+.fourthLine {
 	height: 100px;
 }
 
