@@ -1,0 +1,123 @@
+body {
+    padding-left: 220px;
+    margin-right: 0px;
+    padding-right: 220px;
+    margin-bottom: 100px;
+}
+
+.titleLink {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Grenze', serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titleLink:hover {
+    color: red;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logoImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoImg {
+    height: 50px;
+}
+
+.personalization {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formSubtitle {
+    font-family: 'Grenze', serif;
+    font-size: 30px;
+}
+
+.weapons {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grenadeContainer {
+    display: flex;
+    position: relative;
+}
+
+.grenadeImg {
+    position: absolute;
+    height: 183px;
+    right: -278px;
+}
+
+.m4A1Img {
+    position: absolute;
+    height: 183px;
+    left: -241px;
+}
+
+.classeHeader {
+    font-family: 'Grenze', serif;
+    font-size: 30px;
+}
+
+.classeSelector {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.corredor {
+    align-content: center;
+    margin-right: 35px;
+}
+
+.furtivo {
+    align-content: center;
+    margin-right: 35px;
+}
+
+.michaelJackson {
+    align-content: center;
+    margin-right: 70px;
+}
+
+.servers {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chooseTeammate {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+
+.feedback {
+    font-family: 'Grenze', serif;
+    font-size: 29px;
+}
+
+.history {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    display: flex;
+    place-content: center;
+}
+
+.checkboxes {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.credits {
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    place-content: center;
+}

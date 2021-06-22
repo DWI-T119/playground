@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grenze:wght@100&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="./cadastroPersonagem.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inevitable evolution </title>
+</head>
+
+<body>
+
+    <div class="logo">
+        <div class="logoImgContainer">
+            <img class="logoImg" src="/home/isadorazandonotto/Área de Trabalho/Trabalho lucas/playground/alunos/moita/JOGO/assets/silhueta.png" alt="Silhueta Assassino">
+        </div>
+        <a class="titleLink" href="./pagina-inicial.html">LAST MAN STANDING</a>
+
+    </div>
+    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+
+
+        <h3 class="formSubtitle">CHECK-IN</h3>
+        <br>
+        <div class="personalization">
+            Nickname:
+            <input placeholder="Seu nickname aqui" type="text">
+            <br>
+            <br> Qual sua idade?
+            <input placeholder="Sua idade aqui" type="number">
+        </div>
+
+        <h3 class="formSubtitle">
+            ARSENAL
+        </h3>
+
+        <div class="weapons">
+            <br> Escolha sua arma
+            <select>
+            <option value="Faca de serrinha">Faca de serrinha</option>
+            <option value="M4A1">M4A1</option>
+            <option value="Capa de invisibilidade">Capa de invisibilidade </option>
+            <option value="Mystery box">Mystery box</option>
+        </select>
+
+
+
+            <div class="grenadeContainer">
+                <img class="grenadeImg" src="./assets/granada.jpeg" alt="granada frag">
+                <img class="m4A1Img" src="./assets/a.jpeg " alt="M4A1">
+
+            </div>
+
+            <br>
+            <br> Escolha seu tipo de granada letal:
+            <select>
+            <option value="Granada de fragmentação">Granada de fragmentação</option>
+            <option value="Semtex">Semtex</option>
+            <option value="Mina terrestre">Mina terrestre</option>
+        </select>
+        </div>
+
+        <h3 class="formSubtitle">ESCOLHA SUA CLASSE:</h3>
+
+
+        <br>
+        <div class="classeSelector">
+
+            <br>
+            <div class="corredor">
+                <label for="corredorNato">Corredor Nato</label>
+                <input type="radio" id="corredorNato" name="classe" value="corredorNato">
+                <p>Seu personagem corre sem parar.</p>
+            </div>
+            <div class="furtivo">
+                <label for="furtivo">Furtivo</label>
+                <input type="radio" id="furtivo" name="classe" value="furtivo">
+                <p>Os passos do seu personagem são silenciosos.</p>
+            </div>
+            <div class="michaelJackson">
+                <label for="michaelJackson">Michael Jackson</label>
+                <input type="radio" id="michaelJackson" name="classe" value="michaelJackson">
+                <p>O seu personagem morre e ressuscita uma única vez.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <h3></h3>
+        <div class="chooseTeammate">
+            Escolha quem irá te defender:
+            <select>
+                <option value="John Wick">John Wick</option>
+                <option value="Aladin">Aladin</option>
+                <option value="Lázaro">Lázaro</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <div class="servers">
+                Em qual servidor você deseja jogar?
+                <br>
+                <br>
+                <label for="BRASIL">BRASIL</label>
+                <input type="radio" id="br" name="servers" value="BRASIL">
+                <label for="USA">ESTADOS UNIDOS</label>
+                <input type="radio" id="USA" name="servers" value="USA">
+                <label for="EU">EUROPA</label>
+                <input type="radio" id="EU" name="servers" value="EU">
+
+            </div>
+            <div style="width: 75%;">
+                <hr style="color: black;">
+            </div>
+        </div>
+
+        <h3 class="formSubtitle">FEEDBACK:</h3>
+        <div class="history">
+            Conte o que achou da gameplay:
+
+            <br>
+            <br>
+
+            <textarea placeholder="Conte o que achou da gameplay" cols="35" rows="15">
+            </textarea>
+
+            <br>
+            <br>
+            <br>
+            <div class="button">
+                <button type="submit">Concluir</button>
+            </div>
+            <br>
+            <br>
+
+            <h3 class="formSubtitle">NOS DIGA SE:</h3>
+            <div class="checkboxes">
+
+                Deseja jogar o tutorial antes?
+                <input type="checkbox">
+                <br>
+                <br> Concorda em ser nosso beta tester?
+                <input type="checkbox">
+                <br>
+                <br> Para apoiar o desenvolvimento deste jogo, que tal um conta premium por 5,99/mes?
+                <input type="checkbox">
+
+            </div>
+
+            <div class="credits">
+                <p>Lucas Moita, 21/7/2021</p>
+            </div>
+
+    </form>
+</body>
+
+</html>
