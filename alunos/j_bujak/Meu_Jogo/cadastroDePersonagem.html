@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tibia</h1>
+    <img src="https://i.pinimg.com/originals/41/d6/67/41d667edab3200040c2bed7772a544a2.png" alt="">
+    <h2>Menu: </h2>
+    
+    <ul>
+        <li><a target="_blank" href="./paginaInicial.html">Página Inicial</a></li>
+        <li><a target="_blank" href="./cadastroDePersonagem.html">Cadastro de Personagem</a></li>
+    </ul>
+
+    <table border="2">
+        <tr>
+            <td><h3>Nome</h3></td>
+            <td><h3>Descrição</h3></td>
+        </tr>
+        <tr>
+            <td><h5>Knight</h5></td>
+            <td>Um Knight é um guerreiro forte e sempre pronto para uma batalha. Em combate em grupo, o Knight se posiciona sempre na linha de frente para proteger os demais jogadores.</td>
+        </tr>
+        <tr>
+            <td><h5>Paladin</h5></td>
+            <td>O Paladin, um arqueiro sagrado, rápido e infalível, ataca mortalmente seus inimigos à distância com tal velocidade que ele parece ser invisível para seus alvos.</td>
+        </tr>
+        <tr>
+            <td><h5>Sorcerer</h5></td>
+            <td>Um Sorcerer, mestre arcano das artes negras, dedica sua vida ao estudo da magia. Ele é profundamente convicto que superioridade encontra-se na sabedoria e não na força física.</td>
+        </tr>
+        <tr>
+            <td><h5>Druid</h5></td>
+            <td>O Druid é devotado e relacionado com a natureza, de onde provém toda a sua força. Ele pratica o controle sobre elementos da natureza para o benefício de todos os humanos. </td>
+        </tr>
+    </table>
+
+    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+        <div>
+            <br>
+                Nick:
+                <input name="title" id="">
+                Idade:
+                <input type="number" name="age" id="">
+                
+                Vocação:
+            <select>
+                <option value="knight">Knight</option>
+                <option value="paladin">Paladin</option>
+                <option value="sorcerer">Sorcerer</option>
+                <option value="druid">Druid</option>
+            </select>
+        </div>
+        <br>
+        
+            <div>
+                <div>
+                    Escolhas extras: 
+                    Fazer tutorial
+                    <input type="checkbox" />
+                    Participar de Betas
+                    <input type="checkbox" />
+                    Comprar Premmium
+                    <input type="checkbox" />
+                </div>
+            </div>
+            <br>
+
+            <div>
+                Localização de Servidor: 
+                <input type="radio" />
+                <label>Brasil</label>
+                <input type="radio" />
+                <label>Estados Unidos</label>
+                <input type="radio" />
+                <label>Europa</label>
+            </div>
+                <br />
+                <br>
+
+                <div>
+                    <span for="history"><strong>História:</strong></span>
+                    <div>
+                        <textarea name="history" id="history" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+        
+    </form>
+
+    
+</body>
+</html>
