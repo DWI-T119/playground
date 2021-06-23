@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroPersonagem</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .titulo{
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+            border: thick;
+            border-color: black; 
+        }
+        #img{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .subtitulo{
+            color:white;
+            text-align: center;
+            margin: auto;
+        }
+        .paragrafo{
+            color: white;
+            border: black;
+            border-color: black;
+            text-align: center;
+            font-size: x-large;
+        }
+        .lista{
+            color: yellow;
+            text-align: center;
+            list-style-type: none;
+            margin-right: 50px; 
+        }
+        .tabela{
+            color: black;
+            border-color: black;
+            margin-left: auto;
+            margin-right: auto;
+            align-self: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="titulo">JavaFinder</h1>
+        <img id="img" src="https://quintacapa.com.br/wp-content/uploads/2018/10/Pathfinder01.jpg" alt="" height="350" width="600" >
+    </div>
+    <div>
+        <H2 class="subtitulo">Menu do site</H2>
+        <ul>
+            <li class="lista"><a href="./pagina_principal.html">Pagina Principal</a></li>
+            <li class="lista"><a href="./registro_personagem.html">Registrar Personagem</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <table class="tabela" border="2">
+            <thead>
+                <tr>
+                    <th>Jobs</th>
+                    <th>descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paladino</td>
+                    <td>Seu deus o enviou em uma missão de punir os malfeitores e hereges, mas como ele não foi muito
+                         claro, você apenas da martelada em quem estiver na sua frente. você é uma parede de defesa 
+                         entre os inimigos e a sua party.</td>
+                </tr>
+                <tr>
+                    <td>Bardo</td>
+                    <td>Você conquista tudo e todos, e sim isso significa <b>TUDO</b>, desde inocentes garçonetes de tabernas
+                    pequenas, até criaturas que sinceramente nem deveriam ser mencionadas abertamente.</td>
+                </tr>
+                <tr>
+                    <td>Barbaro</td>
+                    <td>Porrada, essa é a sua vocação, esse é seu trabalho, essa é sua vida e é isso que você faz de melhor.</td>
+                </tr>
+                <tr>
+                    <td>Ladino</td>
+                    <td>Carteira? Que carteira?</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h1 class="titulo">FORMULARIO PARA CADASTRO DE PERSONAGEM</h1>
+        <form action="https://api-dwi.herokuapp.com/api/examples" method="POST">
+        <div>
+            <label for="nick"><strong>Nick:</strong></label>
+            <input type="text" name="Nick" id="nick" placeholder="Nick Ingame">
+
+            <label for="idade"><strong>Idade:</strong></label>
+            <input type="number" placeholder="Idade Personagem">
+
+            <label for="jobs"><strong>Jobs</strong></label>
+            <select name="jobs" id="jobs">
+                <option value="">Selecione</option>
+                <option value="Paladino">Paladino</option>
+                <option value="Bardo">Bardo</option>
+                <option value="Barbaro">Barbaro</option>
+                <option value="Ladino">Ladino</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label><strong>ESCOLHAS EXTRAS:</strong></label>
+
+            <input type="checkbox" id="MochilhaMaior" name="Mochilha">
+            <label for="Mochila">Mochila Maior</label>
+            <input type="checkbox" name="Montaria" id="Montaria">
+            <label for="Montaria">Montaria Unica</label>
+            <input type="checkbox" id="poção" name="poção">
+            <label for="poção">Pacote de poções iniciante</label>
+        </div>
+        <br>
+        <div>
+            <label><strong>LOCALIZAÇÃO DOS SERVERS:</strong></label>
+
+            <input type="radio" name="servidor" id="br">
+            <label for="br">Brasil</label>
+            <input type="radio" name="servidor" id="eua">
+            <label for="eua">Estados Unidos</label>
+            <input type="radio" name="servidor" id="ue">
+            <label for="ue">Europa</label>
+        </div>
+        <br>
+        <div>
+            <label><strong>HISTORIA:</strong></label>
+            <div>
+            <textarea name="historia" id="historia" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <button type="submit">Registrar</button>
+        </div>
+        
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>

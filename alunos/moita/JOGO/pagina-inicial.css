@@ -1,71 +1,120 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: burlywood;
+    margin: 0px;
 }
 
 li {
     list-style-type: none;
 }
 
-
-.mainPageLink {
-    margin-right: 25px;
-    }
+td {
+    width: 15%;
+    text-align: center;
+}
 
 .titleContainer {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.titleLink {
+    text-decoration: none;
+    color: black;
+    font-size: 69px;
     font-family: 'Grenze', serif;
 }
 
-.menu {
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:smaller; 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logoImg {
+    height: 150px;
+}
+
+.titleLink:hover {
+    color: red;
+}
+
+.letsPlay {
+    font-family: 'Grenze', serif;
+    font-size: 59px;
     font-style: inherit;
     display: flex;
     justify-content: center;
 }
 
-.fraseTabelaPersonagens{
-	display: flex;
-	justify-content: center;
-	
- }
-
-.fraseTabelaPersonagens:hover{
-    color:crimson
+.letsPlayLink {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
 }
 
-.tabelaPersonagens{
+.letsPlayLink:hover {
+    color: red;
+}
+
+.survive {
     display: flex;
     justify-content: center;
+    font-size: 59px;
+    font-family: 'Grenze', serif;
+    margin-bottom: 0px;
+    margin-top: 3px;
 }
 
-.firstLinha {
+.fraseTabelaPersonagens:hover {
+    color: red;
+}
+
+.tabelaPersonagens {
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstLine {
     height: 10px;
     width: 300px;
 }
 
-.secondLinha {
+.secondLine {
     height: 100px;
     width: 55px;
-    }
-
-.powerAladin {
-	margin-left: 25px;
 }
 
-.thirdLinha {
+.powerAladin {
+    margin-left: 25px;
+}
+
+.thirdLine {
     height: 100px;
 }
 
-.fourthLinha{
-	height: 100px;
+.fourthLine {
+    height: 100px;
 }
 
+.pistolContainer {
+    display: flex;
+    position: relative;
+}
+
+.pistolImg {
+    position: absolute;
+    bottom: 10px;
+}
+
+.gameDescription {
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.credits {
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    place-content: center;
+}

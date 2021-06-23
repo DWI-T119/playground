@@ -61,9 +61,12 @@
         <ul>
             <li><strong>Inline: </strong> Atributo style diretamente em uma tag HTML (Má prática)</li>
             <li><strong>Tag HTML: </strong> Faremos o CSS encontrar o elemento diretamente pelo nome da tag</li>
-            <li><strong>Classe: </strong>Utilizando a propriedade <strong>class</strong> do elemento HTML. Exemplo: ".nome-da-classe"</li>
-            <li><strong>Id: </strong>Utilizando a propriedade <strong>id</strong> do elemento HTML. Exemplo: "#id_do_elemento"</li>
-            <li><strong>CSS Path: </strong>Podemos "andar" pelos seletores CSS de diversas formas utilizando o caminho dos elementos disponibilizados na página. Exemplo: ".minhaClasse > #meuId > div"</li>
+            <li><strong>Classe: </strong>Utilizando a propriedade <strong>class</strong> do elemento HTML. Exemplo:
+                ".nome-da-classe"</li>
+            <li><strong>Id: </strong>Utilizando a propriedade <strong>id</strong> do elemento HTML. Exemplo:
+                "#id_do_elemento"</li>
+            <li><strong>CSS Path: </strong>Podemos "andar" pelos seletores CSS de diversas formas utilizando o caminho
+                dos elementos disponibilizados na página. Exemplo: ".minhaClasse > #meuId > div"</li>
         </ul>
     </div>
 
@@ -124,7 +127,7 @@
             </li>
             <li>
                 <strong>Id:</strong>
-                <ul>
+                <ul id="lista-02" class="listas">
                     <li>Ids são utilizadas para identificar elementos HTML individuais de uma página. <strong>Não
                             podendo ser repetidos!</strong></li>
                     <li>Note que todos os elementos que estão com a classe terão seu estilo alterado.</li>
@@ -134,25 +137,205 @@
 
         <!-- Código: Segundo exemplo -->
         <div>
-            <h2>Um título qualquer</h2>
-            <h2>Outro título qualquer</h2>
+            <h2 id="titulo-01" class="titulos">Um título qualquer</h2>
+            <h2 id="titulo-02" class="titulos">Outro título qualquer</h2>
         </div>
         <style>
-            h2 {
+            .titulos {
+                background: gray;
+            }
+
+            #titulo-01 {
+                border: solid blue 2px;
+            }
+
+            #titulo-02 {
+                border: solid red 2px;
+            }
+        </style>
+    </div>
+    <style>
+        .propriedade {
+            margin: auto;
+            margin-bottom: 20px;
+            border: solid gray 1px;
+            padding: 0px 20px 20px 20px;
+            width: 80%;
+        }
+
+        .exemplo {
+            padding: 10px;
+        }
+
+        .quadrado {
+            width: 50px;
+            height: 50px;
+            border: solid gray 1px;
+            margin: 10px;
+        }
+
+        .text-box {
+            padding: 10px;
+            border: solid black 1px;
+        }
+    </style>
+
+    <!------------ PROPRIEDADES ------------>
+    <h1>Propriedades</h1>
+
+
+    <!-- text -->
+    <div id="propriedade-text" class="propriedade">
+        <h3>text</h3>
+        <p>Utilizado para alterar propriedades do texto</p>
+        <br>
+        <div class="exemplo-text text-box">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, provident.
+        </div>
+        <br>
+        <div class="exemplo-text text-box">
+            Outro Texto <span class="text-detalhe">detalhe</span>
+        </div>
+        <style>
+            /*
+                color
+                text-align
+             */
+            .exemplo-text {
+                font-family: "Times New Roman", Times, serif;
+                /* font-family: Arial, Helvetica, sans-serif; */
+                /* font-family: "Lucida Console", "Courier New", monospace; */
+                font-size: 20px;
+                color: tomato;
+                text-align: center;
+                /* center | left | right | justify*/
+                /* line-height: 23px; */
+                /* text-decoration: underline; */
+                /* text-transform: uppercase; */
+                /* letter-spacing: 3px; */
+                /* word-spacing: 10px; */
+                /* text-shadow: 2px 2px 2px black; */
+
+            }
+
+            .text-detalhe {
+                font-size: 10px;
+                vertical-align: top;
+            }
+        </style>
+    </div>
+
+    <!-- background -->
+    <div id="propriedade-background" class="propriedade">
+        <h3>background</h3>
+        <p>Utilizado para alterar o fundo de elementos</p>
+        <div class="exemplo-background quadrado"></div>
+        <style>
+            /* background-color
+            background-image
+            background-repeat
+            background-attachment
+            background-position
+            background */
+            .exemplo-background {
                 background: tomato;
             }
+        </style>
+    </div>
 
-            p {
-                margin: 6px 0px 6px 0px;
+    <!-- border -->
+    <div id="propriedade-border" class="propriedade">
+        <h3>border</h3>
+        <p>Utilizado para alterar a borda de um elemento</p>
+        <div class="exemplo-border quadrado"></div>
+        <style>
+            /* border-width
+            border-style
+            border-color */
+            .exemplo-border {
+                border: solid red 3px;
             }
+        </style>
+    </div>
 
-            ul {
-                margin: 3px 0px 3px 0px;
-                padding-left: 15px;
+    <!-- margin -->
+    <div id="propriedade-margin" class="propriedade">
+        <h3>margin</h3>
+        <p>Utilizado para alterar o espaçamento de margem de um elemento</p>
+        <div class="exemplo-margin quadrado"></div>
+        <style>
+            .exemplo-margin {
+                margin-top: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                /* ou */
+                margin: 10px;
             }
+        </style>
+    </div>
 
-            li {
-                margin: 2px 0px 2px 0px;
+    <!-- padding -->
+    <div id="propriedade-padding" class="propriedade">
+        <h3>padding</h3>
+        <p>Utilizado para alterar o espaçamento de acochoamento de um elemento</p>
+        <div class="exemplo-padding quadrado"></div>
+        <style>
+            .exemplo-padding {
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                /* ou */
+                padding: 10px;
+            }
+        </style>
+    </div>
+
+    <!-- height e width -->
+    <div id="propriedade-height-e-width" class="propriedade">
+        <h3>height e width</h3>
+        <p>Utilizado para alterar altura (height) ou largura (width) de um elemento</p>
+        <div class="quadrado exemplo-height-e-width"></div>
+        <style>
+            .exemplo-height-e-width {
+                height: 40px;
+                width: 180px;
+            }
+        </style>
+    </div>
+
+    <!-- box-shadow -->
+    <div id="propriedade-box-shadow" class="propriedade">
+        <h3>box-shadow</h3>
+        <p>Utilizado para adicionar sombra em um elemento</p>
+        <div class="quadrado exemplo-box-shadow"></div>
+        <style>
+            .exemplo-box-shadow {
+                box-shadow: 2px 2px 2px black;
+            }
+        </style>
+    </div>
+
+    <!-- height e width -->
+    <div id="propriedade-height-e-width" class="propriedade">
+        <h3>CSS Box Model</h3>
+        <p>Utilizado para alterar o espaçamento de acochoamento de um elemento</p>
+
+        <div class="box">
+            Elemento
+        </div>
+
+        <style>
+            .box {
+                width: 100px;
+                height: 30px;
+                border: 15px solid tomato;
+                padding: 50px;
+                margin: 20px;
+
+                background-color: lightgrey;
+                text-align: center;
             }
         </style>
     </div>

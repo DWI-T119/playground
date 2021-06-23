@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulário de Personagem</title>
+</head>
+<body>
+    <div>
+        <h1>Nome do Jogo</h1>
+        <div class="img">
+            <p>Imagem do jogo</p>
+        </div>        
+    </div>
+
+    <div>
+        <h1>Menu do site</h1>
+        <ul>
+            <li><a href="paginaInicial.html">Página Inicial</a></li>
+            <li><a href="cadastroDePersonagem.html" >Cadastro de Personagem</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>Vocações (Tipos de personagens)</h1>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>                
+              </tr>
+              <tr>
+                <td>Knight</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>                
+              </tr>
+              <tr>
+                <td>Paladin</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>                
+              </tr>
+              <tr>
+                <td>Sorcerer</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>                
+              </tr>
+              <tr>
+                <td>Druid</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>                
+              </tr>
+            </tr>             
+        </table>
+        
+    </div>
+
+    <div class="containerForm">
+        <form action="#" method="post"></form>
+            <h1>Formulário para Cadastro de Personagem</h1>
+
+            <div class="labelsIni">
+                <div>
+                    <label for="nick">Nick:</label>
+                    <input id="nick" name="nick" type="text" class="campo" required>
+                </div>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input id="idade" name="idade" type="number" class="campo" required>
+                </div>
+                <div>
+                    <label for="vocacao">Vocação</label>
+                    <select id="vocacao" name="vocacao" class="campo">
+                        <option>Selecione</option>
+                        <option value="Knight">Knight</option>
+                        <option value="Paladin">Paladin</option>
+                        <option value="Sorcerer">Sorcerer</option>
+                        <option value="Druid">Druid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class=labelsMid">
+                <div>
+                    Escolhas extras:
+                    <label for="fazerTutorial">Fazer tutorial</label>
+                    <input type="checkbox" id="fazerTutorial" name="extras" value="fazerTutorial">
+                </div>
+
+                <div>
+                    <label for="participarBetas">Participar de Betas</label>
+                    <input type="checkbox" id="participarBetas" name="extras" value="participarBetas">
+                </div>
+
+                <div>
+                    <label for="comprarPremmium">Comprar Premmium</label>
+                    <input type="checkbox" id="comprarPremmium" name="extras" value="comprarPremmium">
+                </div>
+            </div>
+
+            <div class="labelsLast">
+                <div>
+                    Localização de Servidor:
+                    <label for="Brasil">Brasil</label>
+                    <input type="radio" id="Brasil" name="localizacaoServidor" value="Brasil">
+                </div>
+
+                <div>
+                    <label for="EstadosUnidos">Estados Unidos</label>
+                    <input type="radio" id="EstadosUnidos" name="localizacaoServidor" value="EstadosUnidos">
+                </div>
+
+                <div>
+                    <label for="Europa">Europa</label>
+                    <input type="radio" id="Europa" name="localizacaoServidor" value="Europa">
+                </div>
+            </div>
+
+            <div>
+                História Personagem
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Cadastar" class="botao-submeter">
+            </div>
+        
+
+        </form>
+        
+    </div>

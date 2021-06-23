@@ -41,7 +41,7 @@ http.createServer(function (request, response) {
             }
             else {
                 response.writeHead(500);
-                response.end('Desculpe, ocorreu um erro. Envia para o professor: '+error.code+' ..\n');
+                response.end('Desculpe, ocorreu um erro. Envie para o professor: '+error.code+' ..\n');
             }
         }
         else {

@@ -1,23 +1,135 @@
 <!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Positions</title>
+    <title>Display e Positions</title>
 </head>
+
 <body>
     <a href="../..">Voltar</a>
 
-    <!-- O estilo desse elemento será alterado -->
-    <h1>Positions</h1>
+    <!-- display -->
+    <h1>Display</h1>
+    <div class="propriedade">
+        <h3>block</h3>
+        <div>
+            <span class="quadrado block">Item</span>
+            <span class="quadrado block">Item</span>
+            <span class="quadrado block">Item</span>
+        </div>
+        <h3>inline-block</h3>
+        <div>
+            <div class="quadrado inline-block">Item</div>
+            <div class="quadrado inline-block">Item</div>
+            <div class="quadrado inline-block">Item</div>
+        </div>
+        <style>
+            .inline-block {
+                display: inline-block;
+            }
+
+            .block {
+                display: block;
+            }
+        </style>
+    </div>
+    <!-- display -->
+    <h1>Position</h1>
+    <div class="propriedade">
+        <h3>static (Padrao)</h3>
+        <div>
+            <div class="quadrado-01 quadradao">
+                <div id="item-q01" class="item">Item</div>
+                <div id="item-q01" class="item">Item</div>
+                <div id="item-q01" class="item">Item</div>
+            </div>
+        </div>
+        <style>
+            .item-q01 {
+                position: static;
+            }
+        </style>
+    </div>
+
+    <div class="propriedade">
+        <h3>relative </h3>
+        <div>
+            <div class="quadrado-01 quadradao">
+                <div id="item-q02" class="item">Item</div>
+            </div>
+        </div>
+        <style>
+            #item-q02 {
+                position: relative;
+                left: 20px;
+            }
+        </style>
+    </div>
+
+    <div class="propriedade">
+        <h3>absolute </h3>
+        <div>
+            <div class="pai quadrado-01 quadradao">
+                <div id="item-q03" class="item">Item</div>
+            </div>
+        </div>
+        <style>
+            .pai {
+                position: relative;
+            }
+            #item-q03 {
+                position: absolute;
+                left: 0px;
+            }
+        </style>
+    </div>
 </body>
+
 </html>
 
 <!-- CSS -->
 <style>
-    h1 {
-        background: tomato;
+    .propriedade {
+        margin: auto;
+        margin-bottom: 20px;
+        border: solid gray 1px;
+        padding: 0px 20px 20px 20px;
+        width: 80%;
+    }
+
+    .exemplo {
+        padding: 10px;
+    }
+
+    .quadrado {
+        width: 50px;
+        height: 50px;
+        border: solid gray 1px;
+        margin: 10px;
+    }
+
+    .quadradao {
+        width: 300px;
+        height: 200px;
+        border: solid blue 2px;
+        margin: 10px;
+    }
+
+    .item {
+        border: solid red 3px;
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+        margin: 1px;
+    }
+
+    .text-box {
+        padding: 10px;
+        border: solid black 1px;
+        
     }
 </style>
