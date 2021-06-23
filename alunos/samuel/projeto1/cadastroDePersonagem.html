@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href=https://benfattoorganiza.com.br/wp-content/uploads/2016/12/number-one-in-a-circle.png
+</head>
+
+<body>
+    <h1 id="titulo" >Vocações (tipos de personagem)</h1>
+
+    <table width="80%" border="1">
+        <th>Nome</th>
+        <th>Descrição</th>
+        
+        <tr>
+            <td>Knight</td>
+            <td>Loren ipsum dolor sit amet.</td>
+        </tr>
+        
+        <tr>
+            <td>Paladin</td>
+            <td>Loren ipsum dolor sit amet.</td>
+        </tr>
+        
+        <tr>
+            <td>Sorcerer</td>
+            <td>Loren ipsum dolor sit amet.</td>
+        </tr>
+
+        <tr>
+            <td>Druid</td>
+            <td>Loren ipsum dolor sit amet.</td>
+        </tr>
+
+    </table>
+
+    <h1 id="titulo"> Formulário para cadastro de personagem </h1>
+
+    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+        <label><strong>Nick:</strong></label>
+        <input name="nick" />
+
+        <label><strong>Idade:</strong></label>
+        <input name="idade" />
+
+        <label><strong>Vocação:</strong></label>
+        <select name="vocacao">
+            <option lane="Knight">Knight</option>
+            <option lane="Paladin">Paladin</option>
+            <option lane="Sorcerer">Sorcerer</option>
+            <option lane="Druid">Druid</option>
+        </select>
+
+        <div>
+            <label><strong>Escolhas extras:</strong></label>
+            <input type="checkbox" name="extras" value="tutorial">Fazer tutorial
+            <input type="checkbox" name="extras" value="beta">Participar de betas
+            <input type="checkbox" name="extras" value="passe">Comprar premmium
+        </div>
+
+        <div>
+        <label><strong>Localização do servidor:</strong></label>
+            <input type="radio" name="server" value="br">BR
+            <input type="radio" name="server" value="eua">EUA
+            <input type="radio" name="server" value="eur">EUR
+        </div>
+
+        <div>
+        <p><strong>História do personagem:</strong></p>
+            <textarea name="historia"></textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+        
+    </form>
+        
+</body>
+
+</html>
