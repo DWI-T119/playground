@@ -36,7 +36,23 @@
 
         #formulario {
 
+            margin-right: 30%;
+            margin-left: 30%;
             border: groove;
+        }
+
+        #butao {
+
+            color: lightgrey;
+            text-shadow: 2px 2px 1px black;
+            margin-top: 20px;
+            background-color: rgb(180, 46, 23);
+            padding: 5px 5px 5px 5px;
+        }
+
+        #divButao {
+
+            padding-bottom: 20px;
         }
 
         .divInputs {
@@ -46,6 +62,7 @@
 
         .classe {
 
+            color: black;
             color: rgb(180, 46, 23);
         }
 
@@ -151,7 +168,6 @@
                         <option value="ctrlc,ctrlv">DevCtrlC</option>
                     </select>
                 </div>
-                <br>
                 <div class="divInputs">
                     <span>
                         <h4 class="subtitulo4">Escolhas extras:</h4>
@@ -163,7 +179,6 @@
                     <input type="checkbox" value="true">
                     <span>Programador Premmium</span>
                 </div>
-                <br>
                 <div class="divInputs">
                     <span>
                         <h4 class="subtitulo4">Escolha a localização do servidor:</h4>
@@ -175,13 +190,13 @@
                     <input type="radio" name="país" value="EU">
                     <span>Europe</span>
                 </div>
-                <div class="divInputs">
+                <div id="divButao" class="divInputs">
                     <span>
                         <h4 class="subtitulo4">Crie uma historia para o seu personagem:</h4>
                     </span>
                     <textarea name="" id="" cols="40" rows="15"></textarea>
                     <br>
-                    <button type="submit">Cadastrar Personagem</button>
+                    <button id="butao" type="submit"><strong>Cadastrar Personagem</strong></button>
                 </div>
             </div>
         </form>
