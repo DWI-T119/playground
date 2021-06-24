@@ -16,7 +16,8 @@ O projeto será disponibilizado online utilizando a plataforma Heroku na seguint
 2) Alterar apenas arquivos e pastas que estão no diretório do seu nome em "Alunos"
 3) Não bote arquivos como fotos, áudios e vídeos para não pesar o projeto para todos.
 Se quiser utilizar tais recursos, use arquivos disponibilizados em outro lugar utilizando links
-4) Divirta-se! Dentro da sua pasta pode brincar como quiser. Este é o conceito do Playground!
+4) Não envie nenhum tipo de dado pessoal dentro dos arquivos. Como fotos, nome completo, documentos etc
+5) Divirta-se! Dentro da sua pasta pode brincar como quiser. Este é o conceito do Playground!
 
 # Tecnologias
 
@@ -47,7 +48,7 @@ comandos para subir a aplicação na sua máquina local de forma fácil.
 Node instalado na máquina
 
 #### Comandos
-Dentro da pasta do projeto rode o comando no terminal:
+Dentro da pasta do projeto, rode o comando no terminal:
 
 ```npm run watch```
 
