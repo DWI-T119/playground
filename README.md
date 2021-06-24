@@ -7,7 +7,7 @@ O projeto será disponibilizado online utilizando a plataforma Heroku na seguint
 
 # Tópicos
 * [Regras para utilizar o repositório](#regras-para-alunos) 
-* [Tecnologias utilizadas](#tecnologias-utilizadas-nas-subpastas) 
+* [Tecnologias utilizadas](#tecnologias) 
 * [Como rodar na sua máquina e ver alterações](#como-rodar-na-sua-máquina-e-ver-alterações) 
 * [Como enviar alterações para o site online](#como-enviar-alterações) 
 
