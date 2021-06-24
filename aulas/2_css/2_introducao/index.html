@@ -36,11 +36,13 @@
         </ul>
 
         <!-- Exemplo Inline -->
-        <span style="background: rgb(185, 77, 77);">Inline</span>
-        <!-- Exemplo Tag Script -->
-        <span id="spanTag">Tag Style</span>
+        <!-- DRY -->
+        <!-- Refatorar -->
+        <span style="background: red;">Inline</span>
+        <!-- Exemplo Tag Style -->
+        <span class="minhaClasse">Tag Style</span>
         <style>
-            #spanTag {
+            .minhaClasse {
                 background: green;
             }
         </style>
@@ -189,7 +191,7 @@
         <h3>text</h3>
         <p>Utilizado para alterar propriedades do texto</p>
         <br>
-        <div class="exemplo-text text-box">
+        <div class="exemplo-text text-box qualquerOutra">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, provident.
         </div>
         <br>
@@ -197,25 +199,19 @@
             Outro Texto <span class="text-detalhe">detalhe</span>
         </div>
         <style>
-            /*
-                color
-                text-align
-             */
             .exemplo-text {
                 font-family: "Times New Roman", Times, serif;
                 /* font-family: Arial, Helvetica, sans-serif; */
                 /* font-family: "Lucida Console", "Courier New", monospace; */
-                font-size: 20px;
+                font-size: 15px;
                 color: tomato;
-                text-align: center;
-                /* center | left | right | justify*/
-                /* line-height: 23px; */
-                /* text-decoration: underline; */
+                /* text-align: center; */
+                /* line-height: 30px; */
+                /* text-decoration: line-through; */
                 /* text-transform: uppercase; */
                 /* letter-spacing: 3px; */
                 /* word-spacing: 10px; */
                 /* text-shadow: 2px 2px 2px black; */
-
             }
 
             .text-detalhe {
@@ -243,6 +239,29 @@
         </style>
     </div>
 
+    <!-- box model -->
+    <div id="propriedade-box-model" class="propriedade">
+        <h3>CSS Box Model</h3>
+        <p>Utilizado para alterar o espaçamento de acochoamento de um elemento</p>
+
+        <div class="box">
+            Elemento
+        </div>
+
+        <style>
+            .box {
+                width: 100px;
+                height: 30px;
+                border: 15px solid tomato;
+                padding: 50px;
+                margin: 20px;
+
+                background-color: lightgrey;
+                text-align: center;
+            }
+        </style>
+    </div>
+
     <!-- border -->
     <div id="propriedade-border" class="propriedade">
         <h3>border</h3>
@@ -253,6 +272,9 @@
             border-style
             border-color */
             .exemplo-border {
+                /* border-width: 3px; */
+                /* border-color: red; */
+                /* border-style: solid; */
                 border: solid red 3px;
             }
         </style>
@@ -299,12 +321,11 @@
         <div class="quadrado exemplo-height-e-width"></div>
         <style>
             .exemplo-height-e-width {
-                height: 40px;
-                width: 180px;
+                height: 100px;
+                width: 100px;
             }
         </style>
     </div>
-
     <!-- box-shadow -->
     <div id="propriedade-box-shadow" class="propriedade">
         <h3>box-shadow</h3>
@@ -312,30 +333,7 @@
         <div class="quadrado exemplo-box-shadow"></div>
         <style>
             .exemplo-box-shadow {
-                box-shadow: 2px 2px 2px black;
-            }
-        </style>
-    </div>
-
-    <!-- height e width -->
-    <div id="propriedade-height-e-width" class="propriedade">
-        <h3>CSS Box Model</h3>
-        <p>Utilizado para alterar o espaçamento de acochoamento de um elemento</p>
-
-        <div class="box">
-            Elemento
-        </div>
-
-        <style>
-            .box {
-                width: 100px;
-                height: 30px;
-                border: 15px solid tomato;
-                padding: 50px;
-                margin: 20px;
-
-                background-color: lightgrey;
-                text-align: center;
+                box-shadow: 22px 27px 32px 13px #000000;
             }
         </style>
     </div>

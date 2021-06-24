@@ -11,28 +11,28 @@
 
 <body>
     <a href="../..">Voltar</a>
-
     <!-- display -->
     <h1>Display</h1>
     <div class="propriedade">
         <h3>block</h3>
         <div>
-            <span class="quadrado block">Item</span>
-            <span class="quadrado block">Item</span>
-            <span class="quadrado block">Item</span>
+            <span class="quadrado class-block">Item</span>
+            <span class="quadrado class-block">Item</span>
+            <span class="quadrado class-block">Item</span>
         </div>
         <h3>inline-block</h3>
         <div>
-            <div class="quadrado inline-block">Item</div>
-            <div class="quadrado inline-block">Item</div>
-            <div class="quadrado inline-block">Item</div>
+            <div class="quadrado class-inline-block">Item</div>
+            <div class="quadrado class-inline-block">Item</div>
+            <div class="quadrado class-inline-block">Item</div>
         </div>
         <style>
-            .inline-block {
-                display: inline-block;
+            /* block, inline, inline-block */
+            .class-inline-block {
+                display: inline;
             }
 
-            .block {
+            .class-block {
                 display: block;
             }
         </style>
@@ -41,14 +41,18 @@
     <h1>Position</h1>
     <div class="propriedade">
         <h3>static (Padrao)</h3>
+        <p>Posição original do documento</p>
         <div>
-            <div class="quadrado-01 quadradao">
-                <div id="item-q01" class="item">Item</div>
-                <div id="item-q01" class="item">Item</div>
-                <div id="item-q01" class="item">Item</div>
+            <div class="quadradao">
+                <div class="item item-q01">Item</div>
+                <div class="item item-q01">Item</div>
+                <div class="item item-q01">Item</div>
             </div>
         </div>
         <style>
+            #apenasUmIdentificador {
+                margin: 20px;
+            }
             .item-q01 {
                 position: static;
             }
@@ -57,8 +61,9 @@
 
     <div class="propriedade">
         <h3>relative </h3>
+        <p>Posição relativa ao posicionamento original</p>
         <div>
-            <div class="quadrado-01 quadradao">
+            <div class="quadradao">
                 <div id="item-q02" class="item">Item</div>
             </div>
         </div>
@@ -66,24 +71,29 @@
             #item-q02 {
                 position: relative;
                 left: 20px;
+                top: 50px;
             }
         </style>
     </div>
 
     <div class="propriedade">
         <h3>absolute </h3>
+        <p>Posicionamento relativo ao elemento pai que TEM psocionamento</p>
+        <p>Ou, se não tiver um pai com pos, vai ser relativo ao body</p>
         <div>
-            <div class="pai quadrado-01 quadradao">
-                <div id="item-q03" class="item">Item</div>
+            <div class="pai quadradao">
+                <div id="filho" class="item">Item</div>
             </div>
         </div>
         <style>
             .pai {
                 position: relative;
             }
-            #item-q03 {
+
+            #filho {
                 position: absolute;
-                left: 0px;
+                left: 10px;
+                top: 10px;
             }
         </style>
     </div>
@@ -130,6 +140,6 @@
     .text-box {
         padding: 10px;
         border: solid black 1px;
-        
+
     }
 </style>
