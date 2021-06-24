@@ -1,18 +1,184 @@
-<!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style.css">
     <title>CSS Grid</title>
 </head>
-<body>
-    <a href="../..">Voltar</a>
 
-    <h1>CSS Grid</h1>
+<body>
+    <div>
+        <a href="../../index.html">Voltar</a>
+    </div>
+
+    <div>
+        <div>
+            <h1>CSS Grid</h1>
+        </div>
+        <p>O CSS grid oferece um sistema de layout em grade com linhas e colunas. </p>
+        <p>Facilitará o desenho de layouts sem utilizar floats e position.</p>
+        <p class="topic">Dividir em duas categorias:</p>
+        <ul>
+            <li>Container (elemento pai)</li>
+            <li>Items (elementos filhos)</li>
+        </ul>
+    </div>
+
+    <div>
+        <button class="accordion">Propriedades Container</button>
+        <div class="panel">
+            <ol class="first-li-child-title">
+                <li>
+                    <p>grid-template-columns</p>
+                    <p>Indica quantas colunas terá o layout e o tamanho de cada coluna</p>
+                </li>
+                <li>
+                    <p>grid-template-rows</p>
+                    <p>Indica quantas linhas terá o layout e o tamanho de cada linha</p>
+                </li>
+                <li>
+                    <p>justify-content</p>
+                    <p>Alinha a grade inteira dentro do container</p>
+                </li>
+                <li>
+                    <p>align-content</p>
+                    <p></p>
+                </li>
+                <li>
+                    <p>grid-template-areas</p>
+                    <p></p>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div>
+        <button class="accordion">Propriedades Items</button>
+        <div class="panel">
+            <p><strong></strong></p>
+            <ol class="first-li-child-title">
+                <li>
+                    <p>grid-column (start, end)</p>
+                    <p>Indica em qual coluna o item começa e em qual coluna ele terminará</p>
+                </li>
+                <li>
+                    <p>grid-row (start, end)</p>
+                    <p>Indica em qual linha o item começa e em qual coluna o item terminará</p>
+                </li>
+                <li>
+                    <p>grid-area</p>
+                    <p>Atalho para grid-row e grid-column</p>
+                </li>
+                <li>
+                    <p>grid-area</p>
+                    <p>Nomeia o item para ser utilizado no grid-template-areas do container</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Exemplo 01 -->
+    <div>
+        <hr>
+        <div>
+            <h4>Exemplo 01:</h4>
+            <p>Verde: Container | Bege: Items do Container</p>
+        </div>
+
+        <div class="grid-container-e01">
+            <div><span>Item 1</span></div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+        </div>
+        <style>
+            .grid-container-e01 {
+                margin-left: 10px;
+                background: darkolivegreen;
+                padding: 5px;
+                border-right: solid 12px gray;
+                width: 50%;
+                width: 200px;
+                height: 200px;
+
+                /* Daqui pra baixo é o que importa! */
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+
+                display: grid;
+
+                gap: 5px;
+            }
+
+            .grid-container-e01>div {
+                background: wheat;
+                /* display: flex; */
+                /* align-items: center; */
+                /* justify-content: center; */
+                /* height: 40px; */
+                /* width: 40px; */
+            }
+        </style>
+    </div>
+
+    <!-- Exemplo 02 -->
+    <div>
+        <hr>
+        <div>
+            <h4>Exemplo 02:</h4>
+            <p>Verde: Container | Bege: Items do Container</p>
+        </div>
+
+        <div class="grid-container-e02">
+            <div id="header">Header</div>
+            <div id="section">Section</div>
+            <div id="footer">Footer</div>
+        </div>
+        <style>
+            .grid-container-e02 {
+                margin-left: 10px;
+                background: darkolivegreen;
+                padding: 5px;
+                border-right: solid 12px gray;
+                width: 50%;
+                width: 200px;
+                height: 200px;
+
+                /* Daqui pra baixo é o que importa! */
+                display: grid;
+
+                grid-template-rows: 0.5fr 1fr 0.5fr;
+                grid-template-columns: 1fr;
+
+                grid-template-areas:
+                    "header header"
+                    "section section"
+                    "footer footer";
+
+                gap: 5px;
+            }
+
+            #header {
+                background: gray;
+                grid-area: header;
+            }
+
+            #section {
+                background: tomato;
+                grid-area: section;
+            }
+
+            #footer {
+                background: chocolate;
+                grid-area: footer;
+            }
+        </style>
+    </div>
 </body>
+
 </html>
 
-<style>
-</style>
+<script src="../../../scripts.js"></script>
