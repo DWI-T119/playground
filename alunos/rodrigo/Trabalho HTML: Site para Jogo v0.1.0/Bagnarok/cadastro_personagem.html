@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Bagnarok Online</title>
+        <link rel="stylesheet" href="./estilo.css" />
+        <link rel="icon" type="image/png" href="https://playragnarokonlinebr.com/favicon/favicon-32x32.png" sizes="32x32">
+    </head>
+
+    <body>
+        <h2>Bagnarok Online</h2>
+
+        <img src="https://playragnarokonlinebr.com/img/home/classes-overall.png">
+
+        <h2>Menu do site</h2>
+
+        <ul>
+            <li><a href="./pagina_principal.html">Página Inicial</a></li>
+            <li><a href="./cadastro_personagem.html">Cadastro de Personagem</a></li>
+        </ul>
+
+        <h2>Vocações (Tipos de personagens)</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Knight</td>
+                    <td>
+                        <p>Um cavaleiro destemido!</p>
+                        <p>Pode proteger seus aliados ou inflingir dano aos seus oponentes à uma curta distância.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paladin</td>
+                    <td>
+                        <p>Um guerreira sagrado!</p>
+                        <p>Pode proteger seus aliados em troca de seus próprios pontos de vida, curá-los ou inflingir dano sagrado aos seus oponentes.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sorcerer</td>
+                    <td>
+                        <p>Um feiticeiro elemental poderoso!</p>
+                        <p>Pode lançar magias poderosas para inflingir um dano muito alto aos seus inimigos, porém não consegue se defender muito bem.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Druid</td>
+                    <td>
+                        <p>Um feiticeiro da natureza!</p>
+                        <p>Pode lançar magias da natureza e ajudar seus aliados com curas e magias que aumentam seus poderes.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr/>
+
+        <h2>Formulário para Cadastro de Personagem</h2>
+
+        <form action="http://api-dwi.herokuapp.com/api/examples" method="POST">
+            <div class="form form1">
+                <div>
+                    <div class="margin-bottom-10">
+                        <label class="titulo">Nick:</label>
+                    </div>
+                    <input type="text" id="nick" value="Seu nick ingame"/>
+                </div>
+    
+                <div>
+                    <div class="margin-bottom-10">
+                        <label class="titulo">Idade:</label>
+                    </div>
+                    <input type="text" id="idade" value="Sua idade ingame"/>
+                </div>
+    
+                <div>
+                    <div class="margin-bottom-10">
+                        <label class="titulo">Vocação:</label>
+                    </div>
+                    <select id="vocação">
+                        <option selected>Selecione</option>
+                        <option value="knight">Kinight</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="sorcerer">Sorcerer</option>
+                        <option value="druid">Druid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form">
+                <span>
+                    <label class="titulo" for="escolhas">Escolhas extras:</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="tutorial" name="escolhas" value="hasTutorial" />
+                    <label for="tutorial" >Fazer tutorial</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="betas"  name="escolhas" value="hasParticiparBetas" />
+                    <label for="betas" >Participar de Betas</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="premium"  name="escolhas" value="hasPremium" />
+                    <label for="premium">Comprar Premmium</label>
+                </span>
+            </div>
+            
+
+            <div class="form">
+                <span>
+                    <label class="titulo" for="localizacao">Localização de Servidor:</label>
+                </span>
+                <span>
+                    <input type="radio" id="brasil" name="localizacao" value="Brasil" checked>
+                    <label for="brasil">Brasil</label>
+                </span>
+                <span>
+                    <input type="radio" id="us" name="localizacao" value="Estados Unidos">
+                    <label for="css">Estados Unidos</label>
+                </span>
+                <span>
+                    <input type="radio" id="europa" name="localizacao" value="Europa">
+                    <label for="javascript">Europa</label>
+                </span>
+            </div>
+            
+            <div class="form">
+                <div class="margin-bottom-10">
+                    <label class="titulo" for="historia">História personagem:</label>
+                </div>
+                <span>
+                    <textarea id="historia" rows="4" cols="50"></textarea>
+                </span>
+            </div>
+
+            <div class="form">
+                <input class="btn-cadastrar" type="button" value="Cadastrar">
+            </div>
+        </form>
+
+    </body>
+</html>

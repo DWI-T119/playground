@@ -1,0 +1,91 @@
+body {
+    font-family: arial, serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #009BED;
+    font-weight: bold;
+    display: inline-block; 
+    width: 0.5em;
+    margin-left: -1em;
+    font-size:16pt;
+}
+
+li > a {
+    color: #009BED;
+}
+
+img {
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px 20px;
+    height: 85px;
+}
+
+tr td:first-child {
+    padding: 10px 120px;
+}
+
+label.titulo {
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 25px;
+    width: 95%;
+}
+
+tr:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #9E9E9E;
+    color: white;
+}
+
+div.form1 > div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+form > div {
+    padding: 10px 0px;
+}
+
+.form > span {
+    margin-right: 20px;
+}
+
+.btn-cadastrar {
+    padding: 10px 20px;
+}
+
+input[type=text], input[type=number], select {
+    width: 200px;
+    height: 25px;
+    padding: 1px 2px;
+}
+
+select {
+    height: 30px;
+}
