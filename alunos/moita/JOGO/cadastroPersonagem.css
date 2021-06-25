@@ -8,7 +8,7 @@ body {
 .titleLink {
     text-decoration: none;
     color: black;
-    font-size: 35px;
+    font-size: 41px;
     font-family: 'Grenze', serif;
     width: 100%;
     display: flex;
@@ -30,7 +30,7 @@ body {
 }
 
 .logoImg {
-    height: 50px;
+    height: 70px;
 }
 
 .personalization {
@@ -88,13 +88,139 @@ body {
     margin-right: 70px;
 }
 
-.servers {
+.serverSelection {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.chooseTeammate {
+.tabelaPersonagens {
+    display: flex;
+    justify-content: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: larger;
+}
+
+.firstLine {
+    height: 10px;
+    width: 300px;
+}
+
+.secondLine {
+    height: 100px;
+    width: 55px;
+}
+
+.thirdLine {
+    height: 100px;
+}
+
+.fourthLine {
+    height: 100px;
+}
+
+.midLineTable {
+    padding-left: 18px;
+}
+
+.lazaroMidLineTable {
+    padding-left: 9px;
+}
+
+.nameCenterTable {
+    padding-left: 18px;
+}
+
+.charactersHeader {
+    display: flex;
+    justify-content: center;
+    font-family: 'Grenze', serif;
+    font-size: 70px;
+}
+
+.charactersImgs {
+    margin-bottom: 580px;
+}
+
+.johnwickHeader {
+    width: 175px;
+    left: 124px;
+    display: flex;
+    position: absolute;
+    padding-bottom: 55px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+}
+
+.johnwickImg {
+    position: absolute;
+    height: 350px;
+    margin-right: 105px;
+    left: 97px;
+}
+
+.johnwickImg:hover {
+    height: 550px;
+}
+
+.aladinHeader {
+    display: flex;
+    position: absolute;
+    right: 700px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+}
+
+.aladinImg {
+    position: absolute;
+    height: 350px;
+    padding-left: 260px;
+}
+
+.aladinImg:hover {
+    height: 450px;
+}
+
+.lazaroHeader {
+    display: flex;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    left: 1060px;
+}
+
+.lazaroImg {
+    position: absolute;
+    height: 350px;
+    right: 120px;
+}
+
+.lazaroImg:hover {
+    height: 450px;
+}
+
+.buttonSelectCharacter {
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.johnwickButton {
+    position: absolute;
+    width: 25px;
+    bottom: 59px;
+    right: 45px;
+}
+
+.aladinButton {
+    width: 25px;
+    position: absolute;
+    bottom: 4px;
+    left: 58px;
+}
+
+.lazaroButton {
+    width: 25px;
+    position: absolute;
+    bottom: 4px;
+    left: 62px;
 }
 
 .feedback {
@@ -106,7 +232,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.button {
+.buttonSendForm {
     display: flex;
     place-content: center;
 }

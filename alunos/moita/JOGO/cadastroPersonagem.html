@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inevitable evolution </title>
+    <title>LAST MAN STANDING</title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
 
             <div class="grenadeContainer">
                 <img class="grenadeImg" src="./assets/granada.jpeg" alt="granada frag">
-                <img class="m4A1Img" src="./assets/a.jpeg " alt="M4A1">
+                <img class="m4A1Img" src="./assets/m4a1.jpeg " alt="M4A1">
 
             </div>
 
@@ -90,32 +90,86 @@
 
         <br>
 
-        <h3></h3>
-        <div class="chooseTeammate">
-            Escolha quem irá te defender:
-            <select>
-                <option value="John Wick">John Wick</option>
-                <option value="Aladin">Aladin</option>
-                <option value="Lázaro">Lázaro</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <div class="servers">
-                Em qual servidor você deseja jogar?
-                <br>
-                <br>
-                <label for="BRASIL">BRASIL</label>
-                <input type="radio" id="br" name="servers" value="BRASIL">
-                <label for="USA">ESTADOS UNIDOS</label>
-                <input type="radio" id="USA" name="servers" value="USA">
-                <label for="EU">EUROPA</label>
-                <input type="radio" id="EU" name="servers" value="EU">
+        <div class="tabelaPersonagens">
+            <table border="9">
+                <tr class="firstLine">
+                    <td>NOME</td>
+                    <td>PODERZINHO</td>
+                    <td>PASSIVA</td>
+                </tr>
+                <tr class="secondLine">
+                    <td>JOHN WICK</td>
+                    <td class="midLineTable">SÓ ONE TAP HS NA PISTOLINHA SILENCIADA</td>
+                    <td>TE BUSCA NUM MUSTANG PRETÃO FURIOSO</td>
+                </tr>
+                <tr class="thirdLine">
+                    <td>
+                        <p class="nameCenterTable">ALADIN</p>
+                    </td>
+                    <td class="midLineTable">REALIZA APENAS UM DESEJO SEU</td>
+                    <td>QUEBRA TOTALMENTE O SENTIDO DO JOGO</td>
+                </tr>
+                <tr class="fourthLine">
+                    <td>
+                        <p class="nameCenterTable">LÁZARO </p>
+                    </td>
+                    <td class="lazaroMidLineTable">SERIAL KILLER BRASILEIRO PISTOLA COM LOCKDOWN</td>
+                    <td>PACTO COM CAPETA HIGHLANDER IMORTAL BR</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <h3 class="charactersHeader">ESCOLHA QUEM IRÁ TE DEFENDER:</h3>
 
+        <div class="johnwickHeader">
+            <label for="John Wick">John Wick</label>
+            <input id="John Wick" class="johnwickButton" type="radio" name="selectCharacter">
+        </div>
+        <div class="aladinHeader">
+            <label for="Aladin">Aladin</label>
+            <input id="Aladin" class="aladinButton" type="radio" name="selectCharacter">
+        </div>
+        <div class="lazaroHeader">
+            <label for="Lazaro">Lázaro</label>
+            <input id="Lazaro" class="lazaroButton" type="radio" name="selectCharacter">
+        </div>
+
+        <br>
+        <div class="charactersImgs">
+
+            <br>
+            <br>
+            <div>
+                <img class="johnwickImg" src="./assets/john wick png.png" alt="john wick">
             </div>
-            <div style="width: 75%;">
-                <hr style="color: black;">
+
+            <div>
+                <img class="aladinImg" src="./assets/aladin png.png" alt="aladin">
             </div>
+
+            <div>
+                <img class="lazaroImg" src="assets/lazaro png.png" alt="lazaro">
+            </div>
+
+        </div>
+
+
+        <div class="serverSelection">
+            Em qual servidor você deseja jogar?
+            <br>
+            <br>
+            <label for="BRASIL">BRASIL</label>
+            <input type="radio" id="BRASIL" name="servers" value="BRASIL">
+            <label for="USA">ESTADOS UNIDOS</label>
+            <input type="radio" id="USA" name="servers" value="USA">
+            <label for="EU">EUROPA</label>
+            <input type="radio" id="EU" name="servers" value="EU">
+
+        </div>
+        <div style="width: 75%;">
+            <hr style="color: black;">
+        </div>
         </div>
 
         <h3 class="formSubtitle">FEEDBACK:</h3>
@@ -130,13 +184,6 @@
 
             <br>
             <br>
-            <br>
-            <div class="button">
-                <button type="submit">Concluir</button>
-            </div>
-            <br>
-            <br>
-
             <h3 class="formSubtitle">NOS DIGA SE:</h3>
             <div class="checkboxes">
 
@@ -146,13 +193,19 @@
                 <br> Concorda em ser nosso beta tester?
                 <input type="checkbox">
                 <br>
-                <br> Para apoiar o desenvolvimento deste jogo, que tal um conta premium por 5,99/mes?
+                <br> Para apoiar o desenvolvimento deste jogo, que tal um conta premium por R$5,99/mês?
                 <input type="checkbox">
 
             </div>
-
+            <br>
+            <br>
+            <div class="buttonSendForm">
+                <button type="submit">Concluir</button>
+            </div>
+            <br>
+            <br>
             <div class="credits">
-                <p>Lucas Moita, 21/7/2021</p>
+                <p>Lucas Moita, 21/07/2021</p>
             </div>
 
     </form>
