@@ -16,6 +16,8 @@
 
     <div>
         <h1>FlexBox</h1>
+        <p>Usado para posicionar elementos dentro de um layout</p>
+        <p>Pode ser escolhido trabalhar com linhas OU colunas</p>
     </div>
     <p class="topic">Dividir em duas categorias:</p>
     <ul>
@@ -112,26 +114,22 @@
             <div>Item 8</div>
         </div>
         <style>
-            * {
-                background: linear-gradient(90deg,
-                        red 10%,
-                        );
-            }
 
             .flex-container-e00 {
                 margin-left: 10px;
                 background: darkolivegreen;
                 padding: 2px;
                 text-align: center;
-                width: 50%;
+                /* width: 50%; */
                 border-right: solid 12px gray;
 
-                flex-wrap: wrap;
+                /* Daqui pra baixo é o que importa */
                 display: flex;
+                flex-wrap: wrap;
                 gap: 2px;
             }
 
-            .flex-container-e00>div {
+            .flex-container-e00 > div {
                 background: wheat;
                 height: 40px;
                 width: 40px;
@@ -157,6 +155,7 @@
             <div>Item 6</div>
             <div>Item 7</div>
         </div>
+
         <style>
             /*
                 Propriedades:
@@ -201,24 +200,23 @@
                 gap: 2px;
 
                 /* Alinhamento de items (Main Axis)*/
-                justify-content: flex-start;
-                /* justify-content: center; */
+                /* justify-content: flex-start; */
+                justify-content: center;
                 /* justify-content: flex-end; */
                 /* justify-content: space-between; */
                 /* justify-content: space-around; */
 
-                /* Alinhamento de items (Cross Axis)*/
-                align-items: flex-start;
-                /* align-items: center; */
-                /* align-items: flex-end; */
-
                 /* Alinhamento de linhas (items em multilinhas)  */
-                /* align-content: stretch; */
-                align-content: flex-start;
-                /* align-content: center; */
+                /* align-content: flex-start; */
+                align-content: center;
                 /* align-content: flex-end; */
                 /* align-content: space-between; */
                 /* align-content: space-around; */
+
+                /* Alinhamento de items (Cross Axis)*/
+                /* align-items: flex-start; */
+                /* align-items: center; */
+                /* align-items: flex-end; */
             }
 
             .flex-container-e01>div {
@@ -258,7 +256,7 @@
                 gap: 2px;
                 /* justify-content: flex-start; */
                 /* align-items: flex-start; */
-                align-content: flex-start;
+                /* align-content: flex-start; */
             }
 
             /* Classe para todos os Items */
@@ -288,9 +286,9 @@
                 /* Quanto encolherá em relação aos outros, padrão 1 */
                 flex-shrink: 1;
                 /* Indica o tamanho inicial do item*/
-                flex-basis: 50px;
+                flex-basis: 20px;
                 /* Atalho para grow, shrink e basis*/
-                flex: 0 1 50px;
+                /* flex: 0 1 50px; */
                 /* Indica o alinhamento do item, sobrepondo o align items do container*/
                 align-self: flex-start;
                 /* Ordenar items, padrão 0. Não muda o HTML! */
