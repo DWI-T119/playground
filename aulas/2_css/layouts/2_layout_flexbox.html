@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="site">
+        <header>
+            <img src="" alt="">
+            <nav>
+                <a href="">Página Principal</a>
+                <a href="">Contate-nos</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h1>Meu Título</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                        corrupti,
+                        reiciendis cupiditate rerum facere officia earum quidem.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                        corrupti,
+                        reiciendis cupiditate rerum facere officia earum quidem.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                        corrupti,
+                        reiciendis cupiditate rerum facere officia earum quidem.</p>
+                </div>
+                <a class="btn">Saber mais</a>
+            </section>
+            <section>
+                <h1>Meu Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                    corrupti,
+                    reiciendis cupiditate rerum facere officia earum quidem.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                    corrupti,
+                    reiciendis cupiditate rerum facere officia earum quidem.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum perferendis distinctio facilis
+                    corrupti,
+                    reiciendis cupiditate rerum facere officia earum quidem.</p>
+                <a class="btn">Saber mais</a>
+            </section>
+        </main>
+        <footer>
+            <div>Porto Alegre - RS, Brazil</div>
+            <div>Sabino - 2021 ®</div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<!-- CSS - Estilo -->
+<style>
+    /* =================
+        UNIVERSAL
+    =================*/
+    * {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 22px;
+    }
+
+    html,
+    body {
+        height: 100vh;
+        margin: 0px;
+    }
+
+    /* =================
+        TIPOGRAFIA
+    =================*/
+    h1,
+    h2,
+    h3 {
+        max-width: 60ch;
+        margin: 20px 0 30px 0;
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        max-width: 60ch;
+        line-height: 30px;
+    }
+
+    /* =================
+        LAYOUT
+    =================*/
+    #site {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    #site>* {
+        padding: 35px;
+    }
+
+    header {
+        display: flex;
+        background: rgb(48, 48, 48);
+        color: rgb(255, 255, 255);
+        align-items: center;
+    }
+
+    section {
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background: rgb(48, 48, 48);
+        color: white;
+    }
+
+    /* =================
+        COMPONENTES
+    =================*/
+
+    #imagem-cabecalho {
+        width: 3em;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: lightgray;
+    }
+
+    .btn {
+        align-self: center;
+        border-radius: 20px;
+        padding: 6px 15px 10px 15px;
+        background: #303030;
+        color: rgb(214, 211, 211);
+        font-weight: 700;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: rgb(214, 211, 211);
+        color: black;
+        position: relative;
+        top: -5px;
+        border: solid #303030 1px;
+        box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.30);
+    }
+</style>
+
+<!-- Javascript - Eventos e ações -->
+<script>
+
+</script>
