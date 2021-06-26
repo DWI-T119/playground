@@ -1,3 +1,21 @@
 div {
     text-align: center;
 }
+#formulario{
+    color: #d9ae42;
+    border-bottom: 6px solid #d9ae42;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.1em 0.1em 0.05em black;
+    font-size:xx-large;
+}
+p{
+    color: #d9ae42;
+    text-shadow: 0.1em 0.1em 0.05em black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
+    text-align:right;
+}
+ul{
+    font-size: x-large;
+    text-align: center;
+}
