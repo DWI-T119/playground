@@ -48,12 +48,18 @@ comandos para subir a aplicação na sua máquina local de forma fácil.
 Node instalado na máquina
 
 #### Comandos
-Dentro da pasta do projeto, rode o comando no terminal:
+Dentro da pasta do projeto, rode os comandos no terminal:
 
+Instalar dependências (apenas na primeira vez):
+```npm install```
+
+Subir servidor com browser-sync:
 ```npm run watch```
 
 Este comando subirá um servidor local e assistirá as alterações
-em tempo real com a dependência browser-sync
+em tempo real com a dependência browser-sync.
+
+Entre no link que aparecerá no seu terminal e você verá o projeto localmente em sua máquina.
 
 # Como enviar alterações
 

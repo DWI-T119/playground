@@ -92,7 +92,6 @@
             <div><span>Item 1</span></div>
             <div>Item 2</div>
             <div>Item 3</div>
-            <div>Item 4</div>
         </div>
         <style>
             .grid-container-e01 {
@@ -105,12 +104,12 @@
                 height: 200px;
 
                 /* Daqui pra baixo é o que importa! */
-                grid-template-rows: 1fr 1fr;
-                grid-template-columns: 1fr 1fr;
-
                 display: grid;
 
-                gap: 5px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.3fr 1fr 0.1fr;
+
+                gap: 3px;
             }
 
             .grid-container-e01>div {
@@ -142,7 +141,7 @@
                 margin-left: 10px;
                 background: darkolivegreen;
                 padding: 5px;
-                border-right: solid 12px gray;
+                /* border-right: solid 12px gray; */
                 width: 50%;
                 width: 200px;
                 height: 200px;
@@ -151,7 +150,7 @@
                 display: grid;
 
                 grid-template-rows: 0.5fr 1fr 0.5fr;
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr 1fr;
 
                 grid-template-areas:
                     "header header"

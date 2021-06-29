@@ -9,58 +9,56 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="cabecalho">
-            Cabeçalho
-        </div>
-        <div class="conteudo">
-            Conteúdo
-            Conteúdo
-            Conteúdo
-            Conteúdo
-            Conteúdo
-        </div>
-        <div class="rodape">
-            Rodapé
-        </div>
-    </div>
+    <header>Header</header>
+    <article>Article</article>
+    <footer>Footer</footer>
 </body>
 
 </html>
 
 <style>
     /* Resetar valores padrões das tags html e body */
-    html, body {
+    html,
+    body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
         border: 0;
     }
+
     /* Aplicando para a classe container */
     .container {
-        margin: auto; /* Centralizar */
-        height: 500px; /* Altura de 500 pixels */
-        width: 500px; /* Largura de 500 pixels */
+        margin: auto;
+        /* Centralizar */
+        height: 100%;
+        /* Altura de 500 pixels */
+        width: 60%;
+        /* Largura de 500 pixels */
     }
 
-    .cabecalho {
-        border: solid blue 2px; /* Borda solida azul com grossura de 2 pixels*/
-        height: 20%; /* Altura com porcentagem da div pai (no caso, a container que tem 500 pixels) */
-        width: 100%; /* Largura com porcentagem da div pai (no caso, a container que tem 500 pixels) */
+    header {
+        border: solid blue 2px;
+        /* Borda solida azul com grossura de 2 pixels*/
+        height: 20%;
+        /* Altura com porcentagem da div pai (no caso, a container que tem 500 pixels) */
+        width: 100%;
+        /* Largura com porcentagem da div pai (no caso, a container que tem 500 pixels) */
     }
 
-    .conteudo {
-        margin-top: 2px; /* Adiciona uma margem de 2 pixels do elemento acima */
-        margin-bottom: 2px; /* Adiciona uma margem de 2 pixels do elemento abaixo */
+    article {
+        margin-top: 2px;
+        /* Adiciona uma margem de 2 pixels do elemento acima */
+        margin-bottom: 2px;
+        /* Adiciona uma margem de 2 pixels do elemento abaixo */
         border: solid black 2px;
         height: 60%;
         width: 100%;
     }
 
-    .rodape {
+    footer {
         border: solid green 2px;
         height: 20%;
-        width: 100%;
+        /* width: 100%; */
     }
 </style>
