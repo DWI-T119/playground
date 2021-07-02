@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style_aulas.css">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <a href="../../index.html">Voltar</a>
+        </div>
+        <div>
+            <h1>JAVASCRIPT</h1>
+            <h5>Client-Side</h5>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#introducao">Introdução</a>
+                </li>
+                <li>
+                    <a href="#exemplos_dom">Exemplos DOM</a>
+                </li>
+                <li>
+                    <a href="#exemplos_fluxo">Exemplos de Fluxo</a>
+                </li>
+                <li>
+                    <a href="#exemplos_arrays">Exemplos de Arrays</a>
+                </li>
+                <li>
+                    <a href="#exemplos_objetos">Exemplos de Objetos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="introducao">
+
+            <h2>#Introdução</h2>
+
+            <article>
+                <h1>O que é:</h1>
+                <ul>
+                    <li id="meuLi">Linguagem de programação</li>
+                    <li>Client-Side (!)</li>
+                    <li>Nativo nos navegadores</li>
+                    <li>Não é Java</li>
+                    <li>Também Server-Side, com o NodeJS</li>
+                    <li>Linguagem de programação dinâmica (tipagem fraca)</li>
+                    <li>Criado por Brendan Eich em 1995</li>
+                </ul>
+                <p>Linguagem de programação, como qualquer outra. Porém foi criada para a Web e roda nativamente nos
+                    navegadores.</p>
+            </article>
+            <article>
+                <h1>O que faz:</h1>
+                Document Object Model
+                <p>DOM: API para Javascript</p>
+                <ul>
+                    <li>Adicionas, alterar e remover completamente elementos HTML</li>
+                    <li>Adicionas, alterar e remover completamente atributos HTML</li>
+                    <li>Reagir a elementos HTML</li>
+                    <li>Adicionas, alterar e remover completamente eventos HTML</li>
+                    <li>Validação de dados, tratamentos dinâmicos de elementos HTML
+                        (esconder/mostrar campos, por exemplo), cálculos, lógicas de decisão, entre
+                        muitos outros não são possíveis apenas com o uso de HTML</li>
+                </ul>
+                <p>Nos permite: buscar valores que o usuário fez input, responder a eventos em controles HTML, alterar
+                    estilos (CSS)
+                    dinamicamente de elementos</p>
+                <p>Logo, se podemos obter os valores que usuário digita em um input, por exemplo, podemos criar lógicas
+                    de negócio
+                    (através de variáveis, funções, etc…) e criar de fato, sistemas web!</p>
+                <p>Navegadores nos dão acesso ao DOM através de uma variável global, existente em TODOS os navegadores,
+                    chamada document</p>
+            </article>
+            <article>
+                <h1>Como faz:</h1>
+                <p>DOM: Document Object Model para HTML</p>
+                <ul>
+                    <li>Elementos HTML em forma de Objetos</li>
+                    <li>Disponibiliza atributos de todos os elementos HTML</li>
+                    <li>Disponibiliza métodos de todos os elementos HTML</li>
+                    <li>Disponibiliza eventos de todos os elementos HTML</li>
+                </ul>
+            </article>
+            <article>
+                <h1>Como inserir no documento HTML:</h1>
+                <ul>
+                    <li>Internamente com a tag Script</li>
+                    <li>Externamente com um arquivo de extensão .js</li>
+                </ul>
+
+                <button id="incluirTag">Interno (Tag)</button>
+                <script>
+                    // Pegando botao do HTML
+                    let meuBotaoTag = document.getElementById("incluirTag")
+
+                    // Adicionando um evento ao Botão
+                    meuBotaoTag.addEventListener("click", dispararAlert)
+
+                    // Função efetuando algo
+                    function dispararAlert() {
+                        alert("Olá javascript interno!")
+                    }
+                </script>
+
+                <button id="incluirExterno">Externo (Arquivo)</button>
+                <!-- Importando Javascript Externo -->
+                <script src="./exemploExterno.js"></script>
+            </article>
+        </section>
+        <section id="tipos_dados">
+            <h2>#Dados e variáveis</h2>
+            <article>
+                <p>Em javascript, temos os seguintes tipos de dados nativos:</p>
+                <ul>
+                    <li>number: Dados numéricos, com ou sem casas decimais</li>
+                    <li>string: Conjuntos de caracteres (texto)</li>
+                    <li>boolean: Dados booleanos (true / false)</li>
+                    <li>object</li>
+                </ul>
+                <script>
+                    let variavelNumber = 10
+                    let variavelString = "text"
+                    let variabelBoolean = true
+                </script>
+                <p>Em javascript temos alguns tipos de valor especiais como:</p>
+                <ul>
+                    <li>null: Nulo (ausência de valor)</li>
+                    <li>undefined: Não definido</li>
+                    <li>NaN: Not a number</li>
+                </ul>
+                <script>
+                    let variavelNull = null
+                    let variavelUndefined = undefined
+                    let variavelNaN = "teste"
+                </script>
+                <p>Podemos declarar variáveis globais através da palavra chave <strong>var</strong></p>
+                <p>Podemos declarar variáveis com escopo definido através da palavra chave <strong>let</strong></p>
+                <p>Podemos declarar constantes (não podem ter seu valor alterado) através da
+                    palavra chave <strong>const</strong></p>
+                <script>
+                    const valorConstante = 12
+                    let variavelLet = 11
+                    var variavelVar = 10
+                    // console.log(variavelVar)
+                    // console.log(variavelLet)
+                    // console.log(valorConstante)
+                </script>
+            </article>
+
+        </section>
+
+        <section id="exemplos_dom">
+            <hr>
+            <h2>#Exemplos Básicos</h2>
+            <article id="exemplo_01">
+                <h1>Me click para enviar um alert!</h1>
+                <button id="btn_exemplo_01">Exemplo 01</button>
+                <script>
+                    window.addEventListener("load", function () {
+                        let elementoBotao = document.getElementById("btn_exemplo_01")
+
+                        elementoBotao.addEventListener("click", function () {
+                            alert("Olá!")
+                        })
+                    })
+                </script>
+            </article>
+            <article id="exemplo_02">
+                <h1>Exemplo 02</h1>
+                <input value="Valor padrão" type="text" id="input_exemplo_02">
+                <button onclick="funcaoExemplo02()" id="btn_exemplo_02">Alterar texto</button>
+                <div>
+                    <p id="texto_exemplo_02">Insira um texto...</p>
+                </div>
+                <script>
+                    function funcaoExemplo02() {
+                        let elementoInput = document.getElementById("input_exemplo_02")
+                        let value = elementoInput.value
+                        let texto = document.getElementById("texto_exemplo_02")
+                        // texto.innerHTML = "VALOR_ANTES " + value + " VALOR_DEPOIS"
+                        // texto.innerHTML = `VALOR_ANTES ${value} VALOR_DEPOIS`
+                        texto.innerHTML = `<table border="2">
+                            <tr>
+                                <th>Pokedex</th>
+                            </tr>
+                            <tr>
+                                <td>${value}</td>
+                            </tr>
+                            </table>`
+                    }
+                </script>
+            </article>
+            <article id="exemplo_03">
+                <h1>Exemplo 03</h1>
+                <div>
+                    Nome:
+                    <input type="text" id="input_exemplo_03_01">
+                </div>
+                <div>
+                    Sobrenome:
+                    <input type="text" id="input_exemplo_03_02">
+                </div>
+                <button onclick="funcaoExemplo03()" id="btn_exemplo_03">Enviar nomes</button>
+                <div>
+                    <p id="texto_exemplo_03">Nome Completo...</p>
+                </div>
+                <script>
+                    function funcaoExemplo03() {
+                        // Pega do HTML o input 01 INTEIRO e guarda em uma variavel
+                        let elementoInput01 = document.getElementById("input_exemplo_03_01")
+                        // Pega o valor do input 01
+                        let value01 = elementoInput01.value
+
+                        // Pega do HTML o input 02 INTEIRO e guarda em uma variavel
+                        let elementoInput02 = document.getElementById("input_exemplo_03_02")
+                        // Pega o valor do input 02
+                        let value02 = elementoInput02.value
+
+                        // Pega do HTML a tag <p> INTEIRA e guarda em uma variavel
+                        let elementoP = document.getElementById("texto_exemplo_03")
+                        elementoP.innerHTML = value01 + " " + value02
+                        // elementoP.innerHTML = `${value01} ${value02}`
+                    }
+                </script>
+            </article>
+            <article id="exemplo_04">
+                <h1>Exemplo 04</h1>
+                <div>
+                    Escolha uma cor:
+                    <input type="color" id="input_exemplo_04" value="#00ffff">
+                </div>
+                <button onclick="funcaoExemplo04()" id="btn_exemplo_04">Altere a cor</button>
+                <div id="minha_tag_ex_04">
+                    <p>Tem uma cor aqui!</p>
+                </div>
+                <script>
+                    function funcaoExemplo04() {
+                        let colorInput = document.getElementById("input_exemplo_04")
+                        let colorValue = colorInput.value
+
+                        let div = document.getElementById("minha_tag_ex_04")
+                        div.style.backgroundColor = colorValue
+                    }
+                </script>
+            </article>
+        </section>
+
+        <section id="exemplos_fluxo">
+            <hr>
+            <h2>#Exemplos Fluxo de Código</h2>
+            <article>
+                <h1>Exemplo</h1>
+                <p>If</p>
+                <script>
+                </script>
+            </article>
+            <article>
+                <h1>Exemplo</h1>
+                <p>If else</p>
+            </article>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Switch</p>
+            </article>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Loop - For</p>
+                <script>
+                </script>
+            </article>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Loop - For in</p>
+            </article>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Loop - While</p>
+            </article>
+        </section>
+
+        <section id="exemplos_arrays">
+            <hr>
+            <h2>#Exemplos Arrays</h2>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Array</p>
+            </article>
+        </section>
+
+        <section id="exemplos_objetos">
+            <hr>
+            <h2>#Exemplos Objetos</h2>
+            <article>
+                <h1>Exemplo</h1>
+                <p>Objetos</p>
+            </article>
+        </section>
+
+        <section>
+            <hr>
+            <p>Observação: Façam os exercícios em suas pastas internas</p>
+            <article>
+                <h1>Exercício 1</h1>
+                <p>Crie uma página que contenha:</p>
+                <ul>
+                    <li>3 Inputs</li>
+                    <li>1 Botão</li>
+                    <li>1 Div vazia para guardar um resultado</li>
+                </ul>
+                <p>Faça uma função Javascript que some os 3 valores dos inputs, ao clicar no botão, e mostre o resultado
+                    na Div vazia.</p>
+            </article>
+        </section>
+
+        <section>
+            <hr>
+            <article>
+                <h1>Exercícios de casa:</h1>
+                <p>Utilizando inputs e botões, realize os desafios abaixo:</p>
+                <ol>
+                    <li>Crie uma função chamada imprimePares, que não recebe nenhum parâmetro, e que
+                        imprime todos números pares entre 1 e 100;</li>
+                    <li>Crie uma função chamada calculaMedia, que recebe um array de números por
+                        parâmetro, e que imprime a média aritmética dos números contidos no array;</li>
+                    <li>Crie uma função chamada menorNumero, que recebe um array de números por
+                        parâmetro, e que imprime apenas o menor dos números contidos no array;</li>
+                    <li>Crie uma função chamada maiorNumero, que recebe um array de números por
+                        parâmetro, e que imprime apenas o maior dos números contidos no array;</li>
+                    <li>Crie uma função chamada inverteArray, que recebe um array de qualquer tipo de
+                        dado por parâmetro, e que retorna um array invertido nas posições;</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="#header">Voltar para o topo</a>
+        </div>
+    </footer>
+
+</html>
