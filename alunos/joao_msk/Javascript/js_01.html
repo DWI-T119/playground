@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de 3 valores com JS</title>
+
+    <style>
+        #divDaSoma {
+            margin-top: 1%;
+
+            border-style: ridge;
+            border-bottom-width: 10px;
+            border-top-width: 10px;
+            border-right-width: 5px;
+            border-left-width: 5px;
+
+        }
+
+        #printResultadoDaSoma {
+            text-decoration: underline;
+            font-size: 150%;
+            color: black;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="divDaSoma">
+        <br>
+        <input type="number" id="valor_01">
+        <input type="number" id="valor_02">
+        <input type="number" id="valor_03">
+        <button onclick="deveSomarOsValores()">Gerar resultado</button>
+
+        <ul>
+            <li id="printResultadoDaSoma"></li>
+        </ul>
+    </div>
+
+
+    <script>
+        function deveSomarOsValores() {
+
+            let primeiroInput = document.getElementById("valor_01")
+            let primeiroValor = primeiroInput.value
+
+            let segundoInput = document.getElementById("valor_02")
+            let segundoValor = segundoInput.value
+
+            let terceiroInput = document.getElementById("valor_03")
+            let terceiroValor = terceiroInput.value
+
+            let divResultadoFinal = document.getElementById("printResultadoDaSoma")
+
+            var resultadoDaSoma = parseInt(primeiroValor) + parseInt(segundoValor) + parseInt(terceiroValor)
+            divResultadoFinal.innerHTML = resultadoDaSoma
+
+        }
+    </script>
+
+</body>
+
+</html>
