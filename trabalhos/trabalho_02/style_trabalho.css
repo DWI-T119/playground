@@ -1,0 +1,153 @@
+/* =============
+    UNIVERSAL
+===============*/
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px 0px;
+    padding: 0;
+}
+
+/* =============
+    TIPOGRAFIA
+===============*/
+
+p {
+    margin: 6px 0px 6px 0px;
+    max-width: 70ch;
+}
+
+li {
+    max-width: 70ch;
+    padding: 1px 10px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =============
+    LAYOUT
+===============*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+body main {
+    flex-grow: 1;
+}
+
+header, main, footer {
+    padding: 25px;
+}
+
+header, header a, footer, footer a {
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+header li, footer li {
+    list-style: none;
+}
+
+header a, footer a {
+    position: relative;
+}
+
+header a::before, footer a::before {
+    list-style: none;
+    content: ">";
+    position: absolute;
+    color: white;
+    left: -12px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header>*:first-child {
+    /* position: absolute; */
+    /* left: 0; */
+    flex-grow: 1;
+}
+
+header>*:nth-child(2) {
+    flex-grow: 2;
+    text-align: center;
+}
+
+header>*:nth-child(3) {
+    flex-grow: 1;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Main */
+
+main {
+    padding-top: 5px;
+}
+
+/* =============
+    TAGS
+===============*/
+
+ul {
+    margin: 3px 0px 3px 0px;
+    padding-left: 15px;
+}
+
+li {
+    margin: 2px 0px 2px 0px;
+}
+
+/* =============
+    COMPONENTES
+===============*/
+
+.title {
+    font-weight: bold;
+}
+
+.sub-title {
+    font-weight: bold;
+}
+
+.topic {
+    font-weight: bold;
+}
+
+.sub-topic {
+    font-weight: bold;
+}
+
+.item-title {
+    font-weight: bold;
+}
+
+.first-li-child-title>li> :first-child {
+    font-weight: bold;
+}
+
+.imagem-referencia {
+    padding: 5px;
+    border: solid red 4px;
+    max-width: fit-content;
+}
