@@ -7,34 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial do JoãoMsk</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 
     <style>
+        body {
+            background-color: wheat;
+        }
 
-
-
+        #botaoVoltar {
+            display: grid;
+            place-items: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <div>
-            <a href="javascript:history.back()">Voltar</a>
-        </div>
-        <div>
-            <ul>
-                <li>Utilize esta página como sendo a entrada/listagem de seus projetos</li>
-                <li>Crie pastas e subpastas para melhor organização de seus projetos (Exemplo: Pasta helloWorld)</li>
-                <li>Crie arquivos HTML (páginas) e una uma a outra com anchors (links)
-                    &lt;a href="./helloWorld/helloWorld.html"&gt;Texto do Link&lt;/a&gt;
-                </li>
-                <li>Pode apagar o que estiver dentro deste arquivo e substituir com o que desejar!
-                    <br /> Apenas tente sempre ter uma porta de entrada para o resto das páginas. Como os exemplos
-                    abaixo:
-                </li>
-            </ul>
+            <a href="javascript:history.back()" id="botaoVoltar">Voltar</a>
         </div>
         <div>
             <h2>Projetos</h2>
@@ -58,9 +48,6 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
 
 </body>
 
