@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de casa - 02 - Console</title>
+
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        #input {
+            display: grid;
+            place-items: center;
+        }
+
+        #escolhas {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #resultadoFinal {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="input">
+        <input type="number" id="inputUsuario">
+    </div>
+
+    <div id="escolhas">
+        <button onclick="somaValores()">Adicionar número</button>
+        <button onclick="calcularMedia(valorSomado)">Calcular Média!</button>
+    </div>
+
+    <div id="resultadoFinal">
+    </div>
+
+    <script>
+
+        var coletaValores = document.getElementById("inputUsuario")
+        var valorSomado = 0
+        i = 0;
+
+        function somaValores(int) {
+            var recebeValores = coletaValores.value
+            valorSomado = parseInt(recebeValores) + parseInt(valorSomado)
+            console.log(valorSomado)
+            i++
+
+        }
+
+        function calcularMedia(valorSomado) {
+            var resultadoFinal = parseInt(valorSomado) / parseInt(i)
+            console.log(resultadoFinal)
+
+            var recebeADiv = document.getElementById("resultadoFinal")
+            recebeADiv.innerHTML = resultadoFinal
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
