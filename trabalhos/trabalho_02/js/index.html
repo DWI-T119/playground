@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" name="input_01" id="input_01">
+    <input type="number" name="input_02" id="input_02">
+    <input type="number" name="input_03" id="input_03">
+    <div id="minha_div">
+
+    </div>
+</body>
+
+<style>
+    #minha_div {
+        border: solid black 2px;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+
+<script>
+    let inputs = document.getElementsByTagName("input")
+    for (let index = 0; index < inputs.length; index++) {
+        const element = inputs[index];
+        element.addEventListener("keyup", calcular)
+    }
+    
+    function calcular() {
+        let input01 = document.getElementById("input_01")
+        let input02 = document.getElementById("input_02")
+        let input03 = document.getElementById("input_03")
+
+        let resultado = Number(inputs[0].value) + Number(inputs[1].value) + Number(inputs[2].value)
+
+        let minhaDiv = document.getElementById("minha_div")
+        minhaDiv.innerHTML = resultado
+    }
+
+
+</script>
+
+</html>
