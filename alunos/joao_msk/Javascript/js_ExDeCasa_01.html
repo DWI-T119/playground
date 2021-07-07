@@ -22,16 +22,16 @@
 <body>
 
     <div id="botao">
-        <button onclick="imprimeImpares()">Deseja imprimir todos os números impares entre 1-100?</button>
+        <button onclick="imprimePares()">Deseja imprimir todos os números impares entre 1-100?</button>
     </div>
 
+
     <script>
-
-        function imprimeImpares() {
-
+        function imprimePares() {
             for (i = 0; i <= 100; i++) {
-                if (i % 2 != 0) {
+                if (i % 2 == 0) {
                     console.log(i)
+
 
                 }
             }
