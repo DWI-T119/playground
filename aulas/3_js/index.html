@@ -248,7 +248,6 @@
                         let colorValue = colorInput.value
 
                         let div = document.getElementById("minha_tag_ex_04")
-                        div.style.backgroundColor = colorValue
                     }
                 </script>
             </article>
@@ -257,33 +256,75 @@
         <section id="exemplos_fluxo">
             <hr>
             <h2>#Exemplos Fluxo de Código</h2>
+
             <article>
                 <h1>Exemplo</h1>
                 <p>If</p>
+
+                <strong>Resultado:</strong>
+                <div id="exemplo_if"></div>
+
                 <script>
+                    let exemploIf = document.getElementById("exemplo_if")
+                    if (1 == 2) {
+                        exemploIf.innerHTML = "É verdadeiro!"
+                    } else {
+                        exemploIf.innerHTML = "Falso!"
+                    }
                 </script>
+
             </article>
-            <article>
-                <h1>Exemplo</h1>
-                <p>If else</p>
-            </article>
+
             <article>
                 <h1>Exemplo</h1>
                 <p>Switch</p>
+
+                <strong>Resultado:</strong>
+                <div id="exemplo_switch"></div>
+                <script>
+                    let exemploSwitch = document.getElementById("exemplo_switch")
+
+                    let chave = 20
+                    switch (chave) {
+                        case 10:
+                            exemploSwitch.innerHTML = "é 10!"
+                            break;
+                        case 20:
+                            exemploSwitch.innerHTML = "é 20!"
+                            break;
+                        default:
+                            break;
+                    }
+                </script>
             </article>
             <article>
                 <h1>Exemplo</h1>
                 <p>Loop - For</p>
+                <strong>Resultado:</strong>
+                <div id="exemplo_loop"></div>
+
                 <script>
+                    let exemploLoop = document.getElementById("exemplo_loop")
+
+                    // console.log("Antes do Loop")
+
+                    // let vetor
+                    // vetor = ["pos0", "pos1", "pos2", "pos3", "pos4"]
+                    
+                    // for (let voltaDoLoop = 0; voltaDoLoop < vetor.length; voltaDoLoop++) {
+                    //     console.log("Valor da posição: " + vetor[voltaDoLoop])
+                    // }
+
+                    // for (const voltaDoLoop in vetor) {
+                    //     console.log(vetor[voltaDoLoop])
+                    // }
+
+                    // console.log("Depois do Loop")
+
+                    // while (false) {
+                    //     // Bloco infinito
+                    // }
                 </script>
-            </article>
-            <article>
-                <h1>Exemplo</h1>
-                <p>Loop - For in</p>
-            </article>
-            <article>
-                <h1>Exemplo</h1>
-                <p>Loop - While</p>
             </article>
         </section>
 
@@ -293,6 +334,22 @@
             <article>
                 <h1>Exemplo</h1>
                 <p>Array</p>
+
+                <script>
+                    // console.log("= Exemplo de Array ==")
+                    let meuVetor = ["tomate", "tomate", "laranja", 22, "tomate"]
+
+                    let vetor
+                    vetor = ["carro", 22, 1, "teste"]
+                    // console.log(vetor)
+
+                    // Adiciona valor no array
+                    // meuVetor.push("banana")
+                    // meuVetor.pop("banana")
+
+                    let resultadoFind = meuVetor.find(value => value == "laranja")
+                    let resultadoFilter = meuVetor.filter(value => value == "tomate")
+                </script>
             </article>
         </section>
 
@@ -302,6 +359,18 @@
             <article>
                 <h1>Exemplo</h1>
                 <p>Objetos</p>
+                <script>
+                    // array = [valor1, valor2]
+                    // object = {key1: value1, key2: value2}
+
+                    console.log("= Exemplo de Objeto ==")
+
+                    // Pessoas cadastradas
+                    let meuObjeto = {
+                        "nome": "Sabino",
+                        "chave_02": () => alert("Sou uma funcao!")
+                    }
+                </script>
             </article>
         </section>
 
@@ -317,6 +386,17 @@
                     <li>1 Div vazia para guardar um resultado</li>
                 </ul>
                 <p>Faça uma função Javascript que some os 3 valores dos inputs, ao clicar no botão, e mostre o resultado
+                    na Div vazia.</p>
+            </article>
+            <article>
+                <h1>Exercício 2</h1>
+                <p>Crie uma página que contenha:</p>
+                <ul>
+                    <li>3 Inputs</li>
+                    <li>1 Div vazia para guardar um resultado</li>
+                    <li>SEM Botão</li>
+                </ul>
+                <p>Faça uma função Javascript que some os 3 valores dos inputs e mostre o resultado
                     na Div vazia.</p>
             </article>
         </section>
