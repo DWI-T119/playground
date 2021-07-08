@@ -156,22 +156,88 @@
         <section id="javascript">
             <hr>
             <article>
-                <h1>#Javascript (2 pontos)</h1>
-                <p>Serão avaliados os seguintes pontos:</p>
-                <ul>
-                    <li>Javascript Básico (1)
+                <div>
+                    <h1>#Javascript (2 pontos)</h1>
+                    <p>Serão avaliados os seguintes pontos:</p>
+                    <ul>
+                        <li>Javascript Básico (1)
+                            <ul>
+                                <li>Lógica de programação básica e comandos básicos, já vistos em outras linguagens</li>
+                            </ul>
+                        </li>
+                        <li>Manipulação básica do DOM HTML (1)
+                            <ul>
+                                <li>
+                                    Captura de valores, alterações da página e outras coisas simples
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Extras: (Ajudarei vocês 100%)
+                            <ul>
+                                <li>
+                                    JQuery
+                                </li>
+                                <li>
+                                    Chamada API
+                                </li>
+                                <li>
+                                    JSON
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <p><strong>Imagem de referência:</strong></p>
+                    <div>
+                        <img class="imagem-referencia" width="60%" src="referencias/04_trabalho_js.png" alt="">
+                    </div>
+                </div>
+                <h1>Descrição e Objetivos</h1>
+                <p>Construir uma página, dentro de sua pasta, que contenha uma busca para uma API (Backend) e apresente
+                    o resultado em uma div vazia</p>
+
+                <p><strong>Elementos HTML</strong></p>
+                <ol>
+                    <li>Div container de busca (esquerda)
                         <ul>
-                            <li>Lógica de programação básica e comandos básicos, já vistos em outras linguagens</li>
+                            <li>Input para busca em forma de texto</li>
+                            <li>Botão "Buscar" de efetuar a ação utilizando o value do input</li>
                         </ul>
                     </li>
-                    <li>Manipulação básica do DOM HTML (1)
+                    <li>Div container de resultado (direita)
                         <ul>
-                            <li>
-                                Captura de valores, alterações da página e outras coisas simples
+                            <li>Div
+                                <ul>
+                                    <li>Tag img que guardará o resultado da imagem vinda da API</li>
+                                </ul>
+                            </li>
+                            <li>Div
+                                <ul>
+                                    <li>Textos para resultados dos restornos da API</li>
+                                </ul>
                             </li>
                         </ul>
                     </li>
+                </ol>
+
+                <p><strong>Propriedades CSS</strong> </p>
+                <ul>
+                    <li>Para posicionar o Layout deve ser utilizado o CSS Grid</li>
+                    <li>Para posicionar os items deve ser utilizado o Flexbox</li>
+                    <li>O layout e estilo serão <strong>livres</strong></li>
                 </ul>
+
+                <p><strong>JS Função do botão</strong> </p>
+                <ul>
+                    <li>A ação do botão deve ser fazer uma requisição para a API e mostrar o resultado na DIV ao
+                        lado</li>
+                    <li>O retorno da API será um JSON que deve ser quebrado em valores para serem mostrados na DIV
+                        de resultado</li>
+                </ul>
+
             </article>
         </section>
     </main>

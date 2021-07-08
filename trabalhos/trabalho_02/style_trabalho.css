@@ -109,7 +109,7 @@ main {
     TAGS
 ===============*/
 
-ul {
+ul, ol {
     margin: 3px 0px 3px 0px;
     padding-left: 15px;
 }
