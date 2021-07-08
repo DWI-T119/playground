@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="botaoVoltar">Voltar</div>
+    <hr>
+    <div class="titulo"> CSS Básico </div>
+    <div class="container">
+        <div class="descricaoContainer">
+            2 Quadrados e 2 Circulos utilizando Box Model
+        </div>
+        <div>
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+        </div>
+        <div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+    </div>
+
+    <style>
+        .descricaoContainer {
+            background-color: white;
+            border: black 2px solid;
+            color: blue;
+            border-radius: 20px;
+            padding: 8px;
+            width: fit-content;
+            margin: 10px auto;
+        }
+        .container {
+            background-color: gray;
+            text-align: center;
+            margin: auto;
+            border: solid red 2px;
+            /* width: 70px; */
+        }
+
+        .quadrado {
+            display: inline-block;
+            margin: auto;
+            border: solid blue 2px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .circulo {
+            display: inline-block;
+            margin: auto;
+            border: solid green 2px;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+        }
+
+        div {
+            display: block;
+        }
+    </style>
+</body>
+
+</html>
