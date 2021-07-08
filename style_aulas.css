@@ -92,6 +92,10 @@ main {
     padding-top: 5px;
 }
 
+article {
+    padding: 10px 10px;
+}
+
 /* =============
     TAGS
 ===============*/

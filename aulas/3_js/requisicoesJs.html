@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style_aulas.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <title>Requisições Ajax</title>
+</head>
+
+<body>
+  <header id="header">
+    <div>
+      <a href="../../index.html">Voltar</a>
+    </div>
+    <div>
+      <h1>Requisições Ajax</h1>
+      <h5>Chamadas de API pelo JS</h5>
+    </div>
+    <div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <h1>jQuery</h1>
+        <ul>
+          <li>Biblioteca de funções Javascript</li>
+          <li>Simplifica comandos nativos com métodos prontos</li>
+          <li>Adicionado com CDN (Content Delivery Network) ou arquivo dentro do projeto, parecido com os nossos
+            próprios</li>
+          <li><a href="https://www.w3schools.com/jquery/default.asp">https://www.w3schools.com/jquery/default.asp</a>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h1>AJAX - Asynchronous JavaScript and XML</h1>
+        <ul>
+          <li>Objeto nativo do browser para fazer requisições (XMLHttpRequest) para servidores</li>
+          <li>Utiliza o JS e o DOM para mostrar ou usar dados requisitados</li>
+          <li>Pode ser feito sem o jQuery porém com ele fica muito mais fácil</li>
+          <li>Existem formas mais mordernas, como o Axios</li>
+          <li><a href="https://www.w3schools.com/jquery/jquery_ajax_intro.asp">https://www.w3schools.com/jquery/jquery_ajax_intro.asp</a>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h1>JSON - JavaScript Object Notation</h1>
+        <ul>
+          <li>Formato atualmente mais utilizado para transferencia de dados entre aplicações</li>
+          <li>Chave e Valor</li>
+          <li>Objeto Javascript em forma de texto <strong>'{"name":"Sabino", "age":29}'</strong></li>
+          <li>A maioria (para não falar todas) linguagens atuais podem se comunicar e transformar JSON em deus tipos nativos</li>
+          <li><a href="https://www.w3schools.com/js/js_json_intro.asp">https://www.w3schools.com/js/js_json_intro.asp</a>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section>
+      <hr>
+      <div>
+        <h1>Exemplos de Requisições JS</h1>
+      </div>
+      <!-- Trazer todos os valores -->
+      <div class="div-card">
+        <div>
+          <h2>GET </h2>
+          <h4>Para TRAZER dados</a></h4>
+        </div>
+        <div class="div-form">
+          <button id="trazerTudoBtn">Trazer tudo</button>
+        </div>
+        <div id="resultado-trazerTudo"></div>
+        <script>
+          $("#trazerTudoBtn").click(function () {
+            alert("Teste")
+            $.ajax({
+              type: "get",
+              url: "https://api-dwi.herokuapp.com/api/tutorials",
+              success: function (result) {
+                let html = `
+          `
+                $("#resultado-trazerTudo").html(JSON.stringify(result));
+              }
+            });
+          });
+        </script>
+      </div>
+      <!-- Gravar um registro -->
+      <div class="div-card">
+        <div>
+          <h2>POST </h2>
+          <h4>Para GRAVAR dados</a></h4>
+        </div>
+        <div class="div-form">
+          <input placeholder="Título" type="text" name="title" id="title">
+          <input placeholder="Descrição" type="text" name="description" id="description">
+          <button id="postSimplesBtn">Gravar dados</button>
+        </div>
+        <div id="resultado-postSimples"></div>
+      </div>
+      <!-- Deletar todos os valores -->
+      <div class="div-card">
+        <div>
+          <h2>DELETE </h2>
+          <h4>Para DELETAR dados</a></h4>
+        </div>
+        <div class="div-form">
+          <button id="deletarTudoBtn">Deletar tudo</button>
+        </div>
+        <div id="resultado-deletarTudo"></div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
+
+<script>
+  $(document).ready(function () {
+    $("#deletarTudoBtn").click(function () {
+      $.ajax({
+        type: "delete",
+        url: "https://api-dwi.herokuapp.com/api/tutorials",
+        success: function (result) {
+          $("#resultado-deletarTudo").html(JSON.stringify(result));
+        }
+      });
+    });
+    $("#postSimplesBtn").click(function () {
+      let title = document.getElementById("title").value
+      let description = document.getElementById("description").value
+      $.ajax({
+        type: "post",
+        url: "https://api-dwi.herokuapp.com/api/tutorials",
+        data: {
+          title: title,
+          description: description
+        },
+        success: function (result) {
+          $("#resultado-postSimples").html(JSON.stringify(result));
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .div-card {
+    border: solid gray 1px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .div-form {
+    border: solid blue 1px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  /* -------- */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+</style>

@@ -1,0 +1,85 @@
+/* == RESET == */
+
+body {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    /* background-image: linear-gradient(to right, rgb(101, 118, 121), rgb(210, 226, 220)); */
+}
+
+/* == GRID LAYOUT == */
+
+.grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-areas: "header header" "aside main" "footer footer";
+
+    gap: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* == FLEX CONTAINERS == */
+
+/* == ASIDE COMPONENTS == */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+aside .busca-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+/* == MAIN COMPONENTS == */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.pokedex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black 5px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.pokedex .pokedex-tela{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black 5px;
+    background-color: rgb(159, 224, 218, 0.3);
+    padding: 20px;
+}
