@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h1>Exercício 1</h1>
+        <p>Crie uma página que contenha: </p>
+        <ul>
+            <li>3 imputs</li>
+            <li>1 Botão</li>
+            <li>1 Div vazia para guardar resultado</li>
+        </ul>
+        <p>Faça uma função Javascript que some os 3 valores dos imputs e mostre o resultado na Div vazia.</p>
+    </article>
+    <hr>
+    <style>
+        .exercicio{
+            border: black solid 3px;
+            padding: 20px;
+        }
+        .resultado{
+            margin: 15px;
+            padding: 20px;
+            border: grey 3px solid; 
+        }
+
+    </style>
+    <div id = "exercicio_01" class = "exercicio">
+        <input id = "input_01" type="text">
+        <input id = "input_02" type="text">
+        <input id = "input_03" type="text">
+        <button onclick="somaValores()" id ="botao_exercicio_01">Somar</button>
+        <div class ="resultado">
+        <strong>Resultado:</strong>
+        <div id = "resultado_exercicio_01">
+            Aguardando resultado...
+        </div>
+        <div>
+            |<script>
+                function somaValores(){
+                    const input_01 = document.getElementById("input_01")
+                    const input_02 = document.getElementById("input_02")
+                    const input_03 = document.getElementById("input_03")
+
+                    const valor_01 = input_01.value
+                    const valor_02 = input_02.value
+                    const valor_03 = input_03.value
+
+                    const resultado = Number(valor_01) + Number(valor_02) + Number(valor_03);
+
+                    const divResultado = document.getElementById("resultado_exercicio_01")
+                    console.log(resultado)
+
+                    divResultado.innerHTML = resultado
+                }
+             </script>
+    </div>
+    
+</body>
+</html>
