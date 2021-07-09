@@ -1,19 +1,32 @@
-.nowrap {
-    flex-wrap: nowrap;
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item-71 {
+    width: 52px;
+    height: 20px;
+    border: 2px solid black;
+    margin: 30px;
+    background-color: green;
+    
 }
 
 .item-7 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 40%;
     height: 70%;
     margin: 15px;
-    align-items: center;
-    justify-content: center;
+    display: flex;
     border: 2px solid black;
 }
 
 .item-6 {
     width: 25%;
     margin: 5px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: green;
@@ -23,6 +36,7 @@
 .item-5 {
     width: 35%;
     margin: 5px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: green;
@@ -30,7 +44,7 @@
 }
 
 .container-5 {
-    width: 750px;
+    width: 50%;
     height: 120px;
     display: flex;
     border: 2px solid black;
@@ -54,7 +68,7 @@
 }
 
 .container-4 {
-    width: 750px;
+    width: 50%;
     height: 120px;
     border: 2px solid black;
     border-radius: 5px;
@@ -75,7 +89,7 @@
 
 .container-3 {
     justify-content: center;
-    width: 750px;
+    width: 50%;
     height: 180px;
     margin: 0 auto;
     display: flex;
@@ -87,7 +101,7 @@
 }
 
 .container-2 {
-    width: 750px;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     border: 2px solid black;
@@ -97,7 +111,7 @@
 }
 
 .container {
-    max-width: 400px;
+    width: 25%;
     margin: 0 auto;
     display: flex;
     border: 1px solid black;
