@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,247 @@
     <title>Flexbox | João Dier</title>
 
     <style>
+        .item-7 {
+            width: 40%;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+        }
 
+        .item-6 {
+            width: 25%;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            background: green;
+            border: 2px solid black;
+        }
+
+        .item-5 {
+            width: 35%;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            background: green;
+            border: 2px solid black;
+        }
+        .container-5 {
+            width: 610px;
+            height: 120px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: grey;
+            margin: 0 auto;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .item-4 {
+            width: 100%;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            background: green;
+            border: 2px solid black;
+
+        }
+        .container-4 {
+            width: 610px;
+            height: 120px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: grey;
+            margin: 0 auto;
+        }
+
+        .item-3 {
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+            align-self: center;
+            background: green;
+            font-size: 1.5em;
+            border: 2px solid black;
+
+        }
+
+        .container-3 {
+            justify-content: center;
+            max-width: 610px;
+            height: 180px;
+            margin: 0 auto;
+            display: flex;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: gray;
+            flex-direction: column;
+
+        }
+
+        .container-2 {
+            max-width: 620px;
+            margin: 0 auto;
+            display: flex;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: gray;
+
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+
+        .item {
+
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        a:link {
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: monospace;
+            background-color: whitesmoke;
+        }
+
+        #Titulo {
+            font-size: 3.15em;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        hr {
+            width: 90%;
+        }
+
+        .botaoVoltar {
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+        .box-1 {
+            width: 35%;
+            height: 10%;
+            margin: 0 auto;
+            border-radius: 50px;
+            border: 2px solid black;
+            background-color: white;
+        }
+
+        p {
+            color: blue;
+        }
+
+        .item-2 {
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+            background: green;
+            text-align: center;
+            font-size: 1.5em;
+            border: 2px solid black;
+        }
     </style>
 </head>
+
 <body>
     <div>
-        <div>
-            <header>
-                <button><a href="#">Voltar</a></button>
-            </header>
-        </div>
+        <button class="botaoVoltar"><a href="../index.html">Voltar</a></button>
     </div>
+    <section class="container">
+        <div class="item"><a href="./Pagina_Inicial.html">Página Inicial</a></div>
+        <div class="item"><a href="./Pagina_Inicial.html">Outras partes</a></div>
+    </section>
+    <br>
+    <hr>
+
+    <h1 id="Titulo">FlexBox</h1>
+    <div class="box-1">
+        <p class="item subtitulo">Cinza = Flex container, Verde = Flex items </p>
+    </div>
+    <br><br><br>
+
+    <div>
+        <section class="container-2 column">
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+            <div class="item-2"></div>
+        </section>
+    </div>
+    <br><br><br>
     
+    <div>
+        <section class="container-3 flex">
+            <div class="item-3"></div>
+            <div class="item-3"></div>
+        </section>
+    </div>
+    <br><br><br>
+
+    <div>
+        <section class="container-4 flex">
+            <div class="item-4 flex">
+                <h3>Item-01</h3>
+            </div>
+        </section>
+    </div>
+    <br><br><br>
+
+    <div>
+        <section class="container-5">
+            <div class="item-5">Item-01</div>
+            <div class="item-6">Item-02</div>
+            <div class="item-7">
+                <div>Item-03</div>
+            </div>
+        </section>
+    </div>
+
+
 </body>
+
 </html>
