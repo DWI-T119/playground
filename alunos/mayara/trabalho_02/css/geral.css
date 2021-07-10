@@ -32,21 +32,20 @@
 }
 
 .descricao {
-    width: 700px;
-    height: 80px;
+    width: fit-content;
     box-sizing: border-box;   
     border: 5px solid #000;
     border-radius: 50px;
     background-color: #fff;
     text-align: center;
     margin: auto;
-	  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
-.descricao > p {
+.descricao {
     font-size: 30px;    
     color: #3166fb;   
-    margin-top: 18px; 
+	padding: 10px;  
 }
 
 .formas {	
@@ -73,5 +72,3 @@
 .circulo {    
     border-radius: 50%;
 }
-
-
