@@ -1,0 +1,36 @@
+/* Principal objetivo-01 */
+
+.principal {    
+    border: 5px solid #000;
+    background-color: #808080;
+    padding: 20px 100px 0;    
+}
+
+.descricao {
+    width: fit-content;    
+}
+
+.formas {	
+	text-align: center;
+}
+
+.quadrado, .circulo {
+	box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border-top: 5px solid #000;
+    border-right: 5px solid #ff0000;
+    border-bottom: 5px solid #000;
+    border-left: 5px solid #3166fb;
+    background-color: #798b09;    
+	display: inline-block;	
+	margin: 20px 15px 0 15px;	
+}
+
+.linha1, .linha2 {	
+	margin: 20px;
+}
+
+.circulo {    
+    border-radius: 50%;
+}
