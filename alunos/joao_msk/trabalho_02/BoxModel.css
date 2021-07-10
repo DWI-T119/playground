@@ -45,7 +45,7 @@ body {
 }
 
 .containerDesafio {
-    width: 6%;
+    width: 53%;
     height: 550px;
     padding: 10px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ body {
     position: absolute;
     width: 120px;
     height: 120px;
-    left: 300px;
+    left: 30%;
     bottom: 150px;
     border-left: 2px solid blue;
     border-bottom: 2px solid black;
@@ -81,7 +81,7 @@ body {
     position: absolute;
     width: 120px;
     height: 120px;
-    left: 300px;
+    left: 30%;
     bottom: 320px;
     border-left: 2px solid blue;
     border-bottom: 2px solid black;
@@ -94,7 +94,7 @@ body {
     position: absolute;
     width: 120px;
     height: 120px;
-    left: 600px;
+    left: 60%;
     bottom: 150px;
     border-radius: 50% 50%;
     border-left: 2px solid blue;
@@ -108,7 +108,7 @@ body {
     position: absolute;
     width: 120px;
     height: 120px;
-    left: 600px;
+    left: 60%;
     bottom: 320px;
     border-radius: 50% 50%;
     border-left: 2px solid blue;
