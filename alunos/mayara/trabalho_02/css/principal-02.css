@@ -1,102 +1,97 @@
 /* Principal objetivo-02 */
 
-.principal {	
-	margin: auto;
-	width: 70vw;
+.principal {
+    margin: auto;
+    width: 70vw;
 }
 
-.container, 
+.container,
 .container-02,
-.container-03 {	
-	border: 5px solid #000;
-	background-color: #808080;
-	display: flex;	
-	flex-wrap: wrap;
-	padding: 10px;	
-	gap: 10px;
-	margin: 20px 0;
+.container-03 {
+    border: 5px solid #000;
+    background-color: #808080;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    margin: 20px 0;
 }
 
-.quadrado, 
-.quadrado-02, 
+.quadrado,
+.quadrado-02,
 .quadrado-03,
 .quadrado-04,
 .quadrado-05,
-.interno {  	   
+.interno {
     border: 5px solid #000;
-    background-color: #798b09;	
+    background-color: #798b09;
 }
 
-.quadrado, 
-.quadrado-02, 
-.quadrado-03 {  	
+.quadrado,
+.quadrado-02,
+.quadrado-03 {
     width: 40px;
-    height: 40px;    	
+    height: 40px;
 }
 
 .container-02 {
-	display: grid;	
-	padding: 40px;
+    display: grid;
+    padding: 40px;
 }
 
 .quadrado-02 {
-	margin: auto;
+    margin: auto;
 }
 
 .quadrado-03 {
-	display: flex;
-	box-sizing: border-box;
-	width: 100%;
-    height: 100px;	
-	font-size: 30px;
-	justify-content: center;
-  	align-items: center;	
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-03 {	
-	align-items: center;
-	flex-direction: row;	
-	flex-wrap: nowrap;
+.container-03 {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .quadrado-04,
-.quadrado-05 {		
-	display: flex;
-	box-sizing: border-box;	
-	font-size: 32px;
-	justify-content: center;
-  	align-items: center;
-	text-align: center;	
-	min-height: 100px;				
+.quadrado-05 {
+    display: flex;
+    box-sizing: border-box;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100px;
 }
 
 .quadrado-04 {
-	flex-grow: 2;
+    flex-grow: 2;
 }
 
 .quadrado-05 {
-	flex-grow: 1;
+    flex-grow: 1;
 }
 
 .quadrado-borda {
-	display: flex;	
-	box-sizing: border-box;
-	min-height: 70px;	
-	font-size: 30px;
-	justify-content: flex-end;
-  	align-items: center;
-	border: 5px solid #000;
-	padding-right: 30px;
-	flex-grow: 3;
+    display: flex;
+    box-sizing: border-box;
+    min-height: 70px;
+    font-size: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid #000;
+    padding-right: 30px;
+    flex-grow: 3;
 }
 
 .interno {
-	display: flex;		
-	justify-content: center;
-	text-align: center;	
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-
-
-
-
-
