@@ -1,0 +1,111 @@
+body {
+    padding: 50px 50px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.btn_voltar {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+hr {
+    margin: 50px 0px;
+}
+
+.principal {
+    margin: auto;
+    width: 70vw;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+.borda-redonda {
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.outro-container {
+    box-sizing: border-box;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.container1 > p {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.container {
+    background-color: gray;
+    box-sizing: border-box;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 40px;
+
+    display: flex;
+    gap: 15px;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.container > div {
+    padding: 25px;
+}
+
+.container > div, .div3 > div {   
+    border: 4px solid black;
+    background-color: green;
+    text-align: center;
+}
+
+.container3 {
+    flex-direction: column;
+    padding: 60px 0px;
+}
+
+.container3 > div {
+    align-self: center;
+}
+
+.container4 > div {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.container5 {
+    flex-wrap: nowrap;
+}
+
+.container5 > .div1 {
+    flex-grow: 2;
+    padding: 60px 50px;
+}
+
+.container5 > .div2 {
+    flex-grow: 1;
+    padding: 60px 50px;
+}
+
+.container5 > .div3 {
+    align-self: center;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: flex-end;
+    flex-grow: 3;
+    max-height: 70px;
+    background-color: gray;
+}
+
+@media (max-width: 1031px) {
+    .container5 > .div3 {
+        padding: 0px 50px;
+    }
+}
