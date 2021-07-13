@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body,
+        html {
+
+            padding: none;
+            margin: none;
+            width: 100vw;
+            height: 100vh;
+        }
+        #container {
+
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 0.3fr 1fr 1fr;
+            gap: 5px;
+
+            grid-template-rows: 0.3fr 1fr 0.3fr;
+
+           grid-template-areas: 
+           "menu cabecalho cabecalho"
+           "menu corpo corpo"
+           "rodape rodape rodape";
+        
+        }
+        #cabecalho {
+
+            grid-area: cabecalho;
+            border: solid blue 2px;
+        }
+        #corpo {
+
+            grid-area: corpo;
+            border: solid red 2px;
+        }
+        #menu {
+
+            grid-area: menu;
+            border: solid greenyellow 2px;
+        }
+        #rodape {
+
+            grid-area: rodape;
+            border: solid powderblue 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <main id="container">
+        <header id="cabecalho">cabeça</header>
+        <section id="corpo">corpo</section>
+        <nav id="menu">menu</nav>
+        <footer id="rodape">rodape</footer>
+    </main>
+</body>
+</html>
