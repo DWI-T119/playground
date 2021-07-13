@@ -45,7 +45,8 @@
           <li>Utiliza o JS e o DOM para mostrar ou usar dados requisitados</li>
           <li>Pode ser feito sem o jQuery porém com ele fica muito mais fácil</li>
           <li>Existem formas mais mordernas, como o Axios</li>
-          <li><a href="https://www.w3schools.com/jquery/jquery_ajax_intro.asp">https://www.w3schools.com/jquery/jquery_ajax_intro.asp</a>
+          <li><a
+              href="https://www.w3schools.com/jquery/jquery_ajax_intro.asp">https://www.w3schools.com/jquery/jquery_ajax_intro.asp</a>
           </li>
         </ul>
       </article>
@@ -55,8 +56,10 @@
           <li>Formato atualmente mais utilizado para transferencia de dados entre aplicações</li>
           <li>Chave e Valor</li>
           <li>Objeto Javascript em forma de texto <strong>'{"name":"Sabino", "age":29}'</strong></li>
-          <li>A maioria (para não falar todas) linguagens atuais podem se comunicar e transformar JSON em deus tipos nativos</li>
-          <li><a href="https://www.w3schools.com/js/js_json_intro.asp">https://www.w3schools.com/js/js_json_intro.asp</a>
+          <li>A maioria (para não falar todas) linguagens atuais podem se comunicar e transformar JSON em deus tipos
+            nativos</li>
+          <li><a
+              href="https://www.w3schools.com/js/js_json_intro.asp">https://www.w3schools.com/js/js_json_intro.asp</a>
           </li>
         </ul>
       </article>
@@ -78,16 +81,15 @@
         <div id="resultado-trazerTudo"></div>
         <script>
           $("#trazerTudoBtn").click(function () {
-            alert("Teste")
+
             $.ajax({
               type: "get",
               url: "https://api-dwi.herokuapp.com/api/tutorials",
               success: function (result) {
-                let html = `
-          `
                 $("#resultado-trazerTudo").html(JSON.stringify(result));
               }
             });
+
           });
         </script>
       </div>
@@ -133,14 +135,15 @@
       });
     });
     $("#postSimplesBtn").click(function () {
-      let title = document.getElementById("title").value
-      let description = document.getElementById("description").value
+      let inputTitleValue = document.getElementById("title").value
+      let inputDescriptionValue = document.getElementById("description").value
+      
       $.ajax({
         type: "post",
         url: "https://api-dwi.herokuapp.com/api/tutorials",
         data: {
-          title: title,
-          description: description
+          title: inputTitleValue,
+          description: inputDescriptionValue
         },
         success: function (result) {
           $("#resultado-postSimples").html(JSON.stringify(result));

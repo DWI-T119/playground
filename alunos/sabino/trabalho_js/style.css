@@ -15,7 +15,10 @@ body {
     display: grid;
     grid-template-rows: 0fr 1fr 0fr;
     grid-template-columns: 0.8fr 1fr;
-    grid-template-areas: "header header" "aside main" "footer footer";
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
 
     gap: 20px;
 }
@@ -71,6 +74,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     border: solid black 5px;
+    background-color: red;
     border-radius: 20px;
     padding: 50px;
 }
@@ -80,6 +84,6 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     border: solid black 5px;
-    background-color: rgb(159, 224, 218, 0.3);
+    background-color: rgb(159, 224, 218);
     padding: 20px;
 }

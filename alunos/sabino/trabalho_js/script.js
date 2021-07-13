@@ -10,7 +10,8 @@ async function buscarPokemon() {
     const nomePokemon = inputNomePokemon.value
 
     // 2 - (Processamento) Chamar função que fará a requisição ajax, enviando o valor do input como parametro
-    const result = await httpGet("pokemon/" + nomePokemon)
+    const result = await chamadaDaApi("pokemon/" + nomePokemon)
+
     const imageUrl = result.sprites.front_default
 
     // 3 - (Output) Alterar os elementos HTML para disponibilizar o resultado em tela
@@ -20,8 +21,9 @@ async function buscarPokemon() {
 
 // =============================================================
 // Método para realizar chamada Ajax
-async function httpGet(resource) {
+async function chamadaDaApi(resource) {
     let result
+
     await $.ajax({
         url: BASE_URL + resource,
         type: 'GET',
@@ -30,5 +32,6 @@ async function httpGet(resource) {
             result = res
         }
     });
+
     return result
 }
