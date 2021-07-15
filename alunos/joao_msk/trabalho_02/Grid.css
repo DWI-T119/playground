@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    box-sizing: border-box;
+
+    grid-template-columns: minmax(150px, 0.3fr) minmax(130px, 1fr) 1fr;
+    column-gap: 10px;
+
+    grid-template-rows: 0.3fr 1.5fr 0.3fr;
+    row-gap: 10px;
+
+    grid-template-areas: 
+    "aside nav nav" 
+    "aside content content"  
+    "footer footer footer" 
+}
+
+#aside {
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border: 5px solid green;
+    border-radius: 1%;
+    grid-area: aside;
+}
+
+#nav {
+    background-color: #C0C0C0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: 5px solid blue;
+    border-radius: 1%;
+    grid-area: nav;
+}
+
+#content {
+    background-color: #C0C0C0;
+    border: 5px solid black;
+    border-radius: 1%;
+    grid-area: content;
+}
+
+#footer {
+    background-color: #C0C0C0;
+    border: 5px solid purple;
+    border-radius: 1%;
+    grid-area: footer;
+}
+
+.botao {
+    width: 80%;
+    height: 5%;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.botao:hover {
+    border: 1px solid white;
+    box-shadow: black;
+}
+

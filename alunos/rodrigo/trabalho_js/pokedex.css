@@ -1,0 +1,57 @@
+body {
+    padding: 10px;
+    margin: 0;
+    height: 97vh;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-template-areas:
+        "header header"
+        "search result"
+        "footer footer";
+    gap: 10px;
+}
+
+#txtMoves {
+    max-width: 30ch;
+    max-height: 80px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+}
+
+body > *, .search > div, .pokedex {
+    border: 2px solid black;
+}
+
+footer {
+    grid-area: footer;
+    
+}
+
+header {
+    grid-area: header;
+}
+
+body > section, .result > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.search {
+    grid-area: search;
+}
+
+.result {
+    grid-area: result;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.btn_buscar {
+    width: 100%;
+}

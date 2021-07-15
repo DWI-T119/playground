@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input onkeyup="algo" id="input01" type="text" >
+        <input onkeyup="algo" id="input02" type="text" >
+        <input onkeyup="algo" id="input03" type="text" >
+       
+    </div>
+    <strong>
+        resultado
+    </strong>
+    <div id="resultado"> aguardando resultado
+    </div>
+
+    <script>
+        function algo(){
+           const input01 = document.getElementById("input01")
+           const input02 = document.getElementById("input02")
+           const input03 = document.getElementById("input03")
+
+            const valor01 = input01.value
+            const valor02 = input02.value
+            const valor03 = input03.value
+
+            const resultado = Number(valor01) + Number(valor02) + Number(valor03)
+
+            const divResultado = document.getElementById("resultado")
+
+            divResultado.innerHTML = resultado
+
+        }
+
+    </script>
+
+</body>
+</html>

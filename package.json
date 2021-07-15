@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "watch": "browser-sync start --no-notify --server --files './**'"
+    "watch": "browser-sync start --no-notify --server --files './**'",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/DWI-T119/tags-html#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.14"
+    "browser-sync": "^2.26.14",
+    "jest": "^27.0.6"
   }
 }

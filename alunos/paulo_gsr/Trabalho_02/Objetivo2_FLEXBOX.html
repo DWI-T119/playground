@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .titulo {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .botaoVoltar {
+        border: black solid;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        margin-right: 1280px;
+    }
+
+    .linksSublinhado {
+        text-decoration: none;
+        color: white;
+    }
+
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: auto;
+        padding: 5px;
+        background: lightgray;
+        width: 50%;
+    }
+
+    .container1>div {
+        background: black;
+        color: white;
+        height: 40px;
+        width: 40px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 5px;
+        background: lightgray;
+        width: 50%;
+        height: 200px;
+    }
+
+    .container2>div {
+        background: black;
+        color: white;
+        height: 40px;
+        width: 40px;
+    }
+
+    .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 5px;
+        background: lightgray;
+        width: 50%;
+        height: 100px;
+    }
+
+    .container3>div {
+        background: black;
+        text-align: center;
+        color: white;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .item1 {
+        flex-basis: inherit;
+        flex-grow: 2;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 2px;
+        margin: auto;
+        padding: 10px;
+        background: lightgray;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .container4>div {
+        background: black;
+        color: white;
+        height: 50px;
+        width: 40px;
+    }
+
+    .item1-04 {
+        flex-basis: 25%;
+        flex-shrink: 1;
+        flex-grow: inherit;
+        align-self: flex-start;
+        order: 0;
+    }
+
+    .container4>.div3 {
+        background-color: lightgray;
+        border: solid black 2px;
+        align-self: center;
+        justify-content: flex-end;
+        order: 3;
+        height: 50px;
+        width: 60%;
+        padding: 5px;
+        display: flex;
+    }
+
+    .item2-04 {
+        flex-basis: 15%;
+        flex-shrink: 0;
+        flex-grow: inherit;
+        order: 1;
+    }  
+
+    .itemInterno{
+        background: black;
+        color: white;
+        height: 50px;
+        width: 25%;
+        text-align: center;
+        align-self: flex-end;
+        flex-grow: inherit;
+        flex-shrink: 2;
+    }
+</style>
+
+<body>
+    <div class="botaoVoltar"><a href="./indexTrabalho02.html" class="linksSublinhado">Voltar</a></div>
+
+    <div class="titulo">FlexBox</div>
+
+    <div class="container1">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <hr>
+
+    <div class="container2">
+        <div></div>
+        <div></div>
+    </div>
+
+    <hr>
+
+    <div class="container3">
+        <div class="item1">item 1</div>
+    </div>
+
+    <hr>
+
+    <div class="container4">
+        <div class="item1-04">item 1</div>
+        <div class="item2-04">item 2</div>
+        <div class="div3">
+            <div class="itemInterno">Item interno</div>
+
+        </div>
+    </div>
+</body>
+
+</html>
