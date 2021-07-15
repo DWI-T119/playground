@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #site {
+        padding: 20px;
+    }
+
+    #site>* {
+        padding: 20px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .button {
+        background-color: black;
+        border-radius: 20px;
+        max-width: fit-content;
+        padding: 10px 40px;
+        text-decoration: none;
+        color: white;
+        text-decoration: none;
+    }
+
+    .objetivo {
+        padding: 5px !important;
+    }
+    .descricao {
+        text-align: center;
+        padding: 10px 15px;
+        background-color: white;
+        border-radius: 20px;
+        width: 50%;
+        margin: auto;
+        border: solid black 3px;
+        color: blue;
+        font-weight: 700;
+    }
+
+    .observacao {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        text-align: center;
+        background-color: gray;
+        border: solid black 3px;
+        display: flex;
+        padding: 1px;
+        max-width: 50%;
+        margin: 0px auto;
+    }
+
+    .item {
+        margin: 5px;
+        border: solid black 3px;
+        padding: 10px;
+        background-color: olive;
+    }
+</style>
+
+<body>
+    <div id="site">
+        <div>
+            <a class="button" href="../index.html">Voltar</a>
+        </div>
+        <div>
+            <hr>
+            <h1 class="title">FlexBox</h1>
+            <div class="descricao">
+                Cinza = Flex Container, Verde = Flex Items<br>
+            </div>
+        </div>
+
+        <!-- Container 01 -->
+        <div class="objetivo">
+            <div id="container_01" class="container">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <style>
+                #container_01 {
+                    flex-wrap: wrap;
+                }
+            </style>
+        </div>
+
+        <!-- Container 03 -->
+        <div class="objetivo">
+            <div id="container_02" class="container">
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <style>
+                #container_02 {
+                    padding: 20px 0px;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                }
+            </style>
+        </div>
+
+        <!-- Container 03 -->
+        <div class="objetivo">
+            <div id="container_03" class="container">
+                <div class="item_03" id="item_03_01">
+                    Item 01
+                </div>
+            </div>
+            <style>
+                .item_03 {
+                    margin: 5px;
+                    border: solid black 3px;
+                    background-color: olive;
+                    padding: 20px;
+                }
+
+                #item_03_01 {
+                    flex-grow: 1;
+                }
+            </style>
+        </div>
+
+        <!-- Container 04 -->
+        <div class="objetivo">
+            <div id="container_04" class="container">
+                <div class="item_04" id="item_04_01">
+                    Item 01
+                </div>
+                <div class="item_04" id="item_04_02">
+                    Item 01
+                </div>
+                <div class="item_04" id="item_04_03">
+                    <div>Item Interno</div>
+                </div>
+            </div>
+            <style>
+                .item_04 {
+                    margin: 5px;
+                    border: solid black 3px;
+                    background-color: olive;
+                    padding: 20px;
+                }
+
+                #item_04_01 {
+                    flex-grow: 0.5;
+                }
+                #item_04_02 {
+                    flex-grow: 0;
+                }
+                #item_04_03 {
+                    background-color: gray;
+                    flex-grow: 1;
+                    align-self: center;
+                    height: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+                #item_04_03 > div {
+                    background-color: olive;
+                    /* padding: 10px; */
+                    border: solid black 3px;
+                    padding: 2px;
+                }
+            </style>
+        </div>
+    </div>
+
+</body>
+
+</html>
