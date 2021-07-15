@@ -1,0 +1,87 @@
+body{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vh;
+    max-width: 100vw;
+
+    grid-template-columns: 200px 1fr 1fr;
+    column-gap: 10px;
+
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    row-gap: 10px;
+
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+}
+
+header {
+    border: black solid 2px;
+    grid-area: header;
+    background-color: black;
+}
+
+aside{
+    border: black solid 5px;
+    background-color: white;
+    border-radius: 15%;
+    grid-area: aside;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+main{
+    grid-area: main;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Pokeball.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: left;
+    background-position-y: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer{
+    border: solid black 2px;
+    grid-area: footer;
+    background-color: black;
+}
+
+.buscar{
+    border: black solid 2px;
+    border-radius: 15%;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    display: block;
+}
+
+.pokedexTela{
+    border: black 5px solid;
+    border-radius: 15%;
+    padding: 10px;
+    margin: auto;
+    width: 96px;
+    height: 96px;
+    display: block;
+    text-align: center;
+}
