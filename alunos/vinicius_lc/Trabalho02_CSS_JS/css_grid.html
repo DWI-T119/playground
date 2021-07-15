@@ -10,20 +10,20 @@
         body,
         html {
 
-            padding: none;
-            margin: none;
-            width: 100vw;
-            height: 100vh;
+            margin: 0;
+            padding: 0;
         }
-        #container {
+        #container { 
 
-            height: 100%;
-            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            height: 100vh;
+            width: 100vw;
             display: grid;
-            grid-template-columns: 0.3fr 1fr 1fr;
+            grid-template-columns: minmax(120px, 0.3fr) minmax(120px, 1fr) 1fr;
             gap: 5px;
 
-            grid-template-rows: 0.3fr 1fr 0.3fr;
+            grid-template-rows: 0.3fr 2fr 0.3fr;
 
            grid-template-areas: 
            "menu cabecalho cabecalho"
@@ -31,35 +31,57 @@
            "rodape rodape rodape";
         
         }
+        .fundoCinza {
+
+            background-color: gray;
+        }
         #cabecalho {
 
             grid-area: cabecalho;
-            border: solid blue 2px;
+            border: solid blue 3px;
         }
         #corpo {
 
             grid-area: corpo;
-            border: solid red 2px;
+            border: solid black 3px;
         }
         #menu {
 
+            display: flex;
+            justify-content: center;
             grid-area: menu;
-            border: solid greenyellow 2px;
+            align-items: baseline;
+            padding-top: 5px;
+            border: solid greenyellow 3px;
         }
         #rodape {
 
             grid-area: rodape;
-            border: solid powderblue 2px;
+            border: solid purple 3px;
+        }
+        #butao {
+
+            border: solid lightcyan 2px;
+            background-color: black;
+            color: lightcyan;
+            border-radius: 30px;
+        }
+        #butao:hover {
+
+            margin-top: 3px;
+            box-shadow: 1px 1px 1px 1px;
+            border-color: greenyellow;
+            color: greenyellow;
         }
 
     </style>
 </head>
 <body>
     <main id="container">
-        <header id="cabecalho">cabeça</header>
-        <section id="corpo">corpo</section>
-        <nav id="menu">voltar</nav>
-        <footer id="rodape">rodape</footer>
+        <header class="fundoCinza" id="cabecalho">cabeça</header>
+        <section class="fundoCinza" id="corpo">corpo</section>
+        <nav class="fundoCinza" id="menu"><button id="butao">voltar</button></nav>
+        <footer class="fundoCinza" id="rodape">rodape</footer>
     </main>
 </body>
 </html>
