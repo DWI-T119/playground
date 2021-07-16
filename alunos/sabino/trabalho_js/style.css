@@ -15,11 +15,7 @@ body {
     display: grid;
     grid-template-rows: 0fr 1fr 0fr;
     grid-template-columns: 0.8fr 1fr;
-    grid-template-areas:
-    "header header"
-    "aside main"
-    "footer footer";
-
+    grid-template-areas: "header header" "aside main" "footer footer";
     gap: 20px;
 }
 
@@ -42,6 +38,7 @@ footer {
 /* == FLEX CONTAINERS == */
 
 /* == ASIDE COMPONENTS == */
+
 aside {
     display: flex;
     flex-direction: column;
@@ -53,15 +50,14 @@ aside .busca-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     gap: 10px;
-
     padding: 20px;
     border: solid black 5px;
     border-radius: 20px;
 }
 
 /* == MAIN COMPONENTS == */
+
 main {
     display: flex;
     flex-direction: column;
@@ -69,21 +65,32 @@ main {
     justify-content: center;
 }
 
-.pokedex{
+.pokedex {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: solid black 5px;
-    background-color: red;
+    background-color: tan;
     border-radius: 20px;
-    padding: 50px;
+    padding: 10px;
 }
 
-.pokedex .pokedex-tela{
+.pokedex .pokedex-tela {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: solid black 5px;
     background-color: rgb(159, 224, 218);
     padding: 20px;
+}
+
+#imagemPokemon {
+    max-width: 350px;
+}
+
+.pokedex .skills-container {
+    /* border: solid blue 5px; */
+    height: 100px;
+    overflow: auto;
+    background-color: tomato;
 }
