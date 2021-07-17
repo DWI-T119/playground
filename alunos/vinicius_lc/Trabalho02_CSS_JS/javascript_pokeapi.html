@@ -45,11 +45,11 @@
             height: 90%;
             width: 100%;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
             flex-wrap: wrap;
-            padding-right: 20px;
-            padding-left: 20px;
+            padding-top: 30px;
+            gap: 1px;
 
         }
 
@@ -67,7 +67,6 @@
         #resultadoPokemon {
 
             color: aquamarine;
-            ;
             padding: 20px 50px 50px 50px;
             width: 200px;
             height: 300px;
@@ -76,10 +75,9 @@
 
         #imagemNome {
 
-            color: black;
+            color: green;
             font-weight: bold;
-            border: solid white 3px;
-            background-color: aquamarine;
+            border: solid aquamarine purple 3px red 3px yellow 3px;;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -115,7 +113,10 @@
 
         .bordaDouble {
 
-            border: double aquamarine 3px;
+            border-top: double aquamarine 3px;
+            border-right: double purple 3px;
+            border-bottom: double red 3px;
+            border-left: double yellow 3px;
         }
     </style>
 </head>
