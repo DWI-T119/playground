@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>
+        body,
+        html {
+
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: baseline;
+        }
+
+        #cabecalho {
+
+            width: 100%;
+            height: 10%;
+        }
+
+        #pokedex {
+            
+            box-sizing: border-box;
+            background-image: url(https://wallpaperaccess.com/full/11914.jpg);
+            background-size: cover;
+            background-size: contain;
+            height: 90%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+        }
+
+        #buscaPokemon {
+
+            color: white;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border-radius: 30px;
+        }
+
+        #resultadoPokemon {
+
+            color: aquamarine;;
+            padding: 50px;
+            width: 200px;
+            height: 300px;
+            border-radius: 30px;
+        }
+
+        #imagemNome {
+
+            color: black;
+            font-weight: bold;
+            border: solid white 3px;
+            border-radius: 30px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        #caixaMoves {
+
+            width: 200px;
+            height: 150px;
+            overflow: auto;
+        }
+        #butaoBusca {
+
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            border: solid white 3px;
+            border-radius: 30px;
+        }
+        .bordaDouble {
+
+            border: double white 3px;
+        }
+    </style>
+</head>
+
+<script>
+
+    const API = "https://pokeapi.co/api/v2/"
+
+    async function buscarPokemon() {
+
+        const inputPokemon = document.getElementById("caixaBusca")
+        let nomePokemon = inputPokemon.value
+
+        if(!nomePokemon) return
+        nomePokemon = nomePokemon.toLowerCase()
+        const resultado = await chamadaDaApi("pokemon/" + nomePokemon)
+        console.log(resultado)
+
+        if(!resultado) return
+        
+        let imagem = document.getElementById("imagemPokemon")
+        imagem.src = resultado.sprites.front_shiny
+
+        let spanNome = document.getElementById("nomePokemon")
+        spanNome.innerHTML = "Shiny " + resultado.name
+
+        let spanTipos = document.getElementById("tipos")
+        spanTipos.innerHTML = ""
+        const tipos = resultado.types.forEach(element => {
+            spanTipos.innerHTML += " " + element.type.name + ", "
+        });
+
+        let spanMoves = document.getElementById("moves")
+        spanMoves.innerHTML = ""
+        const moves = resultado.moves.forEach(element => {
+            spanMoves.innerHTML += " " + element.move.name + ", "
+        });
+
+    }
+
+    async function chamadaDaApi(resource) {
+        let result
+
+        await $.ajax({
+            url: API + resource,
+            type: 'GET',
+            dataType: 'json',
+            success: function (resposta) {
+                result = resposta
+            },
+            error: function () {
+
+                alert("deu guru")
+            }
+        });
+
+        return result
+    }
+
+</script>
+
+<body>
+    <main id="container">
+        <header id="cabecalho" class="bordaDouble">cabecalho</header>
+        <section id="pokedex">
+            <div id="buscaPokemon" class="bordaDouble">
+                <div>
+                    <span>Pesquisa</span>
+                    <input id="caixaBusca" type="text">
+                </div>
+                <br>
+                <button onclick="buscarPokemon()" id="butaoBusca">Buscar Pokemon</button>
+            </div>
+            <div id="resultadoPokemon" class="bordaDouble">
+                <div id="imagemNome" class="bordaDouble">
+                    <img id="imagemPokemon">
+                    <span id="nomePokemon"></span>
+                </div>
+                <br>
+                <div><strong>Tipos:</strong><span id="tipos"></span></div>
+                <div id="caixaMoves"><strong>Moves:</strong><span id="moves"></span></div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
