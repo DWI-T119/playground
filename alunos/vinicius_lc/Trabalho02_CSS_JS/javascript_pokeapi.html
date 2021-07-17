@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex do Vini</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/188/188918.png">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <style>
@@ -15,6 +16,7 @@
             box-sizing: border-box;
             padding: 0;
             margin: 0;
+            overflow: hidden;
         }
 
         #container {
@@ -45,15 +47,19 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
+            padding-right: 20px;
+            padding-left: 20px;
            
         }
 
         #buscaPokemon {
 
-            color: white;
+            color: aquamarine;
             padding: 15px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             flex-wrap: wrap;
             border-radius: 30px;
         }
@@ -61,7 +67,7 @@
         #resultadoPokemon {
 
             color: aquamarine;;
-            padding: 50px;
+            padding: 20px 50px 50px 50px;
             width: 200px;
             height: 300px;
             border-radius: 30px;
@@ -72,7 +78,6 @@
             color: black;
             font-weight: bold;
             border: solid white 3px;
-            border-radius: 30px;
             background-color: aquamarine;
             display: flex;
             flex-direction: column;
@@ -87,16 +92,19 @@
         }
         #butaoBusca {
 
+
+            width: 50%;
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: center;
+            justify-content: center;;
             border: solid white 3px;
             border-radius: 30px;
+       
         }
         .bordaDouble {
 
-            border: double white 3px;
+            border: double aquamarine 3px;
         }
     </style>
 </head>
@@ -121,7 +129,7 @@
         imagem.src = resultado.sprites.front_shiny
 
         let spanNome = document.getElementById("nomePokemon")
-        spanNome.innerHTML = "Shiny " + resultado.name
+        spanNome.innerHTML = "shiny " + resultado.name
 
         let spanTipos = document.getElementById("tipos")
         spanTipos.innerHTML = ""
@@ -149,7 +157,7 @@
             },
             error: function () {
 
-                alert("deu guru")
+                alert("Pokemon não Reconhecido!")
             }
         });
 
@@ -164,7 +172,7 @@
         <section id="pokedex">
             <div id="buscaPokemon" class="bordaDouble">
                 <div>
-                    <span>Pesquisa</span>
+                    <span>Pesquisa:</span>
                     <input id="caixaBusca" type="text">
                 </div>
                 <br>
