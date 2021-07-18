@@ -13,12 +13,18 @@
         body,
         html {
 
-            box-sizing: border-box;
             padding: 0;
             margin: 0;
-            overflow: hidden;
         }
+        body{
 
+            background-image: url(https://wallpaperaccess.com/full/11914.jpg);
+            background-size: cover;
+        }
+        a {
+
+            text-decoration: none;
+        }
         #container {
 
             width: 100vw;
@@ -27,35 +33,36 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: baseline;
+            justify-content: center;
         }
 
         #cabecalho {
 
             width: 100%;
             height: 10%;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            background-color: transparent;
         }
 
         #pokedex {
 
             box-sizing: border-box;
-            background-image: url(https://wallpaperaccess.com/full/11914.jpg);
-            background-size: cover;
-            background-size: contain;
             height: 90%;
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            flex-wrap: wrap;
-            padding-top: 30px;
+            justify-content: center;
+            padding-top: 10px;
             gap: 1px;
 
         }
 
         #buscaPokemon {
 
-            color: aquamarine;
+            color: yellowgreen;
             padding: 15px;
             display: flex;
             flex-direction: column;
@@ -66,7 +73,7 @@
 
         #resultadoPokemon {
 
-            color: aquamarine;
+            color: yellowgreen;
             padding: 20px 50px 50px 50px;
             width: 200px;
             height: 300px;
@@ -77,7 +84,8 @@
 
             color: green;
             font-weight: bold;
-            border: solid aquamarine purple 3px red 3px yellow 3px;;
+            border: solid aquamarine purple 3px red 3px yellow 3px;
+            ;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -91,7 +99,21 @@
             overflow: auto;
         }
 
-        #butaoBusca {
+        #caixaBusca {
+
+            background-color: transparent;
+            color: yellowgreen;
+            text-align: center;
+        }
+
+        #botoes {
+
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .butaoBusca {
 
             border: none;
             margin: 0;
@@ -100,12 +122,13 @@
             background-color: transparent;
         }
 
-        #pokebola {
+        .pokebola {
 
             width: 30px;
             height: 30px;
         }
-        #butaoBusca :hover {
+
+        .butaoBusca :hover {
 
             width: 35px;
             height: 35px;
@@ -113,10 +136,26 @@
 
         .bordaDouble {
 
-            border-top: double aquamarine 3px;
-            border-right: double purple 3px;
-            border-bottom: double red 3px;
-            border-left: double yellow 3px;
+            border-top: double aquamarine 5px;
+            border-right: double purple 5px;
+            border-bottom: double red 5px;
+            border-left: double yellow 5px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: purple;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: yellowgreen;
         }
     </style>
 </head>
@@ -156,6 +195,37 @@
         });
 
     }
+    async function buscarPokemonShiny() {
+
+        const inputPokemon = document.getElementById("caixaBusca")
+        let nomePokemon = inputPokemon.value
+
+        if (!nomePokemon) return
+        nomePokemon = nomePokemon.toLowerCase()
+        const resultado = await chamadaDaApi("pokemon/" + nomePokemon)
+        console.log(resultado)
+
+        if (!resultado) return
+
+        let imagem = document.getElementById("imagemPokemon")
+        imagem.src = resultado.sprites.front_default
+
+        let spanNome = document.getElementById("nomePokemon")
+        spanNome.innerHTML = resultado.name
+
+        let spanTipos = document.getElementById("tipos")
+        spanTipos.innerHTML = ""
+        const tipos = resultado.types.forEach(element => {
+            spanTipos.innerHTML += " " + element.type.name + ", "
+        });
+
+        let spanMoves = document.getElementById("moves")
+        spanMoves.innerHTML = ""
+        const moves = resultado.moves.forEach(element => {
+            spanMoves.innerHTML += " " + element.move.name + ", "
+        });
+
+    }
 
     async function chamadaDaApi(resource) {
         let result
@@ -180,15 +250,30 @@
 
 <body>
     <main id="container">
-        <header id="cabecalho" class="bordaDouble">cabecalho</header>
+        <header id="cabecalho">
+            <a href="./pagina_inicial.html">Pagina Inicial<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_basico_box_model.html">CSS Box Model<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_flexbox.html">CSS Flexbox<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_grid.html">Css Grid<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+
+        </header>
         <section id="pokedex">
             <div id="buscaPokemon" class="bordaDouble">
                 <span>Pesquisa</span>
-                <input id="caixaBusca" type="text">
+                <input id="caixaBusca" class="bordaDouble" type="text">
                 <br>
-                <span>Buscar</span>
-                <button onclick="buscarPokemon()" id="butaoBusca"><img
-                        src="https://image.flaticon.com/icons/png/512/188/188918.png" id="pokebola"></button>
+                <span>Buscar - Buscar Shiny</span>
+                <div id="botoes">
+                    <button onclick="buscarPokemonShiny()" class="butaoBusca"><img
+                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
+                    <button onclick="buscarPokemon()" class="butaoBusca"><img
+                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
+                </div>
+
             </div>
             <div id="resultadoPokemon" class="bordaDouble">
                 <div id="imagemNome" class="bordaDouble">
