@@ -15,13 +15,11 @@
 </style>
 
 <body>
-    <div style="width: 100%; height: 100%;">
-        <iframe src="https://dese-center.umov.me" frameborder="0" style="width: 100%; height: 100%;"></iframe>
-    </div>
     <div class="grid-container">
-
-        
         <header>
+            <div>
+                
+            </div>
         </header>
 
         <aside>
@@ -30,20 +28,27 @@
                     Pesquisa:
                     <input type="text" name="nomePokemon" id="nomePokemon">
                 </div>
-                <button onclick="buscarPokemon()">Buscar</button>
+                <button onclick="buscarPokemon()">Buscar Pokemon</button>
+                <button onclick="buscarFilme()">Buscar Filme</button>
             </div>
         </aside>
 
         <main>
             <div class="pokedex">
-                <div class="pokedex-tela">
-                    <img id="imagemPokemon"></img>
+                <div class="tela-container">
+                    <div class="pokedex-tela">
+                        <img id="imagemPokemon"></img>
+                    </div>
                 </div>
                 <div><strong>Nome: </strong>Nome aqui</div>
                 <div><strong>Tipos: </strong>Tipo 1, Tipo 2</div>
-                <div><strong>Skills: </strong>Golpes aqui</div>
+                <div>
+                    <strong>Skills: </strong>
+                    <div class="skills-container">
+                        <span id="habilidades">Golpes aqui</span>
+                    </div>
+                </div>
             </div>
-
         </main>
 
         <footer>

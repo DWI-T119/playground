@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex | FUNDATEC</title>
+
+    <link rel="Shortcut icon" href="https://i.gifer.com/GEEd.gif">
+
+    <link rel="stylesheet" href="./pokedex.css">
+
+
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./pokedex.js"></script>
+
+    <div class="buscaPoke">
+        <div class="imagemPoke">
+            <img src="" alt="" id="pokeImagem">
+        </div>
+        <div class="choice">
+
+            <input type="text" id="buscarPokemon">
+            Shiny:
+            <input type="checkbox" name="Ligado" id="pokemonNormal">
+            <button onclick="chamarPoke()" class="botaoCapturar">Capturar!</button>
+
+
+        </div>
+    </div>
+
+    <div class="separamento">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    </div>
+
+    <div class="resultadoPoke">
+        <div id="skills">
+            <ul id="skillsmoves">
+            </ul>
+        </div>
+        <div class="pokemonTipo">
+            <ul id="pokemonstipos">
+
+            </ul>
+        </div>
+
+        <div class="botoes">
+            <div class="botaoVermelho"></div>
+            <div class="botaoAmarelo"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

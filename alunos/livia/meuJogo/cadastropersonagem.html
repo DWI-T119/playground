@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Jackie Chan Stuntmaster</h1></div>
+    <div> <img src = "https://www.proibidoler.com/wp-content/uploads/2020/01/review-critica-resenha-jackie-chan-stuntmaster-02.jpg" alt width="350px" height="250px"><div>
+        <div>
+            <h2>Menu:</h2></div>
+            <ul>
+                <li>
+                    <a href="index.html"> Página Inicial</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="cadastropersonagem.html">Cadastro De Personagem</a>
+                </li>
+            </ul>
+        <table border="2">
+            
+            <tbody></tbody>
+            <tr><th><h3>Nome</h3></th>
+                <th><h3>Descrição</h3></th>
+</tr>
+<tr>
+    <td><h4>Jackie Chan</h4></td>
+    <td><h4>Protagonista do game, quer resgatar seu avô, que foi sequestrado por bandidos.</h4></td>
+    </tr>
+<tr>
+<td><h4>Capangas</h4></td>
+<td><h4>são os inimigos comuns do game. Suas vestimentas, estilos de luta e personalidade variam de área. Cada área tem seus tipos de capangas.</h4></td>
+</tr>
+<tr>
+<td><h4>Avô do Jackie Chan</h4></td>
+<td><h4>Idoso que um dia é sequestrado por bandidos, fazendo seu neto tentar resgatá-lo.</h4></td>
+</tr>
+<tr>
+<td><h4>Chefões</h4></td>
+<td><h4>São inimigos finais de cada uma das aréas do jogo.</h4></td>
+</tr>
+
+</table>
+<form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+    <div>
+        <br>
+        Nick:
+        <input name="litle" id="">
+        Idade:
+        <input type="number" name="age" id="">
+  
+
+        Vocação:
+        <select>
+            <option value="jackie Chan">Jackie Chan</option>
+            <option value="capangas">Capangas</option>
+            <option value="Avô Do Jackie Chan">Avô do jackie Chan</option>
+            <option value="Chefões">Chefões</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <div>
+            Escolhas Extras:
+            Fazer Tutorial
+            <input type="checkbox"/>
+            Participar de Betas
+            <input type="checkbox"/>
+            Comprar premium 
+            <input type="checkbox"/>
+        </div>
+        
+    </div>
+    <br>
+    <div>
+        Localização do Servidor:
+        <input type="radio"/>
+        <label>Brasil</label>
+        <input type="radio"/>
+        <label>Estados Unidos</label>
+        <input type="radio"/>
+        <label>Europa</label>
+</div>
+    <br/>
+    <br>
+    <div>
+        <span for="history"><strong>História:</strong></span>
+    <div>
+        <textarea name="history" id= "history" cols="30" rows="10"></textarea>
+    </div>
+    </div>
+    <div><button type="submit">Cadastrar</button>
+    </div>
+
+
+    </form>
+
+    </body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex do Vini</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/188/188918.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>
+        body,
+        html {
+
+            padding: 0;
+            margin: 0;
+        }
+        body{
+
+            background-image: url(https://wallpaperaccess.com/full/11914.jpg);
+            background-size: cover;
+        }
+        a {
+
+            text-decoration: none;
+        }
+        #container {
+
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #cabecalho {
+
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            background-color: transparent;
+        }
+
+        #pokedex {
+
+            box-sizing: border-box;
+            height: 90%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 10px;
+            gap: 1px;
+
+        }
+
+        #buscaPokemon {
+
+            color: yellowgreen;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 30px;
+        }
+
+        #resultadoPokemon {
+
+            color: yellowgreen;
+            padding: 20px 50px 50px 50px;
+            width: 200px;
+            height: 350px;
+            border-radius: 30px;
+        }
+
+        #imagemNome {
+
+            color: green;
+            height: 140px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #caixaMoves {
+
+            width: 200px;
+            height: 150px;
+            overflow: auto;
+        }
+
+        #caixaBusca {
+
+            background-color: transparent;
+            color: yellowgreen;
+            text-align: center;
+        }
+
+        #botoes {
+
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .butaoBusca {
+
+            border: none;
+            margin: 0;
+            padding: 0;
+            width: auto;
+            background-color: transparent;
+        }
+
+        .pokebola {
+
+            width: 30px;
+            height: 30px;
+        }
+
+        .butaoBusca :hover {
+
+            width: 35px;
+            height: 35px;
+        }
+
+        .bordaDouble {
+
+            border-top: double aquamarine 5px;
+            border-right: double purple 5px;
+            border-bottom: double red 5px;
+            border-left: double yellow 5px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: purple;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: yellowgreen;
+        }
+    </style>
+</head>
+
+<script>
+
+    const API = "https://pokeapi.co/api/v2/"
+
+    async function buscarPokemon() {
+
+        const inputPokemon = document.getElementById("caixaBusca")
+        let nomePokemon = inputPokemon.value
+
+        if (!nomePokemon) return
+        nomePokemon = nomePokemon.toLowerCase()
+        const resultado = await chamadaDaApi("pokemon/" + nomePokemon)
+        console.log(resultado)
+
+        if (!resultado) return
+
+        let imagem = document.getElementById("imagemPokemon")
+        imagem.src = resultado.sprites.front_shiny
+
+        let spanNome = document.getElementById("nomePokemon")
+        spanNome.innerHTML = "shiny " + resultado.name
+
+        let spanTipos = document.getElementById("tipos")
+        spanTipos.innerHTML = ""
+        const tipos = resultado.types.forEach(element => {
+            spanTipos.innerHTML += " " + element.type.name + ", "
+        });
+
+        let spanMoves = document.getElementById("moves")
+        spanMoves.innerHTML = ""
+        const moves = resultado.moves.forEach(element => {
+            spanMoves.innerHTML += " " + element.move.name + ", "
+        });
+
+    }
+    async function buscarPokemonShiny() {
+
+        const inputPokemon = document.getElementById("caixaBusca")
+        let nomePokemon = inputPokemon.value
+
+        if (!nomePokemon) return
+        nomePokemon = nomePokemon.toLowerCase()
+        const resultado = await chamadaDaApi("pokemon/" + nomePokemon)
+        console.log(resultado)
+
+        if (!resultado) return
+
+        let imagem = document.getElementById("imagemPokemon")
+        imagem.src = resultado.sprites.front_default
+
+        let spanNome = document.getElementById("nomePokemon")
+        spanNome.innerHTML = resultado.name
+
+        let spanTipos = document.getElementById("tipos")
+        spanTipos.innerHTML = ""
+        const tipos = resultado.types.forEach(element => {
+            spanTipos.innerHTML += " " + element.type.name + ", "
+        });
+
+        let spanMoves = document.getElementById("moves")
+        spanMoves.innerHTML = ""
+        const moves = resultado.moves.forEach(element => {
+            spanMoves.innerHTML += " " + element.move.name + ", "
+        });
+
+    }
+
+    async function chamadaDaApi(resource) {
+        let result
+
+        await $.ajax({
+            url: API + resource,
+            type: 'GET',
+            dataType: 'json',
+            success: function (resposta) {
+                result = resposta
+            },
+            error: function () {
+
+                alert("Pokemon não Reconhecido!")
+            }
+        });
+
+        return result
+    }
+
+</script>
+
+<body>
+    <main id="container">
+        <header id="cabecalho">
+            <a href="./pagina_inicial.html">Pagina Inicial<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_basico_box_model.html">CSS Box Model<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_flexbox.html">CSS Flexbox<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+            <a href="./css_grid.html">Css Grid<br><button onclick="" class="butaoBusca"><img
+                        src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button></a>
+
+        </header>
+        <section id="pokedex">
+            <div id="buscaPokemon" class="bordaDouble">
+                <span>Pesquisa</span>
+                <input id="caixaBusca" class="bordaDouble" type="text">
+                <br>
+                <span>Buscar - Buscar Shiny</span>
+                <div id="botoes">
+                    <button onclick="buscarPokemonShiny()" class="butaoBusca"><img
+                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
+                    <button onclick="buscarPokemon()" class="butaoBusca"><img
+                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
+                </div>
+
+            </div>
+            <div id="resultadoPokemon" class="bordaDouble">
+                <div id="imagemNome" class="bordaDouble">
+                    <img id="imagemPokemon">
+                    <span id="nomePokemon"></span>
+                </div>
+                <br>
+                <div><strong>Tipos:</strong><span id="tipos"></span></div>
+                <div id="caixaMoves"><strong>Moves:</strong><span id="moves"></span></div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

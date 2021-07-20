@@ -11,15 +11,15 @@ body {
 /* == GRID LAYOUT == */
 
 .grid-container {
+    background-color: aquamarine;
     height: 100%;
     display: grid;
     grid-template-rows: 0fr 1fr 0fr;
     grid-template-columns: 0.8fr 1fr;
     grid-template-areas:
-    "header header"
-    "aside main"
-    "footer footer";
-
+        "header header"
+        "aside main"
+        "footer footer";
     gap: 20px;
 }
 
@@ -42,6 +42,7 @@ footer {
 /* == FLEX CONTAINERS == */
 
 /* == ASIDE COMPONENTS == */
+
 aside {
     display: flex;
     flex-direction: column;
@@ -53,9 +54,7 @@ aside .busca-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     gap: 10px;
-
     padding: 20px;
     border: solid black 5px;
     border-radius: 20px;
@@ -67,23 +66,48 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    height: 85%;
+    background-color: blue;
 }
 
-.pokedex{
+
+/* == POKEDEX == */
+
+.pokedex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     border: solid black 5px;
-    background-color: red;
+    background-color: tan;
     border-radius: 20px;
-    padding: 50px;
+    padding: 10px;
+    height: 50%;
+    min-height: 200px;
 }
 
-.pokedex .pokedex-tela{
+
+.pokedex .tela-container{
+    height: 39%;
+}
+
+.pokedex .pokedex-tela {
+    height: 32%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-wrap: wrap;
     border: solid black 5px;
     background-color: rgb(159, 224, 218);
     padding: 20px;
+}
+
+.pokedex #imagemPokemon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pokedex .skills-container {
+    /* border: solid blue 5px; */
+    /* height: 100px; */
+    overflow: auto;
+    background-color: tomato;
 }
