@@ -21,6 +21,7 @@
                 <div>
                     <input id="nomePokemon" type="text" placeholder="Digite o nome">
                 </div>
+                <br>
                 <button onclick="buscarPokemon()">Pesquisar</button>
             </div>
         </main>
@@ -31,9 +32,21 @@
                     <img id="imagemPokemon"></img>
                 </div>
 
-                <div><strong>NOME:</strong></div>
-                <div><strong>TIPOS:</strong></div>
-                <div><strong>GOLPES:</strong></div>
+                <div>
+                    <strong>Nome: <span id="pokemonNome"></span></strong>
+                </div>
+
+                <div>
+                    <strong>TIPOS: <span id="tipos"></span></strong>
+                </div>
+
+                <div>
+                    <strong>GOLPES:</strong>
+                    <div id="divGolpes">
+                        <span id="golpes"></span>
+                    </div>
+                </div>
+
             </div>
         </aside>
 

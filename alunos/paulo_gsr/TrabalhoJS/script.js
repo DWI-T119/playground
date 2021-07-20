@@ -9,6 +9,22 @@ async function buscarPokemon() {
 
     let imagemElement = document.getElementById("imagemPokemon")
     imagemElement.src = imageUrl
+
+    let spanNome = document.getElementById("pokemonNome")
+    spanNome.innerHTML = result.name
+    
+    let spanGolpes = document.getElementById("golpes")
+    spanGolpes.innerHTML = " "
+    const golpes = result.moves.forEach(element => {
+        spanGolpes.innerHTML += " " + element.move.name + ", " 
+    });
+
+    let spanTipos = document.getElementById("tipos")
+    spanTipos.innerHTML = ""
+    const tipos = result.types.forEach(element => {
+        spanTipos.innerHTML += " " + element.type.name 
+    })
+   
 }
 async function chamadaApi(resource) {
     let result
