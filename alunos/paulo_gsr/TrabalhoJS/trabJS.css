@@ -71,7 +71,7 @@ footer{
     padding: 10px;
     margin: auto;
     width: 200px;
-    height: 50px;
+    height: 70px;
     display: block;
 }
 
@@ -80,8 +80,8 @@ footer{
     border-radius: 15%;
     padding: 10px;
     margin: auto;
-    width: 96px;
-    height: 96px;
-    display: block;
+    width: auto;
+    height: auto;
+    display: flex;
     text-align: center;
 }
