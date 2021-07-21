@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .enredo {
+    border-style: solid;
+    border-color: gray;
+    padding: 2%;
+  }
+
+  .container_inputs {
+    padding: 2%;
+  }
+</style>
+
+<body>
+  <section class="ex1">
+    <div class="enredo">
+      <article>
+        <h1>Exercício 1</h1>
+        <p>Crie uma página que contenha:</p>
+        <ul>
+          <li>3 Inputs</li>
+          <li>1 Botão</li>
+          <li>1 Div vazia para guardar um resultado</li>
+        </ul>
+        <p>Faça uma função Javascript que some os 3 valores dos inputs, ao clicar no botão, e mostre o resultado na Div vazia.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="container_inputs">
+      <div class="inputs">
+        <input type="number" id="input_01">
+        <b>+</b>
+        <input type="number" id="input_02">
+        <b>+</b>
+        <input type="number" id="input_03">
+        <button onclick="btn_somar()" id="function_btn_somar">SOMAR</button>
+      </div>
+      <strong>Resultado</strong>
+      <div id="resposta_soma">
+        Aguardando resposta. . .
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function btn_somar() {
+      let elementoInput01 = document.getElementById("input_01")
+
+      let value01 = elementoInput01.value
+
+      let elementoInput02 = document.getElementById("input_02")
+
+      let value02 = elementoInput02.value
+
+      let elementoInput03 = document.getElementById("input_03")
+
+      let value03 = elementoInput03.value
+
+      let elementoResposta = document.getElementById("resposta_soma")
+      elementoResposta.innerHTML = Number(value01) + Number(value02) + Number(value03)
+
+    }
+
+  </script>
+
+  <section class="ex2">
+    <div class="enredo">
+      <article>
+        <h1>Exercício 2</h1>
+        <p>Crie uma página que contenha:</p>
+        <ul>
+          <li>3 Inputs</li>
+          <li>1 Div vazia para guardar um resultado</li>
+          <li>SEM Botão</li>
+        </ul>
+        <p>Faça uma função Javascript que some os 3 valores dos inputs e mostre o resultado
+          na Div vazia.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="container_inputs">
+      <div class="inputs">
+        <input type="number" class="input_ex2" onkeyup="calcular()">
+        <b>+</b>
+        <input type="number" class="input_ex2" onkeyup="calcular()">
+        <b>+</b>
+        <input type="number" class="input_ex2" onkeyup="calcular()">
+      </div>
+      <strong>Resultado</strong>
+      <div id="resposta_soma_02">
+        Aguardando resposta. . .
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let inputs = document.getElementsByClassName("input_ex2")
+    for (let index = 0; index < inputs.length; index++) {
+      const element = inputs[index];
+      element.addEventListener("keyup", calcular)
+    }
+
+    function calcular() {
+      let elementoResposta = Number(inputs[0].value) + Number(inputs[1].value) + Number(inputs[2].value)
+      let respostaSoma = document.getElementById("resposta_soma_02")
+      respostaSoma.innerHTML = elementoResposta
+    }
+  </script>
+</body>
+
+</html>
