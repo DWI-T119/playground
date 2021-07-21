@@ -1,0 +1,42 @@
+/* Geral */
+
+.objetivo-01, 
+.objetivo-02,
+.objetivo-03 {
+	box-sizing: border-box;
+    margin: 100px;
+}
+
+.button {
+    box-sizing: border-box;
+    padding: 15px 30px;
+    width: 200px;
+    background-color: #000;
+    border-radius: 30px;  
+    text-align: center;      
+    margin-bottom: 50px;
+}
+
+.link-button {    
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;       
+}
+
+.titulo-primario {  
+    text-align: center;
+    font-size: 50px;
+}
+
+.descricao {    
+    box-sizing: border-box;   
+    border: 5px solid #000;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+	margin-bottom: 20px;
+	font-size: 30px;    
+    color: #3166fb;   
+	padding: 10px;  
+}
