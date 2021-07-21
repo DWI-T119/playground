@@ -15,20 +15,26 @@
 
             padding: 0;
             margin: 0;
+            width: 100%;
+            height: 100%;
+
         }
-        body{
+
+        body {
 
             background-image: url(https://wallpaperaccess.com/full/11914.jpg);
             background-size: cover;
         }
+
         a {
 
             text-decoration: none;
         }
+
         #container {
 
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
@@ -48,7 +54,6 @@
 
         #pokedex {
 
-            box-sizing: border-box;
             height: 90%;
             width: 100%;
             display: flex;
@@ -82,7 +87,7 @@
 
         #imagemNome {
 
-            color: green;
+            color: yellowgreen;
             height: 140px;
             font-weight: bold;
             display: flex;
@@ -163,17 +168,7 @@
 
     const API = "https://pokeapi.co/api/v2/"
 
-    async function buscarPokemon() {
-
-        const inputPokemon = document.getElementById("caixaBusca")
-        let nomePokemon = inputPokemon.value
-
-        if (!nomePokemon) return
-        nomePokemon = nomePokemon.toLowerCase()
-        const resultado = await chamadaDaApi("pokemon/" + nomePokemon)
-        console.log(resultado)
-
-        if (!resultado) return
+    function getShinyImage(resultado) {
 
         let imagem = document.getElementById("imagemPokemon")
         imagem.src = resultado.sprites.front_shiny
@@ -181,20 +176,16 @@
         let spanNome = document.getElementById("nomePokemon")
         spanNome.innerHTML = "shiny " + resultado.name
 
-        let spanTipos = document.getElementById("tipos")
-        spanTipos.innerHTML = ""
-        const tipos = resultado.types.forEach(element => {
-            spanTipos.innerHTML += " " + element.type.name + ", "
-        });
+    }
+    function getDefaultImage(resultado) {
+        let imagem = document.getElementById("imagemPokemon")
+        imagem.src = resultado.sprites.front_default
 
-        let spanMoves = document.getElementById("moves")
-        spanMoves.innerHTML = ""
-        const moves = resultado.moves.forEach(element => {
-            spanMoves.innerHTML += " " + element.move.name + ", "
-        });
+        let spanNome = document.getElementById("nomePokemon")
+        spanNome.innerHTML = resultado.name
 
     }
-    async function buscarPokemonShiny() {
+    async function buscarPokemon(isShiny = false) {
 
         const inputPokemon = document.getElementById("caixaBusca")
         let nomePokemon = inputPokemon.value
@@ -206,11 +197,12 @@
 
         if (!resultado) return
 
-        let imagem = document.getElementById("imagemPokemon")
-        imagem.src = resultado.sprites.front_default
-
-        let spanNome = document.getElementById("nomePokemon")
-        spanNome.innerHTML = resultado.name
+        if(isShiny) {
+            getShinyImage(resultado);
+        } else {
+            getDefaultImage(resultado);
+        }
+        
 
         let spanTipos = document.getElementById("tipos")
         spanTipos.innerHTML = ""
@@ -267,9 +259,9 @@
                 <br>
                 <span>Buscar - Buscar Shiny</span>
                 <div id="botoes">
-                    <button onclick="buscarPokemonShiny()" class="butaoBusca"><img
-                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
                     <button onclick="buscarPokemon()" class="butaoBusca"><img
+                            src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
+                    <button onclick="buscarPokemon(true)" class="butaoBusca"><img
                             src="https://image.flaticon.com/icons/png/512/188/188918.png" class="pokebola"></button>
                 </div>
 
