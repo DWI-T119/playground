@@ -3,45 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
 </head>
 <style>
     body {
-        background-color: white
+        margin: 0;
+        padding: 0;
+    }
+    
+    #site {
+        padding: 20px;
+    }
+    
+    #site>* {
+        padding: 20px;
     }
     
     .title {
         text-align: center;
-        color: black;
-        font-size: 50px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
     .button {
-        background-color: white;
-        border: solid #964b00;
-        text-decoration: none;
+        background-color: black;
         border-radius: 20px;
-        text-align: center;
-        margin-right: 1260px;
-    }
-    
-    .button:hover {
-        background-color: #964b00;
-    }
-    
-    a {
+        max-width: fit-content;
+        padding: 10px 40px;
         text-decoration: none;
-        color: black;
-        width: max-content;
-    }
-    
-    a:hover {
         color: white;
+        text-decoration: none;
     }
     
-    .sumary {
+    .objetivo {
+        padding: 5px !important;
+    }
+    
+    .descricao {
         text-align: center;
         padding: 10px 15px;
         background-color: white;
@@ -49,93 +47,143 @@
         width: 50%;
         margin: auto;
         border: solid black 3px;
-        color: black;
+        color: blue;
         font-weight: 700;
-        margin-bottom: 15px;
     }
     
-    p {
-        color: black;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .firstContainer {
-        display: flex;
-        gap: 5px;
-        max-width: 50%;
-        margin: 0 auto;
-        padding: 5px;
-        background: #964b00;
+    .container {
         text-align: center;
-        border: solid black 3px;
+        background-color: #654321;
+        border: solid rgb(134, 255, 21) 7px;
+        display: flex;
+        padding: 1px;
+        max-width: 50%;
+        margin: 10px auto;
     }
     
-    #firstContainer {
-        flex-wrap: wrap;
-    }
-    
-    .firstContainer>div {
-        background-color: white;
+    .item {
         margin: 5px;
+        border: solid rgb(134, 255, 21) 3px;
         padding: 10px;
-        border: solid black 5px;
+        background-color: pink;
     }
     
-    .secondContainer {}
+    #flex1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+        justify-content: flex-start;
+    }
+    
+    #flex2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #flex3 {
+        display: flex;
+    }
+    
+    #flex3>.item {
+        flex-grow: 1;
+        padding-bottom: 10px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+    
+    .item_04 {
+        margin: 5px;
+        border: solid rgb(134, 255, 21) 3px;
+        background-color: pink;
+        padding: 20px;
+    }
+    
+    #item_04_01 {
+        flex-grow: 0.5;
+    }
+    
+    #item_04_02 {
+        flex-grow: 0;
+    }
+    
+    #item_04_03 {
+        background-color: #654321;
+        flex-grow: 1;
+        align-self: center;
+        height: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    #item_04_03>div {
+        background-color: pink;
+        /* padding: 10px; */
+        border: solid rgb(134, 255, 21) 3px;
+        padding: 2px;
+    }
 </style>
 
 <body>
+    <div id="site">
+        <div>
+            <a class="button" href="../index.html">Voltar</a>
+        </div>
+        <div>
+            <hr>
+            <h1 class="title">FlexBox</h1>
+            <div class="descricao">
+                Marrom = Flex Container, Rosa = Flex Items<br>
+            </div>
+        </div>
+        <!-- Container 01 -->
+        <div class="objetivo">
+            <div class="container" id="flex1">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
 
-    <div class="button"><a href="#">Voltar</a></div>
+            <!-- Container 02 -->
+            <div class="container" id="flex2">
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <!-- Container 03 -->
+            <div class="container" id="flex3">
+                <div class="item">Item 01</div>
+            </div>
 
+            <!-- Container 04 -->
 
-    <hr>
-    <h1 class="title">FlexBox</h1>
-    <div class="sumary">
-        <p> Marrom = Flex Container, Branco = Flex Items </p>
-    </div>
-
-
-    <div class="firstContainer" id="firstContainer">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
-    <hr>
-
-    <div class="secondContainer">
-        <div></div>
-        <div></div>
-    </div>
-
-    <hr>
-
-    <div class="container3">
-        <div class="item1">item 1</div>
-    </div>
-
-    <hr>
-
-    <div class="container4">
-        <div class="item1-04">item 1</div>
-        <div class="item2-04">item 2</div>
-        <div class="div3">
-            <div class="itemInterno">Item interno</div>
-
+            <div class="container" id="flex4">
+                <div class="item_04" id="item_04_01">
+                    Item 01
+                </div>
+                <div class="item_04" id="item_04_02">
+                    Item 01
+                </div>
+                <div class="item_04" id="item_04_03">
+                    <div>Item Interno</div>
+                </div>
+            </div>
         </div>
     </div>
 
