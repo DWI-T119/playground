@@ -1,34 +1,50 @@
 const BASE_URL = "https://pokeapi.co/api/v2/"
 
-async function buscarPokemon() {
+async function buscarPokemon() {  
+  
+  let imagem = document.getElementById("imagemPokemon");
+  imagem.src = '';
+
+  let nome = document.getElementById("nome");  
+  nome.innerHTML = '';
+
+  let altura = document.getElementById("altura")
+  altura.innerHTML = '';
+
+  let peso = document.getElementById("peso")
+  peso.innerHTML = '';
+
+  let tipo = document.getElementById("tipos")  
+  tipo.innerHTML = '';
+  tipos = '';
+
+  let move = document.getElementById("moves")
+  move.innerHTML = '';  
+  moves = '';
+
   const entrada = document.getElementById("nomeOuId");
   const nomePokemon = entrada.value;
 
   const result = await chamadaDaApi("pokemon/" + nomePokemon);
 
-  const imagem = document.getElementById("imagemPokemon");
   imagem.src = result.sprites.front_default;
 
-  const nome = document.getElementById("nome");
-  console.log(result);
   nome.innerHTML = result.name.toUpperCase();
 
-  const altura = document.getElementById("altura")
   altura.innerHTML = `${result.height * 10} cm`
 
-  const peso = document.getElementById("peso")
   peso.innerHTML = `${result.weight / 10} kg`
 
-  const tipo = document.getElementById("tipos")  
-  const tipos = result.types.forEach(element => {
-    tipo.innerHTML += capitalizarPrimeiraLetra(`${element.type.name} <br>`)
-  });
+  for (let index = 0; index < result.types.length; index++) {
+    tipos += capitalizarPrimeiraLetra(`${result.types[index].type.name} <br>`) 
+  }
 
-  const move = document.getElementById("moves")  
-  const moves = result.moves.forEach(element => {
-    move.innerHTML += capitalizarPrimeiraLetra(`${element.move.name} <br>`)
-  });
+  for (let index = 0; index < result.moves.length; index++) {
+    moves += capitalizarPrimeiraLetra(`${result.moves[index].move.name} <br>`)
+  }
 
+  tipo.innerHTML = tipos;
+  move.innerHTML = moves;
 }
 
 async function chamadaDaApi(resource) {
