@@ -1,0 +1,68 @@
+
+/* Layout */
+
+body {
+    margin: 0px;
+    padding: 20px 30px;
+}
+/* Voltaremos 20:56 */
+
+.linha-divisoria {
+  background-color: gray;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.2;
+}
+
+.item-centralizado {
+  text-align: center;
+}
+
+/* Componentes */
+.voltar-btn {
+  display: block;
+  padding: 5px 5px;
+  max-width: 60px;
+  border: none;
+  background-color: rgb(5, 5, 5);
+  border-radius: 20px;
+
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+/* Container cinza */
+.container-cinza {
+  background-color: gray;
+  border: solid 2px black;
+}
+
+.pilula-branca {
+  background-color: white;
+  width: fit-content;
+  padding: 5px 17px;
+  margin: 10px auto 10px auto;
+  border: solid black 2px;
+  border-radius: 20px;
+
+  font-weight: 700;
+  color: blue;
+}
+
+.item {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  background-color: olive;
+  border: solid black 2px;
+  border-left: solid blue 2px;
+  border-right: solid red 2px;
+}
+
+.circulo {
+  border-radius: 50%;
+}
