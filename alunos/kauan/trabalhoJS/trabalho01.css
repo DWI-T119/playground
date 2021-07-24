@@ -1,0 +1,91 @@
+
+body {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.grid-container {
+    background-color: aquamarine;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    gap: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+aside .busca-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 85%;
+    background-color: blue;
+}
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    background-color: tan;
+    border-radius: 20px;
+    padding: 10px;
+    height: 50%;
+    min-height: 200px;
+}
+.pokedex .tela-container{
+    height: 39%;
+}
+.pokedex .pokedex-tela {
+    height: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black 5px;
+    background-color: rgb(159, 224, 218);
+    padding: 20px;
+}
+.pokedex #imagemPokemon {
+    max-width: 100%;
+    max-height: 100%;
+}
+.pokedex .skills-container {
+    /* border: solid blue 5px; */
+    /* height: 100px; */
+    overflow: auto;
+    background-color: tomato;
+}

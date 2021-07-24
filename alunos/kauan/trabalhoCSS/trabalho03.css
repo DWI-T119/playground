@@ -3,7 +3,7 @@ html , body{
     padding: 0%;
     box-sizing: border-box;
 }
-a {
+.botaoVoltar{
     display: block;
     width: 160px;
     height: 40px;
@@ -15,9 +15,8 @@ a {
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    font-family: Arial;
+   font-size: x-large;
 }
-
 .item1 { 
     grid-area: header; 
     border: solid blue;

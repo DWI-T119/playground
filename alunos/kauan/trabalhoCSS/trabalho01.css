@@ -1,5 +1,4 @@
-
- a {
+.botaoVoltar {
     display: block;
     width: 160px;
     height: 40px;
@@ -11,7 +10,7 @@
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    font-family: Arial;
+    font-size:x-large;
 }
 
 hr {
