@@ -43,9 +43,11 @@ aside .busca-container {
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
-    border: solid black 5px;
+    border: solid #000066 5px;
     border-radius: 20px;
-    
+    background-color: rgb(255, 10, 0);
+    opacity: 0.8;
+
 }
 main {
     display: flex;
@@ -58,15 +60,15 @@ main {
 .pokedex {
     display: flex;
     flex-direction: column;
-    border: solid black 5px;
-    background-color:red;
+    border: solid #000066 5px;
+    background-color:rgb(255, 10, 0);
     border-radius: 20px;
     padding: 10px;
     margin: 30px;
     height: 500px;
     width: 250px;
     min-height: 200px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .pokedex .tela-container{
     height: 200px;
@@ -76,8 +78,9 @@ main {
     display: flex;
     flex-wrap:nowrap;
     flex-direction: column;
-    border: solid black 5px;
-    background-color:blanchedalmond;
+    border: groove #000066 5px;
+    border-radius: 10%;
+    background-color: #ffba70;
     padding: 2px;
 }
 .pokedex #imagemPokemon {
@@ -85,11 +88,36 @@ main {
     max-height: 100%;
 }
 .pokedex .skills-container {
-    border: solid blue 5px; 
     height: 240px; 
-    overflow: auto;
-    background-color: tomato;
+    overflow:auto;
+    background-color: rgb(255, 10, 0);
+    font-size: 150%;
+    color: #000066;
+    font-weight:bold;
 } 
 .mid-pokedex{
     padding: 22px 0px 10px;
+    font-size: 170% ;
+    color: #000066;
+    font-weight:bold;
 }
+.botaoVoltar {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;
+}
+#Pesquisa{
+    color: blue;
+    font-size: 160%;
+    font-weight:bold;
+}
+
