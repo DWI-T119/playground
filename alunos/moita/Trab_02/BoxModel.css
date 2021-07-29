@@ -1,0 +1,92 @@
+.title {
+    text-align: center;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    background-color: rebeccapurple;
+    width: 90%;
+    height: 600px;
+    border: solid black 3px;
+}
+
+.textBox {
+    background-color: goldenrod;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: solid 3px whitesmoke;
+    border-radius: 30px;
+}
+
+.button {
+    display: block;
+    background-color: rebeccapurple;
+    border: solid rebeccapurple;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+    color: whitesmoke;
+}
+
+.squareOne {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: teal;
+    border-top: solid black;
+    border-right: solid orangered;
+    border-left: solid yellow;
+    border-bottom: solid black;
+    left: 30%;
+    top: 20%;
+}
+
+.squareTwo {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: teal;
+    border-top: solid black;
+    border-right: solid orangered;
+    border-left: solid yellow;
+    border-bottom: solid black;
+    align-items: center;
+    left: 30%;
+    top: 30%;
+}
+
+.circleOne {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: teal;
+    border-top: solid black;
+    border-right: solid orangered;
+    border-left: solid yellow;
+    border-bottom: solid black;
+    border-radius: 50%;
+    left: 50%;
+    top: 6%;
+}
+
+.circleTwo {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: teal;
+    border-top: solid black;
+    border-right: solid orangered;
+    border-left: solid yellow;
+    border-bottom: solid black;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 53%;
+}

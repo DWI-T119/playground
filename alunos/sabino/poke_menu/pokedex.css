@@ -1,0 +1,198 @@
+/* == RESET == */
+
+body {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    /* background-image: linear-gradient(to right, rgb(101, 118, 121), rgb(210, 226, 220)); */
+}
+
+/* == GRID LAYOUT == */
+
+.grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-areas:
+        "aside main";
+}
+
+.grid-container > * {
+    /* border: solid gray 2px; */
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+    height: 100vh;
+}
+
+/* == FLEX CONTAINERS == */
+
+/* == ASIDE COMPONENTS == */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+aside .busca-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+/* == MAIN COMPONENTS == */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* == POKEDEX == */
+
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    height: 50%;
+    width: 40%;
+    min-height: 200px;
+    margin: auto;
+}
+
+.pokedex-header {
+    padding: 1px 0px 10px 0px;
+}
+
+.pokedex-header .blue-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: blue;
+    border: solid white 4px;
+    border-radius: 50%;
+}
+
+.pokedex .tela-container{
+    height: 39%;
+}
+
+.pokedex .pokedex-tela {
+    height: 60%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black 5px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 4px;
+    border: solid white 20px;
+}
+
+.pokedex #imagemPokemon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pokedex .skills-container {
+    /* border: solid blue 5px; */
+    /* height: 100px; */
+    overflow: auto;
+}
+
+.pokedex-buttons {
+    margin-top: 60px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.pokedex-buttons > * {
+    /* border: solid blue 2px; */
+}
+
+.pokedex .circle-button {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.middle-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stick-buttons-container {
+    display: flex;
+    gap: 8px;
+}
+.red-button {
+    height: 3px;
+    width: 30px;
+    background-color: red;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+.black-button {
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+.green-square {
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.directional-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    background-color: blue;
+}
+.square {
+    position: absolute;
+    padding: 10px;
+    background-color: black;
+}
+
+.up {
+    top: -23px;
+}
+.left {
+    left: -23px;
+}
+.center {
+    /* background-color: red; */
+}
+.right {
+    right: -43px;
+}
+.down {
+    top: 23px;
+}

@@ -8,31 +8,78 @@
     <title>Pagina Inicial</title>
 
     <style>
-        .cabecalho {
+        html,
+        body {
+
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .flexCenter {
 
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: flex-start;
-            height: 500px;
-            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+        }
+        #inicio {
+
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .cabecalho {
+
+            font-size: 40px;
+            color: #F2A490;
+            font-family: 'Courier New', Courier, monospace;
+            height: 20%;
+            background-color: #DE5B6D;
+            border: solid black 3px;
         }
         .item {
-
-            border-color: black;
-            background: brown;
+            
+            font-size: 50px;
+            border-color: solid black 3px;
+            background: #B9D4DB;
+            border: solid;
         }
+        a {
 
+            text-decoration: none;
+            color: black;
+        }
+        #corpo {
+
+            height: 80%;
+            background-color: #478BA2;
+        }
+        #menu {
+            
+            flex-direction: column;
+            gap: 10px;
+        }
     </style>
 </head>
 
 <body>
-  <div class="cabecalho">
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-  </div>
+    <main id="inicio">
+        <header class="cabecalho flexCenter">
+            <h1>Trabalho CSS e JS</h1>
+        
+        </header>
+        <section id="corpo" class="flexCenter">
+            <nav id="menu" class="flexCenter">
+                <div id="" class="item"><a href="./css_basico_box_model.html">CSS Box Model</a></div>
+                <div id="" class="item"><a href="./css_flexbox.html">CSS Flexbox</a></div>
+                <div id="" class="item"><a href="./css_grid.html">CSS Grid</a></div>
+                <div id="" class="item"><a href="./javascript_pokeapi.html">Pokedex</a></div>
+                <div id="" class="item"><a href="./pagina_inicial.html">Inicio</a></div>
+            </nav>
+        </section>
+    </main>
+   
 
 </body>
 

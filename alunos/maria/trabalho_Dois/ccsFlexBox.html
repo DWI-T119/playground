@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<style>
+        body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #site {
+        padding: 20px;
+    }
+
+    #site>* {
+        padding: 20px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .button {
+        background-color: black;
+        border-radius: 20px;
+        max-width: fit-content;
+        padding: 10px 40px;
+        text-decoration: none;
+        color: white;
+        text-decoration: none;
+    }
+
+    .goal {
+        padding: 5px !important;
+
+    }
+
+    .description {
+        padding: 10px 15px;
+        background-color: white;
+        border-radius: 50px;
+        width: 50%;
+        margin: 15px auto;
+        border: solid black 3px;
+        color: black;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container {
+        text-align: center;
+        background-color: #452147;
+        border: solid black 3px;
+        display: flex;
+        padding: 1px;
+        max-width: 50%;
+        margin: 0px auto;
+    }
+
+    .item {
+        margin: 5px;
+        border: solid black 3px;
+        padding: 10px;
+        background-color: #BA9B00;
+    }
+</style>
+
+<body>
+    <div id="site">
+        <div>
+            <a class="button"
+                href="C:\Users\majue\OneDrive\Documentos\GitHub\playground\alunos\maria\index.html">Voltar</a>
+        </div>
+        <div>
+            <hr>
+            <h1 class="title">Flex Box</h1>
+            <div class="description">
+                Roxo = Flex Container, Amarelo = Flex Items<br>
+            </div>
+        </div>
+        <!--First Container-->
+        <div class="goal">
+            <div id="firstContainer" class="container">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <style>
+                #firstContainer {
+                    flex-wrap: wrap;
+                }
+            </style>
+        </div>
+        <!-- Second Container-->
+        <div class="goal">
+            <div id="secondContainer" class="container">
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <style>
+                #secondContainer {
+                    padding: 20px 0px;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                }
+            </style>
+        </div>
+
+        <!--Third Container-->
+        <div class="goal">
+            <div id="thirdContainer" class="container">
+                <div class="mainItem" id="mainItemID">
+                    Item
+                </div>
+            </div>
+            <style>
+                .mainItem {
+                    margin: 5px;
+                    border: solid black 2px;
+                    background-color: #BA9B00;
+                    padding: 20px;
+                }
+
+                #mainItemID {
+                    flex-grow: 1;
+                }
+            </style>
+        </div>
+
+        <!-- Fourth Container -->
+        <div class="goal">
+            <div id="fourthContainerID" class="container">
+                <div class="fourthItem" id="firstMainItemID">
+                    Item
+                </div>
+                <div class="fourthItem" id="secondMainItemID">
+                    Item
+                </div>
+                <div class="fourthItem" id="thirdMainItemID">
+                    <div> Inside Item</div>
+                </div>
+            </div>
+            <style>
+                .fourthItem {
+                    margin: 5px;
+                    border: solid black 3px;
+                    background-color: #BA9B00;
+                    padding: 20px;
+                }
+
+                #firstMainItemID {
+                    flex-grow: 0.5;
+                }
+
+                #secondMainItemID {
+                    flex-grow: 0;
+                }
+
+                #thirdMainItemID {
+                    background-color: #452147;
+                    flex-grow: 1;
+                    align-self: center;
+                    height: 5px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                #thirdMainItemID>div {
+                    background-color: #BA9B00;
+                    border: solid black 3px;
+                    padding: 5px;
+                    margin: 5px;
+                }
+
+            </style>
+        </div>
+    </div>
+</body>
+
+</html>

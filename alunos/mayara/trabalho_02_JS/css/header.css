@@ -1,0 +1,43 @@
+/* Header */
+
+.header {  
+  width: 100%;   
+  padding: 8px 15px; 
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);  /*<eixo x> <eixo y> <tamanho da sombra> <cor>*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header img {
+  width: 110px;  
+}
+
+.header .logo {
+  display: inline-block;
+}
+
+.header nav {
+  float: right;
+}
+
+.header li a {
+  padding: 0 15px;
+  text-decoration: none;
+  color: #666;
+  font-size: 18px;
+}
+
+.header li a:hover {
+  color: #0073b0;
+  
+}
+
+.header li,
+.header li a {
+  display: inline-block;
+}

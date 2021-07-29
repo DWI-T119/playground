@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/style.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+
+    <header class="header">
+      <a class="logo" href="#" title="Home">
+        <img src="https://www.fundatec.org.br/img/mlayout/logo-fundatec.png" alt="Fundatec">
+      </a>
+  
+      <nav>
+        <ul>
+          <li>
+            <a href="https://dwi-ti19.herokuapp.com/alunos/mayara/Trabalho_HTML/paginaInicial.html">Trabalho HTML</a>
+          </li>
+          <li>
+            <a href="https://dwi-ti19.herokuapp.com/alunos/mayara/trabalho_02_CSS/objetivo01.html">Trabalho CSS</a>
+          </li>
+          <li>
+            <a href="file:///home/mayara/Desktop/Fundatec/DesenvolvimentoWeb1/playground/alunos/mayara/trabalho_02_JS/index.html">Trabalho JavaScript</a>
+          </li>
+        </ul>
+      </nav>
+    </header>   
+
+    <main>
+      <div class="poke">        
+          <div class="busca-container">
+            <div class="pokedex-tela">
+              <div><span id="nome"></span></div>
+              <img id="imagemPokemon"></img>
+            </div>
+            <div>
+              Pesquisa:
+              <input type="text" name="nomeOuId" id="nomeOuId" placeholder="Digite o id ou nome desejado">
+            </div>
+            <button onclick="buscarPokemon()">Buscar</button>
+          </div>        
+        
+        <div class="pokedex-info">          
+          <div><strong>Altura: </strong><span id="altura"></span></div>
+          <div><strong>Peso: </strong><span id="peso"></span></div>
+          <div><strong>Tipos: </strong><span id="tipos"></span></div>
+          <div class="skills"><strong>Skills: </strong><span id="moves"></span></div>
+          <div class="button">
+            <div class="geral-btn">Geral</div>
+            <div class="tipos-btn">Tipos</div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+    </footer>
+  </div>
+</body>
+
+</html>

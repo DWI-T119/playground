@@ -1,0 +1,172 @@
+/* ------------
+    RESETS 
+---------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+/* ------------
+     LAYOUT
+---------------*/
+
+.layout-container {
+  display: grid;
+
+  height: 100%;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header {
+  margin: 2px;
+  grid-area: header;
+}
+
+aside {
+  margin: 2px;
+  grid-area: aside;
+}
+
+main {
+  margin: 2px;
+  grid-area: main;
+}
+
+footer {
+  margin: 2px;
+  grid-area: footer;
+}
+
+/* ------------
+     ASIDE
+---------------*/
+
+aside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.busca-container {
+    border: solid black 4px;
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* ------------
+     HEADER
+---------------*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------
+     MAIN
+---------------*/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pokedex {
+    background-color: red;
+    height: 250px;
+    width: 200px;
+    border: solid black 4px;
+    padding: 20px 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pokedex-visor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  
+  border: solid white 12px;
+    height: 50%;
+    width: 100%;
+}
+
+.pokedex-resultado {
+    padding: 0px 20px;
+    margin-top: 10px;
+    border: gray 1px solid;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    font-weight: 700;
+}
+
+.pokedex-resultado::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.pokedex-resultado::-webkit-scrollbar-track {
+  background: #ac4a4a;
+}
+
+/* Handle */
+.pokedex-resultado::-webkit-scrollbar-thumb {
+  background: rgb(243, 8, 8);
+  border-radius: 50%;
+  height: 10px;
+}
+
+/* Handle on hover */
+.pokedex-resultado::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

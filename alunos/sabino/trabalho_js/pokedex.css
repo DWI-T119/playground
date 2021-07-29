@@ -1,0 +1,38 @@
+
+/* RESET GLOBAL */
+
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* LAYOUT GRID */
+
+.container-grid-global {
+    height: 100vh;
+
+    display: grid;
+
+    
+}
+header {
+    background-color: black;
+    height: 10%;
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    background-color: black;
+    height: 10%;
+}
+
+

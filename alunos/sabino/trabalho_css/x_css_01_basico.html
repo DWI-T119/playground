@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #site {
+        padding: 20px;
+    }
+
+    #site>* {
+        padding: 20px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .button {
+        background-color: black;
+        border-radius: 20px;
+        max-width: fit-content;
+        padding: 10px 40px;
+        text-decoration: none;
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        text-align: center;
+        background-color: gray;
+        border: solid black 3px;
+    }
+
+    .descricao {
+        padding: 10px 15px;
+        background-color: white;
+        border-radius: 20px;
+        width: 50%;
+        margin: 15px auto;
+        border: solid black 3px;
+        color: blue;
+        font-weight: 700;
+    }
+
+    .quadrado {
+        border: solid black 3px;
+        border-left: solid blue 3px;
+        border-right: solid red 3px;
+        margin: 10px;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-color: olive;
+        position: relative;
+    }
+
+    .circulo {
+        border: solid black 3px;
+        border-left: solid blue 3px;
+        border-right: solid red 3px;
+        margin: 10px;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-color: olive;
+        position: relative;
+        border-radius: 50%;
+    }
+
+    .triangulo {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 60px 60px;
+        border-color: transparent transparent olive transparent;
+    }
+</style>
+
+<body>
+    <div id="site">
+        <div>
+            <a class="button" href="../index.html">Voltar</a>
+        </div>
+        <div>
+            <hr>
+            <h1 class="title">CSS Básico</h1>
+            <div class="container">
+                <div class="descricao">
+                    2 Quadrados e 2 Circulos utilizando Box Model<br>
+                </div>
+                <div>
+                    <div class="quadrado"></div>
+                    <div class="circulo"></div>
+                </div>
+                <div>
+                    <div class="quadrado"></div>
+                    <div class="circulo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

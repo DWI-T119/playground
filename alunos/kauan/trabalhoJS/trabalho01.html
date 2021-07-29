@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poke-API</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./trabalho01.css">
+    <link rel="icon" href="https://http2.mlstatic.com/D_NQ_NP_630007-MLB31850372372_082019-O.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./trabalho01.js"></script>
+</head>
+
+<body>
+    <div class="grid-container" >
+        <aside>
+            <div class="busca-container">
+                <div>
+                    <label id = "Pesquisa" >Pesquisa:</label>
+                    <input id="nomeDoPokemon" type=" text ">
+                </div>
+                <div>
+                    <button onclick="buscar_pokemon()" class=".botaoVoltar">Buscar Pokemon</button>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div class="pokedex">
+                <div class="tela-container" >
+                    <div class="pokedex-tela">
+                    <img id="imagemDoPokemon">
+                </div>
+                </div>
+            <div class="mid-pokedex">
+                <div>
+                    <label > Nome: </label>
+                    <label id="nomePokemon"></label>
+                </div>
+                <div>
+                    <label >Tipo:</label>
+                    <label  id="tipoPokemon"></label>
+                </div>
+            </div>
+                <div class="skills-container">
+                    <label >Skills:</label>                   
+                    <label  id="movesPokemon"></label>                  
+                </div>
+            </div>
+
+         </main>
+        <header></header>
+        
+    </div>
+</body>
+
+</html>

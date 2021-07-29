@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Básico</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #site {
+            padding: 20px;
+        }
+
+        #site>* {
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .button {
+            background-color: black;
+            border-radius: 20px;
+            max-width: fit-content;
+            padding: 10px 40px;
+            text-decoration: none;
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .container {
+            text-align: center;
+            background-color:snow;
+            border: solid black 3px;
+        }
+
+        .description {
+
+            padding: 10px 15px;
+            background-color: white;
+            border-radius: 20px;
+            width: 50%;
+            margin: 15px auto;
+            border: solid black 3px;
+            color: black;
+            font-weight: 700;
+        }
+
+        .square_One {
+            border-top: solid #d62900 3px;
+            border-bottom: solid #ff9b55 3px;
+            border-left: solid #d461a6 3px;
+            border-right: solid #a50062 3px;
+            margin: 10px;
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background-color: #FFFFFF;
+            position: relative;
+        }
+
+        .square_Two {
+            border-top: solid #fc739f 3px;
+            border-bottom: solid #bd17d3 3px;
+            border-left: solid #000000 3px;
+            border-right: solid #313cba 3px;
+            position: relative;
+            margin: 10px;
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background-color: #FFFFFF;
+        }
+
+        .circle_One {
+
+            border-top: solid #fc739f 3px;
+            border-bottom: solid #bd17d3 3px;
+            border-left: solid #000000 3px;
+            border-right: solid #313cba 3px;
+            position: relative;
+            margin: 10px;
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+        }
+
+        .circle_Two {
+
+            border-top: solid #d62900 3px;
+            border-bottom: solid #ff9b55 3px;
+            border-left: solid #d461a6 3px;
+            border-right: solid #a50062 3px;
+            margin: 10px;
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background-color: #FFFFFF;
+            position: relative;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="site">
+        <div>
+            <a class="button"
+                href="C:\Users\majue\OneDrive\Documentos\GitHub\playground\alunos\maria\index.html">Voltar</a>
+        </div>
+        <div>
+            <hr>
+            <h1 class="title">CSS Basico</h1>
+            <div class="container">
+                <div class="description">
+                    Dois quadrados e dois circulos utilizando Box Model!
+                </div>
+                <div>
+                    <div class="square_One"></div>
+                    <div class="circle_One"></div>
+                </div>
+                <div>
+                    <div class="square_Two"></div>
+                    <div class="circle_Two"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

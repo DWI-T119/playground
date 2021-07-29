@@ -163,15 +163,23 @@
             <h2>#Exemplos Básicos</h2>
             <article id="exemplo_01">
                 <h1>Me click para enviar um alert!</h1>
-                <button id="btn_exemplo_01">Exemplo 01</button>
+                <button id="btn_exemplo_01_00">Exemplo 01</button>
                 <script>
-                    window.addEventListener("load", function () {
-                        let elementoBotao = document.getElementById("btn_exemplo_01")
+                    window.addEventListener("load", executarAoCarregar)
 
-                        elementoBotao.addEventListener("click", function () {
-                            alert("Olá!")
-                        })
-                    })
+                    function executarAoCarregar() {
+
+                        let elementoBotao = pegarElementoPeloId("btn_exemplo_01_00")
+                        adicionarEventoDeClick(elementoBotao, () => alert("Ola"))
+
+                        function pegarElementoPeloId(elementId) {
+                            return document.getElementById(elementId)
+                        }
+
+                        function adicionarEventoDeClick(elemento, funcao) {
+                            elemento.addEventListener("click", funcao)
+                        }
+                    }
                 </script>
             </article>
             <article id="exemplo_02">
@@ -244,10 +252,14 @@
                 </div>
                 <script>
                     function funcaoExemplo04() {
-                        let colorInput = document.getElementById("input_exemplo_04")
-                        let colorValue = colorInput.value
+                        const colorInput = document.getElementById("input_exemplo_04")
+                        const colorValue = colorInput.value
 
-                        let div = document.getElementById("minha_tag_ex_04")
+                        const div = document.getElementById("minha_tag_ex_04")
+                        console.log(div)
+                        // div.style.border = `solid ${colorValue} 3px`
+                        div.style.textAlign = "center"
+                        div.style.backgroundColor = colorValue
                     }
                 </script>
             </article>
@@ -310,7 +322,7 @@
 
                     // let vetor
                     // vetor = ["pos0", "pos1", "pos2", "pos3", "pos4"]
-                    
+
                     // for (let voltaDoLoop = 0; voltaDoLoop < vetor.length; voltaDoLoop++) {
                     //     console.log("Valor da posição: " + vetor[voltaDoLoop])
                     // }
@@ -362,9 +374,6 @@
                 <script>
                     // array = [valor1, valor2]
                     // object = {key1: value1, key2: value2}
-
-                    console.log("= Exemplo de Objeto ==")
-
                     // Pessoas cadastradas
                     let meuObjeto = {
                         "nome": "Sabino",

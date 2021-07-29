@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./trabJS.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header></header>
+
+        <main>
+            <div class="buscar">
+                <div>
+                    <input id="nomePokemon" type="text" placeholder="Digite o nome">
+                </div>
+                <br>
+                <button onclick="buscarPokemon()">Pesquisar</button>
+            </div>
+        </main>
+
+        <aside>
+            <div>
+                <div class="pokedexTela">
+                    <img id="imagemPokemon"></img>
+                </div>
+
+                <div>
+                    <strong>Nome: <span id="pokemonNome"></span></strong>
+                </div>
+
+                <div>
+                    <strong>TIPOS: <span id="tipos"></span></strong>
+                </div>
+
+                <div>
+                    <strong>GOLPES:</strong>
+                    <div id="divGolpes">
+                        <span id="golpes"></span>
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>

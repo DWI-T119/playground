@@ -1,0 +1,196 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.25em;
+    gap: 2px;
+    background-image: url(https://wallpapercave.com/wp/wp5490312.jpg);
+    background-size: cover;
+}
+
+.buscaPoke {
+    box-shadow: 10px 5px 5px black;
+    background-color: #8B0000;
+    height: 45%;
+    width: 20%;
+    border: 5px ridge white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.choice {
+    gap: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagemPoke {
+    margin-bottom: 10px;
+    background-color: #556B2F;
+    border-radius: 10%;
+    height: 45%;
+    width: 60%;
+    border: 2px ridge white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.resultadoPoke {
+    box-shadow: 10px 5px 5px black;
+    background-color: #8B0000;
+    height: 55%;
+    width: 20%;
+    border: 5px ridge white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.separamento {
+    background-color: gray;
+    height: 45%;
+    width: 0.1%;
+    border: 1px ridge black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#skills {
+    height: 35%;
+    width: 90%;
+    border: 2px ridge white;
+    border-radius: 5%;
+    background-color: #556B2F;
+    margin: 20px;
+}
+.pokemonTipo {
+    display: flex;
+    height: 15%;
+    width: 75%;
+    border: 2px ridge white;
+    border-radius: 5%;
+    background-color: #556B2F;
+    justify-content: center;
+}
+
+.botaoVermelho {
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 50%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background-color: #FFFF00;
+    box-shadow: 3px 3px 3px black;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.botaoAmarelo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 50%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background-color: blue;
+    box-shadow: 3px 3px 3px black;
+}
+
+#buscarPokemon {
+    font-style: italic;
+    border: 2px ridge white;
+    border-radius: 3%;
+}
+
+.botaoCapturar {
+    border: 2px ridge white;
+    border-radius: 5%;
+}
+
+.botaoAmarelo:hover {
+    width: 89px;
+    height: 89px;
+    border-radius: 50% 50%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background-color: red;
+    box-shadow: 4px 3px 3px black;
+}
+
+.botaoVermelho:hover {
+    width: 89px;
+    height: 89px;
+    border-radius: 50% 50%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background-color: green;
+    box-shadow: 3px 3px 3px black;
+}
+
+#pokemonstipos {
+    margin-right: 5%;
+}
+
+.barra {
+    display: flex;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.barraPokedex {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.botaoCapturar {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: transparent;
+}
+
+.pokebola {
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    perspective: 1000; 
+    transition: 0.2s;  	
+    transform-style: preserve-3d;   
+}
+
+.pokebola:hover {
+    width: 65px;
+    border: 4px solid green;
+    border-radius: 50%;
+    transform: rotateX(-360deg);
+}
