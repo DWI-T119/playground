@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .titulo{
+        text-align: center;
+    }
+    .subtitulo{
+        color: blue;
+        font-style: italic;
+        box-sizing: border-box;
+        text-align: center;
+        border: solid black;
+        width: 500px;
+        border-radius: 60px;
+        height: 35px;
+        margin-left: 350px;
+    }
+    #botaovlt{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .primeiro{
+        margin: 9px;
+        height: 30px;
+        width: 600px;
+        border: solid black;
+        margin-left: 290px;
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+    }
+    .quadrados0{
+        height: 8px;
+        width: 8px;
+        border: solid black;
+        padding: 5px;
+        margin: 3px;
+        background-color: olive;
+    }
+    .quadrados1{
+        height: 8px;
+        width: 8px;
+        border: solid black;
+        padding: 40px;
+        margin: 3px;
+        background-color: olive;
+        flex-grow: 1 ;
+    }
+    .segundo{
+        margin: 9px;
+        width: 600px;
+        height: 100px;
+        border: solid black;
+        margin-left: 290px;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .terceiro{
+        background-color: gray;
+        height: 100px;
+        width: 600px;
+        border: solid black;
+        margin-left: 290px;
+        display: flex;
+        
+        }
+    .quarto{
+        background-color: gray;
+        width: 600px;
+        height: 100px;   
+        margin-left: 290px;
+        border: solid black;
+        margin-top: 9px;
+        display: flex;
+        
+
+    }
+    .quadradox{
+        height: 75px;
+        width: 8px;
+        border: solid black;
+        padding: 4px;
+        margin: 6px;
+        background-color: olive;
+        flex-grow: 2;
+    }
+    .quadradoy{
+        height: 75px;
+        width: 8px;
+        border: solid black;
+        padding: 4px;
+        margin: 6px;
+        background-color: olive;
+        flex-grow: 1;
+    }
+    .quadradoz{
+        height: 50px;
+        width: 8px;
+        border: solid black;
+        padding: 4px;
+        margin: 6px;
+        flex-grow: 4;
+        align-self: center;
+    }
+    .quadradop{
+        background-color: olive;
+        border: solid black;
+        height: fit-content;
+        width: fit-content;
+        padding: 2px;
+        margin: 11px;
+        margin-left: 190px;
+
+    }
+</style>    
+   <header>
+       <button id="botaovlt">Voltar</button>
+   </header>
+   <hr>
+   <div class="titulo"  ><h1>FlexBox</h1></div>
+   <div class="subtitulo">Cinza = Flex Container, Verde = Flex Items</div>
+  <div class="primeiro">
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+  </div>
+    <div class="segundo">
+        <div class="quadrados0"></div>
+        <div class="quadrados0"></div>
+    </div>
+    <div class="terceiro">
+     <div class="quadrados1" style="text-align: center;">Item 01</div>
+    </div>
+   <div class="quarto">
+    <div class="quadradox" style="text-align: center;">Item 01</div>
+    <div class="quadradoy" style="text-align: center;" >Item 02</div>
+    <div class="quadradoz">
+        <div class="quadradop">Item interno</div>
+    </div>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
