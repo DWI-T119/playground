@@ -1,5 +1,12 @@
 const API = "https://pokeapi.co/api/v2/"
 
+$(document).keyup(function(event) {
+    if ($("#caixaBusca").is(":focus") && event.key == "Enter") {
+        
+        buscarPokemon()
+    }
+});
+
 function getShinyImage(resultado) {
 
     let imagem = document.getElementById("imagemPokemon")
