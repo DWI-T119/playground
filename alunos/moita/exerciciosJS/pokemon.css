@@ -13,6 +13,7 @@
         grid-area: footer;
         display: flex;
         height: 70px;
+        margin-top: 10px;
     }
     
     .voltarMenu {
@@ -33,6 +34,7 @@
         grid-area: header;
         background-color: yellow;
         z-index: 0;
+        padding: 5px;
     }
     
     aside {
@@ -42,6 +44,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: flex-end;
+        margin-top: 10px;
     }
     
     main {
@@ -50,6 +53,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        margin-bottom: 10px;
     }
     
     hr {
@@ -63,7 +67,7 @@
     
     .gridContainer {
         display: grid;
-        grid-template-rows: 10% 50% 30% 10%;
+        grid-template-rows: 0.1fr 1fr 0.6fr 0.2fr;
         height: 100vh;
         width: 100vw;
         grid-template-areas: "header" "aside" "main" "footer";
