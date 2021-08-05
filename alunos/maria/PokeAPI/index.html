@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <ul id="header">
+                <a class="left-button"><img
+                        src="https://fontmeme.com/permalink/210805/8ae1b3d816f8f8748e26c8c8a328bb81.png"
+                        alt="pokemon-font" border="0"></a>
+                <a class="right-button"
+                    href="C:\Users\majue\OneDrive\Documentos\GitHub\playground\alunos\maria\index.html"><img
+                        src="https://fontmeme.com/permalink/210805/b62fa557d92bad877495b2a32bac23cd.png"
+                        alt="pokemon-font" border="0"></a>
+            </ul>
+        </header>
+    </div>
+    <main>
+        <div class="poke">
+            <div class="busca-container">
+                <div class="pokedex-tela">
+                    <div><span id="name"></span></div>
+                    <img id="imagePoke"></img>
+                </div>
+                <div>
+                    Pesquisa:
+                    <input type="text" name="nameOuId" id="nameOuId" placeholder="Digite o id ou nome desejado">
+                </div>
+                <button onclick="buscarPokemon()">Buscar</button>
+            </div>
+
+            <div class="pokedex-info">
+                <div><strong>Altura: </strong><span id="height"></span></div>
+                <div><strong>Peso: </strong><span id="weight"></span></div>
+                <div><strong>Tipos: </strong><span id="type"></span></div>
+                <div class="skills"><strong>Skills: </strong><span id="moves"></span></div>
+                <div class="button">
+                    <div class="geral-btn">Geral</div>
+                    <div class="tipos-btn">Tipos</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+    </footer>
+</body>
+
+</html>
