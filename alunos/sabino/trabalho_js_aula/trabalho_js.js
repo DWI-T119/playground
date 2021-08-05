@@ -37,7 +37,7 @@ function disponibilizarImagem(sprites){
 function disponibilizarHabilidades(moves){
     let elementoListaHabilidades = document.getElementById("habilidades-pokemon")
 
-    elementoListaHabilidades.innerHTML = ""
+
     moves.forEach(move => {
         elementoListaHabilidades.innerHTML += "<li>" + move.move.name + "</li>"
     });
