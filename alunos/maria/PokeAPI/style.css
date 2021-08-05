@@ -125,8 +125,7 @@ main {
     display: flexbox;
 }
 
-.geral-btn,
-.tipos-btn {
+.flexbutton {
    border: 2px solid black;
    border-radius: 50%;
    margin: 3px;
