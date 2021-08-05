@@ -1,0 +1,143 @@
+body {
+    margin:2%;
+    padding: 0;
+}
+
+#site {
+    padding: 20px;
+}
+
+#site>* {
+    padding: 20px;
+}
+
+.button {
+    background-color: black;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+
+hr{
+    margin-top: 30px;
+}
+.texto{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+    padding:10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border:solid black;
+    color: blue;
+    font-weight: 700;
+}
+
+.container{
+    background-color: gray;
+    border: solid black 3px;
+    max-width: 50%;
+    padding: 5px;
+    margin: 5px auto;
+    display: flex;
+   
+
+   
+}
+
+.box{
+    border:solid black 3px;
+    margin:5px;
+    padding:10px;
+    background-color:olive;
+    
+}
+.box-4-2>* {
+    background-color:gray;
+    flex-grow: 2;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border:solid black 3px;
+    margin: 5px;
+    
+}
+#flex-1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#flex-2{
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.box-1{
+    margin: 5px;
+    border:solid black;
+    background-color: olive;
+    padding: 20px;
+    text-align: center;
+}
+#box-1-2{
+    flex-grow: 1;
+}
+.box-4{
+    margin:  5px;
+    border:solid black 3px;
+    background-color: olive;
+    padding: 20px;
+    text-align: center;
+    
+}
+#box-2-1{
+    flex-grow: 0.5;
+}
+#box-3-1{
+    flex-grow: 0;
+}
+.box-4-2{
+    background-color:gray;
+    flex-grow: 2;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border:solid black 3px;
+    margin: 5px;
+    
+    
+   
+}
+
+
+.itemInterno{
+    border:solid black 3px;
+    padding: 2px;
+    color:black;
+    background-color: gray;
+    display: flex;
+   
+
+}
+.box-4-2{
+    margin:  5px;
+    border:solid black 3px;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}

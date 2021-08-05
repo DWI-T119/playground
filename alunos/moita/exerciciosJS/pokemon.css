@@ -1,0 +1,129 @@
+    body {
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+    }
+    
+    footer {
+        width: 100vw;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        grid-area: footer;
+        display: flex;
+        height: 70px;
+        margin-top: 10px;
+    }
+    
+    .voltarMenu {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .voltarMenu:hover {
+        color: red;
+    }
+    
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    header {
+        grid-area: header;
+        background-color: yellow;
+        z-index: 0;
+        padding: 5px;
+    }
+    
+    aside {
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    
+    hr {
+        width: 100px;
+    }
+    
+    strong,
+    span {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .gridContainer {
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 0.6fr 0.2fr;
+        height: 100vh;
+        width: 100vw;
+        grid-template-areas: "header" "aside" "main" "footer";
+    }
+    
+    .logoContainer {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .searchContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: solid black 3px;
+        border-radius: 10px;
+        width: 300px;
+        padding: 15px;
+        gap: 10px;
+        align-content: center;
+        background-color: red;
+    }
+    
+    .nomePokemon {
+        display: flex;
+        width: 187px;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    .resultadoContainer-pokedex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: solid black 3px;
+        border-radius: 10px;
+        width: 300px;
+        padding: 15px;
+        gap: 10px;
+        align-content: center;
+    }
+    
+    .imgPokemon {
+        display: flex;
+        flex-direction: column;
+        border: solid black 3px;
+        border-radius: 10px;
+        width: 110px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .movesPokedex {
+        height: 50px;
+        overflow: auto;
+    }

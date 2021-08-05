@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link style="stylesheet" href="./scripts.js">
+    <title>Poke API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./pokemon.css">
+</head>
+
+<body>
+    <div class="gridContainer">
+        <header>
+            <div class="logoContainer">
+                <img src="../exerciciosJS/assets/pokemon-go-logo-hd-image-PNG.png">
+            </div>
+        </header>
+
+        <aside>
+            <div class="resultadoContainer-pokedex">
+                <div class="imgPokemon">
+                    <img id="pokemonImg"></img>
+                </div>
+
+                <hr>
+
+                <div class="nameTitle">
+                    <strong>NOME: <span id="pokemonNamePokedex"></span> </strong>
+                </div>
+
+                <div>
+                    <strong>TIPOS: <span id="pokemonTypesPokedex"></span></strong>
+                </div>
+                <div class="movesPokedex">
+                    <strong>MOVES: </strong>
+                    <span id="pokemonMovesPokedex"></span>
+                </div>
+
+
+            </div>
+        </aside>
+
+        <main>
+            <div class="searchContainer">
+
+                <div>
+                    <input class="nomePokemon" placeholder="Digite o nome de um Pokemon" type="text" id="pokemonName">
+                </div>
+                <button onclick="buscarPokemonAPI()">Buscar Pokemon</button>
+            </div>
+    </div>
+    <footer>
+        <a class="voltarMenu" href="../linkTodosTrabs.html"> VOLTAR AO MENU DOS TRABALHOS  </a>
+    </footer>
+
+    </main>
+
+    <script src="scripts.js "></script>
+
+</body>
+
+</html>
