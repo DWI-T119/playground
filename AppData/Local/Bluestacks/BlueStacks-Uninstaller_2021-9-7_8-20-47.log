@@ -1,0 +1,46 @@
+﻿2021-09-07 08:20:47.699 7404:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-07 08:20:48.172 7404:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-07 08:20:48.192 7404:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\ to C:\Users\paulo\AppData\Local\Temp\
+2021-09-07 08:20:48.247 7404:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2021-09-07 08:20:48.281 7404:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2021-09-07 08:20:48.395 7404:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2021-09-07 08:20:48.757 7404:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2021-09-07 08:20:49.213 4676:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\Oem.cfg
+2021-09-07 08:20:49.533 4676:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2021-09-07 08:20:49.603 4676:00000001 (BlueStacksUninstaller) INFO: Successfully populated pt-BR strings
+2021-09-07 08:20:55.029 4676:00000008 (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2021-09-07 08:20:55.089 4676:00000008 (BlueStacksUninstaller) INFO: StopService BlueStacksDrv
+2021-09-07 08:20:55.090 4676:00000008 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-07 08:20:55.094 4676:00000008 (BlueStacksUninstaller) INFO: StopService 481097264
+2021-09-07 08:20:55.163 4676:00000008 (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2021-09-07 08:20:55.163 4676:00000008 (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelper /F
+2021-09-07 08:20:55.323 4676:00000009 (BlueStacksUninstaller) INFO: 5744 ERR: 
+2021-09-07 08:20:55.323 4676:00000007 (BlueStacksUninstaller) INFO: 5744 OUT: ÒXITO: a tarefa agendada "BlueStacksHelper" foi exclu¡da corretamente.
+2021-09-07 08:20:55.324 4676:00000008 (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 5744 exited with exitCode: 0
+2021-09-07 08:20:55.333 4676:00000008 (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2021-09-07 08:20:55.333 4676:00000008 (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelperTask /F
+2021-09-07 08:20:55.380 4676:0000000A (BlueStacksUninstaller) INFO: 9016 ERR: ERRO: O sistema nÆo pode encontrar o arquivo especificado.
+2021-09-07 08:20:55.380 4676:0000000A (BlueStacksUninstaller) INFO: 9016 ERR: 
+2021-09-07 08:20:55.381 4676:0000000A (BlueStacksUninstaller) INFO: 9016 ERR: 
+2021-09-07 08:20:55.382 4676:00000008 (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 9016 exited with exitCode: 1
+2021-09-07 08:20:55.382 4676:00000008 (BlueStacksUninstaller) ERROR: An error occured while deleting the task, exit code: 1
+2021-09-07 08:20:55.385 4676:00000008 (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks\
+2021-09-07 08:20:55.960 4676:00000008 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks
+2021-09-07 08:21:14.175 4676:00000008 (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\paulo\AppData\Local\BlueStacksSetup
+2021-09-07 08:21:14.192 4676:00000008 (BlueStacksUninstaller) WARNING: Could not delete C:\Users\paulo\AppData\Local\BlueStacksSetup as it does not exist
+2021-09-07 08:21:14.639 4676:00000008 (BlueStacksUninstaller) INFO: C:\Users\paulo\Desktop\WOTV FFBE.lnk is a shortcut for target hd-runapp.exe
+2021-09-07 08:21:14.794 4676:00000008 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks.lnk
+2021-09-07 08:21:14.794 4676:00000008 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks.lnk
+2021-09-07 08:21:14.795 4676:00000008 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager.lnk
+2021-09-07 08:21:14.803 4676:00000008 (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv
+2021-09-07 08:21:14.803 4676:00000008 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-07 08:21:14.804 4676:00000008 (BlueStacksUninstaller) INFO: StopService 481096976
+2021-09-07 08:21:14.860 4676:00000008 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-07 08:21:14.903 4676:00000008 (BlueStacksUninstaller) ERROR: Failed to delete apk handler registry. Ex : System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em BlueStacks.Common.CommonInstallUtils.DeleteInstallApkScheme(String installDir, String baseKeyName)
+2021-09-07 08:21:14.903 4676:00000008 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-07 08:21:14.903 4676:00000008 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-07 08:21:14.903 4676:00000008 (BlueStacksUninstaller) ERROR: Failed to delete apk handler registry. Ex : System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em BlueStacks.Common.CommonInstallUtils.DeleteInstallApkScheme(String installDir, String baseKeyName)
+2021-09-07 08:21:14.903 4676:00000008 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-07 08:21:15.648 4676:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 0

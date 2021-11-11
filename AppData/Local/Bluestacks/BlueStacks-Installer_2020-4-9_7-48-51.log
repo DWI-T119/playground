@@ -1,0 +1,1365 @@
+﻿2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-versionMachineID=b3cbb753-8227-4ef1-b231-295ab10feef3
+2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-machineID=50312d22-1978-4d70-a4dc-0472dfa13972
+2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-pddir=C:\ProgramData\BlueStacks
+2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-md5=811f77c0e65ff019d8fc53177d613476
+2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-parentpath=C:\Users\paulo\AppData\Local\BlueStacksSetup\BlueStacksInstaller_4.190.10.5002_native_811f77c0e65ff019d8fc53177d613476_UmlzZSBvZiBLaW5nZG9tczogTG9zdCBDcnVzYWRl.exe
+2020-04-09 07:48:51.705 7852:00000001 (BlueStacksInstaller) INFO: arg:::::-app64=UmlzZSBvZiBLaW5nZG9tczogTG9zdCBDcnVzYWRl
+2020-04-09 07:48:51.953 7852:00000001 (BlueStacksInstaller) INFO: bst_config not found. Trying to fetch new file from cloud.
+2020-04-09 07:48:52.191 7852:00000001 (BlueStacksInstaller) INFO: Finding closest locale match to pt-BR
+2020-04-09 07:48:52.222 7852:00000001 (BlueStacksInstaller) INFO: Match found by region: pt-BR
+2020-04-09 07:48:52.637 7852:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2020-04-09 07:48:52.682 7852:00000001 (BlueStacksInstaller) INFO: Successfully populated pt-BR strings
+2020-04-09 07:48:53.257 7852:00000001 (BlueStacksInstaller) INFO: OnStartup
+2020-04-09 07:48:53.257 7852:00000001 (BlueStacksInstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\Oem.cfg
+2020-04-09 07:48:53.470 7852:00000001 (BlueStacksInstaller) INFO: Returning PFDir: C:\Program Files\BlueStacks
+2020-04-09 07:48:53.470 7852:00000001 (BlueStacksInstaller) INFO: Returning PDDir: C:\ProgramData\BlueStacks
+2020-04-09 07:48:53.470 7852:00000001 (BlueStacksInstaller) INFO: Generating install ID
+2020-04-09 07:48:53.470 7852:00000001 (BlueStacksInstaller) INFO: GeneratedID: a40f5a87-25d2-4463-9f2a-323dd33d2c8a
+2020-04-09 07:48:53.470 7852:00000001 (BlueStacksInstaller) INFO: Setting cloud host: https://cloud.bluestacks.com
+2020-04-09 07:48:53.957 7852:00000003 (BlueStacksInstaller) INFO: --------- For debugging -------. FeatureManager was used before creating directory. This should not happen.
+2020-04-09 07:48:54.547 7852:00000003 (BlueStacksInstaller) WARNING: Failed to download bst_config file. Err: System.ArgumentException: O caminho não pode ser uma cadeia de caracteres vazia ou apenas espaços em branco.
+   em System.IO.Directory.CreateDirectory(String path)
+   em BlueStacks.Common.FeatureManager.DownloadFile()
+2020-04-09 07:48:56.108 7852:00000001 (BlueStacksInstaller) WARNING: Full image path not marked false for image: Assets\installer_logo.png
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: InstallerProperties ---For DEV Tracking---
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: CloudHost: https://cloud.bluestacks.com
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: IsUpgrade: False
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: CampaignMD5: 811f77c0e65ff019d8fc53177d613476
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: InstallId: a40f5a87-25d2-4463-9f2a-323dd33d2c8a
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: IsRunningInSilentMode: False
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: InstallerExtractedDir: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: InstallerArchitecture: amd64
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: PFDir: C:\Program Files\BlueStacks
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: PDDir: C:\ProgramData\BlueStacks
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: PFDirNew: C:\Program Files\BlueStacks
+2020-04-09 07:49:00.535 7852:00000001 (BlueStacksInstaller) INFO: PDDirNew: C:\ProgramData\BlueStacks
+2020-04-09 07:49:00.753 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: cmd
+2020-04-09 07:49:00.753 7852:00000005 (BlueStacksInstaller) INFO:   args: /c dir "C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\" /s
+2020-04-09 07:49:01.847 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: O volume na unidade C ‚ Acer
+2020-04-09 07:49:01.854 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: O N£mero de S‚rie do Volume ‚ F0A2-37F6
+2020-04-09 07:49:01.854 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: Pasta de C:\Users\paulo\AppData\Local\Temp\7zSC083A24E
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          .
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          ..
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:31                 0 64bit
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:15           739.840 7zr.exe
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          Assets
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:25           521.736 BlueStacksInstaller.exe
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               392 BlueStacksInstaller.exe.config
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:25           373.768 Bootstrapper.exe
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               392 Bootstrapper.exe.config
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:32        45.544.216 CefData.zip
+2020-04-09 07:49:01.860 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:32         7.317.713 CommonInstallUtils.zip
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:15            37.888 CPUID.dll
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:26         1.358.344 HD-Common.dll
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          Locales
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:26           505.352 Newtonsoft.Json.dll
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               816 oem.cfg
+2020-04-09 07:49:01.863 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:31       451.855.064 PD.zip
+2020-04-09 07:49:01.864 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:31        29.360.220 PF.zip
+2020-04-09 07:49:01.864 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16             3.643 shortcuts.json
+2020-04-09 07:49:01.864 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            77.907 ThemeFile
+2020-04-09 07:49:01.864 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 16 arquivo(s)    537.697.291 bytes
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: Pasta de C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\Assets
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          .
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          ..
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.643 backicon.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           353.118 BlueStacks.ico
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               538 checked_gray.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               412 checked_gray_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.646 close_red.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.640 close_red_click.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.640 close_red_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            17.476 custom.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.446 custom_click.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.443 custom_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16             1.981 error_icon.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               670 exit_close.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               670 exit_close_click.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               575 exit_close_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            35.294 installer_bg.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           139.830 installer_bg_blurred.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            35.294 installer_flash_background.jpg
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16             6.773 installer_logo.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               113 installer_minimize.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               112 installer_minimize_click.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               112 installer_minimize_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               212 minimize_progress.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               212 minimize_progress_click.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               214 minimize_progress_hover.png
+2020-04-09 07:49:01.865 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 13/12/2019  06:18            10.070 powered_by_bs.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.649 setpath.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.646 setpath_click.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            15.649 setpath_hover.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               192 unchecked_gray.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16               176 unchecked_gray_hover.png
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 30 arquivo(s)        744.446 bytes
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: Pasta de C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\Locales
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          .
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 09/04/2020  07:48    <DIR>          ..
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           134.138 i18n.ar-EG.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            14.632 i18n.ar-IL.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           114.792 i18n.de-DE.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           103.627 i18n.en-US.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           114.477 i18n.es-ES.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           118.235 i18n.fr-FR.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           111.900 i18n.it-IT.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           126.346 i18n.ja-JP.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           116.997 i18n.ko-KR.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           107.877 i18n.pl-PL.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           112.772 i18n.pt-BR.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           154.268 i18n.ru-RU.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           175.936 i18n.th-TH.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           112.049 i18n.tr-TR.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16           121.008 i18n.vi-VN.txt
+2020-04-09 07:49:01.869 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            14.504 i18n.zh-CN.txt
+2020-04-09 07:49:01.873 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 06/04/2020  12:16            98.791 i18n.zh-TW.txt
+2020-04-09 07:49:01.873 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 17 arquivo(s)      1.852.349 bytes
+2020-04-09 07:49:01.873 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: Total de Arquivos na Lista:
+2020-04-09 07:49:01.873 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 63 arquivo(s)    540.294.086 bytes
+2020-04-09 07:49:01.873 7852:00000006 (BlueStacksInstaller) INFO: 2116 OUT: 8 pasta(s)   860.136.321.024 bytes dispon¡veis
+2020-04-09 07:49:01.927 7852:00000009 (BlueStacksInstaller) INFO: 2116 ERR: 
+2020-04-09 07:49:01.934 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 2116 exited with exitCode: 0
+2020-04-09 07:49:02.063 7852:00000005 (BlueStacksInstaller) INFO: UninstallService BstHdDrv
+2020-04-09 07:49:02.064 7852:00000005 (BlueStacksInstaller) INFO: OpenSCManager
+2020-04-09 07:49:02.067 7852:00000005 (BlueStacksInstaller) INFO: Service BstHdDrv is not installed or inaccessible.
+2020-04-09 07:49:02.068 7852:00000005 (BlueStacksInstaller) INFO: UninstallService BlueStacksDrv
+2020-04-09 07:49:02.068 7852:00000005 (BlueStacksInstaller) INFO: OpenSCManager
+2020-04-09 07:49:02.069 7852:00000005 (BlueStacksInstaller) INFO: Service BlueStacksDrv is not installed or inaccessible.
+2020-04-09 07:49:02.098 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\Program Files\BlueStacks.new
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\Program Files\BlueStacks.new as it does not exist
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks.new
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\ProgramData\BlueStacks.new as it does not exist
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\Program Files\BlueStacks.old
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\Program Files\BlueStacks.old as it does not exist
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks.old
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\ProgramData\BlueStacks.old as it does not exist
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\Program Files\BlueStacks
+2020-04-09 07:49:02.120 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\Program Files\BlueStacks as it does not exist
+2020-04-09 07:49:02.124 7852:00000005 (BlueStacksInstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks
+2020-04-09 07:49:02.124 7852:00000005 (BlueStacksInstaller) WARNING: Could not delete C:\ProgramData\BlueStacks as it does not exist
+2020-04-09 07:49:02.152 7852:00000005 (BlueStacksInstaller) WARNING: Some error while detecting symlink. Ex: Cannot open 64-bit registry: 0x2
+2020-04-09 07:49:02.156 7852:00000005 (BlueStacksInstaller) INFO: Extracting CommonInstallUtils
+2020-04-09 07:49:02.156 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\7zr.exe
+2020-04-09 07:49:02.156 7852:00000005 (BlueStacksInstaller) INFO:   args: x "C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\CommonInstallUtils.zip" -o"C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\" -aoa
+2020-04-09 07:49:03.256 7852:00000007 (BlueStacksInstaller) INFO: The json response for campaign 811f77c0e65ff019d8fc53177d613476 is {"fle_obj": {"app_url": "", "app_name": "Rise of Kingdoms: Lost Crusade", "incompatible": "false", "app_icon_url": "http://cloud.bluestacks.com/app/icon?pkg=com.lilithgame.roc.gp", "fle_tag": "blank", "campaign_name": "aw-ded-androidemulator-pt-br-s-1", "exit_utm_campaign": "aw-ded-androidemulator-pt-br-s-1", "app_pkg": "com.lilithgame.roc.gp", "promoter_id": ""}, "gl_settings_order": [{"gl_renderer": 1, "gl_mode": 1}, {"gl_renderer": 4, "gl_mode": 1}, {"gl_renderer": 2, "gl_mode": 1}, {"gl_renderer": 1, "gl_mode": 2}, {"gl_renderer": 4, "gl_mode": 2}, {"gl_renderer": 2, "gl_mode": 2}]}
+2020-04-09 07:49:06.444 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-ForceGPU.exe
+2020-04-09 07:49:06.448 7852:00000005 (BlueStacksInstaller) INFO:   args: 1
+2020-04-09 07:49:06.891 7852:00000009 (BlueStacksInstaller) INFO: 5524 OUT: :::::::::: Error : NvAPI library initialization failed
+2020-04-09 07:49:06.891 7852:00000009 (BlueStacksInstaller) INFO: 5524 OUT: :::::::::: NVAPI error:
+2020-04-09 07:49:06.897 7852:00000006 (BlueStacksInstaller) INFO: 5524 ERR: 
+2020-04-09 07:49:06.899 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 5524 exited with exitCode: -1
+2020-04-09 07:49:06.900 7852:00000005 (BlueStacksInstaller) INFO: Starting PreInstall Checks
+2020-04-09 07:49:06.901 7852:00000005 (BlueStacksInstaller) INFO: Checking for supported OS
+2020-04-09 07:49:06.901 7852:00000005 (BlueStacksInstaller) INFO: Operating system details: Windows 10 64-bit
+2020-04-09 07:49:06.901 7852:00000005 (BlueStacksInstaller) INFO: OS Info: Name: 10, Service Pack: , Arch: 64-bit, Ver: 10.0
+2020-04-09 07:49:06.901 7852:00000005 (BlueStacksInstaller) INFO: Checking for physical memory
+2020-04-09 07:49:06.927 7852:00000005 (BlueStacksInstaller) INFO: Available: 3971 MB, Required: 1024 MB
+2020-04-09 07:49:06.928 7852:00000005 (BlueStacksInstaller) INFO: Checking for disk space.
+2020-04-09 07:49:06.928 7852:00000005 (BlueStacksInstaller) INFO: Space required: 5120 MB, space available: 820261 MB, DataDir: C:\ProgramData\BlueStacks
+2020-04-09 07:49:06.928 7852:00000005 (BlueStacksInstaller) INFO: Space required: 150 MB, space available: 820261 MB for InstallDir: C:\Program Files\BlueStacks
+2020-04-09 07:49:07.020 7852:00000005 (BlueStacksInstaller) INFO: Win32_VideoController query count: 
+2020-04-09 07:49:07.022 7852:00000005 (BlueStacksInstaller) INFO: Description (Name): Intel(R) HD Graphics 620
+2020-04-09 07:49:07.057 7852:00000005 (BlueStacksInstaller) INFO: DriverDate: 2019-05-28 00-00-00
+2020-04-09 07:49:07.057 7852:00000005 (BlueStacksInstaller) INFO: DriverVersion: 26.20.100.6911
+2020-04-09 07:49:07.060 7852:00000005 (BlueStacksInstaller) INFO: Number of video controllers: 1
+2020-04-09 07:49:07.061 7852:00000005 (BlueStacksInstaller) INFO: gl check with args..OpenGL and PGA
+2020-04-09 07:49:07.106 7852:00000005 (BlueStacksInstaller) INFO: Checking for GLRenderer: OpenGL, GLMode: PGA
+2020-04-09 07:49:07.113 7852:00000005 (BlueStacksInstaller) INFO: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-GLCheck.exe: 1 1
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: GLCheck Utility
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: Copyright 2012 BlueStack Systems, Inc.
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: All Rights Reserved
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: 
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: ============================================================
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: Dumping Display Devices
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: ============================================================
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 620" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: ============================================================
+2020-04-09 07:49:09.294 7852:00000009 (BlueStacksInstaller) INFO: OUT: Initiating GL Check for PGA
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: ============================================================
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: RegOpenKeyEx (Software\BlueStacks\Guests\Android\Config) returned error 2
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: RegOpenKeyEx (Software\BlueStacks\Guests\Android\Config) returned error 2
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: RegOpenKeyEx (Software\BlueStacks) returned error 2
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: RegOpenKeyEx (Software\BlueStacks\Config) returned error 2
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: IMG: ERROR: Failed to load HD-Imap-Native.dll: err 126
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: PgaEglInitialize: PreferredPixelFormat = 5
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_buffer_region
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_context_flush_control
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context_profile
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context_robustness
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_extensions_string
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_make_current_read
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_multisample
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pbuffer
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pixel_format
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pixel_format_float
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_depth_float
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_extensions_string
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_swap_control
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_NV_DX_interop
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: WGL_EXTENSIONS = WGL_NV_DX_interop2
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: Create context version=3
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_VENDOR = Intel
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_RENDERER = Intel(R) HD Graphics 620
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_VERSION = 4.6.0 - Build 26.20.100.6911
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_SHADING_LANGUAGE_VERSION = 4.60 - Build 26.20.100.6911
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_3DFX_texture_compression_FXT1
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_depth_clamp_separate
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_vertex_shader_layer
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_vertex_shader_viewport_index
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES2_compatibility
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES3_1_compatibility
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES3_compatibility
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_arrays_of_arrays
+2020-04-09 07:49:09.295 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_base_instance
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_bindless_texture
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_blend_func_extended
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_buffer_storage
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_cl_event
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clear_buffer_object
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clear_texture
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clip_control
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_color_buffer_float
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compatibility
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compressed_texture_pixel_storage
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compute_shader
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_conditional_render_inverted
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_conservative_depth
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_copy_buffer
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_copy_image
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_cull_distance
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_debug_output
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_buffer_float
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_clamp
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_texture
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_derivative_control
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_direct_state_access
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_buffers
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_buffers_blend
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_elements_base_vertex
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_indirect
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_instanced
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_enhanced_layouts
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_explicit_attrib_location
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_explicit_uniform_location
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_coord_conventions
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_layer_viewport
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_program
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_program_shadow
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_shader
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_shader_interlock
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_no_attachments
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_object
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_sRGB
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_geometry_shader4
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_get_program_binary
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_get_texture_sub_image
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gl_spirv
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gpu_shader5
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gpu_shader_fp64
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_half_float_pixel
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_half_float_vertex
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_indirect_parameters
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_instanced_arrays
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_internalformat_query
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_internalformat_query2
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_invalidate_subdata
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_map_buffer_alignment
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_map_buffer_range
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multi_bind
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multi_draw_indirect
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multisample
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multitexture
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_occlusion_query
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_occlusion_query2
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_pipeline_statistics_query
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_pixel_buffer_object
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_point_parameters
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_point_sprite
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_polygon_offset_clamp
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_post_depth_coverage
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_program_interface_query
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_provoking_vertex
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_query_buffer_object
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robust_buffer_access_behavior
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robustness
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robustness_isolation
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sample_shading
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sampler_objects
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_seamless_cube_map
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_seamless_cubemap_per_texture
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_separate_shader_objects
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_atomic_counter_ops
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_atomic_counters
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_bit_encoding
+2020-04-09 07:49:09.298 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_draw_parameters
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_group_vote
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_image_load_store
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_image_size
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_objects
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_precision
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_stencil_export
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_storage_buffer_object
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_subroutine
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_texture_image_samples
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_100
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_420pack
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_packing
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shadow
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_spirv_extensions
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_stencil_texturing
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sync
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_tessellation_shader
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_barrier
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_border_clamp
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_object
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_object_rgb32
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_range
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression_bptc
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression_rgtc
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_cube_map
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_cube_map_array
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_add
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_combine
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_crossbar
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_dot3
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_filter_anisotropic
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_float
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_gather
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_mirror_clamp_to_edge
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_mirrored_repeat
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_multisample
+2020-04-09 07:49:09.301 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_non_power_of_two
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_query_levels
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_query_lod
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rectangle
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rg
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rgb10_a2ui
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_stencil8
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_storage
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_storage_multisample
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_swizzle
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_view
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_timer_query
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback2
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback3
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback_instanced
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback_overflow_query
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transpose_matrix
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_uniform_buffer_object
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_array_bgra
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_array_object
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_attrib_64bit
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_attrib_binding
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_buffer_object
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_program
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_shader
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_type_10f_11f_11f_rev
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_type_2_10_10_10_rev
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_viewport_array
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_window_pos
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_ATI_separate_stencil
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_abgr
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_bgra
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_color
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_equation_separate
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_func_separate
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_minmax
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_subtract
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_clip_volume_hint
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_compiled_vertex_array
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_direct_state_access
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_draw_buffers2
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_draw_range_elements
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_fog_coord
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_blit
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_multisample
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_object
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_geometry_shader4
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_gpu_program_parameters
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_gpu_shader4
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_multi_draw_arrays
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_depth_stencil
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_float
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_pixels
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_polygon_offset_clamp
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_rescale_normal
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_secondary_color
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_separate_specular_color
+2020-04-09 07:49:09.302 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shader_framebuffer_fetch
+2020-04-09 07:49:10.777 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shader_integer_mix
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shadow_funcs
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_stencil_two_side
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_stencil_wrap
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture3D
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_array
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_compression_s3tc
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_edge_clamp
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_env_add
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_env_combine
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_filter_anisotropic
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_integer
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_lod_bias
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_rectangle
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_sRGB
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_sRGB_decode
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_shared_exponent
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_snorm
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_storage
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_swizzle
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_timer_query
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_transform_feedback
+2020-04-09 07:49:10.778 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_IBM_texture_mirrored_repeat
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_conservative_rasterization
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_fragment_shader_ordering
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_framebuffer_CMAA
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_map_texture
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_multi_rate_fragment_shader
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_performance_query
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_blend_equation_advanced
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_blend_equation_advanced_coherent
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_context_flush_control
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_debug
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_no_error
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_texture_compression_astc_hdr
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_texture_compression_astc_ldr
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_blend_square
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_conditional_render
+2020-04-09 07:49:10.780 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_primitive_restart
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_texgen_reflection
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_generate_mipmap
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_texture_edge_clamp
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_texture_lod
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_SUN_multi_draw_arrays
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = GL_WIN_swap_hint
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_buffer_region
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_context_flush_control
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context_profile
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context_robustness
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_extensions_string
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_make_current_read
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_multisample
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pbuffer
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pixel_format
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pixel_format_float
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_depth_float
+2020-04-09 07:49:10.781 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_extensions_string
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_swap_control
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_NV_DX_interop
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: GL_EXTENSIONS = WGL_NV_DX_interop2
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: GL extension not found: glReadBuffer: err 127
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: WARNING: RegOpenKeyEx (Software\BlueStacks\Guests\Android\Config) returned error 2
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: PGA: INFO: Max GLES version: Opengl ES 3.0
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: Checking for Renderer OpenGL... 	 PASS
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: 
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: 
+2020-04-09 07:49:10.782 7852:00000009 (BlueStacksInstaller) INFO: OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2020-04-09 07:49:10.850 7852:00000009 (BlueStacksInstaller) INFO: OUT: 
+2020-04-09 07:49:10.857 7852:00000005 (BlueStacksInstaller) INFO: 7472 EXIT: 0
+2020-04-09 07:49:11.518 7852:00000005 (BlueStacksInstaller) INFO: the length of numOfProcessor string is 1
+2020-04-09 07:49:12.036 7852:00000005 (BlueStacksInstaller) INFO: Creating BlueStacks registry
+2020-04-09 07:49:14.131 7852:00000005 (BlueStacksInstaller) INFO: Got resp: {"is_valid_code": true, "p_code": "optr", "code": "076", "success": true, "abi_value": "15", "ca_selector": "se_72405", "dns": "8.8.8.8", "dns2": "10.0.2.3"}
+2020-04-09 07:49:14.475 7852:00000005 (BlueStacksInstaller) INFO: Got resp: {"country": "BR", "latlong": "-30.034647,-51.217658"}
+2020-04-09 07:49:14.509 7852:00000005 (BlueStacksInstaller) INFO: Will run C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-CheckCpu.exe
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: GenuineIntel
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: 3DNOW not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: 3DNOWEXT not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: ABM not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: ADX supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AES supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX2 supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX512CD not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX512ER not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX512F not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: AVX512PF not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: BMI1 supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: BMI2 supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: CLFSH supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: CMPXCHG16B supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: CX8 supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: ERMS supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: F16C supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: FMA supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: FSGSBASE supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: FXSR supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: HLE not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: INVPCID supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: LAHF supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: LZCNT supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: MMX supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: MMXEXT not supported
+2020-04-09 07:49:15.298 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: MONITOR supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: MOVBE supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: MSR supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: OSXSAVE supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: PCLMULQDQ supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: POPCNT supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: PREFETCHWT1 not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: RDRAND supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: RDSEED supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: RDTSCP supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: RTM not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SEP supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SHA not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE2 supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE3 supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE4.1 supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE4.2 supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSE4a not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SSSE3 supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: SYSCALL not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: TBM not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: XOP not supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: XSAVE supported
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: 
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: =================
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: value = 1
+2020-04-09 07:49:15.303 7852:00000009 (BlueStacksInstaller) INFO: HD-CheckCpu.exe: =================
+2020-04-09 07:49:15.306 7852:00000005 (BlueStacksInstaller) INFO: 6692 EXIT: 0
+2020-04-09 07:49:15.363 7852:00000005 (BlueStacksInstaller) INFO: Setting base boot params for all instances: ROOT=/dev/sda1 SRC=/android DATA=/dev/sdb1 PREBUNDLEDAPPSFS=/dev/sdc1 HOST=WIN bstandroidport=9999 GlMode=1 VERSION=4.190.10.5002 OEM=bgp LANG=pt-BR country=BR caCode=076 pcode=optr OEMFEATURES=538983425 DNS=8.8.8.8 DNS2=10.0.2.3 GUID=b8ebd084-f05c-6b6f-facd-25ea3307fcd8 EngineState=plus caSelector=se_72405 DPI=240 GlTransport=3 appsfeatures=16592382 installId=a40f5a87-25d2-4463-9f2a-323dd33d2c8a machineId=50312d22-1978-4d70-a4dc-0472dfa13972 versionMachineId=b3cbb753-8227-4ef1-b231-295ab10feef3 ApiToken=ad30f2d7-9069-4723-8ece-9a2988d6f127 ssse3=1 abivalue=15
+2020-04-09 07:49:16.504 7852:00000005 (BlueStacksInstaller) INFO: Getting Android VM Memory
+2020-04-09 07:49:16.505 7852:00000005 (BlueStacksInstaller) INFO: Total RAM = 3971 MB
+2020-04-09 07:49:16.505 7852:00000005 (BlueStacksInstaller) INFO: Using RAM: 900MB
+2020-04-09 07:49:16.698 7852:00000005 (BlueStacksInstaller) INFO: the android Port is 9999 adbPort is 5555 tcp6666 port is 6666 tcp7777 port is 7777 udpPort is 12000 hostSensorPort is 3866 hostGlPort is 3901
+2020-04-09 07:49:16.942 7852:00000005 (BlueStacksInstaller) INFO: Resolution values: guestWidth: 1280 guestHeight: 720 widowWidth: 1072 windowHeight: 603
+2020-04-09 07:49:17.016 7852:00000005 (BlueStacksInstaller) INFO: Finding closest locale match to pt-BR
+2020-04-09 07:49:17.016 7852:00000005 (BlueStacksInstaller) INFO: Match found by region: pt-BR
+2020-04-09 07:49:17.883 7852:00000005 (BlueStacksInstaller) INFO: Sending system info stats
+2020-04-09 07:49:17.884 7852:00000005 (BlueStacksInstaller) INFO: Checking for supported GL Modes
+2020-04-09 07:49:17.885 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-GLCheck.exe
+2020-04-09 07:49:17.885 7852:00000005 (BlueStacksInstaller) INFO:   args: 1 1
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: GLCheck Utility
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: Copyright 2012 BlueStack Systems, Inc.
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: All Rights Reserved
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: ============================================================
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: Dumping Display Devices
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: ============================================================
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 620" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: ============================================================
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: Initiating GL Check for PGA
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: ============================================================
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: IMG: ERROR: Failed to load HD-Imap-Native.dll: err 126
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: PgaEglInitialize: PreferredPixelFormat = 5
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_buffer_region
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_context_flush_control
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context_profile
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_create_context_robustness
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_extensions_string
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_make_current_read
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_multisample
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pbuffer
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pixel_format
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_ARB_pixel_format_float
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_depth_float
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_extensions_string
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_EXT_swap_control
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_NV_DX_interop
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: WGL_EXTENSIONS = WGL_NV_DX_interop2
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: Create context version=3
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_VENDOR = Intel
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_RENDERER = Intel(R) HD Graphics 620
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_VERSION = 4.6.0 - Build 26.20.100.6911
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_SHADING_LANGUAGE_VERSION = 4.60 - Build 26.20.100.6911
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_3DFX_texture_compression_FXT1
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_depth_clamp_separate
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_vertex_shader_layer
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_AMD_vertex_shader_viewport_index
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES2_compatibility
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES3_1_compatibility
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_ES3_compatibility
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_arrays_of_arrays
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_base_instance
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_bindless_texture
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_blend_func_extended
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_buffer_storage
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_cl_event
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clear_buffer_object
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clear_texture
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_clip_control
+2020-04-09 07:49:18.986 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_color_buffer_float
+2020-04-09 07:49:18.987 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compatibility
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compressed_texture_pixel_storage
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_compute_shader
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_conditional_render_inverted
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_conservative_depth
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_copy_buffer
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_copy_image
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_cull_distance
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_debug_output
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_buffer_float
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_clamp
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_depth_texture
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_derivative_control
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_direct_state_access
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_buffers
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_buffers_blend
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_elements_base_vertex
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_indirect
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_draw_instanced
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_enhanced_layouts
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_explicit_attrib_location
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_explicit_uniform_location
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_coord_conventions
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_layer_viewport
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_program
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_program_shadow
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_shader
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_fragment_shader_interlock
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_no_attachments
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_object
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_framebuffer_sRGB
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_geometry_shader4
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_get_program_binary
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_get_texture_sub_image
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gl_spirv
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gpu_shader5
+2020-04-09 07:49:19.053 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_gpu_shader_fp64
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_half_float_pixel
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_half_float_vertex
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_indirect_parameters
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_instanced_arrays
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_internalformat_query
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_internalformat_query2
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_invalidate_subdata
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_map_buffer_alignment
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_map_buffer_range
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multi_bind
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multi_draw_indirect
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multisample
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_multitexture
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_occlusion_query
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_occlusion_query2
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_pipeline_statistics_query
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_pixel_buffer_object
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_point_parameters
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_point_sprite
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_polygon_offset_clamp
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_post_depth_coverage
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_program_interface_query
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_provoking_vertex
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_query_buffer_object
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robust_buffer_access_behavior
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robustness
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_robustness_isolation
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sample_shading
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sampler_objects
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_seamless_cube_map
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_seamless_cubemap_per_texture
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_separate_shader_objects
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_atomic_counter_ops
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_atomic_counters
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_bit_encoding
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_draw_parameters
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_group_vote
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_image_load_store
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_image_size
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_objects
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_precision
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_stencil_export
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_storage_buffer_object
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_subroutine
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shader_texture_image_samples
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_100
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_420pack
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shading_language_packing
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_shadow
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_spirv_extensions
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_stencil_texturing
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_sync
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_tessellation_shader
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_barrier
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_border_clamp
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_object
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_object_rgb32
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_buffer_range
+2020-04-09 07:49:19.057 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression_bptc
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_compression_rgtc
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_cube_map
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_cube_map_array
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_add
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_combine
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_crossbar
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_env_dot3
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_filter_anisotropic
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_float
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_gather
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_mirror_clamp_to_edge
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_mirrored_repeat
+2020-04-09 07:49:19.063 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_multisample
+2020-04-09 07:49:19.064 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_non_power_of_two
+2020-04-09 07:49:19.064 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_query_levels
+2020-04-09 07:49:19.064 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_query_lod
+2020-04-09 07:49:19.064 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rectangle
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rg
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_rgb10_a2ui
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_stencil8
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_storage
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_storage_multisample
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_swizzle
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_texture_view
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_timer_query
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback2
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback3
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback_instanced
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transform_feedback_overflow_query
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_transpose_matrix
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_uniform_buffer_object
+2020-04-09 07:49:19.065 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_array_bgra
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_array_object
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_attrib_64bit
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_attrib_binding
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_buffer_object
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_program
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_shader
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_type_10f_11f_11f_rev
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_vertex_type_2_10_10_10_rev
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_viewport_array
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ARB_window_pos
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_ATI_separate_stencil
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_abgr
+2020-04-09 07:49:19.066 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_bgra
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_color
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_equation_separate
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_func_separate
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_minmax
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_blend_subtract
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_clip_volume_hint
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_compiled_vertex_array
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_direct_state_access
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_draw_buffers2
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_draw_range_elements
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_fog_coord
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_blit
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_multisample
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_framebuffer_object
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_geometry_shader4
+2020-04-09 07:49:19.069 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_gpu_program_parameters
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_gpu_shader4
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_multi_draw_arrays
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_depth_stencil
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_float
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_packed_pixels
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_polygon_offset_clamp
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_rescale_normal
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_secondary_color
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_separate_specular_color
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shader_framebuffer_fetch
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shader_integer_mix
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_shadow_funcs
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_stencil_two_side
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_stencil_wrap
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture3D
+2020-04-09 07:49:19.070 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_array
+2020-04-09 07:49:19.117 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_compression_s3tc
+2020-04-09 07:49:19.118 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_edge_clamp
+2020-04-09 07:49:19.118 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_env_add
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_env_combine
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_filter_anisotropic
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_integer
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_lod_bias
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_rectangle
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_sRGB
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_sRGB_decode
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_shared_exponent
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_snorm
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_storage
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_texture_swizzle
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_timer_query
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_transform_feedback
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_IBM_texture_mirrored_repeat
+2020-04-09 07:49:19.119 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_conservative_rasterization
+2020-04-09 07:49:19.120 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_fragment_shader_ordering
+2020-04-09 07:49:19.120 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_framebuffer_CMAA
+2020-04-09 07:49:19.120 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_map_texture
+2020-04-09 07:49:19.120 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_multi_rate_fragment_shader
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_INTEL_performance_query
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_blend_equation_advanced
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_blend_equation_advanced_coherent
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_context_flush_control
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_debug
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_no_error
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_texture_compression_astc_hdr
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_KHR_texture_compression_astc_ldr
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_blend_square
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_conditional_render
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_primitive_restart
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_NV_texgen_reflection
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_generate_mipmap
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_texture_edge_clamp
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_SGIS_texture_lod
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_SUN_multi_draw_arrays
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = GL_WIN_swap_hint
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_buffer_region
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_context_flush_control
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context_profile
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_create_context_robustness
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_extensions_string
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_make_current_read
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_multisample
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pbuffer
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pixel_format
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_ARB_pixel_format_float
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_depth_float
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_extensions_string
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_EXT_swap_control
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_NV_DX_interop
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: GL_EXTENSIONS = WGL_NV_DX_interop2
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: WARNING: GL extension not found: glReadBuffer: err 127
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: PGA: INFO: Max GLES version: Opengl ES 3.0
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: Checking for Renderer OpenGL... 	 PASS
+2020-04-09 07:49:19.121 7852:0000000A (BlueStacksInstaller) INFO: 4908 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2020-04-09 07:49:19.197 7852:00000009 (BlueStacksInstaller) INFO: 4908 ERR: 
+2020-04-09 07:49:19.208 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 4908 exited with exitCode: 0
+2020-04-09 07:49:19.208 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-GLCheck.exe
+2020-04-09 07:49:19.208 7852:00000005 (BlueStacksInstaller) INFO:   args: 4 1
+2020-04-09 07:49:19.897 7852:00000009 (BlueStacksInstaller) INFO: 3308 ERR: ANGLE: D3D11: rx::Renderer11::generateConfigs
+2020-04-09 07:49:20.226 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: GLCheck Utility
+2020-04-09 07:49:20.226 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: Copyright 2012 BlueStack Systems, Inc.
+2020-04-09 07:49:20.226 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: All Rights Reserved
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: ============================================================
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: Dumping Display Devices
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: ============================================================
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 620" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: ============================================================
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: Initiating GL Check for PGA
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: ============================================================
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: IMG: ERROR: Failed to load HD-Imap-Native.dll: err 126
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: Create context version=3
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_VENDOR = Google Inc.
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_RENDERER = ANGLE (Intel(R) HD Graphics 620 Direct3D11 vs_5_0 ps_5_0)
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_VERSION = OpenGL ES 3.0 (ANGLE 2.1.0.4555905e31d5)
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.00 (ANGLE 2.1.0.4555905e31d5)
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_EXT_debug_marker
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_EGL_image
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_EGL_image_external
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_depth32
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_depth_texture
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_element_index_uint
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_packed_depth_stencil
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_rgb8_rgba8
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_texture_float
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_texture_float_linear
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_texture_half_float
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: GL_EXTENSIONS = GL_OES_texture_half_float_linear
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: PGA: INFO: Max GLES version: Opengl ES 3.0
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: Checking for Renderer Directx Auto... 	 PASS
+2020-04-09 07:49:20.227 7852:0000000A (BlueStacksInstaller) INFO: 3308 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2020-04-09 07:49:20.379 7852:00000009 (BlueStacksInstaller) INFO: 3308 ERR: 
+2020-04-09 07:49:20.387 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 3308 exited with exitCode: 0
+2020-04-09 07:49:20.387 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-GLCheck.exe
+2020-04-09 07:49:20.387 7852:00000005 (BlueStacksInstaller) INFO:   args: 1 2
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: GLCheck Utility
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: Copyright 2012 BlueStack Systems, Inc.
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: All Rights Reserved
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: ============================================================
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: Dumping Display Devices
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: ============================================================
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 620" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: ============================================================
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: Initiating GL Check for AGA
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: ============================================================
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXTENSIONS (HOST):
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_3DFX_texture_compression_FXT1
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_AMD_depth_clamp_separate
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_AMD_vertex_shader_layer
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_AMD_vertex_shader_viewport_index
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_ES2_compatibility
+2020-04-09 07:49:21.184 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_ES3_1_compatibility
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_ES3_compatibility
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_arrays_of_arrays
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_base_instance
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_bindless_texture
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_blend_func_extended
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_buffer_storage
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_cl_event
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_clear_buffer_object
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_clear_texture
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_clip_control
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_color_buffer_float
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_compressed_texture_pixel_storage
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_compute_shader
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_conditional_render_inverted
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_conservative_depth
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_copy_buffer
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_copy_image
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_cull_distance
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_debug_output
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_depth_buffer_float
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_depth_clamp
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_depth_texture
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_derivative_control
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_direct_state_access
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_draw_buffers
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_draw_buffers_blend
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_draw_elements_base_vertex
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_draw_indirect
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_draw_instanced
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_enhanced_layouts
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_explicit_attrib_location
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_explicit_uniform_location
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_coord_conventions
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_layer_viewport
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_program
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_program_shadow
+2020-04-09 07:49:21.188 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_shader
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_fragment_shader_interlock
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_framebuffer_no_attachments
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_framebuffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_framebuffer_sRGB
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_geometry_shader4
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_get_program_binary
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_get_texture_sub_image
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_gl_spirv
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_gpu_shader5
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_gpu_shader_fp64
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_half_float_pixel
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_half_float_vertex
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_indirect_parameters
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_instanced_arrays
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_internalformat_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_internalformat_query2
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_invalidate_subdata
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_map_buffer_alignment
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_map_buffer_range
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_multi_bind
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_multi_draw_indirect
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_multisample
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_multitexture
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_occlusion_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_occlusion_query2
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_pipeline_statistics_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_pixel_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_point_parameters
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_point_sprite
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_polygon_offset_clamp
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_post_depth_coverage
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_program_interface_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_provoking_vertex
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_query_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_robust_buffer_access_behavior
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_robustness
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_robustness_isolation
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_sample_shading
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_sampler_objects
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_seamless_cube_map
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_seamless_cubemap_per_texture
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_separate_shader_objects
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_atomic_counter_ops
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_atomic_counters
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_bit_encoding
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_draw_parameters
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_group_vote
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_image_load_store
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_image_size
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_objects
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_precision
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_stencil_export
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_storage_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_subroutine
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shader_texture_image_samples
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shading_language_100
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shading_language_420pack
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shading_language_packing
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_shadow
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_spirv_extensions
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_stencil_texturing
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_sync
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_tessellation_shader
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_barrier
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_border_clamp
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_buffer_object_rgb32
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_buffer_range
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_compression
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_compression_bptc
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_compression_rgtc
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_cube_map
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_cube_map_array
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_env_add
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_env_combine
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_env_crossbar
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_env_dot3
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_filter_anisotropic
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_float
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_gather
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_mirror_clamp_to_edge
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_mirrored_repeat
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_multisample
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_non_power_of_two
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_query_levels
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_query_lod
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_rectangle
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_rg
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_rgb10_a2ui
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_stencil8
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_storage
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_storage_multisample
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_swizzle
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_texture_view
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_timer_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_transform_feedback2
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_transform_feedback3
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_transform_feedback_instanced
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_transform_feedback_overflow_query
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_transpose_matrix
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_uniform_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_array_bgra
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_array_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_attrib_64bit
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_attrib_binding
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_buffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_program
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_shader
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_type_10f_11f_11f_rev
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_vertex_type_2_10_10_10_rev
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_viewport_array
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ARB_window_pos
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_ATI_separate_stencil
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_abgr
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_bgra
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_blend_color
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_blend_equation_separate
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_blend_func_separate
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_blend_minmax
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_blend_subtract
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_clip_volume_hint
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_compiled_vertex_array
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_direct_state_access
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_draw_buffers2
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_draw_range_elements
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_fog_coord
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_framebuffer_blit
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_framebuffer_multisample
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_framebuffer_object
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_geometry_shader4
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_gpu_program_parameters
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_gpu_shader4
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_multi_draw_arrays
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_packed_depth_stencil
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_packed_float
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_packed_pixels
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_polygon_offset_clamp
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_rescale_normal
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_secondary_color
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_separate_specular_color
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_shader_framebuffer_fetch
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_shader_integer_mix
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_shadow_funcs
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_stencil_two_side
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_stencil_wrap
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture3D
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_array
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_compression_s3tc
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_edge_clamp
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_env_add
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_env_combine
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_filter_anisotropic
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_integer
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_lod_bias
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_rectangle
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_sRGB
+2020-04-09 07:49:21.189 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_sRGB_decode
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_shared_exponent
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_snorm
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_storage
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_swizzle
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_timer_query
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_transform_feedback
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_IBM_texture_mirrored_repeat
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_conservative_rasterization
+2020-04-09 07:49:22.072 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_fragment_shader_ordering
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_framebuffer_CMAA
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_map_texture
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_multi_rate_fragment_shader
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_INTEL_performance_query
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_blend_equation_advanced
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_blend_equation_advanced_coherent
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_context_flush_control
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_debug
+2020-04-09 07:49:22.073 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_no_error
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_texture_compression_astc_hdr
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_KHR_texture_compression_astc_ldr
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_NV_blend_square
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_NV_conditional_render
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_NV_primitive_restart
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_NV_texgen_reflection
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_SGIS_generate_mipmap
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_SGIS_texture_edge_clamp
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_SGIS_texture_lod
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_SUN_multi_draw_arrays
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_WIN_swap_hint
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: WGL_EXT_swap_control
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_VENDOR = Google (Intel)
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_RENDERER = Android Emulator OpenGL ES Translator (Intel(R) HD Graphics 620)
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_VERSION = OpenGL ES 3.0 (4.5.0 - Build 26.20.100.6911)
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.00
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXTENSIONS (GUEST):
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_EGL_image
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_EGL_image_external
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_depth24
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_depth32
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_element_index_uint
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_texture_float
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_texture_float_linear
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_compressed_paletted_texture
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_depth_texture
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_texture_format_BGRA8888
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_APPLE_texture_format_BGRA8888
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_texture_half_float
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_texture_half_float_linear
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_color_buffer_half_float
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_packed_depth_stencil
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_vertex_half_float
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_texture_npot
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_OES_rgb8_rgba8
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: PGA: INFO: GL_EXT_color_buffer_float
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: IMG: ERROR: Failed to load HD-Imap-Native.dll: err 126
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: Checking for Renderer OpenGL... 	 PASS
+2020-04-09 07:49:22.083 7852:0000000A (BlueStacksInstaller) INFO: 9184 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2020-04-09 07:49:22.111 7852:00000009 (BlueStacksInstaller) INFO: 9184 ERR: 
+2020-04-09 07:49:22.119 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 9184 exited with exitCode: 0
+2020-04-09 07:49:22.119 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\HD-GLCheck.exe
+2020-04-09 07:49:22.119 7852:00000005 (BlueStacksInstaller) INFO:   args: 4 2
+2020-04-09 07:49:22.456 7852:0000000A (BlueStacksInstaller) INFO: 1960 ERR: ANGLE: D3D11: rx::Renderer11::generateConfigs
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: GLCheck Utility
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: Copyright 2012 BlueStack Systems, Inc.
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: All Rights Reserved
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: ============================================================
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: Dumping Display Devices
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: ============================================================
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 620" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 620" flags:0()
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: ============================================================
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: Initiating GL Check for AGA
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: ============================================================
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXTENSIONS (HOST):
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_element_index_uint
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_packed_depth_stencil
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_rgb8_rgba8
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_texture_format_BGRA8888
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_read_format_bgra
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_NV_pixel_buffer_object
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_color_buffer_half_float
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_half_float
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_half_float_linear
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_float
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_float_linear
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_texture_rg
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_texture_compression_dxt1
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_compressed_ETC1_RGB8_texture
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_sRGB
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_depth32
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_draw_buffers
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_texture_filter_anisotropic
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_occlusion_query_boolean
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_NV_fence
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_disjoint_timer_query
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_blend_minmax
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_standard_derivatives
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_shader_texture_lod
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_frag_depth
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_discard_framebuffer
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_debug_marker
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_EGL_image
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_EGL_image_external
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_KHR_debug
+2020-04-09 07:49:22.496 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_depth_texture
+2020-04-09 07:49:22.497 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_VENDOR = Google (Google Inc.)
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_RENDERER = Android Emulator OpenGL ES Translator (ANGLE (Intel(R) HD Graphics 620 Direct3D11 vs_5_0 ps_5_0))
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_VERSION = OpenGL ES 3.0 (OpenGL ES 3.0 (ANGLE 2.1.0.4555905e31d5))
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.00
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXTENSIONS (GUEST):
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_EGL_image
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_EGL_image_external
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_depth24
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_depth32
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_element_index_uint
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_float
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_float_linear
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_compressed_paletted_texture
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_depth_texture
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_half_float
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_texture_half_float_linear
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_EXT_color_buffer_half_float
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_packed_depth_stencil
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_standard_derivatives
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: PGA: INFO: GL_OES_rgb8_rgba8
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: IMG: ERROR: Failed to load HD-Imap-Native.dll: err 126
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: Checking for Renderer Directx Auto... 	 PASS
+2020-04-09 07:49:22.498 7852:00000009 (BlueStacksInstaller) INFO: 1960 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2020-04-09 07:49:22.507 7852:0000000A (BlueStacksInstaller) INFO: 1960 ERR: 
+2020-04-09 07:49:22.513 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 1960 exited with exitCode: 0
+2020-04-09 07:49:22.513 7852:00000005 (BlueStacksInstaller) INFO: Supported GL Modes: 1 1,4 1,1 2,4 2
+2020-04-09 07:49:22.513 7852:00000005 (BlueStacksInstaller) INFO: Resolution values: guestWidth: 1280 guestHeight: 720 widowWidth: 1072 windowHeight: 603
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: Got Device Profile Info:
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: ProcessorId BFEBFBFF000806E9
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: Processor Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: NumberOfProcessors 4
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: GPU Intel(R) HD Graphics 620
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: GPUDriver 26.20.100.6911
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: OS Microsoft Windows 10 Home Single Language
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: OSVersion 10.0
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: RAM 3971
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: BlueStacksVersion 
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: GlMode 0
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: GlRenderMode -1
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: OEMInfo Acer Aspire A315-53
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: ScreenResolution 1366x768
+2020-04-09 07:49:22.523 7852:0000000D (BlueStacksInstaller) INFO: BlueStacksResolution 0x0
+2020-04-09 07:49:22.524 7852:0000000D (BlueStacksInstaller) INFO: DotNetVersion 4.8.03752 Full
+2020-04-09 07:49:22.524 7852:0000000D (BlueStacksInstaller) INFO: OSVERSIONTYPE 64 bit
+2020-04-09 07:49:22.525 7852:0000000D (BlueStacksInstaller) INFO: Will run C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\\HD-GLCheck.exe with args 2
+2020-04-09 07:49:22.561 7852:00000005 (BlueStacksInstaller) INFO: Extracting ProgramFiles to C:\Program Files\BlueStacks
+2020-04-09 07:49:22.578 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\7zr.exe
+2020-04-09 07:49:22.578 7852:00000005 (BlueStacksInstaller) INFO:   args: x "C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\PF.zip" -o"C:\Program Files\BlueStacks" -aoa
+2020-04-09 07:49:23.172 7852:0000000D (BlueStacksInstaller) INFO: 4936 EXIT: 0
+2020-04-09 07:49:23.172 7852:0000000D (BlueStacksInstaller) INFO: Will run C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\\HD-GLCheck.exe with args 3
+2020-04-09 07:49:23.651 7852:0000000D (BlueStacksInstaller) INFO: 2824 EXIT: 0
+2020-04-09 07:49:23.651 7852:0000000D (BlueStacksInstaller) INFO: Will run C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\\HD-GLCheck.exe with args 1
+2020-04-09 07:49:24.630 7852:0000000D (BlueStacksInstaller) INFO: 9220 EXIT: 0
+2020-04-09 07:49:24.692 7852:0000000D (BlueStacksInstaller) INFO: Two Camera present on Device: False
+2020-04-09 07:49:24.692 7852:0000000D (BlueStacksInstaller) INFO: TwoCamera Value: 0
+2020-04-09 07:49:24.693 7852:0000000D (BlueStacksInstaller) INFO: Checking if media type ssd for drive: C:\
+2020-04-09 07:49:24.716 7852:0000000D (BlueStacksInstaller) INFO: The physical drive number is: 0
+2020-04-09 07:49:24.716 7852:0000000D (BlueStacksInstaller) INFO: Checking trim enabled for drive: \\.\PhysicalDrive0
+2020-04-09 07:49:24.716 7852:0000000D (BlueStacksInstaller) INFO: Is Trim Enabled: True
+2020-04-09 07:49:24.716 7852:0000000D (BlueStacksInstaller) INFO: Sending System Info Stats
+2020-04-09 07:49:24.825 7852:0000000E (BlueStacksInstaller) INFO: Checking if generated id present in %temp%
+2020-04-09 07:49:24.825 7852:0000000E (BlueStacksInstaller) INFO: %TEMP% = C:\Users\paulo\AppData\Local\Temp
+2020-04-09 07:49:24.958 7852:0000000E (BlueStacksInstaller) INFO: sending installer guid stats
+2020-04-09 07:49:25.134 7852:0000000D (BlueStacksInstaller) INFO: Got System Info  response: 
+2020-04-09 07:49:27.365 7852:0000000E (BlueStacksInstaller) INFO: machine_guid in stats..a616b3ab-27e7-419d-988d-5217b5a586a2
+2020-04-09 07:49:27.365 7852:0000000E (BlueStacksInstaller) INFO: sending installer guid debug stats to url : https://cloud.bluestacks.com/bs3/stats/guid_debug_stats
+2020-04-09 07:49:27.760 7852:0000000E (BlueStacksInstaller) INFO: Response for url https://cloud.bluestacks.com/bs3/stats/guid_debug_stats: 
+2020-04-09 07:49:28.175 7852:00000005 (BlueStacksInstaller) INFO: Extracting ProgramData to C:\ProgramData\BlueStacks
+2020-04-09 07:49:28.175 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\7zr.exe
+2020-04-09 07:49:28.175 7852:00000005 (BlueStacksInstaller) INFO:   args: x "C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\PD.zip" -o"C:\ProgramData\BlueStacks" -aoa
+2020-04-09 07:51:57.000 7852:00000005 (BlueStacksInstaller) INFO: Extracting C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\CefData.zip to C:\ProgramData\BlueStacks\CefData
+2020-04-09 07:51:57.004 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\7zr.exe
+2020-04-09 07:51:57.004 7852:00000005 (BlueStacksInstaller) INFO:   args: x "C:\Users\paulo\AppData\Local\Temp\7zSC083A24E\CefData.zip" -o"C:\ProgramData\BlueStacks\CefData" -aoa
+2020-04-09 07:52:15.232 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:15.232 7852:00000005 (BlueStacksInstaller) INFO:   args: advfirewall firewall delete rule name="BlueStacks Service"
+2020-04-09 07:52:16.453 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:16.453 7852:00000005 (BlueStacksInstaller) INFO:   args: advfirewall firewall add rule name="BlueStacks Service" dir=in action=allow program="C:\Program Files\BlueStacks\HD-Player.exe" enable=yes
+2020-04-09 07:52:16.830 7852:00000005 (BlueStacksInstaller) INFO: InstallService start
+2020-04-09 07:52:17.409 7852:00000005 (BlueStacksInstaller) INFO: Installing driver
+2020-04-09 07:52:17.555 7852:00000005 (BlueStacksInstaller) INFO: Registering driver with params: file path : C:\Program Files\BlueStacks\BstkDrv_bgp.sys, DriverName BlueStacksDrv, DisplayName: BlueStacks Hypervisor
+2020-04-09 07:52:17.556 7852:00000005 (BlueStacksInstaller) INFO: Checking if service BlueStacksDrv exists on user's machine
+2020-04-09 07:52:17.556 7852:00000005 (BlueStacksInstaller) INFO: StopService BlueStacksDrv
+2020-04-09 07:52:17.556 7852:00000005 (BlueStacksInstaller) INFO: OpenSCManager
+2020-04-09 07:52:17.559 7852:00000005 (BlueStacksInstaller) INFO: UninstallService BlueStacksDrv
+2020-04-09 07:52:17.559 7852:00000005 (BlueStacksInstaller) INFO: OpenSCManager
+2020-04-09 07:52:17.559 7852:00000005 (BlueStacksInstaller) INFO: Service BlueStacksDrv is not installed or inaccessible.
+2020-04-09 07:52:17.561 7852:00000005 (BlueStacksInstaller) INFO: InstallKernelDriver BlueStacksDrv
+2020-04-09 07:52:17.561 7852:00000005 (BlueStacksInstaller) INFO: OpenSCManager
+2020-04-09 07:52:17.618 7852:00000005 (BlueStacksInstaller) INFO: Successfully created service = BlueStacksDrv...setting DACL now
+2020-04-09 07:52:17.691 7852:00000005 (BlueStacksInstaller) INFO: SetServicePermissions BlueStacksDrv
+2020-04-09 07:52:17.703 7852:00000005 (BlueStacksInstaller) INFO: Successfully set DACL
+2020-04-09 07:52:17.703 7852:00000005 (BlueStacksInstaller) INFO: Successfully Installed Driver
+2020-04-09 07:52:17.703 7852:00000005 (BlueStacksInstaller) INFO: In SetupVmConfig
+2020-04-09 07:52:17.747 7852:00000005 (BlueStacksInstaller) INFO: InstallVmConfig()
+2020-04-09 07:52:17.787 7852:00000005 (BlueStacksInstaller) INFO: Getting Android VM Memory
+2020-04-09 07:52:17.787 7852:00000005 (BlueStacksInstaller) INFO: Total RAM = 3971 MB
+2020-04-09 07:52:17.787 7852:00000005 (BlueStacksInstaller) INFO: Using RAM: 900MB
+2020-04-09 07:52:17.862 7852:00000005 (BlueStacksInstaller) INFO: In SetupBstkGlobalConfig
+2020-04-09 07:52:17.862 7852:00000005 (BlueStacksInstaller) INFO: InstallVirtualBoxConfig()
+2020-04-09 07:52:17.893 7852:00000005 (BlueStacksInstaller) INFO: Reserving ports 2861 - 2961
+2020-04-09 07:52:17.893 7852:00000005 (BlueStacksInstaller) INFO: ---------------------------------------------------------------
+2020-04-09 07:52:19.094 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:19.094 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2871/ User=\"Todos"
+2020-04-09 07:52:19.172 7852:0000000B (BlueStacksInstaller) INFO: 7364 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:19.180 7852:00000009 (BlueStacksInstaller) INFO: 7364 ERR: 
+2020-04-09 07:52:19.181 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 7364 exited with exitCode: 0
+2020-04-09 07:52:20.510 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:20.510 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2881/ User=\"Todos"
+2020-04-09 07:52:20.613 7852:0000000C (BlueStacksInstaller) INFO: 552 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:20.620 7852:0000000B (BlueStacksInstaller) INFO: 552 ERR: 
+2020-04-09 07:52:20.622 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 552 exited with exitCode: 0
+2020-04-09 07:52:21.623 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:21.623 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2891/ User=\"Todos"
+2020-04-09 07:52:21.702 7852:0000000F (BlueStacksInstaller) INFO: 10472 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:21.708 7852:0000000B (BlueStacksInstaller) INFO: 10472 ERR: 
+2020-04-09 07:52:21.710 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 10472 exited with exitCode: 0
+2020-04-09 07:52:22.556 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:22.556 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2901/ User=\"Todos"
+2020-04-09 07:52:22.648 7852:0000000D (BlueStacksInstaller) INFO: 8772 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:22.656 7852:0000000B (BlueStacksInstaller) INFO: 8772 ERR: 
+2020-04-09 07:52:22.657 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 8772 exited with exitCode: 0
+2020-04-09 07:52:23.717 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:23.717 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2911/ User=\"Todos"
+2020-04-09 07:52:23.828 7852:0000000F (BlueStacksInstaller) INFO: 11204 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:23.834 7852:0000000C (BlueStacksInstaller) INFO: 11204 ERR: 
+2020-04-09 07:52:23.836 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 11204 exited with exitCode: 0
+2020-04-09 07:52:24.658 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:24.658 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2921/ User=\"Todos"
+2020-04-09 07:52:24.740 7852:0000000C (BlueStacksInstaller) INFO: 2272 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:24.746 7852:0000000F (BlueStacksInstaller) INFO: 2272 ERR: 
+2020-04-09 07:52:24.747 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 2272 exited with exitCode: 0
+2020-04-09 07:52:25.611 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:25.611 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2931/ User=\"Todos"
+2020-04-09 07:52:25.693 7852:0000000D (BlueStacksInstaller) INFO: 10108 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:25.700 7852:0000000B (BlueStacksInstaller) INFO: 10108 ERR: 
+2020-04-09 07:52:25.701 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 10108 exited with exitCode: 0
+2020-04-09 07:52:26.801 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:26.801 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2941/ User=\"Todos"
+2020-04-09 07:52:26.880 7852:0000000D (BlueStacksInstaller) INFO: 11836 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:26.886 7852:0000000B (BlueStacksInstaller) INFO: 11836 ERR: 
+2020-04-09 07:52:26.887 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 11836 exited with exitCode: 0
+2020-04-09 07:52:27.697 7852:00000005 (BlueStacksInstaller) INFO: RunCmd: starting cmd: netsh.exe
+2020-04-09 07:52:27.697 7852:00000005 (BlueStacksInstaller) INFO:   args: http add urlacl url=http://*:2951/ User=\"Todos"
+2020-04-09 07:52:27.781 7852:0000000E (BlueStacksInstaller) INFO: 9152 OUT: Reserva de URL adicionada com ˆxito
+2020-04-09 07:52:27.787 7852:0000000B (BlueStacksInstaller) INFO: 9152 ERR: 
+2020-04-09 07:52:27.789 7852:00000005 (BlueStacksInstaller) INFO: RunCmd for proc.ID = 9152 exited with exitCode: 0
+2020-04-09 07:52:28.637 7852:00000005 (BlueStacksInstaller) INFO: ---------------------------------------------------------------
+2020-04-09 07:52:28.637 7852:00000005 (BlueStacksInstaller) INFO: Unregistering COM components
+2020-04-09 07:52:38.135 7852:00000005 (BlueStacksInstaller) INFO: Registering COM components
+2020-04-09 07:52:39.727 7852:00000005 (BlueStacksInstaller) INFO: ExitCode: 0
+2020-04-09 07:52:39.727 7852:00000005 (BlueStacksInstaller) INFO: Deleting legacy shortcuts
+2020-04-09 07:52:39.742 7852:00000005 (BlueStacksInstaller) INFO: CreateInstallApkScheme start
+2020-04-09 07:52:39.770 7852:00000005 (BlueStacksInstaller) INFO: CreateInstallApkScheme end
+2020-04-09 07:52:39.771 7852:00000005 (BlueStacksInstaller) INFO: CreateInstallApkScheme start
+2020-04-09 07:52:39.774 7852:00000005 (BlueStacksInstaller) INFO: CreateInstallApkScheme end
+2020-04-09 07:52:42.380 7852:00000005 (BlueStacksInstaller) INFO: CreatePartnerRegistryEntry start
+2020-04-09 07:52:42.381 7852:00000005 (BlueStacksInstaller) INFO: bst_config not found. Trying to fetch new file from cloud.
+2020-04-09 07:52:43.689 7852:00000005 (BlueStacksInstaller) INFO: Loading Oem Settings from C:\ProgramData\BlueStacks\Client\bst_config
+2020-04-09 07:52:45.769 7852:00000001 (BlueStacksInstaller) INFO: Installation completed. Copying logfile to logdir.
+2020-04-09 07:52:46.039 7852:00000001 (BlueStacksInstaller) INFO: Finish button clicked, launching BlueStacks client.

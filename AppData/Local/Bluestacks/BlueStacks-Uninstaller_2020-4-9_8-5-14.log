@@ -1,0 +1,46 @@
+﻿2020-04-09 08:05:14.315 8676:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2020-04-09 08:05:14.849 8676:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2020-04-09 08:05:14.887 8676:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\ to C:\Users\paulo\AppData\Local\Temp\
+2020-04-09 08:05:14.925 8676:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2020-04-09 08:05:14.951 8676:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2020-04-09 08:05:14.965 8676:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2020-04-09 08:05:15.468 8676:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2020-04-09 08:05:16.525 11440:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\Oem.cfg
+2020-04-09 08:05:18.552 11440:00000001 (BlueStacksUninstaller) INFO: Loading cfg from : C:\ProgramData\BlueStacks\Client\bst_config
+2020-04-09 08:05:18.574 11440:00000001 (BlueStacksUninstaller) INFO: Loading Oem Settings from C:\ProgramData\BlueStacks\Client\bst_config
+2020-04-09 08:05:18.685 11440:00000001 (BlueStacksUninstaller) INFO: Finding closest locale match to pt-BR
+2020-04-09 08:05:18.689 11440:00000001 (BlueStacksUninstaller) INFO: Match found by region: pt-BR
+2020-04-09 08:05:18.873 11440:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2020-04-09 08:05:18.951 11440:00000001 (BlueStacksUninstaller) INFO: Successfully populated pt-BR strings
+2020-04-09 08:05:28.937 11440:00000001 (BlueStacksUninstaller) WARNING: Returning a null image for unchecked_gray_click
+2020-04-09 08:05:39.228 11440:0000000A (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2020-04-09 08:05:39.383 11440:0000000A (BlueStacksUninstaller) INFO: StopService BlueStacksDrv
+2020-04-09 08:05:39.383 11440:0000000A (BlueStacksUninstaller) INFO: OpenSCManager
+2020-04-09 08:05:39.387 11440:0000000A (BlueStacksUninstaller) INFO: StopService 473087824
+2020-04-09 08:05:39.485 11440:0000000A (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2020-04-09 08:05:39.485 11440:0000000A (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelper /F
+2020-04-09 08:05:39.818 11440:00000008 (BlueStacksUninstaller) INFO: 4604 ERR: 
+2020-04-09 08:05:39.818 11440:00000007 (BlueStacksUninstaller) INFO: 4604 OUT: ÒXITO: a tarefa agendada "BlueStacksHelper" foi exclu¡da corretamente.
+2020-04-09 08:05:39.818 11440:0000000A (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 4604 exited with exitCode: 0
+2020-04-09 08:05:39.819 11440:0000000A (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2020-04-09 08:05:39.819 11440:0000000A (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelperTask /F
+2020-04-09 08:05:39.906 11440:00000007 (BlueStacksUninstaller) INFO: 9736 ERR: ERRO: O sistema nÆo pode encontrar o arquivo especificado.
+2020-04-09 08:05:39.906 11440:00000007 (BlueStacksUninstaller) INFO: 9736 ERR: 
+2020-04-09 08:05:39.908 11440:00000007 (BlueStacksUninstaller) INFO: 9736 ERR: 
+2020-04-09 08:05:39.912 11440:0000000A (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 9736 exited with exitCode: 1
+2020-04-09 08:05:39.912 11440:0000000A (BlueStacksUninstaller) ERROR: An error occured while deleting the task, exit code: 1
+2020-04-09 08:05:39.943 11440:0000000A (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks\
+2020-04-09 08:05:40.112 11440:0000000A (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks
+2020-04-09 08:05:42.920 11440:0000000A (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\paulo\AppData\Local\BlueStacksSetup
+2020-04-09 08:05:47.871 11440:0000000A (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks.lnk
+2020-04-09 08:05:47.872 11440:0000000A (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks.lnk
+2020-04-09 08:05:47.874 11440:0000000A (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks Multi-Instance Manager.lnk
+2020-04-09 08:05:47.875 11440:0000000A (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager.lnk
+2020-04-09 08:05:47.907 11440:0000000A (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv
+2020-04-09 08:05:47.907 11440:0000000A (BlueStacksUninstaller) INFO: OpenSCManager
+2020-04-09 08:05:47.908 11440:0000000A (BlueStacksUninstaller) INFO: StopService 491544064
+2020-04-09 08:05:47.996 11440:0000000A (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-04-09 08:05:48.025 11440:0000000A (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-04-09 08:05:48.025 11440:0000000A (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-04-09 08:05:48.026 11440:0000000A (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-04-09 08:05:49.552 11440:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 0

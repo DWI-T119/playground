@@ -1,0 +1,8 @@
+V1001:210829_113308: [info] Installer.cpp:ak_install(4134): Starting Installation
+V1001:210829_113308: [info] Installer.cpp:_ak_readOrGenerateGuid(2228): Saved GUID "8a3c035648fc404bb2f2b9357425b1cb" to disk
+V1001:210829_113308: [info] Installer.cpp:ak_install(4145): User Agent is Akamai NetSession C-API (win;DNDLauncher;capi_1.8.5;unknown)
+V1001:210829_113309: [eror] Installer.cpp:_ak_downloadAndWrite(2638): Error in downloading 'https://client.akamai.com/conf/install.html?file=installer&upload=false&silent=true'
+V1001:210829_114806: [info] Installer.cpp:ak_install(4134): Starting Installation
+V1001:210829_114806: [info] Installer.cpp:_ak_readOrGenerateGuid(2212): GUID "8a3c035648fc404bb2f2b9357425b1cb" loaded from existing file "C:/Users/paulo/AppData/Local/Akamai/guid.ini"
+V1001:210829_114806: [info] Installer.cpp:ak_install(4145): User Agent is Akamai NetSession C-API (win;DNDLauncher;capi_1.8.5;unknown)
+V1001:210829_114806: [eror] Installer.cpp:_ak_downloadAndWrite(2638): Error in downloading 'https://client.akamai.com/conf/install.html?file=installer&upload=false&silent=true'

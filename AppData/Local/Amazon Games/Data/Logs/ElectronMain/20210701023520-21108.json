@@ -1,0 +1,396 @@
+{
+    "Arguments": [
+        "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games UI\\Amazon Games UI.exe",
+        "--appIpcName=AgsLaunch-App-Pipe-10284"
+    ],
+    "BuildDate": "2019-12-04T17:44:18Z",
+    "Name": "ElectronMain",
+    "PID": 21108,
+    "Process": "Amazon Games UI",
+    "ProcessStart": "2021-07-01T02:35:20.296490Z",
+    "Start": "2021-07-01T02:35:20Z",
+    "Version": "0.0.7413.31929",
+  "Log": [
+{
+    "level": "Info",
+    "memory": 20128.0,
+    "message": "[ElectronMain] Starting electron",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:20.916507Z"
+},
+{
+    "data": {
+        "electronAppDepVersions": {
+            "ares": "1.15.0",
+            "brotli": "1.0.7",
+            "chrome": "78.0.3904.130",
+            "electron": "7.1.9",
+            "http_parser": "2.8.0",
+            "icu": "64.2",
+            "llhttp": "1.1.4",
+            "modules": "75",
+            "napi": "4",
+            "nghttp2": "1.39.2",
+            "node": "12.8.1",
+            "openssl": "1.1.0",
+            "unicode": "12.1",
+            "uv": "1.30.1",
+            "v8": "7.8.279.23-electron.0",
+            "zlib": "1.2.11"
+        },
+        "electronAppVersion": "1.0.0"
+    },
+    "level": "Info",
+    "memory": 20212.0,
+    "message": "[ElectronMain] Software version manifest",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:20.932104Z"
+},
+{
+    "data": {
+        "data": [
+            "-enable-gpu-rasterization"
+        ]
+    },
+    "level": "Info",
+    "memory": 20220.0,
+    "message": "[ElectronMain] Setting Chromium command line options:",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:20.934382Z"
+},
+{
+    "level": "Info",
+    "memory": 22992.0,
+    "message": "[ElectronMain] Setting ipc pipe name: AgsLaunch-App-Pipe-10284",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:20.983303Z"
+},
+{
+    "level": "Info",
+    "memory": 22992.0,
+    "message": "[ElectronMain] Configuring service client",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:20.983435Z"
+},
+{
+    "level": "Info",
+    "memory": 26000.0,
+    "message": "[ElectronMain] platform.config.getAppUrl() = sonic://core/core.html",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.076603Z"
+},
+{
+    "level": "Info",
+    "memory": 26000.0,
+    "message": "[ElectronMain] Connecting to desktop service",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.076686Z"
+},
+{
+    "level": "Info",
+    "memory": 26000.0,
+    "message": "[ElectronMain] Connecting to AgsLaunch-App-Pipe-10284.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.076801Z"
+},
+{
+    "level": "Info",
+    "memory": 26260.0,
+    "message": "[ElectronMain] NativeIpc->connect: completed.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.090947Z"
+},
+{
+    "data": {
+        "gpuInfo": {
+            "auxAttributes": {
+                "amdSwitchable": false,
+                "canSupportThreadedTextureMailbox": false,
+                "directComposition": false,
+                "dx12VulkanVersionInfo": {
+                    "dx12FeatureLevel": 0,
+                    "supportsDx12": false,
+                    "supportsVulkan": false,
+                    "vulkanVersion": 0
+                },
+                "glResetNotificationStrategy": 0,
+                "inProcessGpu": true,
+                "initializationTime": 0,
+                "jpegDecodeAcceleratorSupported": false,
+                "nv12OverlaySupport": "NONE",
+                "oopRasterizationSupported": false,
+                "optimus": false,
+                "passthroughCmdDecoder": false,
+                "sandboxed": false,
+                "softwareRendering": false,
+                "supportsOverlays": false,
+                "videoDecodeAcceleratorFlags": 0,
+                "yuy2OverlaySupport": "NONE"
+            },
+            "gpuDevice": [
+                {
+                    "active": false,
+                    "cudaComputeCapabilityMajor": 0,
+                    "deviceId": 22817,
+                    "driverVersion": "26.20.100.6911",
+                    "vendorId": 32902
+                },
+                {
+                    "active": false,
+                    "cudaComputeCapabilityMajor": 0,
+                    "deviceId": 140,
+                    "driverVersion": "10.0.19041.546",
+                    "vendorId": 5140
+                }
+            ]
+        }
+    },
+    "level": "Info",
+    "memory": 26260.0,
+    "message": "[ElectronMain] GPU info",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.091715Z"
+},
+{
+    "data": {
+        "feat": {
+            "2d_canvas": "disabled_software",
+            "flash_3d": "disabled_software",
+            "flash_stage3d": "disabled_software",
+            "flash_stage3d_baseline": "disabled_software",
+            "gpu_compositing": "disabled_software",
+            "multiple_raster_threads": "enabled_on",
+            "oop_rasterization": "disabled_off",
+            "protected_video_decode": "disabled_off",
+            "rasterization": "disabled_software",
+            "skia_renderer": "disabled_off_ok",
+            "video_decode": "disabled_software",
+            "viz_display_compositor": "enabled_on",
+            "viz_hit_test_surface_layer": "disabled_off_ok",
+            "webgl": "disabled_off",
+            "webgl2": "disabled_off"
+        }
+    },
+    "level": "Info",
+    "memory": 26260.0,
+    "message": "[ElectronMain] GPU feature status",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.092522Z"
+},
+{
+    "level": "Info",
+    "memory": 26520.0,
+    "message": "[ElectronMain] NativeIpc->IPC connected",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.748137Z"
+},
+{
+    "level": "Info",
+    "memory": 26520.0,
+    "message": "[ElectronMain] Connecting to radium, triggering library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.748683Z"
+},
+{
+    "level": "Info",
+    "memory": 26520.0,
+    "message": "[ElectronMain] Connected to radium, subscribing for UCT",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:21.750387Z"
+},
+{
+    "level": "Info",
+    "memory": 26800.0,
+    "message": "[ElectronMain] User is signed in. We should open a main window if not already open.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:26.189215Z"
+},
+{
+    "level": "Info",
+    "memory": 26800.0,
+    "message": "[ElectronMain] Creating new main window.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:26.189319Z"
+},
+{
+    "level": "Info",
+    "memory": 27992.0,
+    "message": "[ElectronMain] Main window was launched with focus.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:26.267223Z"
+},
+{
+    "level": "Info",
+    "memory": 28256.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:26.311983Z"
+},
+{
+    "data": {
+        "data": "pt-BR"
+    },
+    "level": "Info",
+    "memory": 26856.0,
+    "message": "[ElectronMain.UI: Twilight] Locale received from desktop layer: ",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:28.286137Z"
+},
+{
+    "data": {
+        "cldrLocale": "pt",
+        "languageCode": "pt-br",
+        "locale": "pt-BR",
+        "name": "Português - Brasil"
+    },
+    "level": "Info",
+    "memory": 26856.0,
+    "message": "[ElectronMain.UI: Twilight] System Locale found in Twilight: ",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:35:28.286554Z"
+},
+{
+    "level": "Info",
+    "memory": 25316.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:36:32.408583Z"
+},
+{
+    "level": "Info",
+    "memory": 25328.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:36:42.956194Z"
+},
+{
+    "level": "Info",
+    "memory": 25328.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:36:49.960272Z"
+},
+{
+    "level": "Info",
+    "memory": 25404.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:37:06.639663Z"
+},
+{
+    "level": "Info",
+    "memory": 25188.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:37:24.416725Z"
+},
+{
+    "level": "Info",
+    "memory": 25336.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:37:43.046157Z"
+},
+{
+    "level": "Info",
+    "memory": 25340.0,
+    "message": "[ElectronMain.UI: Twilight] Requesting uninstall modal",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:37:46.856348Z"
+},
+{
+    "level": "Info",
+    "memory": 25480.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:38:23.124207Z"
+},
+{
+    "data": {
+        "data": "Error: Promise Timeout Elapsed!"
+    },
+    "error": {
+        "hash": "",
+        "message": "Unable to fullfill remote request.",
+        "stack": [
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:180:29",
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:103:34",
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:65:14",
+            "UI\\resources\\app.asar\\main.js:9:114386",
+            "UI\\resources\\app.asar\\main.js:1:7408"
+        ]
+    },
+    "level": "Error",
+    "memory": 25848.0,
+    "message": "[ElectronMain] Unable to fullfill remote request.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:38:48.546274Z"
+},
+{
+    "level": "Info",
+    "memory": 25856.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T02:40:29.616783Z"
+},
+{
+    "level": "Info",
+    "memory": 26080.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T03:02:37.661902Z"
+},
+{
+    "level": "Info",
+    "memory": 26088.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T03:02:55.048010Z"
+},
+{
+    "data": {
+        "data": "Error: Promise Timeout Elapsed!"
+    },
+    "error": {
+        "hash": "",
+        "message": "Unable to fullfill remote request.",
+        "stack": [
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:180:29",
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:103:34",
+            "UI\\resources\\app.asar\\node_modules\\twitch-desktop-components\\dist\\modules\\logger\\logger.js:65:14",
+            "UI\\resources\\app.asar\\main.js:9:114386",
+            "UI\\resources\\app.asar\\main.js:1:7408"
+        ]
+    },
+    "level": "Error",
+    "memory": 26016.0,
+    "message": "[ElectronMain] Unable to fullfill remote request.",
+    "thread": 19960,
+    "timestamp": "2021-07-01T03:03:45.821090Z"
+},
+{
+    "level": "Error",
+    "memory": 26168.0,
+    "message": "[ElectronMain.UI: Twilight] Unable to launch game",
+    "stacktrace": {
+        "hash": "",
+        "stack": [
+            "sonic://core/features.desklight.utils.logger-4d22fcc392f0f9c05bbc650e8c2a8c63.js:1:326",
+            "sonic://core/vendor-5666ae90e04544637a09f6a18e8709cf.js:41:1509",
+            "sonic://core/core-95acde54ba354246af311364b95ccb6c.js:1:191578",
+            "sonic://core/core-95acde54ba354246af311364b95ccb6c.js:1:190499",
+            "sonic://core/core-95acde54ba354246af311364b95ccb6c.js:1:189449",
+            "sonic://core/core-95acde54ba354246af311364b95ccb6c.js:1:527135"
+        ]
+    },
+    "thread": 19960,
+    "timestamp": "2021-07-01T03:03:45.917162Z"
+},
+{
+    "level": "Info",
+    "memory": 25992.0,
+    "message": "[ElectronMain] Window focus triggering config refresh and library refresh",
+    "thread": 19960,
+    "timestamp": "2021-07-01T05:27:40.722579Z"
+}
+]}

@@ -1,0 +1,26 @@
+{
+  "PluginData": {
+    "Amazon.Radium.Plugins.Fuel.dll": {
+      "IsErrored": false,
+      "Exception": null,
+      "Name": "Amazon.Radium.Plugins.Fuel.dll",
+      "FriendlyName": "Fuel",
+      "Path": "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games Services\\Amazon.Radium.Plugins.Fuel.dll",
+      "Version": {
+        "Major": 99,
+        "Minor": 99,
+        "Build": 99,
+        "Revision": 9999,
+        "MajorRevision": 0,
+        "MinorRevision": 9999
+      },
+      "LastUpdated": "2021-03-29T00:50:05.9651049-03:00",
+      "Guid": "554080e0-bcca-4b1e-9dfa-3b9bf7cd0454",
+      "IsUserOverride": false,
+      "IsRequired": true,
+      "FullName": "Amazon.Radium.Plugins.Fuel, Version=99.99.99.9999, Culture=neutral, PublicKeyToken=null",
+      "GameID": -1,
+      "IsEnabled": true
+    }
+  }
+}

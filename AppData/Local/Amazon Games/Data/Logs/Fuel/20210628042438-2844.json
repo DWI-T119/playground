@@ -1,0 +1,219 @@
+{
+  "Name": "Fuel",
+  "Process": "Amazon Game Remover",
+  "PID": 10308,
+  "Arguments": [
+    "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games Services\\Fuel\\helpers\\Amazon Game Remover.exe",
+    "-m",
+    "GameSilent",
+    "-p",
+    "e74afea8-3411-4274-a6b5-d940c9515db0",
+    "--session_id",
+    "073ae144-0ec3-4622-b427-a124dc0a8ab8"
+  ],
+  "ProcessStart": "2021-06-28T04:24:32.2145501Z",
+  "Version": "99.99.99.9999",
+  "BuildDate": "2000-04-09T08:33:18Z",
+  "Start": "2021-06-28T04:24:38.1118295Z",
+  "Log": [
+{
+  "timestamp": "2021-06-28T04:24:38.0789165Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 27016.0,
+  "message": "[FuelAppDataRemover] [] Crash publishing enabled."
+},
+{
+  "timestamp": "2021-06-28T04:24:38.0809103Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 27016.0,
+  "message": "[FuelAppDataRemover] [] Log publishing enabled."
+},
+{
+  "timestamp": "2021-06-28T04:24:38.4589021Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 28660.0,
+  "message": "[FuelAppDataRemover] [] Application 'Amazon Game Remover' started with arguments '-m,GameSilent,-p,e74afea8-3411-4274-a6b5-d940c9515db0,--session_id,073ae144-0ec3-4622-b427-a124dc0a8ab8'"
+},
+{
+  "timestamp": "2021-06-28T04:24:39.8278805Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 30836.0,
+  "message": "[FuelAppDataRemover] [] building container"
+},
+{
+  "timestamp": "2021-06-28T04:24:39.88672Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 30956.0,
+  "message": "[FuelAppDataRemover] [] container build successful"
+},
+{
+  "timestamp": "2021-06-28T04:24:41.0356489Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 27488.0,
+  "message": "[FuelAppDataRemover] [] [UNI] Start(GameSilent,ProductId[e74afea8-3411-4274-a6b5-d940c9515db0])"
+},
+{
+  "timestamp": "2021-06-28T04:24:41.0356489Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 27488.0,
+  "message": "[FuelAppDataRemover] [] Rechecking for deferred deletion path moves (this may block for some time if files are still locked/haven't cancelled)"
+},
+{
+  "timestamp": "2021-06-28T04:24:41.065574Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 27520.0,
+  "message": "[FuelAppDataRemover] [] [UNI] UninstallGame(ProductId[e74afea8-3411-4274-a6b5-d940c9515db0])"
+},
+{
+  "timestamp": "2021-06-28T04:24:43.2337522Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 30076.0,
+  "message": "Initializing db",
+  "data": {
+    "DbExists": true,
+    "dbFileName": "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\Data\\Games\\Sql\\GameInstallInfo.sqlite"
+  }
+},
+{
+  "timestamp": "2021-06-28T04:24:43.2546973Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 30076.0,
+  "message": "[FuelAppDataRemover] [] Initializing db { DbExists='True', dbFileName='C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\Data\\Games\\Sql\\GameInstallInfo.sqlite' }"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.3982914Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36572.0,
+  "message": "[FuelAppDataRemover] [] WindowsRegisterInstallation.UnregisterUninstaller(ProductId[e74afea8-3411-4274-a6b5-d940c9515db0]"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.4052745Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36080.0,
+  "message": "[FuelAppDataRemover] [] WindowsFileSystemDriver.getSpecialPath(11)"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.4082655Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36316.0,
+  "message": "[FuelAppDataRemover] [] WindowsShortcutDriver.RemoveShortcut(C:\\Users\\paulo\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Amazon Games\\Lost in Harmony.url)"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.4092635Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36316.0,
+  "message": "[FuelAppDataRemover] [] WindowsShortcutDriver.RemoveShortcut(C:\\Users\\paulo\\Desktop\\Lost in Harmony.url)"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.4232224Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36384.0,
+  "message": "[FuelAppDataRemover] [] DeleteInstallDataAndFiles"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.4262207Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36384.0,
+  "message": "[FuelAppDataRemover] [] Retrieve and uninstalling manifest files"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9348557Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36868.0,
+  "message": "Removing empty game dir",
+  "data": {
+    "product": "required",
+    "installDir": "C:\\Amazon Games\\Library\\Lost in Harmony"
+  }
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9378471Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36868.0,
+  "message": "[FuelAppDataRemover] [] Removing empty game dir { product='required', installDir='C:\\Amazon Games\\Library\\Lost in Harmony' }"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9538048Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36900.0,
+  "message": "[FuelAppDataRemover] [] Delete game metadata files"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9548023Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36904.0,
+  "message": "Deleting InstallDataDirectory",
+  "data": {
+    "InstallDataDirectory": "C:\\Amazon Games\\Library\\__InstallData__\\Lost in Harmony"
+  }
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9557992Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 36904.0,
+  "message": "[FuelAppDataRemover] [] Deleting InstallDataDirectory { InstallDataDirectory='C:\\Amazon Games\\Library\\__InstallData__\\Lost in Harmony' }"
+},
+{
+  "timestamp": "2021-06-28T04:24:45.9787399Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 37432.0,
+  "message": "[FuelAppDataRemover] [] InstalledGamesPlugin.Save(ProductId[e74afea8-3411-4274-a6b5-d940c9515db0])"
+},
+{
+  "timestamp": "2021-06-28T04:24:46.2319541Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 38116.0,
+  "message": "[FuelAppDataRemover] [] [UNI] killApp()"
+},
+{
+  "timestamp": "2021-06-28T04:24:46.2359449Z",
+  "level": "Info",
+  "thread": 19768,
+  "memory": 38120.0,
+  "message": "[FuelAppDataRemover] [] Fuel shutdown message received. Flushing metrics and BI events."
+},
+{
+  "timestamp": "2021-06-28T04:24:47.5737451Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 38928.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2021-06-28T04:24:47.5812466Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 38928.0,
+  "message": "Logging worker finished"
+},
+{
+  "timestamp": "2021-06-28T04:24:47.582244Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 38828.0,
+  "message": "[FuelAppDataRemover] [] Process exiting. Flushing metrics and BI events."
+}
+]}

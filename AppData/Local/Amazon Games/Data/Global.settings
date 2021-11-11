@@ -1,0 +1,14 @@
+{
+  "Username": "",
+  "EncryptedPassword": "",
+  "AutoLogin": true,
+  "MachineKey": "00000000-0000-0000-0000-000000000000",
+  "SoftwareModeRendering": false,
+  "IsFirstRun": false,
+  "ReduceFramerate": false,
+  "CloseOption": 0,
+  "IncompatibilityAlertHistory": [],
+  "PreviousStartupArgs": [],
+  "ProcessHighPriority": false,
+  "HardwareReportCount": 0
+}

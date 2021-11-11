@@ -1,0 +1,229 @@
+{
+  "Name": "Fuel",
+  "Process": "Amazon Game Remover",
+  "PID": 9420,
+  "Arguments": [
+    "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games Services\\Fuel\\helpers\\Amazon Game Remover.exe",
+    "-m",
+    "All"
+  ],
+  "ProcessStart": "2021-07-01T05:28:56.2503998Z",
+  "Version": "99.99.99.9999",
+  "BuildDate": "2000-04-09T08:33:18Z",
+  "Start": "2021-07-01T05:28:58.9646014Z",
+  "Log": [
+{
+  "timestamp": "2021-07-01T05:28:58.9396687Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 28524.0,
+  "message": "[FuelAppDataRemover] [] Crash publishing enabled."
+},
+{
+  "timestamp": "2021-07-01T05:28:58.9426607Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 28524.0,
+  "message": "[FuelAppDataRemover] [] Log publishing enabled."
+},
+{
+  "timestamp": "2021-07-01T05:28:59.2737756Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 30348.0,
+  "message": "[FuelAppDataRemover] [] Application 'Amazon Game Remover' started with arguments '-m,All'"
+},
+{
+  "timestamp": "2021-07-01T05:29:00.1940838Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 32620.0,
+  "message": "[FuelAppDataRemover] [] building container"
+},
+{
+  "timestamp": "2021-07-01T05:29:00.2309802Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 32736.0,
+  "message": "[FuelAppDataRemover] [] container build successful"
+},
+{
+  "timestamp": "2021-07-01T05:29:00.8645731Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 35728.0,
+  "message": "[FuelAppDataRemover] [] [UNI] Start(All,ProductId[])"
+},
+{
+  "timestamp": "2021-07-01T05:29:00.8645731Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 35728.0,
+  "message": "[FuelAppDataRemover] [] Rechecking for deferred deletion path moves (this may block for some time if files are still locked/haven't cancelled)"
+},
+{
+  "timestamp": "2021-07-01T05:29:01.9585886Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 30688.0,
+  "message": "Initializing db",
+  "data": {
+    "DbExists": true,
+    "dbFileName": "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\Data\\Games\\Sql\\GameInstallInfo.sqlite"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:29:01.9785345Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 30688.0,
+  "message": "[FuelAppDataRemover] [] Initializing db { DbExists='True', dbFileName='C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\Data\\Games\\Sql\\GameInstallInfo.sqlite' }"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.2498715Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 35728.0,
+  "message": "[FuelAppDataRemover] [] WindowsRegisterInstallation.UnregisterUninstaller(ProductId[340e2d64-ef20-48dc-842d-f85ad1e06d2a]"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.2677194Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36008.0,
+  "message": "[FuelAppDataRemover] [] WindowsFileSystemDriver.getSpecialPath(11)"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.2707128Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36008.0,
+  "message": "[FuelAppDataRemover] [] WindowsShortcutDriver.RemoveShortcut(C:\\Users\\paulo\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Amazon Games\\Blasphemous.url)"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.2717101Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36008.0,
+  "message": "[FuelAppDataRemover] [] WindowsShortcutDriver.RemoveShortcut(C:\\Users\\paulo\\Desktop\\Blasphemous.url)"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.2786932Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36016.0,
+  "message": "[FuelAppDataRemover] [] DeleteInstallDataAndFiles"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.280688Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36020.0,
+  "message": "[FuelAppDataRemover] [] Retrieve and uninstalling manifest files"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5509657Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36152.0,
+  "message": "Removing empty game dir",
+  "data": {
+    "product": "required",
+    "installDir": "C:\\Amazon Games\\Library\\Blasphemous"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5529608Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36152.0,
+  "message": "[FuelAppDataRemover] [] Removing empty game dir { product='required', installDir='C:\\Amazon Games\\Library\\Blasphemous' }"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5689244Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36188.0,
+  "message": "[FuelAppDataRemover] [] Delete game metadata files"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5699196Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36192.0,
+  "message": "Deleting InstallDataDirectory",
+  "data": {
+    "InstallDataDirectory": "C:\\Amazon Games\\Library\\__InstallData__\\Blasphemous"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5709124Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36192.0,
+  "message": "[FuelAppDataRemover] [] Deleting InstallDataDirectory { InstallDataDirectory='C:\\Amazon Games\\Library\\__InstallData__\\Blasphemous' }"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.5888665Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 36200.0,
+  "message": "[FuelAppDataRemover] [] InstalledGamesPlugin.Save(ProductId[340e2d64-ef20-48dc-842d-f85ad1e06d2a])"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.8036167Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 37252.0,
+  "message": "Removing empty install info db"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.804611Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 37252.0,
+  "message": "[FuelAppDataRemover] [] Removing empty install info db"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.8315389Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 37260.0,
+  "message": "[FuelAppDataRemover] [] Removing any deferred deletion paths (this may take a while"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.8365247Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 37268.0,
+  "message": "[FuelAppDataRemover] [] [UNI] killApp()"
+},
+{
+  "timestamp": "2021-07-01T05:29:03.8385223Z",
+  "level": "Info",
+  "thread": 5576,
+  "memory": 37268.0,
+  "message": "[FuelAppDataRemover] [] Fuel shutdown message received. Flushing metrics and BI events."
+},
+{
+  "timestamp": "2021-07-01T05:29:04.9286669Z",
+  "level": "Info",
+  "thread": 9708,
+  "memory": 37508.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2021-07-01T05:29:04.9815237Z",
+  "level": "Info",
+  "thread": 9708,
+  "memory": 37520.0,
+  "message": "Logging worker finished"
+},
+{
+  "timestamp": "2021-07-01T05:29:04.982522Z",
+  "level": "Info",
+  "thread": 9708,
+  "memory": 37420.0,
+  "message": "[FuelAppDataRemover] [] Process exiting. Flushing metrics and BI events."
+}
+]}

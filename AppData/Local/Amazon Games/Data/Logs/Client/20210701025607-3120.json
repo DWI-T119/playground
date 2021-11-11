@@ -1,0 +1,862 @@
+{
+  "Name": "Client",
+  "Process": "Amazon Games Services",
+  "PID": 12576,
+  "Arguments": [
+    "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games Services\\Amazon Games Services.exe",
+    "/appIpcName=AgsLaunch-App-Pipe-10284",
+    "/coreProcessIpc=CoreProcess-Desktop-10284"
+  ],
+  "ProcessStart": "2021-07-01T02:35:20.285933Z",
+  "Version": "1.7.172.1",
+  "BuildDate": "2000-06-21T03:00:02Z",
+  "Start": "2021-07-01T02:56:07.5300462Z",
+  "Log": [
+{
+  "timestamp": "2021-07-01T04:35:31.3935002Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80256.0,
+  "message": "Detecting games needing an update"
+},
+{
+  "timestamp": "2021-07-01T04:35:32.5691625Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80440.0,
+  "message": "[Fuel] [] Detecting games needing an update"
+},
+{
+  "timestamp": "2021-07-01T04:35:32.5791361Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80556.0,
+  "message": "[Fuel] [] EntitlementPlugin.CurrentVersionIdsForAdgProductIds([340e2d64-ef20-48dc-842d-f85ad1e06d2a])"
+},
+{
+  "timestamp": "2021-07-01T04:35:32.5791361Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80556.0,
+  "message": "Refreshing Access Token: Expired"
+},
+{
+  "timestamp": "2021-07-01T04:35:32.5791361Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80556.0,
+  "message": "[Fuel] [] Refreshing Access Token: Expired"
+},
+{
+  "timestamp": "2021-07-01T04:35:33.4305478Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80556.0,
+  "message": "Refreshing Access Token success, expiration 01/07/2021 02:35:03"
+},
+{
+  "timestamp": "2021-07-01T04:35:33.4305478Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80556.0,
+  "message": "[Fuel] [] Refreshing Access Token success, expiration 01/07/2021 02:35:03"
+},
+{
+  "timestamp": "2021-07-01T04:50:51.1629208Z",
+  "level": "Warn",
+  "thread": 1944,
+  "memory": 81156.0,
+  "error": {
+    "message": "Processo com identificação 19580 não está em execução.",
+    "type": "System.ArgumentException",
+    "stack": [
+      "System.Diagnostics.Process.GetProcessById(Int32,String)",
+      "Curse.Radium.ProcessMonitoring.ProcessManager.CheckProcess(UInt32)",
+      "Curse.Radium.ProcessMonitoring.ProcessManager.<.ctor>b__3_0(UInt32)",
+      "Curse.Radium.ProcessMonitoring.WindowsPlatformProcessMonitor+<>c__DisplayClass9_1.<CreateNewWatcher>b__1()",
+      "Curse.Common.Extensions.TaskEx+<>c__DisplayClass8_0.<TryRun>b__0()",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.Execute()",
+      "System.Threading.Tasks.Task.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.ExecutionContext.Run(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&)",
+      "System.Threading.Tasks.Task.ExecuteEntry(Boolean)",
+      "System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2021-07-01T04:50:51.1639175Z",
+  "level": "Warn",
+  "thread": 18480,
+  "memory": 79736.0,
+  "error": {
+    "message": "Processo com identificação 14924 não está em execução.",
+    "type": "System.ArgumentException",
+    "stack": [
+      "System.Diagnostics.Process.GetProcessById(Int32,String)",
+      "Curse.Radium.ProcessMonitoring.ProcessManager.CheckProcess(UInt32)",
+      "Curse.Radium.ProcessMonitoring.ProcessManager.<.ctor>b__3_0(UInt32)",
+      "Curse.Radium.ProcessMonitoring.WindowsPlatformProcessMonitor+<>c__DisplayClass9_1.<CreateNewWatcher>b__1()",
+      "Curse.Common.Extensions.TaskEx+<>c__DisplayClass8_0.<TryRun>b__0()",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.Execute()",
+      "System.Threading.Tasks.Task.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.ExecutionContext.Run(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&)",
+      "System.Threading.Tasks.Task.ExecuteEntry(Boolean)",
+      "System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2021-07-01T04:55:05.996746Z",
+  "level": "Info",
+  "thread": 13472,
+  "memory": 80704.0,
+  "message": "[Startup] NoUpdateAvailable request received"
+},
+{
+  "timestamp": "2021-07-01T04:55:05.996746Z",
+  "level": "Info",
+  "thread": 13472,
+  "memory": 80704.0,
+  "message": "No update detected for Amazon Games App."
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7517615Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "Refreshing library (full)",
+  "data": {
+    "ThrottleFullRefreshByTimeInterval": true
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7517615Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "Starting full refresh task"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7517615Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "Ensuring user is signed in on fuel call async"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7527576Z",
+  "level": "Info",
+  "thread": 1944,
+  "memory": 80332.0,
+  "message": "Attempt to Refresh config",
+  "data": {
+    "ThrottleFullRefreshByTimeInterval": true
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7527576Z",
+  "level": "Info",
+  "thread": 1944,
+  "memory": 80332.0,
+  "message": "Skipping requested refresh, time elapsed '0,0009961 sec' < '60 sec'"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7657222Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "[Fuel] [] Ensuring user is signed in on fuel call async"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7657222Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "Signing in."
+},
+{
+  "timestamp": "2021-07-01T05:27:40.7657222Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80332.0,
+  "message": "[Fuel] [] Signing in."
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8594716Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80492.0,
+  "message": "Monitored game run state change detected",
+  "data": {
+    "ProcessCmd": "Blasphemous.exe",
+    "AdgProductId": {
+      "Id": "340e2d64-ef20-48dc-842d-f85ad1e06d2a"
+    },
+    "IsRunning": false
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8614674Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80492.0,
+  "message": "Game exited (detected as no longer running): ProductId[340e2d64-ef20-48dc-842d-f85ad1e06d2a]"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8614674Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80492.0,
+  "message": "[Fuel] [] Game exited (detected as no longer running): ProductId[340e2d64-ef20-48dc-842d-f85ad1e06d2a]"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8704423Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80276.0,
+  "message": "AmazonGamesSDKInteractionsPlugin.OnGameClosed",
+  "data": {
+    "GameSession": "67211740-ca81-1f43-b6ea-0e999e60bf4c",
+    "ProductId": "340e2d64-ef20-48dc-842d-f85ad1e06d2a",
+    "ProductName": "Blasphemous",
+    "DeveloperMode": false,
+    "Connection": {
+      "PipeName": "AmazonGamesSDKLauncherCommunication67211740-ca81-1f43-b6ea-0e999e60bf4c",
+      "IsConnected": false
+    }
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8704423Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80276.0,
+  "message": "[Fuel] [] AmazonGamesSDKInteractionsPlugin.OnGameClosed { GameSession='67211740-ca81-1f43-b6ea-0e999e60bf4c', ProductId='340e2d64-ef20-48dc-842d-f85ad1e06d2a', ProductName='Blasphemous', DeveloperMode='False', Connection='Amazon.Fuel.Plugin.SDKLauncherCommunication.IPCServerConnection' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8873986Z",
+  "level": "Info",
+  "thread": 4364,
+  "memory": 80580.0,
+  "message": "Refreshing library",
+  "data": {
+    "Filter": "ProductId[340e2d64-ef20-48dc-842d-f85ad1e06d2a]",
+    "Type": "Offline_ProcessRunStateOnly"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8893921Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80648.0,
+  "message": "Stopped watching process 13656,Blasphemous,Action"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8893921Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80648.0,
+  "message": "Stopped watching process 13656,Blasphemous,Action"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.8893921Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80648.0,
+  "message": "Stopped watching process 13656,Blasphemous,Action"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9532214Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "[AmazonAuthMap] NetworkAvailable=True"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9532214Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "[AmazonAuthMap] network is already available, no need to wait"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9542184Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "[AmazonAuthMap] network is already available, no need to wait"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9542184Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "[AmazonAuthMap] Refreshing Access Token"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9542184Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "Using default culture from current thread: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:40.9542184Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80680.0,
+  "message": "Validating locale: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7310765Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80692.0,
+  "message": "[AmazonAuthMap] Refreshing Access Token Success"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7310765Z",
+  "level": "Info",
+  "thread": 2264,
+  "memory": 80692.0,
+  "message": "[AmazonAuthMap] Refreshing Access Token Success."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 1944,
+  "memory": 80692.0,
+  "message": "Validating sign in with recovery."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 1944,
+  "memory": 80692.0,
+  "message": "[Fuel] [] Validating sign in with recovery."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 80692.0,
+  "message": "[AmazonAuthMap] network is already available, no need to wait"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 80692.0,
+  "message": "[AmazonAuthMap] Getting User Profile"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 80692.0,
+  "message": "Using default culture from current thread: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.7320725Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 80692.0,
+  "message": "Validating locale: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.9305427Z",
+  "level": "Info",
+  "thread": 6452,
+  "memory": 80764.0,
+  "message": "[AmazonAuthMap] Getting User Profile Success"
+},
+{
+  "timestamp": "2021-07-01T05:27:41.9305427Z",
+  "level": "Info",
+  "thread": 6452,
+  "memory": 80764.0,
+  "message": "User profile retrieved successfully."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.9305427Z",
+  "level": "Info",
+  "thread": 6452,
+  "memory": 80768.0,
+  "message": "[Fuel] [] User profile retrieved successfully."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.9305427Z",
+  "level": "Info",
+  "thread": 6452,
+  "memory": 80768.0,
+  "message": "Caching user profile."
+},
+{
+  "timestamp": "2021-07-01T05:27:41.9305427Z",
+  "level": "Info",
+  "thread": 6452,
+  "memory": 80768.0,
+  "message": "[Fuel] [] Caching user profile."
+},
+{
+  "timestamp": "2021-07-01T05:27:42.1958334Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80800.0,
+  "message": "Library refresh requested",
+  "data": {
+    "refreshType": "Full"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:42.1958334Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80800.0,
+  "message": "[Fuel] [] Library refresh requested { refreshType='Full', filter='<null>' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:42.1958334Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80800.0,
+  "message": "Calling SyncGoods to get an updated list of entitlements."
+},
+{
+  "timestamp": "2021-07-01T05:27:42.1958334Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80800.0,
+  "message": "[Fuel] [] Calling SyncGoods to get an updated list of entitlements."
+},
+{
+  "timestamp": "2021-07-01T05:27:42.2107938Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80852.0,
+  "message": "Syncgoods refresh requested",
+  "data": {
+    "maxResults": 50
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:42.2107938Z",
+  "level": "Info",
+  "thread": 16888,
+  "memory": 80852.0,
+  "message": "[Fuel] [] Syncgoods refresh requested { syncPoint='<null>', nextToken='<null>', maxResults='50', filters='<null>' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:43.5202929Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80868.0,
+  "message": "Syncgoods refresh completed",
+  "data": {
+    "isStartingSet": false,
+    "productCount": 17
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:43.5202929Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80868.0,
+  "message": "[Fuel] [] Syncgoods refresh completed { isStartingSet='False', productCount='17' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:43.5202929Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80868.0,
+  "message": "[Fuel] [] SyncGoods successful with 17 entitlements"
+},
+{
+  "timestamp": "2021-07-01T05:27:43.7486826Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80592.0,
+  "message": "[LIB] Clearing game states cache"
+},
+{
+  "timestamp": "2021-07-01T05:27:43.7486826Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80592.0,
+  "message": "[Fuel] [] [LIB] Clearing game states cache"
+},
+{
+  "timestamp": "2021-07-01T05:27:43.7616507Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 80648.0,
+  "message": "[Fuel] [] EntitlementPlugin.CurrentVersionIdsForAdgProductIds([340e2d64-ef20-48dc-842d-f85ad1e06d2a])"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.2932278Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84368.0,
+  "message": "Library refreshed",
+  "data": {
+    "activeEntitlements": 17,
+    "gameStatesCount": 17
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:44.2932278Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84368.0,
+  "message": "[Fuel] [] Library refreshed { activeEntitlements='17', gameStatesCount='17' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.2932278Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84368.0,
+  "message": "Library refresh requested",
+  "data": {
+    "refreshType": "Offline_ProcessRunStateOnly",
+    "filter": "340e2d64-ef20-48dc-842d-f85ad1e06d2a"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:44.2932278Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84368.0,
+  "message": "[Fuel] [] Library refresh requested { refreshType='Offline_ProcessRunStateOnly', filter='340e2d64-ef20-48dc-842d-f85ad1e06d2a' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3012086Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84424.0,
+  "message": "[FuelPlugin] Fuel game library refresh received"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3191596Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84424.0,
+  "message": "Library refreshed",
+  "data": {
+    "activeEntitlements": 17,
+    "gameStatesCount": 17
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3191596Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84424.0,
+  "message": "[Fuel] [] Library refreshed { activeEntitlements='17', gameStatesCount='17' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3271364Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84368.0,
+  "message": "[FuelPlugin] Fuel game library refresh received"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3341202Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84368.0,
+  "message": "Using default culture from current thread: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3341202Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84368.0,
+  "message": "Validating locale: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3361147Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84300.0,
+  "message": "Found expired cached FuelGameUiMetadataIndex."
+},
+{
+  "timestamp": "2021-07-01T05:27:44.3361147Z",
+  "level": "Info",
+  "thread": 17948,
+  "memory": 84300.0,
+  "message": "[Fuel] [] Found expired cached FuelGameUiMetadataIndex."
+},
+{
+  "timestamp": "2021-07-01T05:27:44.368027Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84392.0,
+  "message": "Using default culture from current thread: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:44.368027Z",
+  "level": "Info",
+  "thread": 5288,
+  "memory": 84392.0,
+  "message": "Validating locale: pt-BR"
+},
+{
+  "timestamp": "2021-07-01T05:27:49.347924Z",
+  "level": "Warn",
+  "thread": 18480,
+  "memory": 84656.0,
+  "message": "A timeout occured while making an HttpCall. ",
+  "data": {
+    "retryTimeSpan": "00:00:00.2500000",
+    "requestName": "GameUiDetailsIndex",
+    "path": "/index.json",
+    "retryCount": 1
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:49.347924Z",
+  "level": "Warn",
+  "thread": 18480,
+  "memory": 84656.0,
+  "message": "[Fuel] [] A timeout occured while making an HttpCall.  { retryTimeSpan='00:00:00.2500000', requestName='GameUiDetailsIndex', path='/index.json', retryCount='1' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:49.6348193Z",
+  "level": "Info",
+  "thread": 3548,
+  "memory": 84584.0,
+  "message": "Electron IPC disconnected."
+},
+{
+  "timestamp": "2021-07-01T05:27:49.8700442Z",
+  "level": "Info",
+  "thread": 13472,
+  "memory": 84584.0,
+  "message": "[Startup] RequestShutdownSub request received"
+},
+{
+  "timestamp": "2021-07-01T05:27:49.8710432Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84584.0,
+  "message": "[Startup] Shutdown sequence started"
+},
+{
+  "timestamp": "2021-07-01T05:27:49.8720783Z",
+  "level": "Warn",
+  "thread": 4792,
+  "memory": 84584.0,
+  "message": "CoreProcessIpc can't send message, not connected",
+  "data": {
+    "code": "ShutdownStarted",
+    "_state": "Terminated"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:50.6809034Z",
+  "level": "Warn",
+  "thread": 4792,
+  "memory": 84668.0,
+  "message": "Failed to get Laguna setting.",
+  "error": {
+    "message": "Referência de objeto não definida para uma instância de um objeto.",
+    "type": "System.NullReferenceException",
+    "stack": [
+      "Curse.Radium.Desktop.StartupSettings+<>c__DisplayClass5_0.<set_LastClientVersion>b__0(LagunaSettings)",
+      "Curse.Radium.Desktop.DesktopServiceManager.Config[T](Func`2,T,Boolean)",
+      "Curse.Radium.Desktop.StartupSettings.set_LastClientVersion(String)",
+      "Curse.Radium.Windows.App.PrepareShutdown()",
+      "Curse.Radium.Windows.App+<>c.<Main>b__18_0(Object,EventArgs)",
+      "Curse.Radium.RadiumApp.ShutdownImmediate()",
+      "Curse.Radium.RadiumApp+<>c.<HandleCoreProcessMessage>b__111_0()",
+      "Curse.Common.Extensions.TaskEx+<>c__DisplayClass8_0.<TryRun>b__0()",
+      "System.Threading.Tasks.Task.InnerInvoke()",
+      "System.Threading.Tasks.Task.Execute()",
+      "System.Threading.Tasks.Task.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.ExecutionContext.Run(ExecutionContext,ContextCallback,Object,Boolean)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&)",
+      "System.Threading.Tasks.Task.ExecuteEntry(Boolean)",
+      "System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:50.684892Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84672.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2021-07-01T05:27:50.6858892Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84676.0,
+  "message": "Plugin Manager Shutting Down"
+},
+{
+  "timestamp": "2021-07-01T05:27:50.6888815Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "FuelAppCore: shutdown message received. Flushing metrics."
+},
+{
+  "timestamp": "2021-07-01T05:27:50.6888815Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "[Fuel] [] FuelAppCore: shutdown message received. Flushing metrics."
+},
+{
+  "timestamp": "2021-07-01T05:27:51.1195187Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "Fuel shutdown detected, freeing all blocks",
+  "data": {
+    "_blockRequests": 0
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:51.1204813Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "[Fuel] [] Fuel shutdown detected, freeing all blocks { _blockRequests='0' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.1214784Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "AmazonGamesSDKInteractionsPlugin.Stop"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.1214784Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84680.0,
+  "message": "[Fuel] [] AmazonGamesSDKInteractionsPlugin.Stop"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6220824Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84428.0,
+  "message": "[Startup] App is shutting down"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6220824Z",
+  "level": "Warn",
+  "thread": 4792,
+  "memory": 84428.0,
+  "message": "CoreProcessIpc can't send message, not connected",
+  "data": {
+    "code": "ShutdownCompleting",
+    "_state": "Terminated"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:51.623078Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84428.0,
+  "message": "[Startup] Starting Shutdown"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6533256Z",
+  "level": "Info",
+  "thread": 4792,
+  "memory": 84444.0,
+  "message": "[Startup] Shutdown Completed"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6924101Z",
+  "level": "Info",
+  "thread": 21152,
+  "memory": 84468.0,
+  "message": "[Startup] Application OnExit"
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6934071Z",
+  "level": "Info",
+  "thread": 21152,
+  "memory": 84468.0,
+  "message": "Application Exit event - Shutting down system tray."
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6934071Z",
+  "level": "Info",
+  "thread": 21152,
+  "memory": 84468.0,
+  "message": "Disabling tray timers."
+},
+{
+  "timestamp": "2021-07-01T05:27:51.6934071Z",
+  "level": "Warn",
+  "thread": 21152,
+  "memory": 84468.0,
+  "message": "CoreProcessIpc can't send message, not connected",
+  "data": {
+    "code": "RequestShutdownAll",
+    "_state": "Terminated"
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:54.6077075Z",
+  "level": "Warn",
+  "thread": 15584,
+  "memory": 80344.0,
+  "message": "A timeout occured while making an HttpCall. ",
+  "data": {
+    "retryTimeSpan": "00:00:00.5000000",
+    "requestName": "GameUiDetailsIndex",
+    "path": "/index.json",
+    "retryCount": 2
+  }
+},
+{
+  "timestamp": "2021-07-01T05:27:54.6077075Z",
+  "level": "Warn",
+  "thread": 15584,
+  "memory": 80344.0,
+  "message": "[Fuel] [] A timeout occured while making an HttpCall.  { retryTimeSpan='00:00:00.5000000', requestName='GameUiDetailsIndex', path='/index.json', retryCount='2' }"
+},
+{
+  "timestamp": "2021-07-01T05:27:54.8719108Z",
+  "level": "Info",
+  "thread": 9272,
+  "memory": 79720.0,
+  "message": "[Startup] App failed to shutdown before timeout elapsed, forcing non-graceful exit"
+},
+{
+  "timestamp": "2021-07-01T05:27:54.9847589Z",
+  "level": "Info",
+  "thread": 9736,
+  "memory": 79712.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2021-07-01T05:27:55.086804Z",
+  "level": "Info",
+  "thread": 9736,
+  "memory": 79712.0,
+  "message": "Logging worker finished"
+}
+]}

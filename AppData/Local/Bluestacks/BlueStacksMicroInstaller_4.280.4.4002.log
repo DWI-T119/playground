@@ -1,0 +1,195 @@
+﻿2021-05-11 14:53:00.443 12692:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2021-05-11 14:53:00.444 12692:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2021-05-11 14:53:00.514 12692:00000001 (BlueStacksInstaller) INFO: Successfully populated pt-BR strings
+2021-05-11 14:53:00.514 12692:00000001 (BlueStacksInstaller) INFO: Populated strings for pt-BR: True
+2021-05-11 14:53:00.520 12692:00000001 (BlueStacksInstaller) INFO: Assigning build platform
+2021-05-11 14:53:00.522 12692:00000001 (BlueStacksInstaller) INFO: Checking Hyper-V in system
+2021-05-11 14:53:00.741 12692:00000001 (BlueStacksInstaller) INFO: IsHyperVEnabled: 0
+2021-05-11 14:53:00.742 12692:00000001 (BlueStacksInstaller) INFO: Suffix: _bgp64
+2021-05-11 14:53:00.743 12692:00000001 (BlueStacksInstaller) INFO: Build platform: Default
+2021-05-11 14:53:00.744 12692:00000001 (BlueStacksInstaller) INFO: Old version: 4.280.3.4001, new version: 4.280.4.4002
+2021-05-11 14:53:00.985 12692:00000001 (BlueStacksInstaller) WARNING: Failed to set registry value at Software\BlueStacksInstaller for VersionMachineId_4.280.4.4002:88d886b3-4ab4-4d14-a942-79924ee6d2d1
+2021-05-11 14:53:01.007 12692:00000001 (BlueStacksInstaller) INFO: FileName: BlueStacksInstaller_4.280.4.4002_full.exe
+2021-05-11 14:53:01.008 12692:00000001 (BlueStacksInstaller) INFO: Campaign: null
+2021-05-11 14:53:01.009 12692:00000001 (BlueStacksInstaller) INFO: Sending: mi_launched, , 
+2021-05-11 14:53:02.161 12692:00000001 (BlueStacksInstaller) INFO: File path: C:\Users\paulo\AppData\Local\Temp\7zS457CC7E1\BlueStacksInstaller.exe
+2021-05-11 14:53:02.178 12692:00000001 (BlueStacksInstaller) INFO: args: "install" "BlueStacksInstaller_4.280.4.4002_full.exe" "null" "non_admin" "50312d22-1978-4d70-a4dc-0472dfa13972" "88d886b3-4ab4-4d14-a942-79924ee6d2d1"
+2021-05-11 14:53:02.196 12692:00000005 (BlueStacksInstaller) INFO: Sending: mi_uac_prompted, , 
+2021-05-11 14:53:05.901 7932:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2021-05-11 14:53:05.902 7932:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2021-05-11 14:53:05.917 7932:00000001 (BlueStacksInstaller) INFO: Successfully populated pt-BR strings
+2021-05-11 14:53:05.917 7932:00000001 (BlueStacksInstaller) INFO: Populated strings for pt-BR: True
+2021-05-11 14:53:06.000 7932:00000001 (BlueStacksInstaller) INFO: Assigning build platform
+2021-05-11 14:53:06.001 7932:00000001 (BlueStacksInstaller) INFO: Checking Hyper-V in system
+2021-05-11 14:53:06.005 7932:00000001 (BlueStacksInstaller) INFO: IsHyperVEnabled: 0
+2021-05-11 14:53:06.006 7932:00000001 (BlueStacksInstaller) INFO: Suffix: _bgp64
+2021-05-11 14:53:06.006 7932:00000001 (BlueStacksInstaller) INFO: Build platform: Default
+2021-05-11 14:53:06.007 7932:00000001 (BlueStacksInstaller) INFO: Old version: 4.280.3.4001, new version: 4.280.4.4002
+2021-05-11 14:53:06.059 7932:00000004 (BlueStacksInstaller) INFO: Sending: mi_admin_launched, , 
+2021-05-11 14:53:06.529 7932:00000001 (BlueStacksInstaller) INFO: Returning PDDir: C:\ProgramData\BlueStacks_bgp64
+2021-05-11 14:53:06.529 7932:00000001 (BlueStacksInstaller) INFO: Returning PFDir: C:\Program Files\BlueStacks_bgp64
+2021-05-11 14:53:07.681 7932:00000001 (BlueStacksInstaller) WARNING: Full image path not marked false for image: Assets\installer_logo.png
+2021-05-11 14:53:10.171 7932:00000007 (BlueStacksInstaller) INFO: The json response for get_installer_images null is {"installer_images": []}
+2021-05-11 14:53:10.657 7932:00000001 (BlueStacksInstaller) ERROR: Exception while setting image as background System.IO.DirectoryNotFoundException: Não foi possível localizar uma parte do caminho 'C:\Users\paulo\AppData\Local\Temp\Assets'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   em System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   em System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   em BlueStacks.MicroInstaller.MainWindow.MCampaignImageDownloader_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2021-05-11 14:53:11.573 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:11.573 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:16.573 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:16.573 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:21.583 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:21.583 7932:00000009 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:26.592 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:26.592 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:31.598 7932:0000000A (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:31.598 7932:0000000A (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:36.608 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:36.608 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:41.621 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:41.621 7932:00000009 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:46.628 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:46.628 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:51.638 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:51.638 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:53:56.659 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:53:56.659 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:01.670 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:01.670 7932:00000009 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:06.684 7932:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:06.684 7932:00000007 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:11.708 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:11.708 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:16.714 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:16.714 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:21.716 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:21.716 7932:00000009 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:26.733 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:26.733 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:31.750 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:31.750 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:36.764 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:36.764 7932:00000009 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:41.777 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:41.777 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:46.780 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:46.780 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:51.798 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:51.798 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:54:56.808 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:54:56.808 7932:0000000B (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:55:01.811 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:55:01.811 7932:00000004 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:55:06.818 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:55:06.818 7932:0000000B (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:55:11.827 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:55:11.827 7932:00000008 (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:55:16.830 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: False
+2021-05-11 14:55:16.830 7932:0000000B (BlueStacksInstaller) INFO: Not downloading
+2021-05-11 14:55:17.541 7932:0000000A (BlueStacksInstaller) INFO: Sending: mi_license_agreed, , 
+2021-05-11 14:55:17.541 7932:00000001 (BlueStacksInstaller) INFO: Checking for physical memory
+2021-05-11 14:55:17.870 7932:00000001 (BlueStacksInstaller) INFO: Available: 12163 MB, Required: 1024 MB
+2021-05-11 14:55:17.870 7932:00000001 (BlueStacksInstaller) INFO: HDD space available datadir: 527 GB
+2021-05-11 14:55:17.870 7932:0000000F (BlueStacksInstaller) INFO: Sending: mi_checks_passed, , 
+2021-05-11 14:55:17.870 7932:00000001 (BlueStacksInstaller) INFO: Temp download path: C:\Users\paulo\AppData\Local\Temp\BlueStacksInstaller_4.280.4.4002_full.exe
+2021-05-11 14:55:17.870 7932:00000001 (BlueStacksInstaller) INFO: Installer file path: C:\Users\paulo\AppData\Local\BlueStacksSetup\2145913472BlueStacksInstaller_4.280.4.4002_full.exe
+2021-05-11 14:55:17.921 7932:00000010 (BlueStacksInstaller) INFO: Download url: http://cdn3.bluestacks.com/downloads/windows/bgp64/4.280.4.4002/c0e5b72daaec1a9e063fa25504c24753/x64/BlueStacks-Installer_4.280.4.4002_amd64_native.exe?filename=BlueStacksInstaller_4.280.4.4002_full.exe
+2021-05-11 14:55:18.164 7932:00000011 (BlueStacksInstaller) INFO: Sending: mi_download_started, , 
+2021-05-11 14:55:21.850 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:21.850 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 0, Downloaded: 11589914
+2021-05-11 14:55:26.857 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:26.857 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 11589914, Downloaded: 27052634
+2021-05-11 14:55:31.864 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:31.864 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 27052634, Downloaded: 42642074
+2021-05-11 14:55:36.870 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:36.870 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 42642074, Downloaded: 58075994
+2021-05-11 14:55:41.880 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:41.880 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 58075994, Downloaded: 73584794
+2021-05-11 14:55:46.900 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:46.900 7932:00000008 (BlueStacksInstaller) INFO: LastRecorded: 73584794, Downloaded: 89946074
+2021-05-11 14:55:51.910 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:51.910 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 89946074, Downloaded: 105754394
+2021-05-11 14:55:56.919 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:55:56.919 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 105754394, Downloaded: 122170394
+2021-05-11 14:56:01.930 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:01.930 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 122170394, Downloaded: 137411354
+2021-05-11 14:56:06.941 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:06.941 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 137411354, Downloaded: 152763194
+2021-05-11 14:56:11.950 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:11.950 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 152763194, Downloaded: 168014234
+2021-05-11 14:56:16.959 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:16.959 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 168014234, Downloaded: 183718874
+2021-05-11 14:56:21.971 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:21.971 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 183718874, Downloaded: 199861274
+2021-05-11 14:56:26.980 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:26.980 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 199861274, Downloaded: 215738714
+2021-05-11 14:56:32.000 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:32.000 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 215738714, Downloaded: 231420314
+2021-05-11 14:56:37.010 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:37.010 7932:00000008 (BlueStacksInstaller) INFO: LastRecorded: 231420314, Downloaded: 247006874
+2021-05-11 14:56:42.021 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:42.021 7932:00000008 (BlueStacksInstaller) INFO: LastRecorded: 247006874, Downloaded: 262613594
+2021-05-11 14:56:47.030 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:47.030 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 262613594, Downloaded: 278908634
+2021-05-11 14:56:52.041 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:52.041 7932:00000008 (BlueStacksInstaller) INFO: LastRecorded: 278908634, Downloaded: 294025754
+2021-05-11 14:56:57.050 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:56:57.050 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 294025754, Downloaded: 309992474
+2021-05-11 14:57:02.052 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:02.052 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 309992474, Downloaded: 325915994
+2021-05-11 14:57:07.070 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:07.070 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 325915994, Downloaded: 341686874
+2021-05-11 14:57:12.087 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:12.087 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 341686874, Downloaded: 357584474
+2021-05-11 14:57:17.089 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:17.089 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 357584474, Downloaded: 372610874
+2021-05-11 14:57:22.105 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:22.105 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 372610874, Downloaded: 388227674
+2021-05-11 14:57:27.111 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:27.111 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 388227674, Downloaded: 403736474
+2021-05-11 14:57:32.113 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:32.113 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 403736474, Downloaded: 419412314
+2021-05-11 14:57:37.120 7932:00000004 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:37.120 7932:00000004 (BlueStacksInstaller) INFO: LastRecorded: 419412314, Downloaded: 435767834
+2021-05-11 14:57:42.128 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:42.128 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 435767834, Downloaded: 450988634
+2021-05-11 14:57:47.129 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:47.129 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 450988634, Downloaded: 467283674
+2021-05-11 14:57:52.139 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:52.139 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 467283674, Downloaded: 482749274
+2021-05-11 14:57:57.141 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:57:57.141 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 482749274, Downloaded: 498620954
+2021-05-11 14:58:02.141 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:02.141 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 498620954, Downloaded: 514447994
+2021-05-11 14:58:07.143 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:07.143 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 514447994, Downloaded: 528858074
+2021-05-11 14:58:12.154 7932:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:12.154 7932:00000008 (BlueStacksInstaller) INFO: LastRecorded: 528858074, Downloaded: 544960154
+2021-05-11 14:58:17.158 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:17.158 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 544960154, Downloaded: 560745434
+2021-05-11 14:58:22.168 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:22.168 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 560748314, Downloaded: 575744474
+2021-05-11 14:58:27.179 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:27.179 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 575744474, Downloaded: 591711194
+2021-05-11 14:58:32.190 7932:00000006 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:32.190 7932:00000006 (BlueStacksInstaller) INFO: LastRecorded: 591711194, Downloaded: 606921914
+2021-05-11 14:58:37.199 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:37.199 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 606921914, Downloaded: 623261594
+2021-05-11 14:58:42.199 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:42.199 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 623261594, Downloaded: 639667514
+2021-05-11 14:58:47.199 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:47.199 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 639667514, Downloaded: 655272794
+2021-05-11 14:58:52.202 7932:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:52.202 7932:00000009 (BlueStacksInstaller) INFO: LastRecorded: 655272794, Downloaded: 670490714
+2021-05-11 14:58:57.209 7932:0000000B (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:58:57.209 7932:0000000B (BlueStacksInstaller) INFO: LastRecorded: 670490714, Downloaded: 685437914
+2021-05-11 14:59:02.225 7932:0000000E (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2021-05-11 14:59:02.225 7932:0000000E (BlueStacksInstaller) INFO: LastRecorded: 685437914, Downloaded: 700794074
+2021-05-11 14:59:07.035 7932:00000010 (BlueStacksInstaller) INFO: MIsDownloading false
+2021-05-11 14:59:07.035 7932:0000000D (BlueStacksInstaller) INFO: Sending: mi_download_completed, , 
+2021-05-11 14:59:07.035 7932:0000000A (BlueStacksInstaller) INFO: Installer file moved from C:\Users\paulo\AppData\Local\Temp\BlueStacksInstaller_4.280.4.4002_full.exe to C:\Users\paulo\AppData\Local\BlueStacksSetup\2145913472BlueStacksInstaller_4.280.4.4002_full.exe
+2021-05-11 14:59:08.680 7932:00000011 (BlueStacksInstaller) INFO: Sending: mi_full_installer_launched, , 
+2021-05-11 15:04:24.490 7932:0000000A (BlueStacksInstaller) INFO: Full installer process finished with ExitCode: 0
+2021-05-11 15:04:26.390 12692:00000001 (BlueStacksInstaller) INFO: Sending: mi_client_launched, , 

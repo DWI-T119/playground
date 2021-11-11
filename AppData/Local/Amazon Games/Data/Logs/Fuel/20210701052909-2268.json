@@ -1,0 +1,106 @@
+{
+  "Name": "Fuel",
+  "Process": "Amazon Game Remover",
+  "PID": 8808,
+  "Arguments": [
+    "C:\\Users\\paulo\\AppData\\Local\\Amazon Games\\App\\Amazon Games Services\\Fuel\\helpers\\Amazon Game Remover.exe",
+    "-m",
+    "All"
+  ],
+  "ProcessStart": "2021-07-01T05:29:06.8053197Z",
+  "Version": "99.99.99.9999",
+  "BuildDate": "2000-04-09T08:33:18Z",
+  "Start": "2021-07-01T05:29:09.9196729Z",
+  "Log": [
+{
+  "timestamp": "2021-07-01T05:29:09.8279172Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 28976.0,
+  "message": "[FuelAppDataRemover] [] Crash publishing enabled."
+},
+{
+  "timestamp": "2021-07-01T05:29:09.8319061Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 28980.0,
+  "message": "[FuelAppDataRemover] [] Log publishing enabled."
+},
+{
+  "timestamp": "2021-07-01T05:29:10.3066364Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 30932.0,
+  "message": "[FuelAppDataRemover] [] Application 'Amazon Game Remover' started with arguments '-m,All'"
+},
+{
+  "timestamp": "2021-07-01T05:29:11.6211243Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 32608.0,
+  "message": "[FuelAppDataRemover] [] building container"
+},
+{
+  "timestamp": "2021-07-01T05:29:11.6819609Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 32724.0,
+  "message": "[FuelAppDataRemover] [] container build successful"
+},
+{
+  "timestamp": "2021-07-01T05:29:12.5286997Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 35716.0,
+  "message": "[FuelAppDataRemover] [] [UNI] Start(All,ProductId[])"
+},
+{
+  "timestamp": "2021-07-01T05:29:12.5286997Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 35716.0,
+  "message": "[FuelAppDataRemover] [] Rechecking for deferred deletion path moves (this may block for some time if files are still locked/haven't cancelled)"
+},
+{
+  "timestamp": "2021-07-01T05:29:12.5576227Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 35752.0,
+  "message": "[FuelAppDataRemover] [] Removing any deferred deletion paths (this may take a while"
+},
+{
+  "timestamp": "2021-07-01T05:29:12.5725879Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 36012.0,
+  "message": "[FuelAppDataRemover] [] [UNI] killApp()"
+},
+{
+  "timestamp": "2021-07-01T05:29:12.5755733Z",
+  "level": "Info",
+  "thread": 11916,
+  "memory": 36020.0,
+  "message": "[FuelAppDataRemover] [] Fuel shutdown message received. Flushing metrics and BI events."
+},
+{
+  "timestamp": "2021-07-01T05:29:13.939835Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 29228.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2021-07-01T05:29:14.0338531Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 29228.0,
+  "message": "Logging worker finished"
+},
+{
+  "timestamp": "2021-07-01T05:29:14.0338531Z",
+  "level": "Info",
+  "thread": 3516,
+  "memory": 29132.0,
+  "message": "[FuelAppDataRemover] [] Process exiting. Flushing metrics and BI events."
+}
+]}

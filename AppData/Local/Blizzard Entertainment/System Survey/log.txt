@@ -1,0 +1,2 @@
+[2020-05-01T23:19:33Z][..\source\main.cpp:475][INFO]: System Survey 2.4.1.48, Data Version 3, Git Revision v2.4.0.47-7-g0e76705e, Copyright (C) 2013 Blizzard Entertainment. All rights reserved.
+[2020-05-01T23:19:33Z][..\source\main.cpp:549][INFO]: Exit value: 0

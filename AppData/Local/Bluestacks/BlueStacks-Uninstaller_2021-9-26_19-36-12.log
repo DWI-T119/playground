@@ -1,0 +1,29 @@
+﻿2021-09-26 19:36:13.143 14728:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks_msi64_hyperv\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-26 19:36:13.876 14728:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_msi64_hyperv\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-26 19:36:13.932 14728:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_msi64_hyperv\ to C:\Users\paulo\AppData\Local\Temp\
+2021-09-26 19:36:13.954 14728:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2021-09-26 19:36:14.030 14728:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2021-09-26 19:36:14.264 14728:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2021-09-26 19:36:14.917 14728:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2021-09-26 19:36:17.632 5260:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\Oem.cfg
+2021-09-26 19:36:24.093 5260:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2021-09-26 19:36:24.155 5260:00000001 (BlueStacksUninstaller) INFO: Successfully populated pt-BR strings
+2021-09-26 19:36:24.972 5260:00000001 (BlueStacksUninstaller) INFO: Feature Manager Init - isAync:True downloadBstConfig:True
+2021-09-26 19:36:24.992 5260:00000001 (BlueStacksUninstaller) INFO: Feature Manager Init - UpdateBstConfig:False - bst_config Path:C:\ProgramData\BlueStacks_msi64_hyperv\Client\bst_config DoesExist: False
+2021-09-26 19:36:25.035 5260:00000001 (BlueStacksUninstaller) INFO: Loading bst_config Settings from C:\ProgramData\BlueStacks_msi64_hyperv\Client\bst_config
+2021-09-26 19:36:43.360 5260:00000009 (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2021-09-26 19:36:43.490 5260:00000009 (BlueStacksUninstaller) INFO: StopService BlueStacksDrv_msi64_hyperv
+2021-09-26 19:36:43.490 5260:00000009 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-26 19:36:43.513 5260:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks_msi64_hyperv\
+2021-09-26 19:36:43.742 5260:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks_msi64_hyperv
+2021-09-26 19:36:55.247 5260:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\paulo\AppData\Local\BlueStacksSetup
+2021-09-26 19:37:11.919 5260:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\App Player.lnk
+2021-09-26 19:37:11.920 5260:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\App Player.lnk
+2021-09-26 19:37:12.088 5260:00000009 (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv_msi64_hyperv
+2021-09-26 19:37:12.088 5260:00000009 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-26 19:37:12.089 5260:00000009 (BlueStacksUninstaller) INFO: Service BlueStacksDrv_msi64_hyperv is not installed or inaccessible.
+2021-09-26 19:37:12.090 5260:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-26 19:37:12.161 5260:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-26 19:37:12.161 5260:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-26 19:37:12.162 5260:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-26 19:37:13.684 5260:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 0

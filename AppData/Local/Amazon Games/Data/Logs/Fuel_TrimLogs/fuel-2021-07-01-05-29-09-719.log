@@ -1,0 +1,23 @@
+[Info]
+OS: Microsoft Windows NT 10.0.19042.0/64
+DotNet: 4.0.30319.42000
+DSN: 7850bbe811b3c02605e5527316f0220f
+DeviceType: A2UMVHOX7UP4V7
+AppVersion: 1.7.172.1
+Region: BR
+Domain: ags-sonic
+CPU: Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+ARCH: x86
+CORES: 4
+
+[2021-07-01 02:29:09.782 -03:00  Info] [] Crash publishing enabled.
+[2021-07-01 02:29:09.831 -03:00  Info] [] Log publishing enabled.
+[2021-07-01 02:29:10.305 -03:00  Info] [] Application 'Amazon Game Remover' started with arguments '-m,All'
+[2021-07-01 02:29:11.621 -03:00  Info] [] building container
+[2021-07-01 02:29:11.681 -03:00  Info] [] container build successful
+[2021-07-01 02:29:12.497 -03:00  Info] [] [UNI] Start(All,ProductId[])
+[2021-07-01 02:29:12.528 -03:00  Info] [] Rechecking for deferred deletion path moves (this may block for some time if files are still locked/haven't cancelled)
+[2021-07-01 02:29:12.557 -03:00  Info] [] Removing any deferred deletion paths (this may take a while
+[2021-07-01 02:29:12.572 -03:00  Info] [] [UNI] killApp()
+[2021-07-01 02:29:12.575 -03:00  Info] [] Fuel shutdown message received. Flushing metrics and BI events.
+[2021-07-01 02:29:14.033 -03:00  Info] [] Process exiting. Flushing metrics and BI events.

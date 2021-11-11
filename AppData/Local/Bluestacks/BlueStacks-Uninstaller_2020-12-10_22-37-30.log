@@ -1,0 +1,57 @@
+﻿2020-12-10 22:37:30.550 8616:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks_bgp64\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2020-12-10 22:37:30.857 8616:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_bgp64\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2020-12-10 22:37:30.866 8616:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_bgp64\ to C:\Users\paulo\AppData\Local\Temp\
+2020-12-10 22:37:30.921 8616:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2020-12-10 22:37:30.923 8616:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2020-12-10 22:37:30.933 8616:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2020-12-10 22:37:31.360 8616:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2020-12-10 22:37:31.743 9616:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\Oem.cfg
+2020-12-10 22:37:31.979 9616:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2020-12-10 22:37:31.992 9616:00000001 (BlueStacksUninstaller) INFO: Successfully populated pt-BR strings
+2020-12-10 22:37:32.082 9616:00000001 (BlueStacksUninstaller) INFO: Feature Manager Init - isAync:True downloadBstConfig:True
+2020-12-10 22:37:32.082 9616:00000001 (BlueStacksUninstaller) INFO: Feature Manager Init - UpdateBstConfig:False - bst_config Path:C:\ProgramData\BlueStacks_bgp64\Client\bst_config DoesExist: False
+2020-12-10 22:37:32.083 9616:00000001 (BlueStacksUninstaller) INFO: Loading bst_config Settings from C:\ProgramData\BlueStacks_bgp64\Client\bst_config
+2020-12-10 22:37:37.734 9616:00000001 (BlueStacksUninstaller) WARNING: Returning a null image for unchecked_gray_click
+2020-12-10 22:37:42.252 9616:00000009 (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2020-12-10 22:37:42.333 9616:00000009 (BlueStacksUninstaller) INFO: StopService BlueStacksDrv_bgp64
+2020-12-10 22:37:42.333 9616:00000009 (BlueStacksUninstaller) INFO: OpenSCManager
+2020-12-10 22:37:42.334 9616:00000009 (BlueStacksUninstaller) INFO: StopService 469738256
+2020-12-10 22:37:42.381 9616:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks_bgp64\
+2020-12-10 22:37:42.510 9616:00000009 (BlueStacksUninstaller) WARNING: Got exception when deleting C:\Program Files\BlueStacks_bgp64\, err:System.UnauthorizedAccessException: O acesso ao caminho 'HD-GLCheck.exe' foi negado.
+   em System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   em System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   em BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+2020-12-10 22:37:42.510 9616:00000009 (BlueStacksUninstaller) INFO: ------------- FOR DEV TRACKING --------------
+2020-12-10 22:37:42.511 9616:00000009 (BlueStacksUninstaller) WARNING: An error occured while deleting installDir
+2020-12-10 22:37:42.512 9616:00000009 (BlueStacksUninstaller) WARNING: System.UnauthorizedAccessException: O acesso ao caminho 'C:\Program Files\BlueStacks_bgp64\HD-GLCheck.exe' foi negado.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.InternalDelete(String path, Boolean checkHost)
+   em BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+   em BlueStacks.Uninstaller.MainWindow.UninstallerBackgroundWorker_DoWork(Object sender, DoWorkEventArgs e)
+2020-12-10 22:37:42.512 9616:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks_bgp64
+2020-12-10 22:37:46.719 9616:00000009 (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\paulo\AppData\Local\BlueStacksSetup
+2020-12-10 22:37:52.418 9616:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks (64-bit).lnk
+2020-12-10 22:37:52.419 9616:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks (64-bit).lnk
+2020-12-10 22:37:52.419 9616:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks Multi-Instance Manager (64-bit).lnk
+2020-12-10 22:37:52.420 9616:00000009 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager (64-bit).lnk
+2020-12-10 22:37:52.500 9616:00000009 (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv_bgp64
+2020-12-10 22:37:52.500 9616:00000009 (BlueStacksUninstaller) INFO: OpenSCManager
+2020-12-10 22:37:52.500 9616:00000009 (BlueStacksUninstaller) INFO: StopService 587968400
+2020-12-10 22:37:52.552 9616:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-12-10 22:37:52.553 9616:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-12-10 22:37:52.554 9616:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-12-10 22:37:52.573 9616:00000009 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-12-10 22:37:53.910 9616:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 1
+2020-12-10 22:37:54.042 9616:00000001 (BlueStacksUninstaller) ERROR: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+2020-12-10 22:37:54.042 9616:00000001 (BlueStacksUninstaller) ERROR: Failed to upload uninstall failed logs.
+2020-12-10 22:37:54.043 9616:00000001 (BlueStacksUninstaller) ERROR: System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   em BlueStacks.Common.BstHttpClient.HTTPGaeFileUploaderInternal(String url, Dictionary`2 data, Dictionary`2 headers, String filepath, String contentType, Boolean gzip, String vmName)
+   em BlueStacks.Common.BstHttpClient.HTTPGaeFileUploader(String url, Dictionary`2 data, Dictionary`2 headers, String filepath, String contentType, Boolean gzip, String vmName)
+   em BlueStacks.Uninstaller.UninstallerStats.ReportUninstallFailedStats(String uninstallEvent)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+

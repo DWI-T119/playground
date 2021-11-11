@@ -1,0 +1,29 @@
+﻿2021-09-07 08:19:43.717 9704:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks_bgp64\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-07 08:19:44.123 9704:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_bgp64\Assets to C:\Users\paulo\AppData\Local\Temp\Assets
+2021-09-07 08:19:44.134 9704:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks_bgp64\ to C:\Users\paulo\AppData\Local\Temp\
+2021-09-07 08:19:44.203 9704:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2021-09-07 08:19:44.280 9704:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2021-09-07 08:19:44.372 9704:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2021-09-07 08:19:44.748 9704:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2021-09-07 08:19:45.404 8120:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\paulo\AppData\Local\Temp\Oem.cfg
+2021-09-07 08:19:48.974 8120:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2021-09-07 08:19:49.063 8120:00000001 (BlueStacksUninstaller) INFO: Successfully populated pt-BR strings
+2021-09-07 08:19:59.386 8120:00000001 (BlueStacksUninstaller) WARNING: Returning a null image for unchecked_gray_click
+2021-09-07 08:20:07.002 8120:00000004 (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2021-09-07 08:20:07.115 8120:00000004 (BlueStacksUninstaller) INFO: StopService BlueStacksDrv_bgp64
+2021-09-07 08:20:07.116 8120:00000004 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-07 08:20:07.118 8120:00000004 (BlueStacksUninstaller) INFO: StopService 575765648
+2021-09-07 08:20:07.205 8120:00000004 (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks_bgp64\
+2021-09-07 08:20:07.460 8120:00000004 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks_bgp64
+2021-09-07 08:20:23.929 8120:00000004 (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\paulo\AppData\Local\BlueStacksSetup
+2021-09-07 08:20:40.790 8120:00000004 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks (64-bit).lnk
+2021-09-07 08:20:40.790 8120:00000004 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks (64-bit).lnk
+2021-09-07 08:20:40.791 8120:00000004 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager (64-bit).lnk
+2021-09-07 08:20:40.807 8120:00000004 (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv_bgp64
+2021-09-07 08:20:40.807 8120:00000004 (BlueStacksUninstaller) INFO: OpenSCManager
+2021-09-07 08:20:40.807 8120:00000004 (BlueStacksUninstaller) INFO: StopService 574934240
+2021-09-07 08:20:40.855 8120:00000004 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-07 08:20:40.856 8120:00000004 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-07 08:20:40.856 8120:00000004 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2021-09-07 08:20:40.857 8120:00000004 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2021-09-07 08:20:41.796 8120:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 0
