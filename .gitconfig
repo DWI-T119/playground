@@ -1,8 +1,9 @@
 [core]
-	editor = \"C:\\Users\\paulo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	editor = \"C:\\Users\\paulo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 [user]
-	name = Paulo Gabriel
+	name = PauloGabriel347
 	email = paulogabriel347@gmail.com
+	password = senhafoda347
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
